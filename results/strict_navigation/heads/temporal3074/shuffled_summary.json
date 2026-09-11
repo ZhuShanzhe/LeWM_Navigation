@@ -1,0 +1,114 @@
+{
+  "kind": "shuffled",
+  "epochs": 20,
+  "best_epoch": 3,
+  "validation_loss": 0.008078181184828281,
+  "validation_temporal_mae_steps": 24.540952682495117,
+  "validation_spearman": 0.08301374736206955,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.011556331217885017,
+      "validation_loss": 0.008402992971241474
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.00815026879310608,
+      "validation_loss": 0.008093256503343582
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.008088850623518228,
+      "validation_loss": 0.008078181184828281
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.008042229979932309,
+      "validation_loss": 0.008139560930430889
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.008000162817835808,
+      "validation_loss": 0.008168971166014671
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.007956361596882342,
+      "validation_loss": 0.008180133067071438
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.007926382744461297,
+      "validation_loss": 0.00829650554805994
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.007876369131207466,
+      "validation_loss": 0.008252613246440887
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.007838478133529425,
+      "validation_loss": 0.00828136969357729
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.0077841467741131785,
+      "validation_loss": 0.008418678306043148
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.00775062688305974,
+      "validation_loss": 0.008418499492108822
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.007665784296542406,
+      "validation_loss": 0.008493077009916306
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.007606793875545264,
+      "validation_loss": 0.008427321910858154
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.007530488286614418,
+      "validation_loss": 0.008535736240446568
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.0074513791954517366,
+      "validation_loss": 0.008563230745494366
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.00737906380623579,
+      "validation_loss": 0.008623028174042702
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.007291012332290411,
+      "validation_loss": 0.008798697032034397
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.007199162966161967,
+      "validation_loss": 0.008720402605831623
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.007150783204436302,
+      "validation_loss": 0.00884957518428564
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.007012863130718469,
+      "validation_loss": 0.008945697918534279
+    }
+  ],
+  "fit_seconds": 2.687603235244751,
+  "parameters": 262913,
+  "selection": "minimum heldout pair loss; no navigation outcome",
+  "path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/temporal3074/shuffled.pt"
+}

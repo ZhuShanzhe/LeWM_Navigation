@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "updated_unix": 1789052062.6077387,
+  "models": {
+    "single": {
+      "weights_sha256": "608f5bd8b16176557c2d859482b0de13792cf9ee5779bceed237536e03319e7a",
+      "weights_bytes": 72291743,
+      "training_summary": {
+        "global_step": 51920,
+        "epoch_counter": 10,
+        "max_epochs": 10,
+        "batches_per_epoch": 5192,
+        "epoch_equivalent": 10.0,
+        "elapsed_seconds": 4065.9728331565857,
+        "metrics": {
+          "fit/pred_loss": 0.009757335297763348,
+          "fit/sigreg_loss": 1.28125,
+          "fit/loss": 0.13768702745437622,
+          "hparams/lr_model_opt": 0.0,
+          "hardware/cpu_percent": 10.5,
+          "hardware/ram_used_pct": 14.800000190734863,
+          "hardware/ram_used_gb": 48.98712921142578,
+          "hardware/disk_read_mb_s": 6.310248851776123,
+          "hardware/disk_write_mb_s": 0.9032909870147705,
+          "hardware/net_recv_mb_s": 0.0013485865201801062,
+          "hardware/net_sent_mb_s": 0.002264931332319975,
+          "validate/pred_loss": 0.0027260330971330404,
+          "validate/pred_loss_epoch": 0.0027260330971330404,
+          "validate/sigreg_loss": 10.99433422088623,
+          "validate/sigreg_loss_epoch": 10.99433422088623,
+          "validate/loss": 1.1022295951843262,
+          "validate/loss_epoch": 1.1022295951843262
+        },
+        "completed_unix": 1789045661.6613436,
+        "full_epoch_budget_completed": true,
+        "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt"
+      },
+      "normalization_sha256": "21364f6d3810cf9847c0d65a2618d64ee9ebe8badbc8f9f001a321e804cffa1f"
+    },
+    "multi": {
+      "weights_sha256": "af2a75e4082af1145411dd781a7d783182f222e16ece7b41afd79926233734b2",
+      "weights_bytes": 72291743,
+      "training_summary": {
+        "global_step": 51920,
+        "epoch_counter": 10,
+        "max_epochs": 10,
+        "batches_per_epoch": 5192,
+        "epoch_equivalent": 10.0,
+        "elapsed_seconds": 4203.461936473846,
+        "metrics": {
+          "fit/pred_loss": 0.006727909203618765,
+          "fit/sigreg_loss": 1.0703125,
+          "fit/loss": 0.1136615052819252,
+          "hparams/lr_model_opt": 0.0,
+          "hardware/cpu_percent": 5.599999904632568,
+          "hardware/ram_used_pct": 7.300000190734863,
+          "hardware/ram_used_gb": 40.595008850097656,
+          "hardware/disk_read_mb_s": 352.0890197753906,
+          "hardware/disk_write_mb_s": 1.5082802772521973,
+          "hardware/net_recv_mb_s": 9.706701530376449e-05,
+          "hardware/net_sent_mb_s": 0.00010965330875478685,
+          "validate/pred_loss": 0.02191808633506298,
+          "validate/pred_loss_epoch": 0.02191808633506298,
+          "validate/sigreg_loss": 20.2236328125,
+          "validate/sigreg_loss_epoch": 20.2236328125,
+          "validate/loss": 2.044509172439575,
+          "validate/loss_epoch": 2.044509172439575
+        },
+        "completed_unix": 1789050620.0416465,
+        "full_epoch_budget_completed": true,
+        "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt"
+      },
+      "normalization_sha256": "5edec93f03dcb9ec559dfd59db102c17d20ca41d1af7c83032d79eb7d80bd74b"
+    }
+  },
+  "results": {
+    "single": {
+      "original": {
+        "n": 100,
+        "sr": 27.0,
+        "sr_excluding_initial": 27.0,
+        "same_room_sr": 50.0,
+        "cross_room_sr": 21.25,
+        "mean_path_all": 300.01421070586014,
+        "stalled_step_fraction": 0.06279640228945217,
+        "candidate_model_steps": 7455000,
+        "encoder_images": 9940,
+        "batch_elapsed_seconds_not_online_latency": 116.31700414046645
+      },
+      "custom": {
+        "n": 100,
+        "sr": 23.0,
+        "sr_excluding_initial": 23.0,
+        "same_room_sr": 45.0,
+        "cross_room_sr": 17.5,
+        "mean_path_all": 290.7044143482901,
+        "stalled_step_fraction": 0.07501803318105314,
+        "candidate_model_steps": 7590000,
+        "encoder_images": 10120,
+        "batch_elapsed_seconds_not_online_latency": 117.09322235640138
+      }
+    },
+    "multi": {
+      "original": {
+        "n": 100,
+        "sr": 10.0,
+        "sr_excluding_initial": 10.0,
+        "same_room_sr": 45.0,
+        "cross_room_sr": 1.25,
+        "mean_path_all": 312.8655631233812,
+        "stalled_step_fraction": 0.061013973224083695,
+        "candidate_model_steps": 8250000,
+        "encoder_images": 11000,
+        "batch_elapsed_seconds_not_online_latency": 128.006953490898
+      },
+      "custom": {
+        "n": 100,
+        "sr": 16.0,
+        "sr_excluding_initial": 16.0,
+        "same_room_sr": 45.0,
+        "cross_room_sr": 8.75,
+        "mean_path_all": 336.46717591953063,
+        "stalled_step_fraction": 0.04933658685374409,
+        "candidate_model_steps": 7935000,
+        "encoder_images": 10580,
+        "batch_elapsed_seconds_not_online_latency": 121.05284025520086
+      }
+    }
+  },
+  "paired": {
+    "single": {
+      "custom_minus_original_pp": -4.0,
+      "paired_case_ci95_fixed_model_and_map": [
+        -10.0,
+        1.0
+      ],
+      "gained": 2,
+      "lost": 6
+    },
+    "multi": {
+      "custom_minus_original_pp": 6.0,
+      "paired_case_ci95_fixed_model_and_map": [
+        2.0,
+        11.0
+      ],
+      "gained": 6,
+      "lost": 0
+    }
+  },
+  "limits": [
+    "Full observation custom simulator; not official TwoRoom or first-person navigation.",
+    "Each bridge uses same 100 cases, 20 same-room and 80 cross-room; not untouched final test.",
+    "One paired training seed4001 with matched data volume and behavior; not cross-seed conclusion.",
+    "Rendering and collision change together; bridge measures combined simulator shift, not isolated collision effect.",
+    "No full learned-model topology benchmark queued: review bridge before expanding.",
+    "Original and custom success radius both16px; goals22px inside room bounds avoid across-wall success in this set.",
+    "Room-center reference is feasible but not shortest path, so no SPL claim.",
+    "Equal nominal compute caps; early stops change actual work. Batched time not online latency."
+  ],
+  "next_stage_requires_review": true
+}

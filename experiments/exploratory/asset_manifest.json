@@ -1,0 +1,212 @@
+[
+  {
+    "kind": "models",
+    "env": "pusht",
+    "name": "quentinll/lewm-pusht",
+    "revision": "22b330c28c27ead4bfd1888615af1340e3fe9052",
+    "files": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "ff45e6fb2af057489eacebcb263f372061bdcab2",
+        "size": 178,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "2e534ee5c6286721c0ef967e24bddbfde482abf9",
+        "size": 1313,
+        "path": "config.json"
+      },
+      {
+        "type": "file",
+        "oid": "3a7873ece010f9f3c240b2ff3a4695e979aead41",
+        "size": 72290721,
+        "lfs": {
+          "oid": "48938400ae3464c9680731287f583a9cb516f55a8ec64ea13a91be47fb15b607",
+          "size": 72290721,
+          "pointerSize": 133
+        },
+        "xetHash": "039a49f6c940800786ec000e64bc8a40b199883d30f0128483997561f09b68de",
+        "path": "weights.pt"
+      }
+    ]
+  },
+  {
+    "kind": "models",
+    "env": "cube",
+    "name": "quentinll/lewm-cube",
+    "revision": "b0747c5002e86d2ce8f3cd8178004b97524c587d",
+    "files": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "222ac499578bbd24d51e5045c79a77b0d8a5be8e",
+        "size": 167,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "f9a946cdc87e3f7139de9e8eecccc2a436007425",
+        "size": 1313,
+        "path": "config.json"
+      },
+      {
+        "type": "file",
+        "oid": "d349bccc09fca264183262592f997a4c7bf156f1",
+        "size": 72291425,
+        "lfs": {
+          "oid": "2839a907362f403f9136383016e91774373a295d958ae75121791f22a9fddf89",
+          "size": 72291425,
+          "pointerSize": 133
+        },
+        "xetHash": "e2b89475ca427b12847894c8d1414fa2fe6b63955e62ba4a2effd30823e0b8eb",
+        "path": "weights.pt"
+      }
+    ]
+  },
+  {
+    "kind": "models",
+    "env": "reacher",
+    "name": "quentinll/lewm-reacher",
+    "revision": "62adae4b71dc474ddf8f794c476ebfe737a743ca",
+    "files": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "3c70db296750f38af1efe23d7c6589a176072b64",
+        "size": 185,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "2e534ee5c6286721c0ef967e24bddbfde482abf9",
+        "size": 1313,
+        "path": "config.json"
+      },
+      {
+        "type": "file",
+        "oid": "0274887f3bfbff8e1010526fbffade50a087068e",
+        "size": 72290849,
+        "lfs": {
+          "oid": "eb70b1fd5409f8f81875d62f5ee5a20dd220a3128a477de66b5760f475f0f469",
+          "size": 72290849,
+          "pointerSize": 133
+        },
+        "xetHash": "c58e8d9265c46c5365fb1c03f7a3f06636c942e781a557d473a551efee1def1f",
+        "path": "weights.pt"
+      }
+    ]
+  },
+  {
+    "kind": "datasets",
+    "env": "pusht",
+    "name": "quentinll/lewm-pusht",
+    "revision": "655cd446b9929369d7d406001da85c15d1457850",
+    "files": [
+      {
+        "type": "file",
+        "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+        "size": 2504,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "afa431023f1f27fd7378e79a1f740f0f889814be",
+        "size": 136,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "0f7c50ecb25af70ac9633acdae9288a201dead28",
+        "size": 13136247974,
+        "lfs": {
+          "oid": "7cfbd6d90fa2f27876379a5ff169715a36ed82edbda64f9e5b5bfa34d212f318",
+          "size": 13136247974,
+          "pointerSize": 136
+        },
+        "xetHash": "a8dcf14ef922f03e388acda1ac87a643d0684d17ef0374f6f08bc963f3c7e58f",
+        "path": "pusht_expert_train.h5.zst"
+      }
+    ]
+  },
+  {
+    "kind": "datasets",
+    "env": "cube",
+    "name": "quentinll/lewm-cube",
+    "revision": "02a19a67a0dc8c9d6215f89c19e0a597691e152a",
+    "files": [
+      {
+        "type": "file",
+        "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+        "size": 2504,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "77ca56fb39d72b07ae0a891d9c63a96c483da646",
+        "size": 143,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "01e3f03328086b91750f474872e03428f4d63e9a",
+        "size": 46184624478,
+        "lfs": {
+          "oid": "3725d6a01abd492164441ef0a27e588f52b94a118fab56b96987b1a34a6c2600",
+          "size": 46184624478,
+          "pointerSize": 136
+        },
+        "xetHash": "ffe07ef65b18ea16455f304e1d22fc9e617381cd874576103419dea1064503bf",
+        "path": "cube_single_expert.tar.zst"
+      }
+    ]
+  },
+  {
+    "kind": "datasets",
+    "env": "reacher",
+    "name": "quentinll/lewm-reacher",
+    "revision": "e70a080d0d04c6072123c9ebd343acf7fff28dbf",
+    "files": [
+      {
+        "type": "file",
+        "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+        "size": 2504,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "b8e40cd17c1a60f651eb3fc993df21a75800842e",
+        "size": 141,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "22c81f6154ac9844f0032d903c6bb3d58efd1d85",
+        "size": 23750614946,
+        "lfs": {
+          "oid": "4ff2385e49712caa89f21b8e0a246e2614b621d3f22cf2d1224d845e879a1cc2",
+          "size": 23750614946,
+          "pointerSize": 136
+        },
+        "xetHash": "bcd2f16a8344a2cb39052ddd70b4bafc0a078656e5c31d319ea229d8a372a78d",
+        "path": "reacher.tar.zst"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "mode": "only",
+  "library": "/root/autodl-tmp/lewm_research/strict_nav_20260910/priors/retrieval3074/library.pt",
+  "library_sha256": "21cf53fccdc7b908ee6d9d42e31bd62442fbdb209d266c190756ab0965304acd",
+  "entries": 67240,
+  "calls": [
+    {
+      "queries": 50,
+      "pair_distances": 3362000,
+      "retrieval_seconds": 0.3010875787585974,
+      "candidates_returned": 50
+    },
+    {
+      "queries": 44,
+      "pair_distances": 2958560,
+      "retrieval_seconds": 0.01952456496655941,
+      "candidates_returned": 44
+    },
+    {
+      "queries": 29,
+      "pair_distances": 1949960,
+      "retrieval_seconds": 0.01407917495816946,
+      "candidates_returned": 29
+    },
+    {
+      "queries": 15,
+      "pair_distances": 1008600,
+      "retrieval_seconds": 0.012333801947534084,
+      "candidates_returned": 15
+    },
+    {
+      "queries": 6,
+      "pair_distances": 403440,
+      "retrieval_seconds": 0.011352648958563805,
+      "candidates_returned": 6
+    }
+  ],
+  "no_geometry_input": true,
+  "train_only": true
+}

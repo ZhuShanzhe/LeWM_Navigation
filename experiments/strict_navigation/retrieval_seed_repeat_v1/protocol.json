@@ -1,0 +1,281 @@
+{
+  "created_unix": 1789057136.5440762,
+  "jobs": [
+    {
+      "tag": "build_retrieval3073_v1",
+      "argv": [
+        "/root/autodl-tmp/lewm_research/venv/bin/python",
+        "/root/autodl-tmp/lewm_research/strict_nav_20260910/build_retrieval_seed.py",
+        "3073"
+      ],
+      "env": {
+        "CUDA_VISIBLE_DEVICES": ""
+      },
+      "watchdog_seconds": 600
+    },
+    {
+      "tag": "strict3073_validation_long_base_retrieval_only_b0",
+      "watchdog_seconds": 2400,
+      "argv": [
+        "/root/autodl-tmp/lewm_research/venv/bin/python",
+        "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_retrieval.py",
+        "--config-name",
+        "tworoom",
+        "policy=/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3073/weights_final.pt",
+        "seed=42",
+        "eval.num_eval=50",
+        "eval.dataset_name=tworoom",
+        "eval.goal_offset_steps=75",
+        "eval.eval_budget=150",
+        "solver.n_steps=10",
+        "solver.num_samples=300",
+        "solver.topk=30",
+        "plan_config.horizon=5",
+        "plan_config.receding_horizon=5",
+        "+plan_config.warm_start=false",
+        "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/strict3073_validation_long_base_retrieval_only_b0/result.txt"
+      ],
+      "env": {
+        "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/cases_validation_0.json",
+        "LEWM_VIDEO": "0",
+        "LEWM_RETRIEVAL_LIBRARY": "/root/autodl-tmp/lewm_research/strict_nav_20260910/priors/retrieval3073/library.pt",
+        "LEWM_RETRIEVAL_MODE": "only"
+      },
+      "note": "Same training pairs/action chunks, independent encoder seed; development known-layout only vs WM rerank. Not equal total compute."
+    },
+    {
+      "tag": "strict3073_validation_long_base_retrieval_only_b1",
+      "watchdog_seconds": 2400,
+      "argv": [
+        "/root/autodl-tmp/lewm_research/venv/bin/python",
+        "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_retrieval.py",
+        "--config-name",
+        "tworoom",
+        "policy=/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3073/weights_final.pt",
+        "seed=43",
+        "eval.num_eval=50",
+        "eval.dataset_name=tworoom",
+        "eval.goal_offset_steps=75",
+        "eval.eval_budget=150",
+        "solver.n_steps=10",
+        "solver.num_samples=300",
+        "solver.topk=30",
+        "plan_config.horizon=5",
+        "plan_config.receding_horizon=5",
+        "+plan_config.warm_start=false",
+        "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/strict3073_validation_long_base_retrieval_only_b1/result.txt"
+      ],
+      "env": {
+        "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/cases_validation_1.json",
+        "LEWM_VIDEO": "0",
+        "LEWM_RETRIEVAL_LIBRARY": "/root/autodl-tmp/lewm_research/strict_nav_20260910/priors/retrieval3073/library.pt",
+        "LEWM_RETRIEVAL_MODE": "only"
+      },
+      "note": "Same training pairs/action chunks, independent encoder seed; development known-layout only vs WM rerank. Not equal total compute."
+    },
+    {
+      "tag": "strict3073_validation_long_base_retrieval_rerank_b0",
+      "watchdog_seconds": 2400,
+      "argv": [
+        "/root/autodl-tmp/lewm_research/venv/bin/python",
+        "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_retrieval.py",
+        "--config-name",
+        "tworoom",
+        "policy=/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3073/weights_final.pt",
+        "seed=42",
+        "eval.num_eval=50",
+        "eval.dataset_name=tworoom",
+        "eval.goal_offset_steps=75",
+        "eval.eval_budget=150",
+        "solver.n_steps=1",
+        "solver.num_samples=300",
+        "solver.topk=30",
+        "plan_config.horizon=5",
+        "plan_config.receding_horizon=5",
+        "+plan_config.warm_start=false",
+        "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/strict3073_validation_long_base_retrieval_rerank_b0/result.txt"
+      ],
+      "env": {
+        "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/cases_validation_0.json",
+        "LEWM_VIDEO": "0",
+        "LEWM_RETRIEVAL_LIBRARY": "/root/autodl-tmp/lewm_research/strict_nav_20260910/priors/retrieval3073/library.pt",
+        "LEWM_RETRIEVAL_MODE": "rerank"
+      },
+      "note": "Same training pairs/action chunks, independent encoder seed; development known-layout only vs WM rerank. Not equal total compute."
+    },
+    {
+      "tag": "strict3073_validation_long_base_retrieval_rerank_b1",
+      "watchdog_seconds": 2400,
+      "argv": [
+        "/root/autodl-tmp/lewm_research/venv/bin/python",
+        "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_retrieval.py",
+        "--config-name",
+        "tworoom",
+        "policy=/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3073/weights_final.pt",
+        "seed=43",
+        "eval.num_eval=50",
+        "eval.dataset_name=tworoom",
+        "eval.goal_offset_steps=75",
+        "eval.eval_budget=150",
+        "solver.n_steps=1",
+        "solver.num_samples=300",
+        "solver.topk=30",
+        "plan_config.horizon=5",
+        "plan_config.receding_horizon=5",
+        "+plan_config.warm_start=false",
+        "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/strict3073_validation_long_base_retrieval_rerank_b1/result.txt"
+      ],
+      "env": {
+        "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/cases_validation_1.json",
+        "LEWM_VIDEO": "0",
+        "LEWM_RETRIEVAL_LIBRARY": "/root/autodl-tmp/lewm_research/strict_nav_20260910/priors/retrieval3073/library.pt",
+        "LEWM_RETRIEVAL_MODE": "rerank"
+      },
+      "note": "Same training pairs/action chunks, independent encoder seed; development known-layout only vs WM rerank. Not equal total compute."
+    },
+    {
+      "tag": "build_retrieval3074_v1",
+      "argv": [
+        "/root/autodl-tmp/lewm_research/venv/bin/python",
+        "/root/autodl-tmp/lewm_research/strict_nav_20260910/build_retrieval_seed.py",
+        "3074"
+      ],
+      "env": {
+        "CUDA_VISIBLE_DEVICES": ""
+      },
+      "watchdog_seconds": 600
+    },
+    {
+      "tag": "strict3074_validation_long_base_retrieval_only_b0",
+      "watchdog_seconds": 2400,
+      "argv": [
+        "/root/autodl-tmp/lewm_research/venv/bin/python",
+        "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_retrieval.py",
+        "--config-name",
+        "tworoom",
+        "policy=/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3074/weights_final.pt",
+        "seed=42",
+        "eval.num_eval=50",
+        "eval.dataset_name=tworoom",
+        "eval.goal_offset_steps=75",
+        "eval.eval_budget=150",
+        "solver.n_steps=10",
+        "solver.num_samples=300",
+        "solver.topk=30",
+        "plan_config.horizon=5",
+        "plan_config.receding_horizon=5",
+        "+plan_config.warm_start=false",
+        "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/strict3074_validation_long_base_retrieval_only_b0/result.txt"
+      ],
+      "env": {
+        "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/cases_validation_0.json",
+        "LEWM_VIDEO": "0",
+        "LEWM_RETRIEVAL_LIBRARY": "/root/autodl-tmp/lewm_research/strict_nav_20260910/priors/retrieval3074/library.pt",
+        "LEWM_RETRIEVAL_MODE": "only"
+      },
+      "note": "Same training pairs/action chunks, independent encoder seed; development known-layout only vs WM rerank. Not equal total compute."
+    },
+    {
+      "tag": "strict3074_validation_long_base_retrieval_only_b1",
+      "watchdog_seconds": 2400,
+      "argv": [
+        "/root/autodl-tmp/lewm_research/venv/bin/python",
+        "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_retrieval.py",
+        "--config-name",
+        "tworoom",
+        "policy=/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3074/weights_final.pt",
+        "seed=43",
+        "eval.num_eval=50",
+        "eval.dataset_name=tworoom",
+        "eval.goal_offset_steps=75",
+        "eval.eval_budget=150",
+        "solver.n_steps=10",
+        "solver.num_samples=300",
+        "solver.topk=30",
+        "plan_config.horizon=5",
+        "plan_config.receding_horizon=5",
+        "+plan_config.warm_start=false",
+        "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/strict3074_validation_long_base_retrieval_only_b1/result.txt"
+      ],
+      "env": {
+        "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/cases_validation_1.json",
+        "LEWM_VIDEO": "0",
+        "LEWM_RETRIEVAL_LIBRARY": "/root/autodl-tmp/lewm_research/strict_nav_20260910/priors/retrieval3074/library.pt",
+        "LEWM_RETRIEVAL_MODE": "only"
+      },
+      "note": "Same training pairs/action chunks, independent encoder seed; development known-layout only vs WM rerank. Not equal total compute."
+    },
+    {
+      "tag": "strict3074_validation_long_base_retrieval_rerank_b0",
+      "watchdog_seconds": 2400,
+      "argv": [
+        "/root/autodl-tmp/lewm_research/venv/bin/python",
+        "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_retrieval.py",
+        "--config-name",
+        "tworoom",
+        "policy=/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3074/weights_final.pt",
+        "seed=42",
+        "eval.num_eval=50",
+        "eval.dataset_name=tworoom",
+        "eval.goal_offset_steps=75",
+        "eval.eval_budget=150",
+        "solver.n_steps=1",
+        "solver.num_samples=300",
+        "solver.topk=30",
+        "plan_config.horizon=5",
+        "plan_config.receding_horizon=5",
+        "+plan_config.warm_start=false",
+        "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/strict3074_validation_long_base_retrieval_rerank_b0/result.txt"
+      ],
+      "env": {
+        "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/cases_validation_0.json",
+        "LEWM_VIDEO": "0",
+        "LEWM_RETRIEVAL_LIBRARY": "/root/autodl-tmp/lewm_research/strict_nav_20260910/priors/retrieval3074/library.pt",
+        "LEWM_RETRIEVAL_MODE": "rerank"
+      },
+      "note": "Same training pairs/action chunks, independent encoder seed; development known-layout only vs WM rerank. Not equal total compute."
+    },
+    {
+      "tag": "strict3074_validation_long_base_retrieval_rerank_b1",
+      "watchdog_seconds": 2400,
+      "argv": [
+        "/root/autodl-tmp/lewm_research/venv/bin/python",
+        "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_retrieval.py",
+        "--config-name",
+        "tworoom",
+        "policy=/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3074/weights_final.pt",
+        "seed=43",
+        "eval.num_eval=50",
+        "eval.dataset_name=tworoom",
+        "eval.goal_offset_steps=75",
+        "eval.eval_budget=150",
+        "solver.n_steps=1",
+        "solver.num_samples=300",
+        "solver.topk=30",
+        "plan_config.horizon=5",
+        "plan_config.receding_horizon=5",
+        "+plan_config.warm_start=false",
+        "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/strict3074_validation_long_base_retrieval_rerank_b1/result.txt"
+      ],
+      "env": {
+        "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/cases_validation_1.json",
+        "LEWM_VIDEO": "0",
+        "LEWM_RETRIEVAL_LIBRARY": "/root/autodl-tmp/lewm_research/strict_nav_20260910/priors/retrieval3074/library.pt",
+        "LEWM_RETRIEVAL_MODE": "rerank"
+      },
+      "note": "Same training pairs/action chunks, independent encoder seed; development known-layout only vs WM rerank. Not equal total compute."
+    }
+  ],
+  "frozen_source_sha256": {
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/retrieval_prior.py": "451ae44139571b96ba8458734788ac122eea80af49636e1c6b98b5f438bd1020",
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_retrieval.py": "431a08584c075da3373ecf5c0884a59adf623585f8318f31391b22507817c640",
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/build_retrieval_seed.py": "8f451272e37fc6401abce084237b0bdd3805b84825fa3c1e6a3510b68b122a88"
+  },
+  "case_sha256": {
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/cases_validation_0.json": "d408a621fce75fa10446a40b28d0c695f74ac36011b5974b73551752adc8dff0",
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/cases_validation_1.json": "4b108c38d0ad16da57ade6f3c8da0734ca91a0b32c0a2d43cc909deb1582bc93"
+  },
+  "prior_seed_reference": "strict3072_validation_long_base_retrieval_only / rerank",
+  "scope": "Only versus dynamic reranking,100 common development long-goal cases per model; no new data, no tuning, no heldout reserve use.",
+  "limits": "Three independent WM training seeds, but same pair and evaluation seeds. Additional retrieval/encoding costs; no assumption of equal total compute. Geometric cross-seed repetitions not included in this finite stage."
+}

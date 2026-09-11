@@ -1,0 +1,144 @@
+{
+  "id": "bridge_two_room",
+  "split": "development",
+  "topology_spec": {
+    "id": "bridge_two_room",
+    "rectangles": [
+      [
+        107,
+        117,
+        14,
+        35
+      ],
+      [
+        107,
+        117,
+        63,
+        210
+      ]
+    ],
+    "room_centers": [
+      [
+        63.0,
+        112.0
+      ],
+      [
+        161.0,
+        112.0
+      ]
+    ],
+    "room_bounds": [
+      [
+        14,
+        112,
+        14,
+        210
+      ],
+      [
+        112,
+        210,
+        14,
+        210
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ]
+    ],
+    "gates": [
+      {
+        "edge": [
+          0,
+          1
+        ],
+        "xy": [
+          112,
+          49
+        ],
+        "normal": [
+          1,
+          0
+        ]
+      }
+    ],
+    "scope": "full-observation custom topology diagnostic; not official TwoRoom"
+  },
+  "selection_seed": 9104101,
+  "task": "full-observation custom topology stress; 75 only adapter key, not trajectory offset",
+  "cases": [
+    {
+      "episode": 0,
+      "start_step": 0,
+      "start_xy": [
+        174.651611328125,
+        162.48507690429688
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            135.85699462890625,
+            163.104736328125
+          ],
+          "euclidean": 38.79956817626953,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 1,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 25.038251462713923
+    },
+    {
+      "episode": 1,
+      "start_step": 0,
+      "start_xy": [
+        63.14788818359375,
+        59.0390625
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            79.30174255371094,
+            185.99476623535156
+          ],
+          "euclidean": 127.97928619384766,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 0,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 23,
+      "reference_path_length_not_geodesic": 121.34461453854253
+    }
+  ],
+  "not_final_untouched_test": true,
+  "case_sha256": "63c3f90ab007556109d5f71af90ead7f92534062585787a9e4aa1aac110697be",
+  "goal_offset": 75,
+  "budget": 10,
+  "normalization": "strict training set only",
+  "normalization_path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/normalization.json",
+  "normalization_sha256": "aac6909e786e4d7eb548a6f5a3c7faca0fae028b005a9cc73fa80c5b13501a6b",
+  "action_constraint": "original unconstrained search; environment clips physical actions",
+  "argv": [
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+    "--config-name",
+    "tworoom",
+    "policy=random",
+    "seed=42",
+    "eval.num_eval=2",
+    "eval.dataset_name=tworoom",
+    "eval.goal_offset_steps=75",
+    "eval.eval_budget=10",
+    "plan_config.horizon=1",
+    "plan_config.receding_horizon=1",
+    "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_adapter_bridge_two_room_random_v1/result.txt"
+  ]
+}

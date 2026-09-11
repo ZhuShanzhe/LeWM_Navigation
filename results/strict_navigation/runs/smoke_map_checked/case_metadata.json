@@ -1,0 +1,85 @@
+{
+  "id": "test_axis0_door177",
+  "split": "test",
+  "axis": 0,
+  "door_center": 177,
+  "init_value": {
+    "wall.axis": 0,
+    "door.position": [
+      177,
+      177,
+      177
+    ],
+    "door.number": 1,
+    "door.size": [
+      14,
+      14,
+      14
+    ]
+  },
+  "selection_seed": 9102030,
+  "task": "synthetic direct-goal navigation; key 75 is adapter compatibility, not logged horizon",
+  "distance_range": [
+    75,
+    125
+  ],
+  "cases": [
+    {
+      "episode": 50,
+      "start_step": 0,
+      "start_xy": [
+        177.75624084472656,
+        63.65190124511719
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            190.73980712890625,
+            137.92996215820312
+          ],
+          "euclidean": 75.40426635742188,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 14
+    },
+    {
+      "episode": 51,
+      "start_step": 0,
+      "start_xy": [
+        90.06795501708984,
+        136.01559448242188
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            135.1834259033203,
+            45.58918762207031
+          ],
+          "euclidean": 101.0561294555664,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 31
+    }
+  ],
+  "case_sha256": "4b8f3ca82e71ea4ff5842a574431057f181c197f23e6232d58946503bd87b602",
+  "goal_offset": 75,
+  "budget": 25,
+  "normalization": "strict training set only",
+  "argv": [
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_strict.py",
+    "--config-name",
+    "tworoom",
+    "policy=random",
+    "eval.num_eval=2",
+    "eval.dataset_name=tworoom",
+    "eval.goal_offset_steps=75",
+    "eval.eval_budget=25",
+    "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/smoke_map_checked/result.txt"
+  ]
+}

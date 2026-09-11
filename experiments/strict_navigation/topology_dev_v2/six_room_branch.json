@@ -1,0 +1,2745 @@
+{
+  "id": "six_room_branch",
+  "split": "development",
+  "topology_spec": {
+    "id": "six_room_branch",
+    "rectangles": [
+      [
+        74,
+        84,
+        14,
+        49.0
+      ],
+      [
+        74,
+        84,
+        77.0,
+        112
+      ],
+      [
+        140,
+        150,
+        14,
+        49.0
+      ],
+      [
+        140,
+        150,
+        77.0,
+        112
+      ],
+      [
+        74,
+        84,
+        112,
+        147.0
+      ],
+      [
+        74,
+        84,
+        175.0,
+        210
+      ],
+      [
+        140,
+        150,
+        112,
+        147.0
+      ],
+      [
+        140,
+        150,
+        175.0,
+        210
+      ],
+      [
+        14,
+        79,
+        107,
+        117
+      ],
+      [
+        79,
+        98.0,
+        107,
+        117
+      ],
+      [
+        126.0,
+        145,
+        107,
+        117
+      ],
+      [
+        145,
+        210,
+        107,
+        117
+      ]
+    ],
+    "room_centers": [
+      [
+        46.5,
+        63.0
+      ],
+      [
+        112.0,
+        63.0
+      ],
+      [
+        177.5,
+        63.0
+      ],
+      [
+        46.5,
+        161.0
+      ],
+      [
+        112.0,
+        161.0
+      ],
+      [
+        177.5,
+        161.0
+      ]
+    ],
+    "room_bounds": [
+      [
+        14,
+        79,
+        14,
+        112
+      ],
+      [
+        79,
+        145,
+        14,
+        112
+      ],
+      [
+        145,
+        210,
+        14,
+        112
+      ],
+      [
+        14,
+        79,
+        112,
+        210
+      ],
+      [
+        79,
+        145,
+        112,
+        210
+      ],
+      [
+        145,
+        210,
+        112,
+        210
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "gates": [
+      {
+        "edge": [
+          0,
+          1
+        ],
+        "xy": [
+          79,
+          63.0
+        ],
+        "normal": [
+          1,
+          0
+        ]
+      },
+      {
+        "edge": [
+          1,
+          2
+        ],
+        "xy": [
+          145,
+          63.0
+        ],
+        "normal": [
+          1,
+          0
+        ]
+      },
+      {
+        "edge": [
+          3,
+          4
+        ],
+        "xy": [
+          79,
+          161.0
+        ],
+        "normal": [
+          1,
+          0
+        ]
+      },
+      {
+        "edge": [
+          4,
+          5
+        ],
+        "xy": [
+          145,
+          161.0
+        ],
+        "normal": [
+          1,
+          0
+        ]
+      },
+      {
+        "edge": [
+          1,
+          4
+        ],
+        "xy": [
+          112.0,
+          112
+        ],
+        "normal": [
+          0,
+          1
+        ]
+      }
+    ],
+    "scope": "full-observation custom topology diagnostic; not official TwoRoom"
+  },
+  "selection_seed": 9104101,
+  "task": "full-observation custom topology stress; 75 only adapter key, not trajectory offset",
+  "cases": [
+    {
+      "episode": 0,
+      "start_step": 0,
+      "start_xy": [
+        170.37692260742188,
+        146.7732391357422
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            167.89353942871094,
+            186.5584259033203
+          ],
+          "euclidean": 39.86261749267578,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 5,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 25.582758459068817
+    },
+    {
+      "episode": 1,
+      "start_step": 0,
+      "start_xy": [
+        52.13875198364258,
+        89.82535552978516
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            53.545902252197266,
+            46.075965881347656
+          ],
+          "euclidean": 43.77201461791992,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 0,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 6,
+      "reference_path_length_not_geodesic": 30.194234484338722
+    },
+    {
+      "episode": 2,
+      "start_step": 0,
+      "start_xy": [
+        109.14962005615234,
+        170.57992553710938
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            112.57286834716797,
+            134.0147247314453
+          ],
+          "euclidean": 36.725093841552734,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 4,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 26.05958982621278
+    },
+    {
+      "episode": 3,
+      "start_step": 0,
+      "start_xy": [
+        105.88172912597656,
+        43.32887649536133
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            109.07681274414062,
+            80.08740997314453
+          ],
+          "euclidean": 36.897132873535156,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 1,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 25.933676268274883
+    },
+    {
+      "episode": 4,
+      "start_step": 0,
+      "start_xy": [
+        38.924259185791016,
+        187.91583251953125
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            52.59965515136719,
+            138.82736206054688
+          ],
+          "euclidean": 50.95777130126953,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 3,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 7,
+      "reference_path_length_not_geodesic": 40.347660219103496
+    },
+    {
+      "episode": 5,
+      "start_step": 0,
+      "start_xy": [
+        54.60346984863281,
+        142.1026611328125
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            37.30177307128906,
+            179.52740478515625
+          ],
+          "euclidean": 41.23057556152344,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 3,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 31.7175479065425
+    },
+    {
+      "episode": 6,
+      "start_step": 0,
+      "start_xy": [
+        114.07543182373047,
+        38.50743865966797
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            114.01087951660156,
+            74.60842895507812
+          ],
+          "euclidean": 36.10104751586914,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 1,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 25.00041668267312
+    },
+    {
+      "episode": 7,
+      "start_step": 0,
+      "start_xy": [
+        119.361572265625,
+        80.48249053955078
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            101.80084991455078,
+            41.69696807861328
+          ],
+          "euclidean": 42.57576370239258,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 1,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 31.83079179353892
+    },
+    {
+      "episode": 8,
+      "start_step": 0,
+      "start_xy": [
+        47.858802795410156,
+        186.74752807617188
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            39.76853561401367,
+            147.5105438232422
+          ],
+          "euclidean": 40.0623664855957,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 3,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 27.948971456228506
+    },
+    {
+      "episode": 9,
+      "start_step": 0,
+      "start_xy": [
+        52.40994644165039,
+        87.20982360839844
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            40.86964797973633,
+            44.78404998779297
+          ],
+          "euclidean": 43.967315673828125,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 0,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 6,
+      "reference_path_length_not_geodesic": 34.37401094256022
+    },
+    {
+      "episode": 10,
+      "start_step": 0,
+      "start_xy": [
+        167.05628967285156,
+        186.54400634765625
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            177.57479858398438,
+            152.0411834716797
+          ],
+          "euclidean": 36.07054138183594,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 5,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 4,
+      "reference_path_length_not_geodesic": 24.16894887776418
+    },
+    {
+      "episode": 11,
+      "start_step": 0,
+      "start_xy": [
+        112.43943786621094,
+        38.08137893676758
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            120.93306732177734,
+            76.91696166992188
+          ],
+          "euclidean": 39.753543853759766,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 1,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 28.170694585103426
+    },
+    {
+      "episode": 12,
+      "start_step": 0,
+      "start_xy": [
+        43.47351837158203,
+        40.97919845581055
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            53.76444625854492,
+            79.2838363647461
+          ],
+          "euclidean": 39.66293716430664,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 0,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 29.150596190304256
+    },
+    {
+      "episode": 13,
+      "start_step": 0,
+      "start_xy": [
+        120.4958267211914,
+        141.098876953125
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            102.72197723388672,
+            179.8349609375
+          ],
+          "euclidean": 42.61917495727539,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 4,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 31.93109124301452
+    },
+    {
+      "episode": 14,
+      "start_step": 0,
+      "start_xy": [
+        177.32948303222656,
+        49.92508316040039
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            168.5588836669922,
+            89.42903900146484
+          ],
+          "euclidean": 40.46586227416992,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 2,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 28.33344529928531
+    },
+    {
+      "episode": 15,
+      "start_step": 0,
+      "start_xy": [
+        107.5037612915039,
+        141.27218627929688
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            111.09725952148438,
+            184.2579803466797
+          ],
+          "euclidean": 43.13573455810547,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 4,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 6,
+      "reference_path_length_not_geodesic": 31.157371966096637
+    },
+    {
+      "episode": 16,
+      "start_step": 0,
+      "start_xy": [
+        37.55686569213867,
+        39.3460807800293
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            51.10748291015625,
+            77.09320068359375
+          ],
+          "euclidean": 40.10566329956055,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 0,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 30.274584515955034
+    },
+    {
+      "episode": 17,
+      "start_step": 0,
+      "start_xy": [
+        43.55413055419922,
+        79.58441925048828
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            50.287437438964844,
+            44.687686920166016
+          ],
+          "euclidean": 35.54039001464844,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 0,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 4,
+      "reference_path_length_not_geodesic": 22.362981714866535
+    },
+    {
+      "episode": 18,
+      "start_step": 0,
+      "start_xy": [
+        169.47259521484375,
+        45.879798889160156
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            181.14718627929688,
+            86.02642059326172
+          ],
+          "euclidean": 41.80965805053711,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 2,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 29.41510966435985
+    },
+    {
+      "episode": 19,
+      "start_step": 0,
+      "start_xy": [
+        184.99940490722656,
+        76.70791625976562
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            180.79844665527344,
+            36.411720275878906
+          ],
+          "euclidean": 40.514583587646484,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 2,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 26.530547468218344
+    },
+    {
+      "episode": 20,
+      "start_step": 0,
+      "start_xy": [
+        50.15534210205078,
+        170.97225952148438
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            115.70136260986328,
+            143.85504150390625
+          ],
+          "euclidean": 70.93394470214844,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 4,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 17,
+      "reference_path_length_not_geodesic": 82.88686698187888
+    },
+    {
+      "episode": 21,
+      "start_step": 0,
+      "start_xy": [
+        54.63530731201172,
+        144.2183837890625
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            122.45402526855469,
+            66.47758483886719
+          ],
+          "euclidean": 103.16496276855469,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 1,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 35,
+      "reference_path_length_not_geodesic": 169.2543915672984
+    },
+    {
+      "episode": 22,
+      "start_step": 0,
+      "start_xy": [
+        167.64358520507812,
+        62.269500732421875
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            118.20160675048828,
+            61.20235824584961
+          ],
+          "euclidean": 49.4534912109375,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 1,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 12,
+      "reference_path_length_not_geodesic": 57.40949595199151
+    },
+    {
+      "episode": 23,
+      "start_step": 0,
+      "start_xy": [
+        40.87698745727539,
+        84.22607421875
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            186.2134246826172,
+            135.02207946777344
+          ],
+          "euclidean": 153.95751953125,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 5,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 55,
+      "reference_path_length_not_geodesic": 265.634998350899
+    },
+    {
+      "episode": 24,
+      "start_step": 0,
+      "start_xy": [
+        41.23905563354492,
+        145.18414306640625
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            105.14190673828125,
+            61.652706146240234
+          ],
+          "euclidean": 105.17164611816406,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 1,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 36,
+      "reference_path_length_not_geodesic": 172.3937293114858
+    },
+    {
+      "episode": 25,
+      "start_step": 0,
+      "start_xy": [
+        181.2349395751953,
+        134.26431274414062
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            111.17123413085938,
+            85.41849517822266
+          ],
+          "euclidean": 85.40982055664062,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 1,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 33,
+      "reference_path_length_not_geodesic": 157.47666263077957
+    },
+    {
+      "episode": 26,
+      "start_step": 0,
+      "start_xy": [
+        115.0251235961914,
+        187.08599853515625
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            41.295684814453125,
+            67.9834976196289
+          ],
+          "euclidean": 140.0765380859375,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 0,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 38,
+      "reference_path_length_not_geodesic": 182.92991612289086
+    },
+    {
+      "episode": 27,
+      "start_step": 0,
+      "start_xy": [
+        55.787559509277344,
+        48.63529968261719
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            187.73719787597656,
+            168.69496154785156
+          ],
+          "euclidean": 178.39572143554688,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 5,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 50,
+      "reference_path_length_not_geodesic": 244.52235803189097
+    },
+    {
+      "episode": 28,
+      "start_step": 0,
+      "start_xy": [
+        56.5110969543457,
+        135.51852416992188
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            116.92769622802734,
+            159.10386657714844
+          ],
+          "euclidean": 64.85702514648438,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 4,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 18,
+      "reference_path_length_not_geodesic": 87.12362376803348
+    },
+    {
+      "episode": 29,
+      "start_step": 0,
+      "start_xy": [
+        171.07064819335938,
+        57.667049407958984
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            117.60891723632812,
+            46.219215393066406
+          ],
+          "euclidean": 54.67366409301758,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 1,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 17,
+      "reference_path_length_not_geodesic": 81.10975365438037
+    },
+    {
+      "episode": 30,
+      "start_step": 0,
+      "start_xy": [
+        179.37393188476562,
+        62.06095886230469
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            50.363311767578125,
+            179.97898864746094
+          ],
+          "euclidean": 174.781005859375,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 3,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 50,
+      "reference_path_length_not_geodesic": 237.41468575549064
+    },
+    {
+      "episode": 31,
+      "start_step": 0,
+      "start_xy": [
+        52.270992279052734,
+        181.42027282714844
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            51.72975158691406,
+            66.86953735351562
+          ],
+          "euclidean": 114.55201721191406,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 0,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 49,
+      "reference_path_length_not_geodesic": 234.05043434187797
+    },
+    {
+      "episode": 32,
+      "start_step": 0,
+      "start_xy": [
+        43.631526947021484,
+        165.3943634033203
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            44.97526550292969,
+            89.06558990478516
+          ],
+          "euclidean": 76.3405990600586,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 0,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 52,
+      "reference_path_length_not_geodesic": 249.4750345548927
+    },
+    {
+      "episode": 33,
+      "start_step": 0,
+      "start_xy": [
+        120.14109802246094,
+        44.60438537597656
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            101.51158142089844,
+            176.256103515625
+          ],
+          "euclidean": 132.96328735351562,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 4,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 25,
+      "reference_path_length_not_geodesic": 126.4425361699287
+    },
+    {
+      "episode": 34,
+      "start_step": 0,
+      "start_xy": [
+        39.316368103027344,
+        183.1087188720703
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            185.671875,
+            65.93927001953125
+          ],
+          "euclidean": 187.47962951660156,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 2,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 51,
+      "reference_path_length_not_geodesic": 246.13581530019837
+    },
+    {
+      "episode": 35,
+      "start_step": 0,
+      "start_xy": [
+        186.66888427734375,
+        148.88519287109375
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            53.29880142211914,
+            72.32907104492188
+          ],
+          "euclidean": 153.78042602539062,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 0,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 47,
+      "reference_path_length_not_geodesic": 227.19583624003334
+    },
+    {
+      "episode": 36,
+      "start_step": 0,
+      "start_xy": [
+        170.52182006835938,
+        83.19168090820312
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            56.0162467956543,
+            69.30316162109375
+          ],
+          "euclidean": 115.34477233886719,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 0,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 28,
+      "reference_path_length_not_geodesic": 131.1398479233515
+    },
+    {
+      "episode": 37,
+      "start_step": 0,
+      "start_xy": [
+        53.54998016357422,
+        187.91603088378906
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            112.32220458984375,
+            44.55776596069336
+          ],
+          "euclidean": 154.9379425048828,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 1,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 41,
+      "reference_path_length_not_geodesic": 197.90139574741397
+    },
+    {
+      "episode": 38,
+      "start_step": 0,
+      "start_xy": [
+        36.12826156616211,
+        181.27757263183594
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            102.43668365478516,
+            135.62744140625
+          ],
+          "euclidean": 80.5030517578125,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 4,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 21,
+      "reference_path_length_not_geodesic": 103.77390799515446
+    },
+    {
+      "episode": 39,
+      "start_step": 0,
+      "start_xy": [
+        103.93651580810547,
+        144.69358825683594
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            112.31731414794922,
+            54.73457717895508
+          ],
+          "euclidean": 90.34855651855469,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 1,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 23,
+      "reference_path_length_not_geodesic": 113.24134648684063
+    },
+    {
+      "episode": 40,
+      "start_step": 0,
+      "start_xy": [
+        115.87712097167969,
+        168.51609802246094
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            50.620113372802734,
+            184.63685607910156
+          ],
+          "euclidean": 67.21871185302734,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 3,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 18,
+      "reference_path_length_not_geodesic": 85.82202536766127
+    },
+    {
+      "episode": 41,
+      "start_step": 0,
+      "start_xy": [
+        56.198062896728516,
+        43.037513732910156
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            50.550933837890625,
+            174.55038452148438
+          ],
+          "euclidean": 131.63406372070312,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 3,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 49,
+      "reference_path_length_not_geodesic": 240.39444286843568
+    },
+    {
+      "episode": 42,
+      "start_step": 0,
+      "start_xy": [
+        43.10287094116211,
+        59.10686111450195
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            107.03839874267578,
+            80.20001983642578
+          ],
+          "euclidean": 67.32512664794922,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 1,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 16,
+      "reference_path_length_not_geodesic": 77.7108836740179
+    },
+    {
+      "episode": 43,
+      "start_step": 0,
+      "start_xy": [
+        114.93268585205078,
+        150.68704223632812
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            55.25666809082031,
+            37.97882080078125
+          ],
+          "euclidean": 127.53184509277344,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 0,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 39,
+      "reference_path_length_not_geodesic": 187.9346351525679
+    },
+    {
+      "episode": 44,
+      "start_step": 0,
+      "start_xy": [
+        183.36318969726562,
+        157.88722229003906
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            46.56301498413086,
+            80.34239959716797
+          ],
+          "euclidean": 157.249755859375,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 0,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 51,
+      "reference_path_length_not_geodesic": 240.75335629651084
+    },
+    {
+      "episode": 45,
+      "start_step": 0,
+      "start_xy": [
+        178.55397033691406,
+        50.52616882324219
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            183.8699188232422,
+            158.03102111816406
+          ],
+          "euclidean": 107.6362075805664,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 5,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 49,
+      "reference_path_length_not_geodesic": 234.08370920574194
+    },
+    {
+      "episode": 46,
+      "start_step": 0,
+      "start_xy": [
+        116.92765808105469,
+        185.2398223876953
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            50.30076599121094,
+            170.7705535888672
+          ],
+          "euclidean": 68.17992401123047,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 3,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 16,
+      "reference_path_length_not_geodesic": 79.25992311088893
+    },
+    {
+      "episode": 47,
+      "start_step": 0,
+      "start_xy": [
+        46.9167366027832,
+        161.8600616455078
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            42.520118713378906,
+            89.5871353149414
+          ],
+          "euclidean": 72.40653228759766,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 0,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 52,
+      "reference_path_length_not_geodesic": 246.3462822570165
+    },
+    {
+      "episode": 48,
+      "start_step": 0,
+      "start_xy": [
+        173.84378051757812,
+        60.156517028808594
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            111.4046401977539,
+            148.0742645263672
+          ],
+          "euclidean": 107.83402252197266,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 4,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 30,
+      "reference_path_length_not_geodesic": 144.131774639498
+    },
+    {
+      "episode": 49,
+      "start_step": 0,
+      "start_xy": [
+        175.98431396484375,
+        75.85174560546875
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            112.08381652832031,
+            162.93971252441406
+          ],
+          "euclidean": 108.01660919189453,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 4,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 34,
+      "reference_path_length_not_geodesic": 162.57642781180127
+    },
+    {
+      "episode": 50,
+      "start_step": 0,
+      "start_xy": [
+        56.15364456176758,
+        56.125587463378906
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            179.86093139648438,
+            162.07411193847656
+          ],
+          "euclidean": 162.8759765625,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 5,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 47,
+      "reference_path_length_not_geodesic": 228.58802207363738
+    },
+    {
+      "episode": 51,
+      "start_step": 0,
+      "start_xy": [
+        51.35147476196289,
+        144.15103149414062
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            108.4145278930664,
+            148.850830078125
+          ],
+          "euclidean": 57.25626754760742,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 4,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 15,
+      "reference_path_length_not_geodesic": 71.31580475813077
+    },
+    {
+      "episode": 52,
+      "start_step": 0,
+      "start_xy": [
+        117.04949951171875,
+        89.992431640625
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            186.14955139160156,
+            55.49751281738281
+          ],
+          "euclidean": 77.23158264160156,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 2,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 19,
+      "reference_path_length_not_geodesic": 92.06374446665332
+    },
+    {
+      "episode": 53,
+      "start_step": 0,
+      "start_xy": [
+        36.510406494140625,
+        54.5020637512207
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            104.4040298461914,
+            162.21636962890625
+          ],
+          "euclidean": 127.32601928710938,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 4,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 34,
+      "reference_path_length_not_geodesic": 167.66463830495394
+    },
+    {
+      "episode": 54,
+      "start_step": 0,
+      "start_xy": [
+        185.74407958984375,
+        165.1205291748047
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            39.15408706665039,
+            146.13243103027344
+          ],
+          "euclidean": 147.81466674804688,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 3,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 31,
+      "reference_path_length_not_geodesic": 147.79424924381794
+    },
+    {
+      "episode": 55,
+      "start_step": 0,
+      "start_xy": [
+        36.528995513916016,
+        48.80213165283203
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            177.3795928955078,
+            142.5834197998047
+          ],
+          "euclidean": 169.21531677246094,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 5,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 52,
+      "reference_path_length_not_geodesic": 252.3209804343562
+    },
+    {
+      "episode": 56,
+      "start_step": 0,
+      "start_xy": [
+        45.148319244384766,
+        154.18936157226562
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            53.216064453125,
+            71.37818908691406
+          ],
+          "euclidean": 83.20323944091797,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 0,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 46,
+      "reference_path_length_not_geodesic": 218.4901211108892
+    },
+    {
+      "episode": 57,
+      "start_step": 0,
+      "start_xy": [
+        115.3741455078125,
+        75.74390411376953
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            177.25997924804688,
+            146.9212188720703
+          ],
+          "euclidean": 94.31896209716797,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 5,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 35,
+      "reference_path_length_not_geodesic": 169.77589034617188
+    },
+    {
+      "episode": 58,
+      "start_step": 0,
+      "start_xy": [
+        56.70185470581055,
+        61.74101638793945
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            121.53681945800781,
+            152.81536865234375
+          ],
+          "euclidean": 111.7949447631836,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 4,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 33,
+      "reference_path_length_not_geodesic": 154.8579229496798
+    },
+    {
+      "episode": 59,
+      "start_step": 0,
+      "start_xy": [
+        116.12067413330078,
+        144.62582397460938
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            170.89251708984375,
+            49.23308563232422
+          ],
+          "euclidean": 109.99877166748047,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 2,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 35,
+      "reference_path_length_not_geodesic": 168.85337005805042
+    },
+    {
+      "episode": 60,
+      "start_step": 0,
+      "start_xy": [
+        108.68145751953125,
+        147.17132568359375
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            56.03165817260742,
+            158.74578857421875
+          ],
+          "euclidean": 53.907047271728516,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 3,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 12,
+      "reference_path_length_not_geodesic": 57.82973457228401
+    },
+    {
+      "episode": 61,
+      "start_step": 0,
+      "start_xy": [
+        50.73625183105469,
+        80.52567291259766
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            42.720054626464844,
+            151.59719848632812
+          ],
+          "euclidean": 71.52217102050781,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 3,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 50,
+      "reference_path_length_not_geodesic": 240.57897967911745
+    },
+    {
+      "episode": 62,
+      "start_step": 0,
+      "start_xy": [
+        121.2481460571289,
+        39.18350601196289
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            109.3448486328125,
+            139.12823486328125
+          ],
+          "euclidean": 100.65106964111328,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 4,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 18,
+      "reference_path_length_not_geodesic": 91.44856362300094
+    },
+    {
+      "episode": 63,
+      "start_step": 0,
+      "start_xy": [
+        110.76692199707031,
+        143.1588134765625
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            174.0135498046875,
+            154.7810821533203
+          ],
+          "euclidean": 64.30561828613281,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 5,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 14,
+      "reference_path_length_not_geodesic": 65.99099053536932
+    },
+    {
+      "episode": 64,
+      "start_step": 0,
+      "start_xy": [
+        181.74093627929688,
+        72.9533462524414
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            39.73705291748047,
+            135.6145477294922
+          ],
+          "euclidean": 155.21446228027344,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 3,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 52,
+      "reference_path_length_not_geodesic": 252.88244615417818
+    },
+    {
+      "episode": 65,
+      "start_step": 0,
+      "start_xy": [
+        179.9150848388672,
+        151.38702392578125
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            122.46785736083984,
+            135.0064239501953
+          ],
+          "euclidean": 59.73698806762695,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 4,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 19,
+      "reference_path_length_not_geodesic": 94.82966722579134
+    },
+    {
+      "episode": 66,
+      "start_step": 0,
+      "start_xy": [
+        172.02369689941406,
+        51.205989837646484
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            42.04526901245117,
+            48.4732666015625
+          ],
+          "euclidean": 130.0071563720703,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 0,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 31,
+      "reference_path_length_not_geodesic": 144.88771320322257
+    },
+    {
+      "episode": 67,
+      "start_step": 0,
+      "start_xy": [
+        116.30813598632812,
+        54.702144622802734
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            109.81230926513672,
+            134.2957763671875
+          ],
+          "euclidean": 79.85826110839844,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 4,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 14,
+      "reference_path_length_not_geodesic": 68.89785807997667
+    },
+    {
+      "episode": 68,
+      "start_step": 0,
+      "start_xy": [
+        107.30974578857422,
+        150.33082580566406
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            106.60769653320312,
+            36.39071273803711
+          ],
+          "euclidean": 113.94227600097656,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 1,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 26,
+      "reference_path_length_not_geodesic": 127.61115266926285
+    },
+    {
+      "episode": 69,
+      "start_step": 0,
+      "start_xy": [
+        184.95057678222656,
+        184.97891235351562
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            107.81831359863281,
+            50.60603332519531
+          ],
+          "euclidean": 154.93695068359375,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 1,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 39,
+      "reference_path_length_not_geodesic": 190.11822284737582
+    },
+    {
+      "episode": 70,
+      "start_step": 0,
+      "start_xy": [
+        54.381690979003906,
+        68.42313385009766
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            113.06171417236328,
+            182.08978271484375
+          ],
+          "euclidean": 127.91971588134766,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 4,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 38,
+      "reference_path_length_not_geodesic": 183.59513950863553
+    },
+    {
+      "episode": 71,
+      "start_step": 0,
+      "start_xy": [
+        118.53785705566406,
+        173.09324645996094
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            119.53973388671875,
+            79.35395050048828
+          ],
+          "euclidean": 93.7446517944336,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 1,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 17,
+      "reference_path_length_not_geodesic": 83.39547134494663
+    },
+    {
+      "episode": 72,
+      "start_step": 0,
+      "start_xy": [
+        41.059322357177734,
+        78.39476013183594
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            120.82003021240234,
+            152.2600860595703
+          ],
+          "euclidean": 108.70996856689453,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 4,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 34,
+      "reference_path_length_not_geodesic": 161.98521005556373
+    },
+    {
+      "episode": 73,
+      "start_step": 0,
+      "start_xy": [
+        186.8004913330078,
+        162.33267211914062
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            56.87253952026367,
+            174.3304443359375
+          ],
+          "euclidean": 130.48072814941406,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 3,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 26,
+      "reference_path_length_not_geodesic": 122.97504590100058
+    },
+    {
+      "episode": 74,
+      "start_step": 0,
+      "start_xy": [
+        177.46441650390625,
+        149.19598388671875
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            176.26889038085938,
+            51.460960388183594
+          ],
+          "euclidean": 97.74234008789062,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 2,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 49,
+      "reference_path_length_not_geodesic": 233.3041427301975
+    },
+    {
+      "episode": 75,
+      "start_step": 0,
+      "start_xy": [
+        42.46377182006836,
+        181.2038116455078
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            179.8429412841797,
+            183.41348266601562
+          ],
+          "euclidean": 137.39694213867188,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 5,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 35,
+      "reference_path_length_not_geodesic": 163.15134809890714
+    },
+    {
+      "episode": 76,
+      "start_step": 0,
+      "start_xy": [
+        41.11310577392578,
+        136.17344665527344
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            109.4969711303711,
+            72.20658874511719
+          ],
+          "euclidean": 93.63819122314453,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 1,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 34,
+      "reference_path_length_not_geodesic": 166.41256753139703
+    },
+    {
+      "episode": 77,
+      "start_step": 0,
+      "start_xy": [
+        37.199764251708984,
+        156.89256286621094
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            112.44929504394531,
+            62.36359405517578
+          ],
+          "euclidean": 120.82308197021484,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 1,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 33,
+      "reference_path_length_not_geodesic": 160.27101930270152
+    },
+    {
+      "episode": 78,
+      "start_step": 0,
+      "start_xy": [
+        175.58668518066406,
+        156.8173828125
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            104.78844451904297,
+            145.89132690429688
+          ],
+          "euclidean": 71.6363754272461,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 4,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 16,
+      "reference_path_length_not_geodesic": 77.17053083868295
+    },
+    {
+      "episode": 79,
+      "start_step": 0,
+      "start_xy": [
+        113.27838134765625,
+        38.526824951171875
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            173.846435546875,
+            154.30252075195312
+          ],
+          "euclidean": 130.66177368164062,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 5,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 35,
+      "reference_path_length_not_geodesic": 170.63401401841782
+    },
+    {
+      "episode": 80,
+      "start_step": 0,
+      "start_xy": [
+        110.28154754638672,
+        77.04015350341797
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            43.953033447265625,
+            135.82789611816406
+          ],
+          "euclidean": 88.63109588623047,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 3,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 39,
+      "reference_path_length_not_geodesic": 188.43855190316498
+    },
+    {
+      "episode": 81,
+      "start_step": 0,
+      "start_xy": [
+        39.51276779174805,
+        45.38787841796875
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            106.81857299804688,
+            142.44544982910156
+          ],
+          "euclidean": 118.11114501953125,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 4,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 32,
+      "reference_path_length_not_geodesic": 154.5636254217214
+    },
+    {
+      "episode": 82,
+      "start_step": 0,
+      "start_xy": [
+        49.90032196044922,
+        135.1829071044922
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            111.62356567382812,
+            68.65430450439453
+          ],
+          "euclidean": 90.75138854980469,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 1,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 36,
+      "reference_path_length_not_geodesic": 171.36376052608858
+    },
+    {
+      "episode": 83,
+      "start_step": 0,
+      "start_xy": [
+        36.42020797729492,
+        55.07041931152344
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            177.96133422851562,
+            165.9332733154297
+          ],
+          "euclidean": 179.79005432128906,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 5,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 48,
+      "reference_path_length_not_geodesic": 229.44589590092033
+    },
+    {
+      "episode": 84,
+      "start_step": 0,
+      "start_xy": [
+        51.0389289855957,
+        79.9878158569336
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            167.03733825683594,
+            65.38573455810547
+          ],
+          "euclidean": 116.91387176513672,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 2,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 27,
+      "reference_path_length_not_geodesic": 127.2407319926694
+    },
+    {
+      "episode": 85,
+      "start_step": 0,
+      "start_xy": [
+        114.1368179321289,
+        180.36204528808594
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            172.8578338623047,
+            88.7781982421875
+          ],
+          "euclidean": 108.79226684570312,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 2,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 40,
+      "reference_path_length_not_geodesic": 195.12224162131798
+    },
+    {
+      "episode": 86,
+      "start_step": 0,
+      "start_xy": [
+        39.80681610107422,
+        141.9539337158203
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            43.449546813964844,
+            70.15194702148438
+          ],
+          "euclidean": 71.89433288574219,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 0,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 50,
+      "reference_path_length_not_geodesic": 242.89604228956222
+    },
+    {
+      "episode": 87,
+      "start_step": 0,
+      "start_xy": [
+        119.13465118408203,
+        89.0627670288086
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            53.2327880859375,
+            186.30926513671875
+          ],
+          "euclidean": 117.47313690185547,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 3,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 42,
+      "reference_path_length_not_geodesic": 204.43325733076904
+    },
+    {
+      "episode": 88,
+      "start_step": 0,
+      "start_xy": [
+        183.34288024902344,
+        54.21998596191406
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            122.80189514160156,
+            66.48580169677734
+          ],
+          "euclidean": 61.77103805541992,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 1,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 11,
+      "reference_path_length_not_geodesic": 53.44391601987991
+    },
+    {
+      "episode": 89,
+      "start_step": 0,
+      "start_xy": [
+        111.65328216552734,
+        70.08466339111328
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            47.49488830566406,
+            54.91130447387695
+          ],
+          "euclidean": 65.92822265625,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 0,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 13,
+      "reference_path_length_not_geodesic": 60.09667030020084
+    },
+    {
+      "episode": 90,
+      "start_step": 0,
+      "start_xy": [
+        45.56435775756836,
+        143.4819793701172
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            112.27794647216797,
+            171.14950561523438
+          ],
+          "euclidean": 72.22323608398438,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 4,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 16,
+      "reference_path_length_not_geodesic": 75.10481003045982
+    },
+    {
+      "episode": 91,
+      "start_step": 0,
+      "start_xy": [
+        112.13634490966797,
+        73.97660064697266
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            177.54212951660156,
+            44.36289596557617
+          ],
+          "euclidean": 71.79754638671875,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 2,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 18,
+      "reference_path_length_not_geodesic": 81.47863678142143
+    },
+    {
+      "episode": 92,
+      "start_step": 0,
+      "start_xy": [
+        186.91641235351562,
+        142.92822265625
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            187.84153747558594,
+            64.21143341064453
+          ],
+          "euclidean": 78.72222900390625,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 2,
+      "room_graph_hops": 3,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 51,
+      "reference_path_length_not_geodesic": 248.3140293140903
+    },
+    {
+      "episode": 93,
+      "start_step": 0,
+      "start_xy": [
+        112.45125579833984,
+        84.67118835449219
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            45.684818267822266,
+            37.50956344604492
+          ],
+          "euclidean": 81.74335479736328,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 0,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 21,
+      "reference_path_length_not_geodesic": 97.25752654648302
+    },
+    {
+      "episode": 94,
+      "start_step": 0,
+      "start_xy": [
+        111.24700164794922,
+        162.27084350585938
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            52.16366958618164,
+            50.65755844116211
+          ],
+          "euclidean": 126.28683471679688,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 4,
+      "goal_room": 0,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 32,
+      "reference_path_length_not_geodesic": 152.4771762706516
+    },
+    {
+      "episode": 95,
+      "start_step": 0,
+      "start_xy": [
+        184.0166015625,
+        68.60881042480469
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            106.29623413085938,
+            36.99824523925781
+          ],
+          "euclidean": 83.90282440185547,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 1,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 19,
+      "reference_path_length_not_geodesic": 91.32565831259217
+    },
+    {
+      "episode": 96,
+      "start_step": 0,
+      "start_xy": [
+        172.98077392578125,
+        149.3090362548828
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            105.94755554199219,
+            80.29638671875
+          ],
+          "euclidean": 96.2091293334961,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 1,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 31,
+      "reference_path_length_not_geodesic": 147.93065248495515
+    },
+    {
+      "episode": 97,
+      "start_step": 0,
+      "start_xy": [
+        38.87532043457031,
+        181.3390655517578
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            111.10211181640625,
+            176.8790283203125
+          ],
+          "euclidean": 72.36436462402344,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 4,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 19,
+      "reference_path_length_not_geodesic": 88.55716292093784
+    },
+    {
+      "episode": 98,
+      "start_step": 0,
+      "start_xy": [
+        37.72305679321289,
+        86.89543914794922
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            114.09041595458984,
+            135.81265258789062
+          ],
+          "euclidean": 90.69105529785156,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 4,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 31,
+      "reference_path_length_not_geodesic": 151.73270995583192
+    },
+    {
+      "episode": 99,
+      "start_step": 0,
+      "start_xy": [
+        43.892791748046875,
+        148.51832580566406
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            170.3490753173828,
+            185.11380004882812
+          ],
+          "euclidean": 131.64505004882812,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 3,
+      "goal_room": 5,
+      "room_graph_hops": 2,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 33,
+      "reference_path_length_not_geodesic": 156.63469324435178
+    }
+  ],
+  "not_final_untouched_test": true
+}

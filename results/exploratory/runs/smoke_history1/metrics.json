@@ -1,0 +1,24 @@
+{
+  "metrics": {
+    "success_rate": 50.0,
+    "episode_successes": [
+      false,
+      true
+    ],
+    "seeds": null
+  },
+  "elapsed_seconds": 0.8481817245483398,
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "max_cuda_allocated_bytes": 85453824,
+  "argv": [
+    "/root/autodl-tmp/lewm_research/le-wm/eval.py",
+    "--config-name",
+    "tworoom",
+    "policy=/root/autodl-tmp/lewm_research/data/checkpoints/smoke_bounded12/weights_final.pt",
+    "eval.num_eval=2",
+    "solver.n_steps=2",
+    "solver.num_samples=32",
+    "solver.topk=8",
+    "output.filename=/root/autodl-tmp/lewm_research/round12h_20260909/smoke_h1_results.txt"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "updated_unix": 1789056991.4848354,
+  "passed": true,
+  "files": [
+    {
+      "path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/reports/frontier_transfer_review.md",
+      "original_sha256": "643be2e51fca73109ecc187491d9b2ed746aa94cb1f3f1f83561f4950db2ef60",
+      "preserved_history_chars": 4963,
+      "backup": "/root/autodl-tmp/lewm_research/strict_nav_20260910/reports/frontier_transfer_review.md.pre_history_preserve_20260911"
+    },
+    {
+      "path": "/root/autodl-tmp/lewm_research/reports/navigation_capability_merged.md",
+      "original_sha256": "94e075d250b8d22974a5884d1e4ab493ab65bd990ddce5867ad7b375a094dc90",
+      "preserved_history_chars": 7910,
+      "backup": "/root/autodl-tmp/lewm_research/reports/navigation_capability_merged.md.pre_history_preserve_20260911"
+    }
+  ],
+  "summary_script_backup": "/root/autodl-tmp/lewm_research/strict_nav_20260910/summarize_navigation_pre_history_preserve.py"
+}

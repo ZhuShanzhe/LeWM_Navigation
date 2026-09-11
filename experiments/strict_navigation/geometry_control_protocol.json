@@ -1,0 +1,47 @@
+{
+  "created_unix": 1789041462.5955825,
+  "seed": 4001,
+  "fresh_training": true,
+  "epochs": 10,
+  "expected_steps": 51920,
+  "train_frames": 736684,
+  "train_clips": 664684,
+  "validation_clips": 83354,
+  "eval_cases_per_map": 100,
+  "maps": [
+    "train_axis1_door49",
+    "validation_axis1_door65",
+    "validation_axis1_door129",
+    "validation_axis0_door65",
+    "validation_axis0_door129"
+  ],
+  "selection": "last full 10-epoch weights, not best navigation validation",
+  "cap": {
+    "execution_steps": 150,
+    "horizon_model_steps": 5,
+    "receding_horizon_model_steps": 5,
+    "cem_samples": 300,
+    "cem_iterations": 10,
+    "topk": 30,
+    "warm_start": false
+  },
+  "limits": [
+    "one paired training seed; not cross-seed robustness",
+    "same 100 coordinate cases reused across maps; do not pool as independent trials",
+    "original map is training geometry but states are independently fixed development cases",
+    "geometry variants remain two rooms/one door, not new topology",
+    "both datasets contain matched geometry-guided collection prior",
+    "test geometry and final reserve not used for this stage",
+    "single and multi use their own training-only normalization; not a pure one-factor coordinate transformation"
+  ],
+  "files": {
+    "single": {
+      "manifest_sha256": "08d0bc78a2775518f1eb8c79a277f9fc70a6734e03b82540825af2a19a6da930",
+      "normalization_sha256": "21364f6d3810cf9847c0d65a2618d64ee9ebe8badbc8f9f001a321e804cffa1f"
+    },
+    "multi": {
+      "manifest_sha256": "c515bb82f177efb78ce28d500c995f94b3264744e28e900d79a63cf900ac2180",
+      "normalization_sha256": "5edec93f03dcb9ec559dfd59db102c17d20ca41d1af7c83032d79eb7d80bd74b"
+    }
+  }
+}

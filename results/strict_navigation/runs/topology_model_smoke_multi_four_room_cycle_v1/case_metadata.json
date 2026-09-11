@@ -1,0 +1,266 @@
+{
+  "id": "four_room_cycle",
+  "split": "development",
+  "topology_spec": {
+    "id": "four_room_cycle",
+    "rectangles": [
+      [
+        107,
+        117,
+        14,
+        49.0
+      ],
+      [
+        107,
+        117,
+        77.0,
+        112
+      ],
+      [
+        107,
+        117,
+        112,
+        147.0
+      ],
+      [
+        107,
+        117,
+        175.0,
+        210
+      ],
+      [
+        14,
+        49.0,
+        107,
+        117
+      ],
+      [
+        77.0,
+        112,
+        107,
+        117
+      ],
+      [
+        112,
+        147.0,
+        107,
+        117
+      ],
+      [
+        175.0,
+        210,
+        107,
+        117
+      ]
+    ],
+    "room_centers": [
+      [
+        63.0,
+        63.0
+      ],
+      [
+        161.0,
+        63.0
+      ],
+      [
+        63.0,
+        161.0
+      ],
+      [
+        161.0,
+        161.0
+      ]
+    ],
+    "room_bounds": [
+      [
+        14,
+        112,
+        14,
+        112
+      ],
+      [
+        112,
+        210,
+        14,
+        112
+      ],
+      [
+        14,
+        112,
+        112,
+        210
+      ],
+      [
+        112,
+        210,
+        112,
+        210
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "gates": [
+      {
+        "edge": [
+          0,
+          1
+        ],
+        "xy": [
+          112,
+          63.0
+        ],
+        "normal": [
+          1,
+          0
+        ]
+      },
+      {
+        "edge": [
+          2,
+          3
+        ],
+        "xy": [
+          112,
+          161.0
+        ],
+        "normal": [
+          1,
+          0
+        ]
+      },
+      {
+        "edge": [
+          0,
+          2
+        ],
+        "xy": [
+          63.0,
+          112
+        ],
+        "normal": [
+          0,
+          1
+        ]
+      },
+      {
+        "edge": [
+          1,
+          3
+        ],
+        "xy": [
+          161.0,
+          112
+        ],
+        "normal": [
+          0,
+          1
+        ]
+      }
+    ],
+    "scope": "full-observation custom topology diagnostic; not official TwoRoom"
+  },
+  "selection_seed": 9104101,
+  "task": "full-observation custom topology stress; 75 only adapter key, not trajectory offset",
+  "cases": [
+    {
+      "episode": 0,
+      "start_step": 0,
+      "start_xy": [
+        168.28567504882812,
+        80.9350814819336
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            147.62281799316406,
+            44.2609977722168
+          ],
+          "euclidean": 42.094444274902344,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 1,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 33.32801781883557
+    },
+    {
+      "episode": 99,
+      "start_step": 0,
+      "start_xy": [
+        76.16824340820312,
+        187.79164123535156
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            135.0317840576172,
+            147.79376220703125
+          ],
+          "euclidean": 71.16703796386719,
+          "different_room": true,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 2,
+      "goal_room": 3,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 19,
+      "reference_path_length_not_geodesic": 95.85304761599357
+    }
+  ],
+  "not_final_untouched_test": true,
+  "case_sha256": "5e32672f0ff46f68b3c9964ef4f102b270c4a1559bab8a1b386189948fdd9e7e",
+  "goal_offset": 75,
+  "budget": 10,
+  "normalization": "strict training set only",
+  "normalization_path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+  "normalization_sha256": "5edec93f03dcb9ec559dfd59db102c17d20ca41d1af7c83032d79eb7d80bd74b",
+  "action_constraint": "original unconstrained search; environment clips physical actions",
+  "argv": [
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+    "--config-name",
+    "tworoom",
+    "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+    "seed=42",
+    "eval.num_eval=2",
+    "eval.dataset_name=tworoom",
+    "eval.goal_offset_steps=75",
+    "eval.eval_budget=10",
+    "solver.n_steps=1",
+    "solver.num_samples=8",
+    "solver.topk=4",
+    "plan_config.horizon=1",
+    "plan_config.receding_horizon=1",
+    "+plan_config.warm_start=false",
+    "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_model_smoke_multi_four_room_cycle_v1/result.txt"
+  ],
+  "compute_cap_per_case": {
+    "candidate_model_steps": 16,
+    "horizon": 1,
+    "iterations": 1,
+    "candidates": 8,
+    "receding": 1,
+    "warm_start": false
+  }
+}

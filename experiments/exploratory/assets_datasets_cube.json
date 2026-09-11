@@ -1,0 +1,32 @@
+{
+  "kind": "datasets",
+  "env": "cube",
+  "name": "quentinll/lewm-cube",
+  "revision": "02a19a67a0dc8c9d6215f89c19e0a597691e152a",
+  "files": [
+    {
+      "type": "file",
+      "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+      "size": 2504,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "77ca56fb39d72b07ae0a891d9c63a96c483da646",
+      "size": 143,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "01e3f03328086b91750f474872e03428f4d63e9a",
+      "size": 46184624478,
+      "lfs": {
+        "oid": "3725d6a01abd492164441ef0a27e588f52b94a118fab56b96987b1a34a6c2600",
+        "size": 46184624478,
+        "pointerSize": 136
+      },
+      "xetHash": "ffe07ef65b18ea16455f304e1d22fc9e617381cd874576103419dea1064503bf",
+      "path": "cube_single_expert.tar.zst"
+    }
+  ]
+}

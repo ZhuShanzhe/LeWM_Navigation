@@ -1,0 +1,15 @@
+{
+  "created_unix": 1789079827.629943,
+  "reason": "Original auditor assumed zero actions imply zero position displacement. Official border collision projects dataset starts inside radius-inflated border on first step. Replace assumption with zero-action and exact official CPU one-step replay plus subsequent stationarity checks; no evaluation protocol, model, cases or results modified.",
+  "wrapper_sha256": "d770d3092187ec765e40910c6c25291831798927d3e8180f20351eb05f0b115a",
+  "original_auditor_sha256": "98f78c7d8fe1a67be7ff48aea485e9d2655d09915edf54b63d13fa27f5f76e5f",
+  "frozen_protocol_sha256": "a1c7da7e4d3f215d289121205d9d896007232771970304654fca78dd3c2e7da5",
+  "first_affected_case": {
+    "tag": "finalv1_known_layout_sreference_noop_b0",
+    "episode": 3024,
+    "start_step": 0,
+    "start_x": 14.395345687866211,
+    "projected_x": 21.0
+  },
+  "experiments_changed": false
+}

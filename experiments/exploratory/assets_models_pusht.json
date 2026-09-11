@@ -1,0 +1,38 @@
+{
+  "kind": "models",
+  "env": "pusht",
+  "name": "quentinll/lewm-pusht",
+  "revision": "22b330c28c27ead4bfd1888615af1340e3fe9052",
+  "files": [
+    {
+      "type": "file",
+      "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "ff45e6fb2af057489eacebcb263f372061bdcab2",
+      "size": 178,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "2e534ee5c6286721c0ef967e24bddbfde482abf9",
+      "size": 1313,
+      "path": "config.json"
+    },
+    {
+      "type": "file",
+      "oid": "3a7873ece010f9f3c240b2ff3a4695e979aead41",
+      "size": 72290721,
+      "lfs": {
+        "oid": "48938400ae3464c9680731287f583a9cb516f55a8ec64ea13a91be47fb15b607",
+        "size": 72290721,
+        "pointerSize": 133
+      },
+      "xetHash": "039a49f6c940800786ec000e64bc8a40b199883d30f0128483997561f09b68de",
+      "path": "weights.pt"
+    }
+  ]
+}

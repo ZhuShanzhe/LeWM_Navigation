@@ -1,0 +1,52 @@
+{
+  "created_unix": 1789067457.9436526,
+  "purpose": "Fresh final geometric generalization confirmation after prior18 maps entered development; no model outcomes generated here.",
+  "prior_geometry_catalog_sha256": "4966c2c1877bf6b8cb32a2565f9f04b8400a13e2cf3d63c223c766e231ad9303",
+  "generator_sha256": "bed66850b6a658a26bb3114304305c9f990bfedbc6a84bf0b0f13473dff7aa0a",
+  "files_sha256": {
+    "final_geometry_axis1_door73.json": "00d993290f258aae33eb302f4cc8bb6e27e887ba45069e6782e4eaa78e0e96c7",
+    "final_geometry_axis1_door73_b0.json": "cb5d46500d4782f579af92837fea7d3e5de26b70fb5274d7fff8d55ca5da3c28",
+    "final_geometry_axis1_door73_b1.json": "cde2d6e11b3df175b338479cefadef268b95da9f39a89e5040daa556f399df20",
+    "final_geometry_axis1_door169.json": "d43ef64dc08c18a28fe52339d7d93aad67d32317aa63ac8b4d6ebda5467284e9",
+    "final_geometry_axis1_door169_b0.json": "fb087f892ef85885807c1956d74ec4344e9f23959d92442c3670348dde896158",
+    "final_geometry_axis1_door169_b1.json": "7b2aa77ccf52ba3439b4c9c0876b64ca5dd668b3910006ecd578e0ce69fec50c",
+    "final_geometry_axis0_door73.json": "95bb486cf0930b4e847639fc1051ad4955b8c793f3321a227dd939987f9d8c1a",
+    "final_geometry_axis0_door73_b0.json": "08d4aff6bc6f9826ff4188cdb17cb4cd17050b0dcf49eb04653dd6e55bc96a2d",
+    "final_geometry_axis0_door73_b1.json": "6bbabbe9d72cb6fcd4568f33852059314f847a2532f07896098c21d4ac174497",
+    "final_geometry_axis0_door169.json": "4e3e5a4acfa7c42a5bf97b7d6cc1afe133fe9e856308442012ff65b9e795638d",
+    "final_geometry_axis0_door169_b0.json": "4d51e1ca051bfcc41700eec915c340c6a1619ecfc09f82c3290b38dcd928f884",
+    "final_geometry_axis0_door169_b1.json": "d6fc7d784eb6ee1e7e58fe2f18ce4f2ddf18c074bd320e578a3c01d6385b4f2f",
+    "catalog.json": "67cb8b03848d7d55fb2c49087079fe979dfcd257f49fa64788ec08c8f790817a"
+  },
+  "selection_seed": 9106001,
+  "geometries": [
+    [
+      1,
+      73
+    ],
+    [
+      1,
+      169
+    ],
+    [
+      0,
+      73
+    ],
+    [
+      0,
+      169
+    ]
+  ],
+  "all_prior_geometry_disjoint": true,
+  "exact_coordinate_pairs_disjoint_from_prior_maps": true,
+  "geometry_rationale": "For8-layout training,73 is inside observed door range49..145;169 is beyond it. Both are unseen geometry values, in both orientations. For strict original single-map49 models, both are unseen shifts, not interpolation.",
+  "cases_per_map": 100,
+  "same_side": 50,
+  "cross_wall": 50,
+  "euclidean_range": [
+    75,
+    125
+  ],
+  "same_coordinate_pairs_reused_across_four_maps": true,
+  "limits": "Two rooms/one door only, not new topology. CPU privileged solvability only; no model scores, no final method selection here. Any later outcome-informed tuning invalidates final status."
+}

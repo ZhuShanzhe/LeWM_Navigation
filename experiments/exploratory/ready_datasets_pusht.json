@@ -1,0 +1,15 @@
+{
+  "env": "pusht",
+  "kind": "datasets",
+  "files": [
+    {
+      "path": "/root/autodl-tmp/lewm_research/round12h_20260909/downloads/pusht/pusht_expert_train.h5.zst",
+      "bytes": 13136247974,
+      "sha256": "7cfbd6d90fa2f27876379a5ff169715a36ed82edbda64f9e5b5bfa34d212f318",
+      "url": "https://huggingface.co/datasets/quentinll/lewm-pusht/resolve/655cd446b9929369d7d406001da85c15d1457850/pusht_expert_train.h5.zst"
+    }
+  ],
+  "h5": [
+    "/root/autodl-tmp/lewm_research/round12h_20260909/datasets/pusht/pusht_expert_train.h5"
+  ]
+}

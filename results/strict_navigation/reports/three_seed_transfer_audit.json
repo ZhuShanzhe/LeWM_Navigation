@@ -1,0 +1,535 @@
+{
+  "passed": true,
+  "updated_unix": 1789073342.4059536,
+  "results": {
+    "3072": {
+      "temporal_replace": {
+        "n": 100,
+        "sr": 97.0,
+        "candidate_model_steps": 2400000,
+        "encoder_images": 3200
+      },
+      "temporal_hybrid": {
+        "n": 100,
+        "sr": 98.0,
+        "candidate_model_steps": 2535000,
+        "encoder_images": 3380
+      },
+      "shuffled_replace": {
+        "n": 100,
+        "sr": 6.0,
+        "candidate_model_steps": 8580000,
+        "encoder_images": 11440
+      },
+      "shuffled_hybrid": {
+        "n": 100,
+        "sr": 76.0,
+        "candidate_model_steps": 4170000,
+        "encoder_images": 5560
+      },
+      "retrieval_only": {
+        "n": 100,
+        "sr": 98.0,
+        "candidate_model_steps": 0,
+        "encoder_images": 588
+      },
+      "retrieval_rerank": {
+        "n": 100,
+        "sr": 97.0,
+        "candidate_model_steps": 285000,
+        "encoder_images": 760
+      }
+    },
+    "3073": {
+      "temporal_replace": {
+        "n": 100,
+        "sr": 100.0,
+        "candidate_model_steps": 2235000,
+        "encoder_images": 2980
+      },
+      "temporal_hybrid": {
+        "n": 100,
+        "sr": 100.0,
+        "candidate_model_steps": 2325000,
+        "encoder_images": 3100
+      },
+      "shuffled_replace": {
+        "n": 100,
+        "sr": 9.0,
+        "candidate_model_steps": 8490000,
+        "encoder_images": 11320
+      },
+      "shuffled_hybrid": {
+        "n": 100,
+        "sr": 67.0,
+        "candidate_model_steps": 4950000,
+        "encoder_images": 6600
+      },
+      "retrieval_only": {
+        "n": 100,
+        "sr": 98.0,
+        "candidate_model_steps": 0,
+        "encoder_images": 586
+      },
+      "retrieval_rerank": {
+        "n": 100,
+        "sr": 96.0,
+        "candidate_model_steps": 282000,
+        "encoder_images": 752
+      }
+    },
+    "3074": {
+      "temporal_replace": {
+        "n": 100,
+        "sr": 100.0,
+        "candidate_model_steps": 2160000,
+        "encoder_images": 2880
+      },
+      "temporal_hybrid": {
+        "n": 100,
+        "sr": 100.0,
+        "candidate_model_steps": 2370000,
+        "encoder_images": 3160
+      },
+      "shuffled_replace": {
+        "n": 100,
+        "sr": 4.0,
+        "candidate_model_steps": 8805000,
+        "encoder_images": 11740
+      },
+      "shuffled_hybrid": {
+        "n": 100,
+        "sr": 57.99999999999999,
+        "candidate_model_steps": 5355000,
+        "encoder_images": 7140
+      },
+      "retrieval_only": {
+        "n": 100,
+        "sr": 99.0,
+        "candidate_model_steps": 0,
+        "encoder_images": 582
+      },
+      "retrieval_rerank": {
+        "n": 100,
+        "sr": 97.0,
+        "candidate_model_steps": 279000,
+        "encoder_images": 744
+      }
+    }
+  },
+  "paired": {
+    "3072": {
+      "rerank_vs_retrieval_only": {
+        "delta_pp": -1.0,
+        "ci95_cases_conditional": [
+          -5.0,
+          3.0
+        ],
+        "gained": 2,
+        "lost": 3
+      },
+      "temporal_vs_shuffled_replace": {
+        "delta_pp": 91.0,
+        "ci95_cases_conditional": [
+          85.0,
+          96.0
+        ],
+        "gained": 91,
+        "lost": 0
+      },
+      "hybrid_vs_temporal_replace": {
+        "delta_pp": 1.0,
+        "ci95_cases_conditional": [
+          -2.0,
+          4.0
+        ],
+        "gained": 2,
+        "lost": 1
+      }
+    },
+    "3073": {
+      "rerank_vs_retrieval_only": {
+        "delta_pp": -2.0,
+        "ci95_cases_conditional": [
+          -7.000000000000001,
+          3.0
+        ],
+        "gained": 2,
+        "lost": 4
+      },
+      "temporal_vs_shuffled_replace": {
+        "delta_pp": 91.0,
+        "ci95_cases_conditional": [
+          85.0,
+          96.0
+        ],
+        "gained": 91,
+        "lost": 0
+      },
+      "hybrid_vs_temporal_replace": {
+        "delta_pp": 0.0,
+        "ci95_cases_conditional": [
+          0.0,
+          0.0
+        ],
+        "gained": 0,
+        "lost": 0
+      }
+    },
+    "3074": {
+      "rerank_vs_retrieval_only": {
+        "delta_pp": -2.0,
+        "ci95_cases_conditional": [
+          -5.0,
+          0.0
+        ],
+        "gained": 0,
+        "lost": 2
+      },
+      "temporal_vs_shuffled_replace": {
+        "delta_pp": 96.0,
+        "ci95_cases_conditional": [
+          92.0,
+          99.0
+        ],
+        "gained": 96,
+        "lost": 0
+      },
+      "hybrid_vs_temporal_replace": {
+        "delta_pp": 0.0,
+        "ci95_cases_conditional": [
+          0.0,
+          0.0
+        ],
+        "gained": 0,
+        "lost": 0
+      }
+    }
+  },
+  "artifacts": {
+    "3072": {
+      "model": {
+        "tag": "strict_tw_s3072_v2",
+        "sha256": "e838b7d49b0bf06ef9a77f0030c7af1875270f2dc0a804e88eef63bf82065ada",
+        "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3072_v2/weights_final.pt",
+        "steps": 51920,
+        "epochs": 10,
+        "elapsed_seconds": 5914.0418910980225,
+        "manifest_sha256": "3459cd193c56c531255c5c08f6f0e89753b4297f4aed0cd5b9de619fe2c611a5"
+      },
+      "head_paths": {
+        "temporal": "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/temporal3072/temporal.pt",
+        "shuffled": "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/temporal3072/shuffled.pt"
+      },
+      "head_sha256": {
+        "temporal": "9123f303f0e190a214c2aef331e15c6d76b5c961178190013a960ca79e1a40cf",
+        "shuffled": "3ce21c1b77b6d42605f3a4f3a41958af7c85c28f7b08e9e23a1f5263b9c8c31c"
+      },
+      "library_path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/priors/retrieval3072/library.pt",
+      "library_sha256": "c8acee3afbf9c089e1a08858ac54c7ef18f57218646141cc3b1eeb62812bf71a",
+      "library_entries": 67240,
+      "same_pairs_actions_across_seeds": true
+    },
+    "3073": {
+      "model": {
+        "tag": "strict_tw_s3073",
+        "sha256": "52593ab1e0fd4487007ceddbba9aa01facce102fac65607b8dd4d5ec9f3b4849",
+        "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3073/weights_final.pt",
+        "steps": 51920,
+        "epochs": 10,
+        "elapsed_seconds": 6009.0452580451965,
+        "manifest_sha256": "3459cd193c56c531255c5c08f6f0e89753b4297f4aed0cd5b9de619fe2c611a5"
+      },
+      "head_paths": {
+        "temporal": "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/temporal3073/temporal.pt",
+        "shuffled": "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/temporal3073/shuffled.pt"
+      },
+      "head_sha256": {
+        "temporal": "6192b1ea7cb14e37291e34b4381e5263643f0a8a7deb22da83ed7691b6ec4990",
+        "shuffled": "badc8aaf7930eb3bada01ad5273fee9fb740da3e1f6c38aa79ac07386d1b6797"
+      },
+      "library_path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/priors/retrieval3073/library.pt",
+      "library_sha256": "e6343f6f7ce6e1278a1c6c5908ae515400d4d147193f8cb7aa6af2e4fb9c4c29",
+      "library_entries": 67240,
+      "same_pairs_actions_across_seeds": true
+    },
+    "3074": {
+      "model": {
+        "tag": "strict_tw_s3074",
+        "sha256": "562551286da64cbfb3c0981a4b6537d3aea1ec8b007980152ae28fec67328486",
+        "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3074/weights_final.pt",
+        "steps": 51920,
+        "epochs": 10,
+        "elapsed_seconds": 7368.043451786041,
+        "manifest_sha256": "3459cd193c56c531255c5c08f6f0e89753b4297f4aed0cd5b9de619fe2c611a5"
+      },
+      "head_paths": {
+        "temporal": "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/temporal3074/temporal.pt",
+        "shuffled": "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/temporal3074/shuffled.pt"
+      },
+      "head_sha256": {
+        "temporal": "281ea27700a266b1c41293a0488523f20af3c7a3d01ec683b55eaaf4114b6c07",
+        "shuffled": "f25fbf4e0751350a8db7b2d1733e31955a0b207a8d9800ccd2b90834b44b44ea"
+      },
+      "library_path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/priors/retrieval3074/library.pt",
+      "library_sha256": "21cf53fccdc7b908ee6d9d42e31bd62442fbdb209d266c190756ab0965304acd",
+      "library_entries": 67240,
+      "same_pairs_actions_across_seeds": true
+    }
+  },
+  "trace_audits": {
+    "strict3072_validation_long_base_temporal_replace_b0": {
+      "passed": true,
+      "executed_action_values": 3372,
+      "post_terminal_nan_padding_values": 11628,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_base_temporal_replace_b1": {
+      "passed": true,
+      "executed_action_values": 3422,
+      "post_terminal_nan_padding_values": 11578,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_base_temporal_hybrid_b0": {
+      "passed": true,
+      "executed_action_values": 3860,
+      "post_terminal_nan_padding_values": 11140,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_base_temporal_hybrid_b1": {
+      "passed": true,
+      "executed_action_values": 3560,
+      "post_terminal_nan_padding_values": 3840,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_base_shuffled_replace_b0": {
+      "passed": true,
+      "executed_action_values": 14190,
+      "post_terminal_nan_padding_values": 810,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_base_shuffled_replace_b1": {
+      "passed": true,
+      "executed_action_values": 14248,
+      "post_terminal_nan_padding_values": 752,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_base_shuffled_hybrid_b0": {
+      "passed": true,
+      "executed_action_values": 6442,
+      "post_terminal_nan_padding_values": 8558,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_base_shuffled_hybrid_b1": {
+      "passed": true,
+      "executed_action_values": 6764,
+      "post_terminal_nan_padding_values": 8236,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_base_retrieval_only_b0": {
+      "passed": true,
+      "executed_action_values": 6454,
+      "post_terminal_nan_padding_values": 8546,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_base_retrieval_only_b1": {
+      "passed": true,
+      "executed_action_values": 6430,
+      "post_terminal_nan_padding_values": 8570,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_base_retrieval_rerank_b0": {
+      "passed": true,
+      "executed_action_values": 4046,
+      "post_terminal_nan_padding_values": 10954,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_base_retrieval_rerank_b1": {
+      "passed": true,
+      "executed_action_values": 4060,
+      "post_terminal_nan_padding_values": 6140,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_temporal_replace_b0": {
+      "passed": true,
+      "executed_action_values": 3222,
+      "post_terminal_nan_padding_values": 6478,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_temporal_replace_b1": {
+      "passed": true,
+      "executed_action_values": 3070,
+      "post_terminal_nan_padding_values": 1930,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_temporal_hybrid_b0": {
+      "passed": true,
+      "executed_action_values": 3544,
+      "post_terminal_nan_padding_values": 10656,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_temporal_hybrid_b1": {
+      "passed": true,
+      "executed_action_values": 3198,
+      "post_terminal_nan_padding_values": 1702,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_shuffled_replace_b0": {
+      "passed": true,
+      "executed_action_values": 13628,
+      "post_terminal_nan_padding_values": 1372,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_shuffled_replace_b1": {
+      "passed": true,
+      "executed_action_values": 14524,
+      "post_terminal_nan_padding_values": 476,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_shuffled_hybrid_b0": {
+      "passed": true,
+      "executed_action_values": 7516,
+      "post_terminal_nan_padding_values": 7484,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_shuffled_hybrid_b1": {
+      "passed": true,
+      "executed_action_values": 8194,
+      "post_terminal_nan_padding_values": 6806,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_retrieval_only_b0": {
+      "passed": true,
+      "executed_action_values": 6398,
+      "post_terminal_nan_padding_values": 8602,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_retrieval_only_b1": {
+      "passed": true,
+      "executed_action_values": 6332,
+      "post_terminal_nan_padding_values": 8668,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_retrieval_rerank_b0": {
+      "passed": true,
+      "executed_action_values": 3694,
+      "post_terminal_nan_padding_values": 11306,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_retrieval_rerank_b1": {
+      "passed": true,
+      "executed_action_values": 4424,
+      "post_terminal_nan_padding_values": 10576,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_temporal_replace_b0": {
+      "passed": true,
+      "executed_action_values": 2960,
+      "post_terminal_nan_padding_values": 2240,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_temporal_replace_b1": {
+      "passed": true,
+      "executed_action_values": 3040,
+      "post_terminal_nan_padding_values": 2360,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_temporal_hybrid_b0": {
+      "passed": true,
+      "executed_action_values": 3294,
+      "post_terminal_nan_padding_values": 4106,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_temporal_hybrid_b1": {
+      "passed": true,
+      "executed_action_values": 3498,
+      "post_terminal_nan_padding_values": 3602,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_shuffled_replace_b0": {
+      "passed": true,
+      "executed_action_values": 14250,
+      "post_terminal_nan_padding_values": 750,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_shuffled_replace_b1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_shuffled_hybrid_b0": {
+      "passed": true,
+      "executed_action_values": 7764,
+      "post_terminal_nan_padding_values": 7236,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_shuffled_hybrid_b1": {
+      "passed": true,
+      "executed_action_values": 9392,
+      "post_terminal_nan_padding_values": 5608,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_retrieval_only_b0": {
+      "passed": true,
+      "executed_action_values": 6276,
+      "post_terminal_nan_padding_values": 5524,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_retrieval_only_b1": {
+      "passed": true,
+      "executed_action_values": 6410,
+      "post_terminal_nan_padding_values": 8590,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_retrieval_rerank_b0": {
+      "passed": true,
+      "executed_action_values": 3768,
+      "post_terminal_nan_padding_values": 11232,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_retrieval_rerank_b1": {
+      "passed": true,
+      "executed_action_values": 4164,
+      "post_terminal_nan_padding_values": 10836,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    }
+  },
+  "limits": "All scores are same100 known-layout development cases; three independent WM seeds, same head pair/head optimization and evaluation seeds. Temporal targets are logged behavioral separation, not true geodesic reachability. Shuffled hybrid retains real latent cost and is not a no-information control. No final reserve data used."
+}

@@ -1,0 +1,103 @@
+{
+  "id": "validation_axis0_door65",
+  "split": "validation",
+  "axis": 0,
+  "door_center": 65,
+  "init_value": {
+    "wall.axis": 0,
+    "door.position": [
+      65,
+      65,
+      65
+    ],
+    "door.number": 1,
+    "door.size": [
+      14,
+      14,
+      14
+    ]
+  },
+  "selection_seed": 9102030,
+  "task": "synthetic direct-goal navigation; key 75 is adapter compatibility, not logged horizon",
+  "distance_range": [
+    75,
+    125
+  ],
+  "cases": [
+    {
+      "episode": 0,
+      "start_step": 0,
+      "start_xy": [
+        90.7571792602539,
+        135.0727996826172
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            171.32952880859375,
+            148.42210388183594
+          ],
+          "euclidean": 81.67072296142578,
+          "across_wall": false,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 13
+    },
+    {
+      "episode": 1,
+      "start_step": 0,
+      "start_xy": [
+        152.9999237060547,
+        67.13048553466797
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            30.84946060180664,
+            83.8731689453125
+          ],
+          "euclidean": 123.29255676269531,
+          "across_wall": false,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 22
+    }
+  ],
+  "case_sha256": "c4c186f4685356322ac9c72d14a4f15de58d0fa532fda4bfc6670cd9fd649070",
+  "goal_offset": 75,
+  "budget": 10,
+  "normalization": "strict training set only",
+  "normalization_path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+  "normalization_sha256": "21364f6d3810cf9847c0d65a2618d64ee9ebe8badbc8f9f001a321e804cffa1f",
+  "action_constraint": "original unconstrained search; environment clips physical actions",
+  "argv": [
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_strict.py",
+    "--config-name",
+    "tworoom",
+    "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_smoke_single_s4001_v2/weights_final.pt",
+    "seed=42",
+    "eval.num_eval=2",
+    "eval.dataset_name=tworoom",
+    "eval.goal_offset_steps=75",
+    "eval.eval_budget=10",
+    "solver.n_steps=1",
+    "solver.num_samples=8",
+    "solver.topk=2",
+    "plan_config.horizon=1",
+    "plan_config.receding_horizon=1",
+    "+plan_config.warm_start=false",
+    "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/geometry_smoke_single_eval/result.txt"
+  ],
+  "compute_cap_per_case": {
+    "candidate_model_steps": 16,
+    "horizon": 1,
+    "iterations": 1,
+    "candidates": 8,
+    "receding": 1,
+    "warm_start": false
+  }
+}

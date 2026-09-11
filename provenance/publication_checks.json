@@ -1,0 +1,25 @@
+{
+  "static": {
+    "passed": true,
+    "files_checked": 5084,
+    "originals_verified": 4197,
+    "errors": []
+  },
+  "numerical": {
+    "passed": true,
+    "batches": 238,
+    "episode_evaluations": 11900,
+    "groups": 85,
+    "summary_rows": 25,
+    "note": "Cases reused across seeds/methods/maps; not independent sample count."
+  },
+  "restore": {
+    "apply_verified": true,
+    "idempotent": true,
+    "conflict_refused": true,
+    "originals": 4197,
+    "used_disposable_temp_directory": true
+  },
+  "tested_unix": 1789103425.517074,
+  "scope": "Repository packaging only; no new GPU training/evaluation; no full trace audit rerun without excluded artifacts."
+}

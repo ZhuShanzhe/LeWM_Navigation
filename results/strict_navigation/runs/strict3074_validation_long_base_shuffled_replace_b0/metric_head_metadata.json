@@ -1,0 +1,10 @@
+{
+  "path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/temporal3074/shuffled.pt",
+  "sha256": "f25fbf4e0751350a8db7b2d1733e31955a0b207a8d9800ccd2b90834b44b44ea",
+  "kind": "shuffled",
+  "cost": "replace",
+  "parameters": 262913,
+  "model_sha256": "562551286da64cbfb3c0981a4b6537d3aea1ec8b007980152ae28fec67328486",
+  "adapted": true,
+  "extra_supervision": "training trajectory temporal separations only"
+}

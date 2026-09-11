@@ -1,0 +1,32 @@
+{
+  "kind": "datasets",
+  "env": "reacher",
+  "name": "quentinll/lewm-reacher",
+  "revision": "e70a080d0d04c6072123c9ebd343acf7fff28dbf",
+  "files": [
+    {
+      "type": "file",
+      "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+      "size": 2504,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "b8e40cd17c1a60f651eb3fc993df21a75800842e",
+      "size": 141,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "22c81f6154ac9844f0032d903c6bb3d58efd1d85",
+      "size": 23750614946,
+      "lfs": {
+        "oid": "4ff2385e49712caa89f21b8e0a246e2614b621d3f22cf2d1224d845e879a1cc2",
+        "size": 23750614946,
+        "pointerSize": 136
+      },
+      "xetHash": "bcd2f16a8344a2cb39052ddd70b4bafc0a078656e5c31d319ea229d8a372a78d",
+      "path": "reacher.tar.zst"
+    }
+  ]
+}

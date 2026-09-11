@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "updated_unix": 1789054378.1145833,
+  "records": [
+    {
+      "map": "four_room_chain",
+      "cases": 100,
+      "reference_successes": 100,
+      "max_reference_steps": 52,
+      "route_segments": 357,
+      "final_passthrough_pixels_exact": true,
+      "input_unmodified": true,
+      "dead_state_unchanged": true
+    },
+    {
+      "map": "four_room_cycle",
+      "cases": 100,
+      "reference_successes": 100,
+      "max_reference_steps": 39,
+      "route_segments": 305,
+      "final_passthrough_pixels_exact": true,
+      "input_unmodified": true,
+      "dead_state_unchanged": true
+    },
+    {
+      "map": "six_room_branch",
+      "cases": 100,
+      "reference_successes": 100,
+      "max_reference_steps": 44,
+      "route_segments": 380,
+      "final_passthrough_pixels_exact": true,
+      "input_unmodified": true,
+      "dead_state_unchanged": true
+    }
+  ],
+  "limits": "CPU scaffold/interface proof only; no learned policy result. True geometry and pose are privileged."
+}

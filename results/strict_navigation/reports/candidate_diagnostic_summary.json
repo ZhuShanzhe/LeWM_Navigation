@@ -1,0 +1,191 @@
+{
+  "model": "/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3072_v2/weights_final.pt",
+  "test_cases": 100,
+  "summary": {
+    "all": {
+      "n": 100,
+      "rank_pred_vs_actual_latent": {
+        "median": 0.1311355311355311,
+        "mean": 0.17899227434892842
+      },
+      "rank_actual_latent_vs_distance": {
+        "median": 0.14047619047619045,
+        "mean": 0.10864969941147691
+      },
+      "rank_actual_latent_vs_door_proxy": {
+        "median": 0.4532509157509157,
+        "mean": 0.3053204255925123
+      },
+      "selection_regret_actual_latent": {
+        "median": 34.28910827636719,
+        "mean": 55.97400663375854
+      },
+      "action_clipping_fraction": {
+        "median": 0.29000000000000004,
+        "mean": 0.275315625
+      },
+      "error_1": {
+        "open_loop": 0.004819350313628092,
+        "teacher_forced": 0.004819350313628092
+      },
+      "error_3": {
+        "open_loop": 0.01997732345480472,
+        "teacher_forced": 0.006664264431456104
+      },
+      "error_5": {
+        "open_loop": 0.06485532033140771,
+        "teacher_forced": 0.00990207064547576
+      },
+      "error_10": {
+        "open_loop": 0.18904787494568154,
+        "teacher_forced": 0.010190176822943613
+      },
+      "error_15": {
+        "open_loop": 0.23280316369608045,
+        "teacher_forced": 0.023954860375961288
+      },
+      "predicted_latent": {
+        "mean_distance_after5": 94.45183108329773,
+        "prefix_successes": 2
+      },
+      "oracle_actual_latent": {
+        "mean_distance_after5": 93.81122193336486,
+        "prefix_successes": 2
+      },
+      "oracle_euclidean": {
+        "mean_distance_after5": 92.56747532844544,
+        "prefix_successes": 2
+      },
+      "oracle_door_proxy": {
+        "mean_distance_after5": 92.71628758430481,
+        "prefix_successes": 2
+      }
+    },
+    "same_side": {
+      "n": 27,
+      "rank_pred_vs_actual_latent": {
+        "median": 0.12713099214172505,
+        "mean": 0.14279231613384838
+      },
+      "rank_actual_latent_vs_distance": {
+        "median": 0.42948717948717946,
+        "mean": 0.17539003552247642
+      },
+      "rank_actual_latent_vs_door_proxy": {
+        "median": 0.42948717948717946,
+        "mean": 0.176012746145187
+      },
+      "selection_regret_actual_latent": {
+        "median": 17.565765380859375,
+        "mean": 52.7799831672951
+      },
+      "action_clipping_fraction": {
+        "median": 0.331875,
+        "mean": 0.30375
+      },
+      "error_1": {
+        "open_loop": 0.006011496634326047,
+        "teacher_forced": 0.006011496634326047
+      },
+      "error_3": {
+        "open_loop": 0.01464652172634723,
+        "teacher_forced": 0.005899651687488788
+      },
+      "error_5": {
+        "open_loop": 0.021517774659312434,
+        "teacher_forced": 0.0040984166768827926
+      },
+      "error_10": {
+        "open_loop": 0.0550211252713645,
+        "teacher_forced": 0.005181374011078366
+      },
+      "error_15": {
+        "open_loop": 0.127994187089994,
+        "teacher_forced": 0.038381027773505556
+      },
+      "predicted_latent": {
+        "mean_distance_after5": 88.85457607551858,
+        "prefix_successes": 2
+      },
+      "oracle_actual_latent": {
+        "mean_distance_after5": 88.2704312713058,
+        "prefix_successes": 2
+      },
+      "oracle_euclidean": {
+        "mean_distance_after5": 88.30238261046233,
+        "prefix_successes": 2
+      },
+      "oracle_door_proxy": {
+        "mean_distance_after5": 88.30238261046233,
+        "prefix_successes": 2
+      }
+    },
+    "across_wall": {
+      "n": 73,
+      "rank_pred_vs_actual_latent": {
+        "median": 0.1392399267399267,
+        "mean": 0.1915617042847201
+      },
+      "rank_actual_latent_vs_distance": {
+        "median": 0.10393772893772893,
+        "mean": 0.08547597159515763
+      },
+      "rank_actual_latent_vs_door_proxy": {
+        "median": 0.45364010989010983,
+        "mean": 0.35021892540061145
+      },
+      "selection_regret_actual_latent": {
+        "median": 42.524993896484375,
+        "mean": 57.155357778888856
+      },
+      "action_clipping_fraction": {
+        "median": 0.2553125,
+        "mean": 0.264798801369863
+      },
+      "error_1": {
+        "open_loop": 0.004378419482685013,
+        "teacher_forced": 0.004378419482685013
+      },
+      "error_3": {
+        "open_loop": 0.02194898984752187,
+        "teacher_forced": 0.0069470664052522346
+      },
+      "error_5": {
+        "open_loop": 0.0808842755799909,
+        "teacher_forced": 0.01204862759276357
+      },
+      "error_10": {
+        "open_loop": 0.23861941249645635,
+        "teacher_forced": 0.012042747725962265
+      },
+      "error_15": {
+        "open_loop": 0.2715681276462768,
+        "teacher_forced": 0.01861915462618464
+      },
+      "predicted_latent": {
+        "mean_distance_after5": 96.52204868891468,
+        "prefix_successes": 0
+      },
+      "oracle_actual_latent": {
+        "mean_distance_after5": 95.86055546590727,
+        "prefix_successes": 0
+      },
+      "oracle_euclidean": {
+        "mean_distance_after5": 94.14497537482275,
+        "prefix_successes": 0
+      },
+      "oracle_door_proxy": {
+        "mean_distance_after5": 94.34882778010956,
+        "prefix_successes": 0
+      }
+    }
+  },
+  "limitations": [
+    "One-block choice interventions are not full closed-loop oracle policies.",
+    "Candidate set comes from finite CEM proposals; oracle choice does not prove globally optimal search.",
+    "Door center route is a geometry proxy, not exact geodesic.",
+    "Oracle scoring uses hidden simulator state and cannot be ranked as a visual baseline.",
+    "No outcome-dependent test-case filtering."
+  ],
+  "notice": "Mechanism exploration used the first 100 development-test cases. Final confirmatory cases are reserved separately. No full closed-loop oracle effect established."
+}

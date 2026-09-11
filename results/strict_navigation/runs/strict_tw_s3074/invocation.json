@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/train_strict.py",
+    "data=tworoom",
+    "seed=3074",
+    "history_size=1",
+    "loss.sigreg.weight=0.1",
+    "trainer.max_epochs=10",
+    "subdir=strict_tw_s3074",
+    "output_model_name=strict_tw_s3074",
+    "num_workers=6",
+    "+trainer.enable_progress_bar=false"
+  ],
+  "seed": 3074,
+  "quota_seconds": 43000.0,
+  "stop_steps": 0,
+  "start_unix": 1789054686.029275
+}

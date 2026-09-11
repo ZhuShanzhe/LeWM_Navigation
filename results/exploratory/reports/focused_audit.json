@@ -1,0 +1,539 @@
+[
+  {
+    "tag": "focus_noop_long_s42",
+    "seconds": 38.529391288757324,
+    "n": 50,
+    "success_rate": 0.0,
+    "termination_agrees": true,
+    "noop_max_action": 0.0,
+    "noop_max_displacement": 0.0
+  },
+  {
+    "tag": "focus_noop_long_s43",
+    "seconds": 38.46457767486572,
+    "n": 50,
+    "success_rate": 0.0,
+    "termination_agrees": true,
+    "noop_max_action": 0.0,
+    "noop_max_displacement": 0.0
+  },
+  {
+    "tag": "focus_noop_long_s44",
+    "seconds": 38.63386058807373,
+    "n": 50,
+    "success_rate": 0.0,
+    "termination_agrees": true,
+    "noop_max_action": 0.0,
+    "noop_max_displacement": 0.0
+  },
+  {
+    "tag": "focus_noop_short_s42",
+    "seconds": 16.670948266983032,
+    "n": 50,
+    "success_rate": 4.0,
+    "termination_agrees": true,
+    "noop_max_action": 0.0,
+    "noop_max_displacement": 0.0
+  },
+  {
+    "tag": "focus_noop_short_s43",
+    "seconds": 17.848414659500122,
+    "n": 50,
+    "success_rate": 4.0,
+    "termination_agrees": true,
+    "noop_max_action": 0.0,
+    "noop_max_displacement": 0.0
+  },
+  {
+    "tag": "focus_noop_short_s44",
+    "seconds": 16.499116897583008,
+    "n": 50,
+    "success_rate": 6.0,
+    "termination_agrees": true,
+    "noop_max_action": 0.0,
+    "noop_max_displacement": 0.0
+  },
+  {
+    "tag": "focus_public_long_cem30_s42",
+    "seconds": 127.91838312149048,
+    "n": 50,
+    "success_rate": 36.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_cem30_s43",
+    "seconds": 120.55193519592285,
+    "n": 50,
+    "success_rate": 36.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_cem30_s44",
+    "seconds": 124.48999691009521,
+    "n": 50,
+    "success_rate": 40.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_h10_n150_s42",
+    "seconds": 96.84725260734558,
+    "n": 50,
+    "success_rate": 40.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_h10_n150_s43",
+    "seconds": 105.21663093566895,
+    "n": 50,
+    "success_rate": 40.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_h10_n150_s44",
+    "seconds": 104.64311408996582,
+    "n": 50,
+    "success_rate": 44.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_replan1_iter10_s42",
+    "seconds": 172.98346853256226,
+    "n": 50,
+    "success_rate": 38.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_replan1_iter10_s43",
+    "seconds": 192.12293338775635,
+    "n": 50,
+    "success_rate": 30.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_replan1_iter10_s44",
+    "seconds": 175.19099879264832,
+    "n": 50,
+    "success_rate": 40.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_replan1_iter2_s42",
+    "seconds": 76.69101762771606,
+    "n": 50,
+    "success_rate": 36.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_replan1_iter2_s43",
+    "seconds": 83.41867733001709,
+    "n": 50,
+    "success_rate": 32.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_replan1_iter2_s44",
+    "seconds": 80.67449688911438,
+    "n": 50,
+    "success_rate": 38.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_s42",
+    "seconds": 69.48662543296814,
+    "n": 50,
+    "success_rate": 36.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_s43",
+    "seconds": 74.01321172714233,
+    "n": 50,
+    "success_rate": 32.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_long_s44",
+    "seconds": 71.4132730960846,
+    "n": 50,
+    "success_rate": 40.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_short150_s42",
+    "seconds": 42.97571778297424,
+    "n": 50,
+    "success_rate": 82.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_short150_s43",
+    "seconds": 51.99797034263611,
+    "n": 50,
+    "success_rate": 78.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_short150_s44",
+    "seconds": 45.427732944488525,
+    "n": 50,
+    "success_rate": 84.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_short_s42",
+    "seconds": 27.05712890625,
+    "n": 50,
+    "success_rate": 80.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_short_s43",
+    "seconds": 28.554741621017456,
+    "n": 50,
+    "success_rate": 78.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_public_short_s44",
+    "seconds": 25.290472984313965,
+    "n": 50,
+    "success_rate": 84.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_random_long_s42",
+    "seconds": 38.37981820106506,
+    "n": 50,
+    "success_rate": 0.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_random_long_s43",
+    "seconds": 37.00841212272644,
+    "n": 50,
+    "success_rate": 4.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_random_long_s44",
+    "seconds": 37.296149253845215,
+    "n": 50,
+    "success_rate": 4.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_random_short_s42",
+    "seconds": 17.370357036590576,
+    "n": 50,
+    "success_rate": 28.000000000000004,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_random_short_s43",
+    "seconds": 16.21770143508911,
+    "n": 50,
+    "success_rate": 38.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_random_short_s44",
+    "seconds": 16.50843858718872,
+    "n": 50,
+    "success_rate": 18.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_cem30_s42",
+    "seconds": 145.66272592544556,
+    "n": 50,
+    "success_rate": 56.00000000000001,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_cem30_s43",
+    "seconds": 146.55681347846985,
+    "n": 50,
+    "success_rate": 60.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_cem30_s44",
+    "seconds": 144.16487050056458,
+    "n": 50,
+    "success_rate": 60.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_h10_n150_s42",
+    "seconds": 107.49515128135681,
+    "n": 50,
+    "success_rate": 60.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_h10_n150_s43",
+    "seconds": 106.20585250854492,
+    "n": 50,
+    "success_rate": 62.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_h10_n150_s44",
+    "seconds": 101.73384308815002,
+    "n": 50,
+    "success_rate": 68.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_replan1_iter10_s42",
+    "seconds": 190.45004796981812,
+    "n": 50,
+    "success_rate": 64.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_replan1_iter10_s43",
+    "seconds": 212.15512323379517,
+    "n": 50,
+    "success_rate": 60.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_replan1_iter10_s44",
+    "seconds": 190.80547094345093,
+    "n": 50,
+    "success_rate": 64.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_replan1_iter2_s42",
+    "seconds": 80.00770306587219,
+    "n": 50,
+    "success_rate": 54.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_replan1_iter2_s43",
+    "seconds": 83.49417471885681,
+    "n": 50,
+    "success_rate": 52.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_replan1_iter2_s44",
+    "seconds": 72.24471235275269,
+    "n": 50,
+    "success_rate": 60.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_s42",
+    "seconds": 73.51908731460571,
+    "n": 50,
+    "success_rate": 57.99999999999999,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_s43",
+    "seconds": 71.33258247375488,
+    "n": 50,
+    "success_rate": 52.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_long_s44",
+    "seconds": 73.55216193199158,
+    "n": 50,
+    "success_rate": 60.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_short150_s42",
+    "seconds": 21.79457998275757,
+    "n": 50,
+    "success_rate": 100.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_short150_s43",
+    "seconds": 44.83353090286255,
+    "n": 50,
+    "success_rate": 94.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_short150_s44",
+    "seconds": 47.567283630371094,
+    "n": 50,
+    "success_rate": 94.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_short_s42",
+    "seconds": 24.38932180404663,
+    "n": 50,
+    "success_rate": 100.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_short_s43",
+    "seconds": 28.572906732559204,
+    "n": 50,
+    "success_rate": 94.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3072_short_s44",
+    "seconds": 29.127728939056396,
+    "n": 50,
+    "success_rate": 92.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_cem30_s42",
+    "seconds": 133.67100977897644,
+    "n": 50,
+    "success_rate": 62.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_cem30_s43",
+    "seconds": 139.67932844161987,
+    "n": 50,
+    "success_rate": 66.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_cem30_s44",
+    "seconds": 141.34832429885864,
+    "n": 50,
+    "success_rate": 57.99999999999999,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_h10_n150_s42",
+    "seconds": 110.36816930770874,
+    "n": 50,
+    "success_rate": 64.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_h10_n150_s43",
+    "seconds": 107.79155683517456,
+    "n": 50,
+    "success_rate": 74.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_h10_n150_s44",
+    "seconds": 113.59946942329407,
+    "n": 50,
+    "success_rate": 57.99999999999999,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_replan1_iter10_s42",
+    "seconds": 193.94780373573303,
+    "n": 50,
+    "success_rate": 64.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_replan1_iter10_s43",
+    "seconds": 192.10993885993958,
+    "n": 50,
+    "success_rate": 74.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_replan1_iter10_s44",
+    "seconds": 187.607417345047,
+    "n": 50,
+    "success_rate": 68.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_replan1_iter2_s42",
+    "seconds": 77.24148082733154,
+    "n": 50,
+    "success_rate": 64.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_replan1_iter2_s43",
+    "seconds": 78.8743405342102,
+    "n": 50,
+    "success_rate": 68.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_replan1_iter2_s44",
+    "seconds": 71.62839770317078,
+    "n": 50,
+    "success_rate": 62.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_s42",
+    "seconds": 71.82828879356384,
+    "n": 50,
+    "success_rate": 62.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_s43",
+    "seconds": 81.96597504615784,
+    "n": 50,
+    "success_rate": 64.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_long_s44",
+    "seconds": 80.43824815750122,
+    "n": 50,
+    "success_rate": 56.00000000000001,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_short150_s42",
+    "seconds": 44.036155223846436,
+    "n": 50,
+    "success_rate": 94.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_short150_s43",
+    "seconds": 49.440112829208374,
+    "n": 50,
+    "success_rate": 90.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_short150_s44",
+    "seconds": 44.19859004020691,
+    "n": 50,
+    "success_rate": 94.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_short_s42",
+    "seconds": 29.61604905128479,
+    "n": 50,
+    "success_rate": 94.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_short_s43",
+    "seconds": 29.34431481361389,
+    "n": 50,
+    "success_rate": 90.0,
+    "termination_agrees": true
+  },
+  {
+    "tag": "focus_trained3073_short_s44",
+    "seconds": 28.27241802215576,
+    "n": 50,
+    "success_rate": 94.0,
+    "termination_agrees": true
+  }
+]

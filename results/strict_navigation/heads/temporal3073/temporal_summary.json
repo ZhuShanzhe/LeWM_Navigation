@@ -1,0 +1,114 @@
+{
+  "kind": "temporal",
+  "epochs": 20,
+  "best_epoch": 6,
+  "validation_loss": 0.0025129455607384443,
+  "validation_temporal_mae_steps": 12.267526626586914,
+  "validation_spearman": 0.8406907795135388,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.010104067250117659,
+      "validation_loss": 0.0037143209483474493
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0028572907210141422,
+      "validation_loss": 0.0026605429593473673
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.002514741668403149,
+      "validation_loss": 0.0025426058564335108
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.002438225538507104,
+      "validation_loss": 0.0025433890987187624
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0024063913013786077,
+      "validation_loss": 0.0025658532977104187
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.002390155048966408,
+      "validation_loss": 0.0025129455607384443
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.0023451773009449243,
+      "validation_loss": 0.002538406290113926
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.002324147637858987,
+      "validation_loss": 0.0025759737472981215
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.0023104195568710564,
+      "validation_loss": 0.0026211882941424847
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.00229403688646853,
+      "validation_loss": 0.0025429546367377043
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.0022748836815357208,
+      "validation_loss": 0.002568192547187209
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.0022566139382869006,
+      "validation_loss": 0.0025660297833383083
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.0022451605868339538,
+      "validation_loss": 0.0025926996022462845
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.0022199043750762938,
+      "validation_loss": 0.0025649231392890215
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.0022041312523186207,
+      "validation_loss": 0.00258834520354867
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.002200318477228284,
+      "validation_loss": 0.00259918044321239
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.002177741245776415,
+      "validation_loss": 0.002607979578897357
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.0021571228225529195,
+      "validation_loss": 0.0026310267858207226
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.002146145684272051,
+      "validation_loss": 0.002668522298336029
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.0021300146970152853,
+      "validation_loss": 0.002667852444574237
+    }
+  ],
+  "fit_seconds": 3.605390787124634,
+  "parameters": 262913,
+  "selection": "minimum heldout pair loss; no navigation outcome",
+  "path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/temporal3073/temporal.pt"
+}

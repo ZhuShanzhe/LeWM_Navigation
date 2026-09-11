@@ -1,0 +1,4262 @@
+{
+  "passed": true,
+  "updated_unix": 1789065167.058341,
+  "results": {
+    "four_room_chain": {
+      "8": {
+        "n": 100,
+        "successes": 100,
+        "max_steps": 49,
+        "blocked_next_lines": 0,
+        "cases": [
+          {
+            "episode": 0,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 1,
+            "success": true,
+            "steps": 8,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 2,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 3,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 4,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 5,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 6,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 7,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 8,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 9,
+            "success": true,
+            "steps": 3,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 10,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 11,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 12,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 13,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 14,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 15,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 16,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 17,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 18,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 19,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 20,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 21,
+            "success": true,
+            "steps": 21,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 22,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 23,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 24,
+            "success": true,
+            "steps": 46,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 25,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 26,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 27,
+            "success": true,
+            "steps": 25,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 28,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 29,
+            "success": true,
+            "steps": 33,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 30,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 31,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 32,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 33,
+            "success": true,
+            "steps": 38,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 34,
+            "success": true,
+            "steps": 37,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 35,
+            "success": true,
+            "steps": 36,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 36,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 37,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 38,
+            "success": true,
+            "steps": 24,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 39,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 40,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 41,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 42,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 43,
+            "success": true,
+            "steps": 23,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 44,
+            "success": true,
+            "steps": 26,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 45,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 46,
+            "success": true,
+            "steps": 14,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 47,
+            "success": true,
+            "steps": 49,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 48,
+            "success": true,
+            "steps": 46,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 49,
+            "success": true,
+            "steps": 30,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 50,
+            "success": true,
+            "steps": 39,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 51,
+            "success": true,
+            "steps": 33,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 52,
+            "success": true,
+            "steps": 25,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 53,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 54,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 55,
+            "success": true,
+            "steps": 26,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 56,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 57,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 58,
+            "success": true,
+            "steps": 17,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 59,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 60,
+            "success": true,
+            "steps": 17,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 61,
+            "success": true,
+            "steps": 23,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 62,
+            "success": true,
+            "steps": 45,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 63,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 64,
+            "success": true,
+            "steps": 30,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 65,
+            "success": true,
+            "steps": 14,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 66,
+            "success": true,
+            "steps": 23,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 67,
+            "success": true,
+            "steps": 49,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 68,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 69,
+            "success": true,
+            "steps": 41,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 70,
+            "success": true,
+            "steps": 30,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 71,
+            "success": true,
+            "steps": 35,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 72,
+            "success": true,
+            "steps": 35,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 73,
+            "success": true,
+            "steps": 26,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 74,
+            "success": true,
+            "steps": 21,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 75,
+            "success": true,
+            "steps": 16,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 76,
+            "success": true,
+            "steps": 40,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 77,
+            "success": true,
+            "steps": 25,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 78,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 79,
+            "success": true,
+            "steps": 26,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 80,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 81,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 82,
+            "success": true,
+            "steps": 24,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 83,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 84,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 85,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 86,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 87,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 88,
+            "success": true,
+            "steps": 22,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 89,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 90,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 91,
+            "success": true,
+            "steps": 42,
+            "switches": 5,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 92,
+            "success": true,
+            "steps": 25,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 93,
+            "success": true,
+            "steps": 39,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 94,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 95,
+            "success": true,
+            "steps": 16,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 96,
+            "success": true,
+            "steps": 30,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 97,
+            "success": true,
+            "steps": 41,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 98,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 99,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          }
+        ]
+      },
+      "16": {
+        "n": 100,
+        "successes": 100,
+        "max_steps": 46,
+        "blocked_next_lines": 64,
+        "cases": [
+          {
+            "episode": 0,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 1,
+            "success": true,
+            "steps": 8,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 2,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 3,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 4,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 5,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 6,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 7,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 8,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 9,
+            "success": true,
+            "steps": 3,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 10,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 11,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 12,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 13,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 14,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 15,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 16,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 17,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 18,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 19,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 20,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 21,
+            "success": true,
+            "steps": 21,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 22,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 23,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 24,
+            "success": true,
+            "steps": 41,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 25,
+            "success": true,
+            "steps": 17,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 26,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 27,
+            "success": true,
+            "steps": 23,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 28,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 29,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 30,
+            "success": true,
+            "steps": 26,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 31,
+            "success": true,
+            "steps": 17,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 32,
+            "success": true,
+            "steps": 25,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 33,
+            "success": true,
+            "steps": 35,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 34,
+            "success": true,
+            "steps": 35,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 35,
+            "success": true,
+            "steps": 34,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 36,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 37,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 38,
+            "success": true,
+            "steps": 24,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 39,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 40,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 41,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 42,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 43,
+            "success": true,
+            "steps": 23,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 44,
+            "success": true,
+            "steps": 22,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 45,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 46,
+            "success": true,
+            "steps": 12,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 47,
+            "success": true,
+            "steps": 45,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 48,
+            "success": true,
+            "steps": 43,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 49,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 50,
+            "success": true,
+            "steps": 37,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 51,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 52,
+            "success": true,
+            "steps": 25,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 53,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 54,
+            "success": true,
+            "steps": 30,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 55,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 56,
+            "success": true,
+            "steps": 17,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 57,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 58,
+            "success": true,
+            "steps": 16,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 59,
+            "success": true,
+            "steps": 25,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 60,
+            "success": true,
+            "steps": 16,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 61,
+            "success": true,
+            "steps": 23,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 62,
+            "success": true,
+            "steps": 42,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 63,
+            "success": true,
+            "steps": 12,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 64,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 65,
+            "success": true,
+            "steps": 14,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 66,
+            "success": true,
+            "steps": 23,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 67,
+            "success": true,
+            "steps": 46,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 68,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 69,
+            "success": true,
+            "steps": 38,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 70,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 71,
+            "success": true,
+            "steps": 33,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 72,
+            "success": true,
+            "steps": 33,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 73,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 74,
+            "success": true,
+            "steps": 21,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 75,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 76,
+            "success": true,
+            "steps": 36,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 77,
+            "success": true,
+            "steps": 25,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 78,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 79,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 80,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 81,
+            "success": true,
+            "steps": 10,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 82,
+            "success": true,
+            "steps": 22,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 83,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 84,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 85,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 86,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 87,
+            "success": true,
+            "steps": 30,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 88,
+            "success": true,
+            "steps": 22,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 89,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 90,
+            "success": true,
+            "steps": 26,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 91,
+            "success": true,
+            "steps": 38,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 92,
+            "success": true,
+            "steps": 22,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 93,
+            "success": true,
+            "steps": 37,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 94,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 95,
+            "success": true,
+            "steps": 16,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 96,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 97,
+            "success": true,
+            "steps": 36,
+            "switches": 6,
+            "blocked_next_line_at_switch": 3
+          },
+          {
+            "episode": 98,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 99,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          }
+        ]
+      }
+    },
+    "four_room_cycle": {
+      "8": {
+        "n": 100,
+        "successes": 100,
+        "max_steps": 38,
+        "blocked_next_lines": 0,
+        "cases": [
+          {
+            "episode": 0,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 1,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 2,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 3,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 4,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 5,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 6,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 7,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 8,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 9,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 10,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 11,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 12,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 13,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 14,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 15,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 16,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 17,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 18,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 19,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 20,
+            "success": true,
+            "steps": 35,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 21,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 22,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 23,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 24,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 25,
+            "success": true,
+            "steps": 10,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 26,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 27,
+            "success": true,
+            "steps": 24,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 28,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 29,
+            "success": true,
+            "steps": 27,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 30,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 31,
+            "success": true,
+            "steps": 12,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 32,
+            "success": true,
+            "steps": 16,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 33,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 34,
+            "success": true,
+            "steps": 14,
+            "switches": 1,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 35,
+            "success": true,
+            "steps": 14,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 36,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 37,
+            "success": true,
+            "steps": 33,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 38,
+            "success": true,
+            "steps": 10,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 39,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 40,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 41,
+            "success": true,
+            "steps": 16,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 42,
+            "success": true,
+            "steps": 33,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 43,
+            "success": true,
+            "steps": 32,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 44,
+            "success": true,
+            "steps": 22,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 45,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 46,
+            "success": true,
+            "steps": 21,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 47,
+            "success": true,
+            "steps": 25,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 48,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 49,
+            "success": true,
+            "steps": 23,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 50,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 51,
+            "success": true,
+            "steps": 34,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 52,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 53,
+            "success": true,
+            "steps": 21,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 54,
+            "success": true,
+            "steps": 14,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 55,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 56,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 57,
+            "success": true,
+            "steps": 34,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 58,
+            "success": true,
+            "steps": 22,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 59,
+            "success": true,
+            "steps": 30,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 60,
+            "success": true,
+            "steps": 17,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 61,
+            "success": true,
+            "steps": 14,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 62,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 63,
+            "success": true,
+            "steps": 25,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 64,
+            "success": true,
+            "steps": 32,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 65,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 66,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 67,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 68,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 69,
+            "success": true,
+            "steps": 25,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 70,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 71,
+            "success": true,
+            "steps": 32,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 72,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 73,
+            "success": true,
+            "steps": 30,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 74,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 75,
+            "success": true,
+            "steps": 26,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 76,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 77,
+            "success": true,
+            "steps": 23,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 78,
+            "success": true,
+            "steps": 38,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 79,
+            "success": true,
+            "steps": 22,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 80,
+            "success": true,
+            "steps": 16,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 81,
+            "success": true,
+            "steps": 22,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 82,
+            "success": true,
+            "steps": 17,
+            "switches": 1,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 83,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 84,
+            "success": true,
+            "steps": 33,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 85,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 86,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 87,
+            "success": true,
+            "steps": 25,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 88,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 89,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 90,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 91,
+            "success": true,
+            "steps": 32,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 92,
+            "success": true,
+            "steps": 17,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 93,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 94,
+            "success": true,
+            "steps": 32,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 95,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 96,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 97,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 98,
+            "success": true,
+            "steps": 30,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 99,
+            "success": true,
+            "steps": 11,
+            "switches": 1,
+            "blocked_next_line_at_switch": 0
+          }
+        ]
+      },
+      "16": {
+        "n": 100,
+        "successes": 100,
+        "max_steps": 36,
+        "blocked_next_lines": 43,
+        "cases": [
+          {
+            "episode": 0,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 1,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 2,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 3,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 4,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 5,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 6,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 7,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 8,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 9,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 10,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 11,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 12,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 13,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 14,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 15,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 16,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 17,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 18,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 19,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 20,
+            "success": true,
+            "steps": 34,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 21,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 22,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 23,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 24,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 25,
+            "success": true,
+            "steps": 9,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 26,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 27,
+            "success": true,
+            "steps": 24,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 28,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 29,
+            "success": true,
+            "steps": 27,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 30,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 31,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 32,
+            "success": true,
+            "steps": 16,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 33,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 34,
+            "success": true,
+            "steps": 14,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 35,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 36,
+            "success": true,
+            "steps": 19,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 37,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 38,
+            "success": true,
+            "steps": 8,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 39,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 40,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 41,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 42,
+            "success": true,
+            "steps": 32,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 43,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 44,
+            "success": true,
+            "steps": 20,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 45,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 46,
+            "success": true,
+            "steps": 21,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 47,
+            "success": true,
+            "steps": 23,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 48,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 49,
+            "success": true,
+            "steps": 23,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 50,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 51,
+            "success": true,
+            "steps": 32,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 52,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 53,
+            "success": true,
+            "steps": 21,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 54,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 55,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 56,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 57,
+            "success": true,
+            "steps": 32,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 58,
+            "success": true,
+            "steps": 22,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 59,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 60,
+            "success": true,
+            "steps": 17,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 61,
+            "success": true,
+            "steps": 14,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 62,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 63,
+            "success": true,
+            "steps": 23,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 64,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 65,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 66,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 67,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 68,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 69,
+            "success": true,
+            "steps": 25,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 70,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 71,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 72,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 73,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 74,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 75,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 76,
+            "success": true,
+            "steps": 12,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 77,
+            "success": true,
+            "steps": 20,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 78,
+            "success": true,
+            "steps": 36,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 79,
+            "success": true,
+            "steps": 22,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 80,
+            "success": true,
+            "steps": 16,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 81,
+            "success": true,
+            "steps": 19,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 82,
+            "success": true,
+            "steps": 17,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 83,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 84,
+            "success": true,
+            "steps": 32,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 85,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 86,
+            "success": true,
+            "steps": 14,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 87,
+            "success": true,
+            "steps": 23,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 88,
+            "success": true,
+            "steps": 30,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 89,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 90,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 91,
+            "success": true,
+            "steps": 30,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 92,
+            "success": true,
+            "steps": 17,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 93,
+            "success": true,
+            "steps": 26,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 94,
+            "success": true,
+            "steps": 30,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 95,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 96,
+            "success": true,
+            "steps": 18,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 97,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 98,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 99,
+            "success": true,
+            "steps": 10,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          }
+        ]
+      }
+    },
+    "six_room_branch": {
+      "8": {
+        "n": 100,
+        "successes": 100,
+        "max_steps": 39,
+        "blocked_next_lines": 0,
+        "cases": [
+          {
+            "episode": 0,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 1,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 2,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 3,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 4,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 5,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 6,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 7,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 8,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 9,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 10,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 11,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 12,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 13,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 14,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 15,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 16,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 17,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 18,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 19,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 20,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 21,
+            "success": true,
+            "steps": 25,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 22,
+            "success": true,
+            "steps": 7,
+            "switches": 1,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 23,
+            "success": true,
+            "steps": 39,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 24,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 25,
+            "success": true,
+            "steps": 23,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 26,
+            "success": true,
+            "steps": 33,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 27,
+            "success": true,
+            "steps": 37,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 28,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 29,
+            "success": true,
+            "steps": 9,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 30,
+            "success": true,
+            "steps": 37,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 31,
+            "success": true,
+            "steps": 35,
+            "switches": 5,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 32,
+            "success": true,
+            "steps": 38,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 33,
+            "success": true,
+            "steps": 24,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 34,
+            "success": true,
+            "steps": 38,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 35,
+            "success": true,
+            "steps": 36,
+            "switches": 5,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 36,
+            "success": true,
+            "steps": 22,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 37,
+            "success": true,
+            "steps": 32,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 38,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 39,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 40,
+            "success": true,
+            "steps": 12,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 41,
+            "success": true,
+            "steps": 36,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 42,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 43,
+            "success": true,
+            "steps": 25,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 44,
+            "success": true,
+            "steps": 38,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 45,
+            "success": true,
+            "steps": 37,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 46,
+            "success": true,
+            "steps": 12,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 47,
+            "success": true,
+            "steps": 37,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 48,
+            "success": true,
+            "steps": 23,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 49,
+            "success": true,
+            "steps": 26,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 50,
+            "success": true,
+            "steps": 33,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 51,
+            "success": true,
+            "steps": 10,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 52,
+            "success": true,
+            "steps": 14,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 53,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 54,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 55,
+            "success": true,
+            "steps": 38,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 56,
+            "success": true,
+            "steps": 35,
+            "switches": 5,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 57,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 58,
+            "success": true,
+            "steps": 22,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 59,
+            "success": true,
+            "steps": 23,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 60,
+            "success": true,
+            "steps": 8,
+            "switches": 1,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 61,
+            "success": true,
+            "steps": 36,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 62,
+            "success": true,
+            "steps": 17,
+            "switches": 1,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 63,
+            "success": true,
+            "steps": 10,
+            "switches": 1,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 64,
+            "success": true,
+            "steps": 38,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 65,
+            "success": true,
+            "steps": 12,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 66,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 67,
+            "success": true,
+            "steps": 13,
+            "switches": 1,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 68,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 69,
+            "success": true,
+            "steps": 30,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 70,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 71,
+            "success": true,
+            "steps": 16,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 72,
+            "success": true,
+            "steps": 25,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 73,
+            "success": true,
+            "steps": 25,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 74,
+            "success": true,
+            "steps": 35,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 75,
+            "success": true,
+            "steps": 26,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 76,
+            "success": true,
+            "steps": 26,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 77,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 78,
+            "success": true,
+            "steps": 12,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 79,
+            "success": true,
+            "steps": 30,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 80,
+            "success": true,
+            "steps": 26,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 81,
+            "success": true,
+            "steps": 24,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 82,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 83,
+            "success": true,
+            "steps": 37,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 84,
+            "success": true,
+            "steps": 21,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 85,
+            "success": true,
+            "steps": 32,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 86,
+            "success": true,
+            "steps": 37,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 87,
+            "success": true,
+            "steps": 22,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 88,
+            "success": true,
+            "steps": 9,
+            "switches": 1,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 89,
+            "success": true,
+            "steps": 10,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 90,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 91,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 92,
+            "success": true,
+            "steps": 39,
+            "switches": 6,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 93,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 94,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 95,
+            "success": true,
+            "steps": 14,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 96,
+            "success": true,
+            "steps": 22,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 97,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 98,
+            "success": true,
+            "steps": 23,
+            "switches": 3,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 99,
+            "success": true,
+            "steps": 25,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          }
+        ]
+      },
+      "16": {
+        "n": 100,
+        "successes": 100,
+        "max_steps": 37,
+        "blocked_next_lines": 64,
+        "cases": [
+          {
+            "episode": 0,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 1,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 2,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 3,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 4,
+            "success": true,
+            "steps": 7,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 5,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 6,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 7,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 8,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 9,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 10,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 11,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 12,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 13,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 14,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 15,
+            "success": true,
+            "steps": 6,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 16,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 17,
+            "success": true,
+            "steps": 4,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 18,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 19,
+            "success": true,
+            "steps": 5,
+            "switches": 0,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 20,
+            "success": true,
+            "steps": 10,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 21,
+            "success": true,
+            "steps": 22,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 22,
+            "success": true,
+            "steps": 7,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 23,
+            "success": true,
+            "steps": 36,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 24,
+            "success": true,
+            "steps": 26,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 25,
+            "success": true,
+            "steps": 21,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 26,
+            "success": true,
+            "steps": 31,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 27,
+            "success": true,
+            "steps": 33,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 28,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 29,
+            "success": true,
+            "steps": 9,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 30,
+            "success": true,
+            "steps": 33,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 31,
+            "success": true,
+            "steps": 31,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 32,
+            "success": true,
+            "steps": 34,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 33,
+            "success": true,
+            "steps": 24,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 34,
+            "success": true,
+            "steps": 35,
+            "switches": 6,
+            "blocked_next_line_at_switch": 3
+          },
+          {
+            "episode": 35,
+            "success": true,
+            "steps": 34,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 36,
+            "success": true,
+            "steps": 20,
+            "switches": 3,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 37,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 38,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 39,
+            "success": true,
+            "steps": 15,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 40,
+            "success": true,
+            "steps": 12,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 41,
+            "success": true,
+            "steps": 30,
+            "switches": 6,
+            "blocked_next_line_at_switch": 3
+          },
+          {
+            "episode": 42,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 43,
+            "success": true,
+            "steps": 23,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 44,
+            "success": true,
+            "steps": 34,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 45,
+            "success": true,
+            "steps": 34,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 46,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 47,
+            "success": true,
+            "steps": 34,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 48,
+            "success": true,
+            "steps": 21,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 49,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 50,
+            "success": true,
+            "steps": 31,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 51,
+            "success": true,
+            "steps": 9,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 52,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 53,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 54,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 55,
+            "success": true,
+            "steps": 35,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 56,
+            "success": true,
+            "steps": 32,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 57,
+            "success": true,
+            "steps": 22,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 58,
+            "success": true,
+            "steps": 21,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 59,
+            "success": true,
+            "steps": 21,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 60,
+            "success": true,
+            "steps": 8,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 61,
+            "success": true,
+            "steps": 33,
+            "switches": 6,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 62,
+            "success": true,
+            "steps": 17,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 63,
+            "success": true,
+            "steps": 10,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 64,
+            "success": true,
+            "steps": 35,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 65,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 66,
+            "success": true,
+            "steps": 23,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 67,
+            "success": true,
+            "steps": 13,
+            "switches": 1,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 68,
+            "success": true,
+            "steps": 20,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 69,
+            "success": true,
+            "steps": 28,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 70,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 71,
+            "success": true,
+            "steps": 16,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 72,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 73,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 74,
+            "success": true,
+            "steps": 33,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 75,
+            "success": true,
+            "steps": 25,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 76,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 77,
+            "success": true,
+            "steps": 27,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 78,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 79,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 80,
+            "success": true,
+            "steps": 23,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 81,
+            "success": true,
+            "steps": 22,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 82,
+            "success": true,
+            "steps": 23,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 83,
+            "success": true,
+            "steps": 35,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 84,
+            "success": true,
+            "steps": 21,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 85,
+            "success": true,
+            "steps": 29,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 86,
+            "success": true,
+            "steps": 34,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 87,
+            "success": true,
+            "steps": 20,
+            "switches": 4,
+            "blocked_next_line_at_switch": 2
+          },
+          {
+            "episode": 88,
+            "success": true,
+            "steps": 9,
+            "switches": 1,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 89,
+            "success": true,
+            "steps": 10,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 90,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 91,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 92,
+            "success": true,
+            "steps": 37,
+            "switches": 6,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 93,
+            "success": true,
+            "steps": 11,
+            "switches": 2,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 94,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 95,
+            "success": true,
+            "steps": 13,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 96,
+            "success": true,
+            "steps": 20,
+            "switches": 4,
+            "blocked_next_line_at_switch": 1
+          },
+          {
+            "episode": 97,
+            "success": true,
+            "steps": 12,
+            "switches": 2,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 98,
+            "success": true,
+            "steps": 22,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          },
+          {
+            "episode": 99,
+            "success": true,
+            "steps": 24,
+            "switches": 4,
+            "blocked_next_line_at_switch": 0
+          }
+        ]
+      }
+    }
+  },
+  "source_sha256": "20fa009e3518e57f6a6a8cb528700669764b211761ef59f11437d32b2d2b1434",
+  "limits": "True-state direct low-level controller and actual8/16px switching rule, not learned policy. This complements earlier nominal exact-waypoint feasibility which did not execute switching tolerance."
+}

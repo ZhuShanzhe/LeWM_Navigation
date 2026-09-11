@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/train_strict.py",
+    "data=tworoom",
+    "data.dataset.name=/root/autodl-tmp/lewm_research/data/nav_multi_control.h5",
+    "seed=4001",
+    "history_size=1",
+    "loss.sigreg.weight=0.1",
+    "trainer.max_epochs=10",
+    "subdir=geometry_smoke_multi_s4001",
+    "output_model_name=geometry_smoke_multi_s4001",
+    "num_workers=6",
+    "+trainer.enable_progress_bar=false"
+  ],
+  "seed": 4001,
+  "quota_seconds": 850.0,
+  "stop_steps": 20,
+  "start_unix": 1789041334.9800596
+}

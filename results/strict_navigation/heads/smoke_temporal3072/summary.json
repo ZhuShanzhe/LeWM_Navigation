@@ -1,0 +1,59 @@
+{
+  "tag": "smoke_temporal3072",
+  "model": "/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3072_v2/weights_final.pt",
+  "checkpoint_sha256": "e838b7d49b0bf06ef9a77f0030c7af1875270f2dc0a804e88eef63bf82065ada",
+  "elapsed_seconds": 11.73337721824646,
+  "heads": {
+    "temporal": {
+      "kind": "temporal",
+      "epochs": 2,
+      "best_epoch": 2,
+      "validation_loss": 0.023977957665920258,
+      "validation_temporal_mae_steps": 39.90106201171875,
+      "validation_spearman": -0.5287223975714026,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.1173618882894516,
+          "validation_loss": 0.05260820686817169
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.04520410671830177,
+          "validation_loss": 0.023977957665920258
+        }
+      ],
+      "fit_seconds": 0.05296158790588379,
+      "parameters": 262913,
+      "selection": "minimum heldout pair loss; no navigation outcome",
+      "path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/smoke_temporal3072/temporal.pt"
+    },
+    "shuffled": {
+      "kind": "shuffled",
+      "epochs": 2,
+      "best_epoch": 2,
+      "validation_loss": 0.023812923580408096,
+      "validation_temporal_mae_steps": 39.58372497558594,
+      "validation_spearman": -0.4800192261381357,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.1182427629828453,
+          "validation_loss": 0.052320461720228195
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.042083874344825745,
+          "validation_loss": 0.023812923580408096
+        }
+      ],
+      "fit_seconds": 0.015267372131347656,
+      "parameters": 262913,
+      "selection": "minimum heldout pair loss; no navigation outcome",
+      "path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/smoke_temporal3072/shuffled.pt"
+    }
+  },
+  "complete": true,
+  "smoke": true,
+  "device": "cpu"
+}

@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/root/autodl-tmp/lewm_research/round12h_20260909/train_bounded.py",
+    "data=tworoom",
+    "seed=3072",
+    "history_size=1",
+    "loss.sigreg.weight=0.1",
+    "trainer.max_epochs=10",
+    "subdir=r12_tw_s3072",
+    "output_model_name=r12_tw_s3072",
+    "num_workers=6",
+    "+trainer.enable_progress_bar=false"
+  ],
+  "seed": 3072,
+  "quota_seconds": 10800.0,
+  "stop_steps": 0,
+  "start_unix": 1788948834.0288615
+}

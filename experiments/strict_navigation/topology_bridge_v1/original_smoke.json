@@ -1,0 +1,76 @@
+{
+  "id": "bridge_two_room",
+  "split": "development",
+  "selection_seed": 9104101,
+  "task": "full-observation custom topology stress; 75 only adapter key, not trajectory offset",
+  "cases": [
+    {
+      "episode": 0,
+      "start_step": 0,
+      "start_xy": [
+        174.651611328125,
+        162.48507690429688
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            135.85699462890625,
+            163.104736328125
+          ],
+          "euclidean": 38.79956817626953,
+          "different_room": false,
+          "initially_within_success": false,
+          "across_wall": false
+        }
+      },
+      "start_room": 1,
+      "goal_room": 1,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 25.038251462713923
+    },
+    {
+      "episode": 99,
+      "start_step": 0,
+      "start_xy": [
+        46.319252014160156,
+        47.569271087646484
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            185.61331176757812,
+            45.32278060913086
+          ],
+          "euclidean": 139.3121795654297,
+          "different_room": true,
+          "initially_within_success": false,
+          "across_wall": true
+        }
+      },
+      "start_room": 0,
+      "goal_room": 1,
+      "room_graph_hops": 1,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 52,
+      "reference_path_length_not_geodesic": 306.3383900511834
+    }
+  ],
+  "not_final_untouched_test": true,
+  "init_value": {
+    "wall.axis": 1,
+    "door.position": [
+      49,
+      49,
+      49
+    ],
+    "door.number": 1,
+    "door.size": [
+      14,
+      14,
+      14
+    ]
+  },
+  "simulator_bridge_engine": "original"
+}

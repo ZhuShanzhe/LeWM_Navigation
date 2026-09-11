@@ -1,0 +1,620 @@
+{
+  "passed": true,
+  "updated_unix": 1789067402.4980443,
+  "results": {
+    "3072": {
+      "base": {
+        "sr": 62.0,
+        "cap": {
+          "candidate_model_steps": 90000,
+          "horizon": 5,
+          "iterations": 10,
+          "candidates": 300,
+          "receding": 5,
+          "warm_start": false
+        },
+        "actual_candidate_model_steps": 4920000,
+        "encoder_images": 6560,
+        "predictor_token_inputs": 4920000,
+        "batch_seconds_not_online": 82.79672085866332
+      },
+      "feedback_extra": {
+        "sr": 44.0,
+        "cap": {
+          "candidate_model_steps": 450000,
+          "horizon": 5,
+          "iterations": 10,
+          "candidates": 300,
+          "receding": 1,
+          "warm_start": false
+        },
+        "actual_candidate_model_steps": 32805000,
+        "encoder_images": 43740,
+        "predictor_token_inputs": 32805000,
+        "batch_seconds_not_online": 421.49637941643596
+      },
+      "feedback_extra_warm": {
+        "sr": 64.0,
+        "cap": {
+          "candidate_model_steps": 450000,
+          "horizon": 5,
+          "iterations": 10,
+          "candidates": 300,
+          "receding": 1,
+          "warm_start": true
+        },
+        "actual_candidate_model_steps": 26520000,
+        "encoder_images": 35360,
+        "predictor_token_inputs": 26520000,
+        "batch_seconds_not_online": 340.91628506965935
+      },
+      "h10_budget": {
+        "sr": 28.000000000000004,
+        "cap": {
+          "candidate_model_steps": 90000,
+          "horizon": 10,
+          "iterations": 10,
+          "candidates": 150,
+          "receding": 5,
+          "warm_start": false
+        },
+        "actual_candidate_model_steps": 8040000,
+        "encoder_images": 10720,
+        "predictor_token_inputs": 8040000,
+        "batch_seconds_not_online": 183.78987680375576
+      },
+      "h10_budget_warm": {
+        "sr": 66.0,
+        "cap": {
+          "candidate_model_steps": 90000,
+          "horizon": 10,
+          "iterations": 10,
+          "candidates": 150,
+          "receding": 5,
+          "warm_start": true
+        },
+        "actual_candidate_model_steps": 6315000,
+        "encoder_images": 8420,
+        "predictor_token_inputs": 6315000,
+        "batch_seconds_not_online": 146.62993508484215
+      }
+    },
+    "3073": {
+      "base": {
+        "sr": 62.0,
+        "cap": {
+          "candidate_model_steps": 90000,
+          "horizon": 5,
+          "iterations": 10,
+          "candidates": 300,
+          "receding": 5,
+          "warm_start": false
+        },
+        "actual_candidate_model_steps": 4845000,
+        "encoder_images": 6460,
+        "predictor_token_inputs": 4845000,
+        "batch_seconds_not_online": 81.87835874129087
+      },
+      "feedback_extra": {
+        "sr": 46.0,
+        "cap": {
+          "candidate_model_steps": 450000,
+          "horizon": 5,
+          "iterations": 10,
+          "candidates": 300,
+          "receding": 1,
+          "warm_start": false
+        },
+        "actual_candidate_model_steps": 33735000,
+        "encoder_images": 44980,
+        "predictor_token_inputs": 33735000,
+        "batch_seconds_not_online": 431.9553371965885
+      },
+      "feedback_extra_warm": {
+        "sr": 66.0,
+        "cap": {
+          "candidate_model_steps": 450000,
+          "horizon": 5,
+          "iterations": 10,
+          "candidates": 300,
+          "receding": 1,
+          "warm_start": true
+        },
+        "actual_candidate_model_steps": 25410000,
+        "encoder_images": 33880,
+        "predictor_token_inputs": 25410000,
+        "batch_seconds_not_online": 327.23144146148115
+      },
+      "h10_budget": {
+        "sr": 36.0,
+        "cap": {
+          "candidate_model_steps": 90000,
+          "horizon": 10,
+          "iterations": 10,
+          "candidates": 150,
+          "receding": 5,
+          "warm_start": false
+        },
+        "actual_candidate_model_steps": 7890000,
+        "encoder_images": 10520,
+        "predictor_token_inputs": 7890000,
+        "batch_seconds_not_online": 178.1239808080718
+      },
+      "h10_budget_warm": {
+        "sr": 77.0,
+        "cap": {
+          "candidate_model_steps": 90000,
+          "horizon": 10,
+          "iterations": 10,
+          "candidates": 150,
+          "receding": 5,
+          "warm_start": true
+        },
+        "actual_candidate_model_steps": 6150000,
+        "encoder_images": 8200,
+        "predictor_token_inputs": 6150000,
+        "batch_seconds_not_online": 136.52493114955723
+      }
+    },
+    "3074": {
+      "base": {
+        "sr": 60.0,
+        "cap": {
+          "candidate_model_steps": 90000,
+          "horizon": 5,
+          "iterations": 10,
+          "candidates": 300,
+          "receding": 5,
+          "warm_start": false
+        },
+        "actual_candidate_model_steps": 5115000,
+        "encoder_images": 6820,
+        "predictor_token_inputs": 5115000,
+        "batch_seconds_not_online": 84.05208781547844
+      },
+      "feedback_extra": {
+        "sr": 46.0,
+        "cap": {
+          "candidate_model_steps": 450000,
+          "horizon": 5,
+          "iterations": 10,
+          "candidates": 300,
+          "receding": 1,
+          "warm_start": false
+        },
+        "actual_candidate_model_steps": 33690000,
+        "encoder_images": 44920,
+        "predictor_token_inputs": 33690000,
+        "batch_seconds_not_online": 423.0575217688456
+      },
+      "feedback_extra_warm": {
+        "sr": 64.0,
+        "cap": {
+          "candidate_model_steps": 450000,
+          "horizon": 5,
+          "iterations": 10,
+          "candidates": 300,
+          "receding": 1,
+          "warm_start": true
+        },
+        "actual_candidate_model_steps": 25605000,
+        "encoder_images": 34140,
+        "predictor_token_inputs": 25605000,
+        "batch_seconds_not_online": 325.9324101777747
+      },
+      "h10_budget": {
+        "sr": 30.0,
+        "cap": {
+          "candidate_model_steps": 90000,
+          "horizon": 10,
+          "iterations": 10,
+          "candidates": 150,
+          "receding": 5,
+          "warm_start": false
+        },
+        "actual_candidate_model_steps": 7935000,
+        "encoder_images": 10580,
+        "predictor_token_inputs": 7935000,
+        "batch_seconds_not_online": 182.1033586729318
+      },
+      "h10_budget_warm": {
+        "sr": 68.0,
+        "cap": {
+          "candidate_model_steps": 90000,
+          "horizon": 10,
+          "iterations": 10,
+          "candidates": 150,
+          "receding": 5,
+          "warm_start": true
+        },
+        "actual_candidate_model_steps": 6255000,
+        "encoder_images": 8340,
+        "predictor_token_inputs": 6255000,
+        "batch_seconds_not_online": 142.4289865512401
+      }
+    }
+  },
+  "paired": {
+    "3072": {
+      "feedback_extra_vs_base": {
+        "delta_pp": -18.0,
+        "ci95_conditional": [
+          -27.0,
+          -10.0
+        ],
+        "wins": 2,
+        "losses": 20
+      },
+      "feedback_extra_warm_vs_base": {
+        "delta_pp": 2.0,
+        "ci95_conditional": [
+          -4.0,
+          9.0
+        ],
+        "wins": 7,
+        "losses": 5
+      },
+      "h10_budget_vs_base": {
+        "delta_pp": -34.0,
+        "ci95_conditional": [
+          -45.0,
+          -23.0
+        ],
+        "wins": 6,
+        "losses": 40
+      },
+      "h10_budget_warm_vs_base": {
+        "delta_pp": 4.0,
+        "ci95_conditional": [
+          -5.0,
+          13.0
+        ],
+        "wins": 13,
+        "losses": 9
+      },
+      "feedback_extra_warm_vs_cold": {
+        "delta_pp": 20.0,
+        "ci95_conditional": [
+          11.0,
+          30.0
+        ],
+        "wins": 24,
+        "losses": 4
+      },
+      "h10_budget_warm_vs_cold": {
+        "delta_pp": 38.0,
+        "ci95_conditional": [
+          28.999999999999996,
+          47.0
+        ],
+        "wins": 38,
+        "losses": 0
+      }
+    },
+    "3073": {
+      "feedback_extra_vs_base": {
+        "delta_pp": -16.0,
+        "ci95_conditional": [
+          -24.0,
+          -8.0
+        ],
+        "wins": 2,
+        "losses": 18
+      },
+      "feedback_extra_warm_vs_base": {
+        "delta_pp": 4.0,
+        "ci95_conditional": [
+          -3.0,
+          11.0
+        ],
+        "wins": 8,
+        "losses": 4
+      },
+      "h10_budget_vs_base": {
+        "delta_pp": -26.0,
+        "ci95_conditional": [
+          -38.0,
+          -14.000000000000002
+        ],
+        "wins": 9,
+        "losses": 35
+      },
+      "h10_budget_warm_vs_base": {
+        "delta_pp": 15.0,
+        "ci95_conditional": [
+          7.000000000000001,
+          24.0
+        ],
+        "wins": 18,
+        "losses": 3
+      },
+      "feedback_extra_warm_vs_cold": {
+        "delta_pp": 20.0,
+        "ci95_conditional": [
+          10.0,
+          30.0
+        ],
+        "wins": 24,
+        "losses": 4
+      },
+      "h10_budget_warm_vs_cold": {
+        "delta_pp": 41.0,
+        "ci95_conditional": [
+          31.0,
+          51.0
+        ],
+        "wins": 42,
+        "losses": 1
+      }
+    },
+    "3074": {
+      "feedback_extra_vs_base": {
+        "delta_pp": -14.000000000000002,
+        "ci95_conditional": [
+          -22.0,
+          -6.0
+        ],
+        "wins": 3,
+        "losses": 17
+      },
+      "feedback_extra_warm_vs_base": {
+        "delta_pp": 4.0,
+        "ci95_conditional": [
+          -3.0,
+          11.0
+        ],
+        "wins": 8,
+        "losses": 4
+      },
+      "h10_budget_vs_base": {
+        "delta_pp": -30.0,
+        "ci95_conditional": [
+          -41.0,
+          -18.0
+        ],
+        "wins": 7,
+        "losses": 37
+      },
+      "h10_budget_warm_vs_base": {
+        "delta_pp": 8.0,
+        "ci95_conditional": [
+          -2.0,
+          18.0
+        ],
+        "wins": 18,
+        "losses": 10
+      },
+      "feedback_extra_warm_vs_cold": {
+        "delta_pp": 18.0,
+        "ci95_conditional": [
+          8.0,
+          28.000000000000004
+        ],
+        "wins": 23,
+        "losses": 5
+      },
+      "h10_budget_warm_vs_cold": {
+        "delta_pp": 38.0,
+        "ci95_conditional": [
+          28.000000000000004,
+          49.0
+        ],
+        "wins": 40,
+        "losses": 2
+      }
+    }
+  },
+  "trace_audits": {
+    "strict3072_validation_long_base_b0": {
+      "passed": true,
+      "executed_action_values": 8012,
+      "post_terminal_nan_padding_values": 6988,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_base_b1": {
+      "passed": true,
+      "executed_action_values": 7858,
+      "post_terminal_nan_padding_values": 7142,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_feedback_extra_b0": {
+      "passed": true,
+      "executed_action_values": 11292,
+      "post_terminal_nan_padding_values": 3708,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_feedback_extra_b1": {
+      "passed": true,
+      "executed_action_values": 10392,
+      "post_terminal_nan_padding_values": 4608,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_feedback_extra_warm_b0": {
+      "passed": true,
+      "executed_action_values": 9306,
+      "post_terminal_nan_padding_values": 5694,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_feedback_extra_warm_b1": {
+      "passed": true,
+      "executed_action_values": 8124,
+      "post_terminal_nan_padding_values": 6876,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_h10_budget_b0": {
+      "passed": true,
+      "executed_action_values": 13214,
+      "post_terminal_nan_padding_values": 1786,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_h10_budget_b1": {
+      "passed": true,
+      "executed_action_values": 12978,
+      "post_terminal_nan_padding_values": 2022,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_h10_budget_warm_b0": {
+      "passed": true,
+      "executed_action_values": 10240,
+      "post_terminal_nan_padding_values": 4760,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_validation_long_h10_budget_warm_b1": {
+      "passed": true,
+      "executed_action_values": 9704,
+      "post_terminal_nan_padding_values": 5296,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_b0": {
+      "passed": true,
+      "executed_action_values": 7844,
+      "post_terminal_nan_padding_values": 7156,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_base_b1": {
+      "passed": true,
+      "executed_action_values": 7812,
+      "post_terminal_nan_padding_values": 7188,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_feedback_extra_b0": {
+      "passed": true,
+      "executed_action_values": 11214,
+      "post_terminal_nan_padding_values": 3786,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_feedback_extra_b1": {
+      "passed": true,
+      "executed_action_values": 11074,
+      "post_terminal_nan_padding_values": 3926,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_feedback_extra_warm_b0": {
+      "passed": true,
+      "executed_action_values": 8498,
+      "post_terminal_nan_padding_values": 6502,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_feedback_extra_warm_b1": {
+      "passed": true,
+      "executed_action_values": 8208,
+      "post_terminal_nan_padding_values": 6792,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_h10_budget_b0": {
+      "passed": true,
+      "executed_action_values": 12490,
+      "post_terminal_nan_padding_values": 2510,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_h10_budget_b1": {
+      "passed": true,
+      "executed_action_values": 12896,
+      "post_terminal_nan_padding_values": 2104,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_h10_budget_warm_b0": {
+      "passed": true,
+      "executed_action_values": 8900,
+      "post_terminal_nan_padding_values": 6100,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3073_validation_long_h10_budget_warm_b1": {
+      "passed": true,
+      "executed_action_values": 10040,
+      "post_terminal_nan_padding_values": 4960,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_b0": {
+      "passed": true,
+      "executed_action_values": 7926,
+      "post_terminal_nan_padding_values": 7074,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_base_b1": {
+      "passed": true,
+      "executed_action_values": 8462,
+      "post_terminal_nan_padding_values": 6538,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_feedback_extra_b0": {
+      "passed": true,
+      "executed_action_values": 11524,
+      "post_terminal_nan_padding_values": 3476,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_feedback_extra_b1": {
+      "passed": true,
+      "executed_action_values": 10756,
+      "post_terminal_nan_padding_values": 4244,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_feedback_extra_warm_b0": {
+      "passed": true,
+      "executed_action_values": 8172,
+      "post_terminal_nan_padding_values": 6828,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_feedback_extra_warm_b1": {
+      "passed": true,
+      "executed_action_values": 8666,
+      "post_terminal_nan_padding_values": 6334,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_h10_budget_b0": {
+      "passed": true,
+      "executed_action_values": 13158,
+      "post_terminal_nan_padding_values": 1842,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_h10_budget_b1": {
+      "passed": true,
+      "executed_action_values": 12726,
+      "post_terminal_nan_padding_values": 2274,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_h10_budget_warm_b0": {
+      "passed": true,
+      "executed_action_values": 9780,
+      "post_terminal_nan_padding_values": 5220,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3074_validation_long_h10_budget_warm_b1": {
+      "passed": true,
+      "executed_action_values": 10044,
+      "post_terminal_nan_padding_values": 4956,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    }
+  },
+  "limits": "Same100 development cases reused across models and settings; paired case CI conditional on fixed seed, not training-seed CI. Same candidate-step cap is not same total FLOPs; extra-feedback cap is5x. Warm-start is existing planner functionality, not proposed novel architecture. Legacy seed3072 normalization metadata limitation remains as baseline audit."
+}

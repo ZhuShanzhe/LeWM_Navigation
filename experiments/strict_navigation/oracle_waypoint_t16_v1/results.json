@@ -1,0 +1,2005 @@
+{
+  "passed": true,
+  "updated_unix": 1789073750.411662,
+  "results": {
+    "four_room_chain": {
+      "single_final": {
+        "n": 100,
+        "sr": 22.0,
+        "sr_excluding_initial": 22.0,
+        "same_room_sr": 90.0,
+        "cross_room_sr": 5.0,
+        "mean_path_all": 134.84368888691017,
+        "mean_path_success": 55.12616767546226,
+        "mean_endpoint_distance": 81.87914884573212,
+        "stalled_step_fraction": 0.20403283653462978,
+        "physical_steps": 12547,
+        "candidate_model_steps": 7554000,
+        "encoder_images": 10072,
+        "predictor_token_inputs": 7554000,
+        "batch_elapsed_seconds_not_online": 115.86140504479408,
+        "cached_synthetic_goal_images": 100,
+        "intermediate_targets_reached": 0,
+        "intermediate_targets_total": 0,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 90.0
+          },
+          "1": {
+            "n": 37,
+            "sr": 10.81081081081081
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 10,
+            "sr": 0.0
+          }
+        }
+      },
+      "single_waypoint": {
+        "n": 100,
+        "sr": 24.0,
+        "sr_excluding_initial": 24.0,
+        "same_room_sr": 90.0,
+        "cross_room_sr": 7.5,
+        "mean_path_all": 144.90452653926022,
+        "mean_path_success": 65.08064846750524,
+        "mean_endpoint_distance": 89.06752789538626,
+        "stalled_step_fraction": 0.16921353708296663,
+        "physical_steps": 12499,
+        "candidate_model_steps": 7527000,
+        "encoder_images": 10036,
+        "predictor_token_inputs": 7527000,
+        "batch_elapsed_seconds_not_online": 118.37992281466722,
+        "cached_synthetic_goal_images": 112,
+        "intermediate_targets_reached": 109,
+        "intermediate_targets_total": 266,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 90.0
+          },
+          "1": {
+            "n": 37,
+            "sr": 16.216216216216218
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 10,
+            "sr": 0.0
+          }
+        }
+      },
+      "multi_final": {
+        "n": 100,
+        "sr": 21.0,
+        "sr_excluding_initial": 21.0,
+        "same_room_sr": 75.0,
+        "cross_room_sr": 7.5,
+        "mean_path_all": 136.2075289564941,
+        "mean_path_success": 65.41180810693756,
+        "mean_endpoint_distance": 76.07836077649145,
+        "stalled_step_fraction": 0.22344408048666356,
+        "physical_steps": 12822,
+        "candidate_model_steps": 7722000,
+        "encoder_images": 10296,
+        "predictor_token_inputs": 7722000,
+        "batch_elapsed_seconds_not_online": 119.80327182728797,
+        "cached_synthetic_goal_images": 100,
+        "intermediate_targets_reached": 0,
+        "intermediate_targets_total": 0,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 75.0
+          },
+          "1": {
+            "n": 37,
+            "sr": 16.216216216216218
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 10,
+            "sr": 0.0
+          }
+        }
+      },
+      "multi_waypoint": {
+        "n": 100,
+        "sr": 38.0,
+        "sr_excluding_initial": 38.0,
+        "same_room_sr": 75.0,
+        "cross_room_sr": 28.749999999999996,
+        "mean_path_all": 164.4233200079143,
+        "mean_path_success": 104.68380035165306,
+        "mean_endpoint_distance": 44.287127343713934,
+        "stalled_step_fraction": 0.1332560834298957,
+        "physical_steps": 12082,
+        "candidate_model_steps": 7287000,
+        "encoder_images": 9716,
+        "predictor_token_inputs": 7287000,
+        "batch_elapsed_seconds_not_online": 112.53300490789115,
+        "cached_synthetic_goal_images": 112,
+        "intermediate_targets_reached": 243,
+        "intermediate_targets_total": 266,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 75.0
+          },
+          "1": {
+            "n": 37,
+            "sr": 48.64864864864865
+          },
+          "2": {
+            "n": 33,
+            "sr": 15.151515151515152
+          },
+          "3": {
+            "n": 10,
+            "sr": 0.0
+          }
+        }
+      }
+    },
+    "four_room_cycle": {
+      "single_final": {
+        "n": 100,
+        "sr": 28.999999999999996,
+        "sr_excluding_initial": 28.999999999999996,
+        "same_room_sr": 90.0,
+        "cross_room_sr": 13.750000000000002,
+        "mean_path_all": 136.26626804668444,
+        "mean_path_success": 75.7858461803138,
+        "mean_endpoint_distance": 74.93988319777901,
+        "stalled_step_fraction": 0.19265532122791304,
+        "physical_steps": 12281,
+        "candidate_model_steps": 7404000,
+        "encoder_images": 9872,
+        "predictor_token_inputs": 7404000,
+        "batch_elapsed_seconds_not_online": 115.32491160184145,
+        "cached_synthetic_goal_images": 100,
+        "intermediate_targets_reached": 0,
+        "intermediate_targets_total": 0,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 90.0
+          },
+          "1": {
+            "n": 51,
+            "sr": 21.568627450980394
+          },
+          "2": {
+            "n": 29,
+            "sr": 0.0
+          }
+        }
+      },
+      "single_waypoint": {
+        "n": 100,
+        "sr": 38.0,
+        "sr_excluding_initial": 38.0,
+        "same_room_sr": 90.0,
+        "cross_room_sr": 25.0,
+        "mean_path_all": 144.59560010276616,
+        "mean_path_success": 94.16345060806648,
+        "mean_endpoint_distance": 63.14968236937803,
+        "stalled_step_fraction": 0.14790564929069083,
+        "physical_steps": 11913,
+        "candidate_model_steps": 7188000,
+        "encoder_images": 9584,
+        "predictor_token_inputs": 7188000,
+        "batch_elapsed_seconds_not_online": 112.21483867336065,
+        "cached_synthetic_goal_images": 116,
+        "intermediate_targets_reached": 139,
+        "intermediate_targets_total": 218,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 90.0
+          },
+          "1": {
+            "n": 51,
+            "sr": 37.254901960784316
+          },
+          "2": {
+            "n": 29,
+            "sr": 3.4482758620689653
+          }
+        }
+      },
+      "multi_final": {
+        "n": 100,
+        "sr": 32.0,
+        "sr_excluding_initial": 32.0,
+        "same_room_sr": 95.0,
+        "cross_room_sr": 16.25,
+        "mean_path_all": 130.02754985322215,
+        "mean_path_success": 69.61807966090689,
+        "mean_endpoint_distance": 69.87819475305363,
+        "stalled_step_fraction": 0.20627994524298426,
+        "physical_steps": 11688,
+        "candidate_model_steps": 7050000,
+        "encoder_images": 9400,
+        "predictor_token_inputs": 7050000,
+        "batch_elapsed_seconds_not_online": 110.25618716236204,
+        "cached_synthetic_goal_images": 100,
+        "intermediate_targets_reached": 0,
+        "intermediate_targets_total": 0,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 95.0
+          },
+          "1": {
+            "n": 51,
+            "sr": 25.49019607843137
+          },
+          "2": {
+            "n": 29,
+            "sr": 0.0
+          }
+        }
+      },
+      "multi_waypoint": {
+        "n": 100,
+        "sr": 64.0,
+        "sr_excluding_initial": 64.0,
+        "same_room_sr": 95.0,
+        "cross_room_sr": 56.25,
+        "mean_path_all": 140.5451179231836,
+        "mean_path_success": 108.82816740228262,
+        "mean_endpoint_distance": 33.11395401420757,
+        "stalled_step_fraction": 0.11390768006366893,
+        "physical_steps": 10052,
+        "candidate_model_steps": 6108000,
+        "encoder_images": 8144,
+        "predictor_token_inputs": 6108000,
+        "batch_elapsed_seconds_not_online": 96.36235105246305,
+        "cached_synthetic_goal_images": 116,
+        "intermediate_targets_reached": 206,
+        "intermediate_targets_total": 218,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 95.0
+          },
+          "1": {
+            "n": 51,
+            "sr": 72.54901960784314
+          },
+          "2": {
+            "n": 29,
+            "sr": 27.586206896551722
+          }
+        }
+      }
+    },
+    "six_room_branch": {
+      "single_final": {
+        "n": 100,
+        "sr": 10.0,
+        "sr_excluding_initial": 10.0,
+        "same_room_sr": 25.0,
+        "cross_room_sr": 6.25,
+        "mean_path_all": 147.04268332498833,
+        "mean_path_success": 100.31295376470808,
+        "mean_endpoint_distance": 91.28382533634722,
+        "stalled_step_fraction": 0.23264907135874877,
+        "physical_steps": 14322,
+        "candidate_model_steps": 8607000,
+        "encoder_images": 11476,
+        "predictor_token_inputs": 8607000,
+        "batch_elapsed_seconds_not_online": 130.04324752185494,
+        "cached_synthetic_goal_images": 100,
+        "intermediate_targets_reached": 0,
+        "intermediate_targets_total": 0,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 25.0
+          },
+          "1": {
+            "n": 27,
+            "sr": 18.51851851851852
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 20,
+            "sr": 0.0
+          }
+        }
+      },
+      "single_waypoint": {
+        "n": 100,
+        "sr": 9.0,
+        "sr_excluding_initial": 9.0,
+        "same_room_sr": 25.0,
+        "cross_room_sr": 5.0,
+        "mean_path_all": 151.46061179936137,
+        "mean_path_success": 121.48847176025384,
+        "mean_endpoint_distance": 89.44813473109434,
+        "stalled_step_fraction": 0.23851760176017603,
+        "physical_steps": 14544,
+        "candidate_model_steps": 8736000,
+        "encoder_images": 11648,
+        "predictor_token_inputs": 8736000,
+        "batch_elapsed_seconds_not_online": 134.9911969481036,
+        "cached_synthetic_goal_images": 120,
+        "intermediate_targets_reached": 67,
+        "intermediate_targets_total": 306,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 25.0
+          },
+          "1": {
+            "n": 27,
+            "sr": 14.814814814814813
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 20,
+            "sr": 0.0
+          }
+        }
+      },
+      "multi_final": {
+        "n": 100,
+        "sr": 10.0,
+        "sr_excluding_initial": 10.0,
+        "same_room_sr": 35.0,
+        "cross_room_sr": 3.75,
+        "mean_path_all": 147.5139946166581,
+        "mean_path_success": 111.8886309484423,
+        "mean_endpoint_distance": 92.56214473574354,
+        "stalled_step_fraction": 0.20370115575123832,
+        "physical_steps": 14536,
+        "candidate_model_steps": 8730000,
+        "encoder_images": 11640,
+        "predictor_token_inputs": 8730000,
+        "batch_elapsed_seconds_not_online": 135.43482142034918,
+        "cached_synthetic_goal_images": 100,
+        "intermediate_targets_reached": 0,
+        "intermediate_targets_total": 0,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 35.0
+          },
+          "1": {
+            "n": 27,
+            "sr": 11.11111111111111
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 20,
+            "sr": 0.0
+          }
+        }
+      },
+      "multi_waypoint": {
+        "n": 100,
+        "sr": 9.0,
+        "sr_excluding_initial": 9.0,
+        "same_room_sr": 35.0,
+        "cross_room_sr": 2.5,
+        "mean_path_all": 149.06550246365887,
+        "mean_path_success": 114.145440717912,
+        "mean_endpoint_distance": 84.26304879249419,
+        "stalled_step_fraction": 0.19971234846928293,
+        "physical_steps": 14601,
+        "candidate_model_steps": 8766000,
+        "encoder_images": 11688,
+        "predictor_token_inputs": 8766000,
+        "batch_elapsed_seconds_not_online": 136.81108974665403,
+        "cached_synthetic_goal_images": 120,
+        "intermediate_targets_reached": 75,
+        "intermediate_targets_total": 306,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 35.0
+          },
+          "1": {
+            "n": 27,
+            "sr": 7.4074074074074066
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 20,
+            "sr": 0.0
+          }
+        }
+      }
+    }
+  },
+  "paired": {
+    "four_room_chain": {
+      "single": {
+        "all": {
+          "n": 100,
+          "waypoint_minus_final_pp": 2.0,
+          "ci95_conditional_fixed_model_map": [
+            -3.0,
+            7.000000000000001
+          ],
+          "gained": 4,
+          "lost": 2
+        },
+        "same_room": {
+          "n": 20,
+          "waypoint_minus_final_pp": 0.0,
+          "ci95_conditional_fixed_model_map": [
+            0.0,
+            0.0
+          ],
+          "gained": 0,
+          "lost": 0
+        },
+        "cross_room": {
+          "n": 80,
+          "waypoint_minus_final_pp": 2.5,
+          "ci95_conditional_fixed_model_map": [
+            -3.75,
+            8.75
+          ],
+          "gained": 4,
+          "lost": 2
+        },
+        "hops_ge2": {
+          "n": 43,
+          "waypoint_minus_final_pp": 0.0,
+          "ci95_conditional_fixed_model_map": [
+            0.0,
+            0.0
+          ],
+          "gained": 0,
+          "lost": 0
+        }
+      },
+      "multi": {
+        "all": {
+          "n": 100,
+          "waypoint_minus_final_pp": 17.0,
+          "ci95_conditional_fixed_model_map": [
+            10.0,
+            25.0
+          ],
+          "gained": 17,
+          "lost": 0
+        },
+        "same_room": {
+          "n": 20,
+          "waypoint_minus_final_pp": 0.0,
+          "ci95_conditional_fixed_model_map": [
+            0.0,
+            0.0
+          ],
+          "gained": 0,
+          "lost": 0
+        },
+        "cross_room": {
+          "n": 80,
+          "waypoint_minus_final_pp": 21.25,
+          "ci95_conditional_fixed_model_map": [
+            12.5,
+            30.0
+          ],
+          "gained": 17,
+          "lost": 0
+        },
+        "hops_ge2": {
+          "n": 43,
+          "waypoint_minus_final_pp": 11.627906976744185,
+          "ci95_conditional_fixed_model_map": [
+            2.3255813953488373,
+            20.930232558139537
+          ],
+          "gained": 5,
+          "lost": 0
+        }
+      }
+    },
+    "four_room_cycle": {
+      "single": {
+        "all": {
+          "n": 100,
+          "waypoint_minus_final_pp": 9.0,
+          "ci95_conditional_fixed_model_map": [
+            2.0,
+            16.0
+          ],
+          "gained": 11,
+          "lost": 2
+        },
+        "same_room": {
+          "n": 20,
+          "waypoint_minus_final_pp": 0.0,
+          "ci95_conditional_fixed_model_map": [
+            0.0,
+            0.0
+          ],
+          "gained": 0,
+          "lost": 0
+        },
+        "cross_room": {
+          "n": 80,
+          "waypoint_minus_final_pp": 11.25,
+          "ci95_conditional_fixed_model_map": [
+            2.5,
+            20.0
+          ],
+          "gained": 11,
+          "lost": 2
+        },
+        "hops_ge2": {
+          "n": 29,
+          "waypoint_minus_final_pp": 3.4482758620689653,
+          "ci95_conditional_fixed_model_map": [
+            0.0,
+            10.344827586206897
+          ],
+          "gained": 1,
+          "lost": 0
+        }
+      },
+      "multi": {
+        "all": {
+          "n": 100,
+          "waypoint_minus_final_pp": 32.0,
+          "ci95_conditional_fixed_model_map": [
+            23.0,
+            41.0
+          ],
+          "gained": 32,
+          "lost": 0
+        },
+        "same_room": {
+          "n": 20,
+          "waypoint_minus_final_pp": 0.0,
+          "ci95_conditional_fixed_model_map": [
+            0.0,
+            0.0
+          ],
+          "gained": 0,
+          "lost": 0
+        },
+        "cross_room": {
+          "n": 80,
+          "waypoint_minus_final_pp": 40.0,
+          "ci95_conditional_fixed_model_map": [
+            28.749999999999996,
+            51.24999999999999
+          ],
+          "gained": 32,
+          "lost": 0
+        },
+        "hops_ge2": {
+          "n": 29,
+          "waypoint_minus_final_pp": 27.586206896551722,
+          "ci95_conditional_fixed_model_map": [
+            13.793103448275861,
+            44.827586206896555
+          ],
+          "gained": 8,
+          "lost": 0
+        }
+      }
+    },
+    "six_room_branch": {
+      "single": {
+        "all": {
+          "n": 100,
+          "waypoint_minus_final_pp": -1.0,
+          "ci95_conditional_fixed_model_map": [
+            -5.0,
+            2.0
+          ],
+          "gained": 1,
+          "lost": 2
+        },
+        "same_room": {
+          "n": 20,
+          "waypoint_minus_final_pp": 0.0,
+          "ci95_conditional_fixed_model_map": [
+            0.0,
+            0.0
+          ],
+          "gained": 0,
+          "lost": 0
+        },
+        "cross_room": {
+          "n": 80,
+          "waypoint_minus_final_pp": -1.25,
+          "ci95_conditional_fixed_model_map": [
+            -6.25,
+            2.5
+          ],
+          "gained": 1,
+          "lost": 2
+        },
+        "hops_ge2": {
+          "n": 53,
+          "waypoint_minus_final_pp": 0.0,
+          "ci95_conditional_fixed_model_map": [
+            0.0,
+            0.0
+          ],
+          "gained": 0,
+          "lost": 0
+        }
+      },
+      "multi": {
+        "all": {
+          "n": 100,
+          "waypoint_minus_final_pp": -1.0,
+          "ci95_conditional_fixed_model_map": [
+            -3.0,
+            0.0
+          ],
+          "gained": 0,
+          "lost": 1
+        },
+        "same_room": {
+          "n": 20,
+          "waypoint_minus_final_pp": 0.0,
+          "ci95_conditional_fixed_model_map": [
+            0.0,
+            0.0
+          ],
+          "gained": 0,
+          "lost": 0
+        },
+        "cross_room": {
+          "n": 80,
+          "waypoint_minus_final_pp": -1.25,
+          "ci95_conditional_fixed_model_map": [
+            -3.75,
+            0.0
+          ],
+          "gained": 0,
+          "lost": 1
+        },
+        "hops_ge2": {
+          "n": 53,
+          "waypoint_minus_final_pp": 0.0,
+          "ci95_conditional_fixed_model_map": [
+            0.0,
+            0.0
+          ],
+          "gained": 0,
+          "lost": 0
+        }
+      }
+    }
+  },
+  "audits": {
+    "oracle_formal_single_final_four_room_chain_b0_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 10496,
+        "post_terminal_nan_padding_values": 4504,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 0,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 3171000
+    },
+    "oracle_formal_single_final_four_room_chain_b1_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 14598,
+        "post_terminal_nan_padding_values": 402,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 0,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4383000
+    },
+    "oracle_t16_single_waypoint_four_room_chain_b0_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 10464,
+        "post_terminal_nan_padding_values": 4536,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 41,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 3162000
+    },
+    "oracle_t16_single_waypoint_four_room_chain_b1_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 14534,
+        "post_terminal_nan_padding_values": 466,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 68,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4365000
+    },
+    "oracle_formal_multi_final_four_room_chain_b0_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 11406,
+        "post_terminal_nan_padding_values": 3594,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 0,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 3441000
+    },
+    "oracle_formal_multi_final_four_room_chain_b1_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 14238,
+        "post_terminal_nan_padding_values": 762,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 0,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4281000
+    },
+    "oracle_t16_multi_waypoint_four_room_chain_b0_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 10332,
+        "post_terminal_nan_padding_values": 4668,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 93,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 3129000
+    },
+    "oracle_t16_multi_waypoint_four_room_chain_b1_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 13832,
+        "post_terminal_nan_padding_values": 1168,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 150,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4158000
+    },
+    "oracle_formal_single_final_four_room_cycle_b0_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 9872,
+        "post_terminal_nan_padding_values": 5128,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 0,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 2991000
+    },
+    "oracle_formal_single_final_four_room_cycle_b1_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 14690,
+        "post_terminal_nan_padding_values": 310,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 0,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4413000
+    },
+    "oracle_t16_single_waypoint_four_room_cycle_b0_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 9982,
+        "post_terminal_nan_padding_values": 5018,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 49,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 3027000
+    },
+    "oracle_t16_single_waypoint_four_room_cycle_b1_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 13844,
+        "post_terminal_nan_padding_values": 1156,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 90,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4161000
+    },
+    "oracle_formal_multi_final_four_room_cycle_b0_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 9498,
+        "post_terminal_nan_padding_values": 5502,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 0,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 2877000
+    },
+    "oracle_formal_multi_final_four_room_cycle_b1_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 13878,
+        "post_terminal_nan_padding_values": 1122,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 0,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4173000
+    },
+    "oracle_t16_multi_waypoint_four_room_cycle_b0_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 8084,
+        "post_terminal_nan_padding_values": 6916,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 72,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 2463000
+    },
+    "oracle_t16_multi_waypoint_four_room_cycle_b1_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 12020,
+        "post_terminal_nan_padding_values": 2980,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 134,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 3645000
+    },
+    "oracle_formal_single_final_six_room_branch_b0_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 13894,
+        "post_terminal_nan_padding_values": 1106,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 0,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4179000
+    },
+    "oracle_formal_single_final_six_room_branch_b1_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 14750,
+        "post_terminal_nan_padding_values": 250,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 0,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4428000
+    },
+    "oracle_t16_single_waypoint_six_room_branch_b0_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 14180,
+        "post_terminal_nan_padding_values": 820,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 33,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4260000
+    },
+    "oracle_t16_single_waypoint_six_room_branch_b1_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 14908,
+        "post_terminal_nan_padding_values": 92,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 34,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4476000
+    },
+    "oracle_formal_multi_final_six_room_branch_b0_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 14208,
+        "post_terminal_nan_padding_values": 792,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 0,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4269000
+    },
+    "oracle_formal_multi_final_six_room_branch_b1_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 14864,
+        "post_terminal_nan_padding_values": 136,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 0,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4461000
+    },
+    "oracle_t16_multi_waypoint_six_room_branch_b0_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 14212,
+        "post_terminal_nan_padding_values": 788,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 29,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4269000
+    },
+    "oracle_t16_multi_waypoint_six_room_branch_b1_v1": {
+      "passed": true,
+      "trace": {
+        "passed": true,
+        "executed_action_values": 14990,
+        "post_terminal_nan_padding_values": 10,
+        "active_nonfinite_values": 0,
+        "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+      },
+      "route_events_reconstructed": 46,
+      "nominal_cap_verified": 90000,
+      "actual_candidate_steps_verified": 4497000
+    }
+  },
+  "protocol": {
+    "created_unix": 1789065297.3653972,
+    "maps": [
+      "four_room_chain",
+      "four_room_cycle",
+      "six_room_branch"
+    ],
+    "models": {
+      "single": {
+        "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+        "normalization": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+        "normalization_sha256": "21364f6d3810cf9847c0d65a2618d64ee9ebe8badbc8f9f001a321e804cffa1f",
+        "training_run": "geometry_control_single_s4001"
+      },
+      "multi": {
+        "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+        "normalization": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+        "normalization_sha256": "5edec93f03dcb9ec559dfd59db102c17d20ca41d1af7c83032d79eb7d80bd74b",
+        "training_run": "geometry_control_multi_s4001"
+      }
+    },
+    "model_sha256": {
+      "single": "608f5bd8b16176557c2d859482b0de13792cf9ee5779bceed237536e03319e7a",
+      "multi": "af2a75e4082af1145411dd781a7d783182f222e16ece7b41afd79926233734b2"
+    },
+    "case_files_sha256": {
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b0.json": "d2c897b8d3f22a73b01e96a49d74485b23b30180c9f5534c4ba2a88f06bb91ab",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b1.json": "1fe9a79899e037b835faade7952f5b422586262532f6b96afb85ea7da4a039cf",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b0.json": "c802fa1ffce4665da18235211c13d64bdfaed0019b6b407bddabc055e0ea41e5",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b1.json": "e1b873f0b88c17c33d401aa02bfde08388d7245029df08d2ff94ac524a94afb5",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b0.json": "4b3c05a5beb20a0c27f8d23051dfbad2e8459ffa01711620ca06269117ad734f",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b1.json": "e925812897ca41a72b478c748c1cf89794f05c19b7649281403917b889dda986"
+    },
+    "source_sha256": {
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_strict.py": "d3694f2bf58809b933a9dc7fbfed615c51c5d4335df01d28eaabaf4c0d92a323",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py": "56c98ce0c17ca8f67932743f8d40f9d807edb3d9efe7c6590cac9b01795c9492",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_env.py": "0258ae45631e0edf6eeb6755ee746532a644a0abc5dabcace940e185510c0c61",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/oracle_waypoint_router.py": "20fa009e3518e57f6a6a8cb528700669764b211761ef59f11437d32b2d2b1434",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py": "825aa1325a6abef83a64e82adc033f0056008f688b4b2c4cf1c9dfc1e529345f",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/audit_executed_trace.py": "3dc816fd5ebf8aa167474ffb095f2f828b4b0b3a4c2f99a2f2d72f2a4247917f",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/audit_oracle_waypoint_formal.py": "672a342ea09585aef6fada5d33d370c207caf0ce1f5bf1631f1de02e79fd6025",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py": "65d4554a0adaa18b204d3a2a32f29332f81089934d1d28a00c75ad9f1eb6e241",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/audit_oracle_waypoint_t16.py": "cbed6352d4aa4053cb97652805f8e20ab7858f493cb8bbd522e28a0227f9ec53"
+    },
+    "prerequisite_sha256": {
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/oracle_waypoint_v1/model_smoke_audit.json": "b66deee967767479559d1af583fd9339111b9aa5a788755264ac5d9d3a7382fe",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/reports/oracle_waypoint_cpu_audit.json": "df33bae4c864fe1e3dbacccc9e30ff2cd10e53c7d316bd5c3f11e4bc5ec963ea",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_stress_v1/results.json": "36f296a09ca53e94dad8106df2da4819edc2c3544849803a339bb79df8d227b7",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/reports/oracle_threshold_cpu_audit.json": "bf3020c623363a804bc485526e0c8fc93dcbc0b376d41150f1fab6f4fb4ead6b",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/oracle_waypoint_formal_v1/results.json": "35eeb11d6198f6a937570c97319a82270b68a60584ca88a8068a6e3f011243f8",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/reports/oracle_failure_stage_breakdown.json": "f0d0bac0ac7dc49e96777664b50eb36037ebb50b47fcf59cba7015c85e284941"
+    },
+    "evaluation_jobs": [
+      {
+        "tag": "oracle_formal_single_final_four_room_chain_b0_v1",
+        "model": "single",
+        "mode": "final",
+        "map": "four_room_chain",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_formal_single_final_four_room_chain_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "LEWM_ROUTE_MODE": "final"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Privileged high-level route diagnostic; same H5/R1 CEM budget as final-goal control, not deployable learned hierarchy."
+      },
+      {
+        "tag": "oracle_formal_single_final_four_room_chain_b1_v1",
+        "model": "single",
+        "mode": "final",
+        "map": "four_room_chain",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_formal_single_final_four_room_chain_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "LEWM_ROUTE_MODE": "final"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Privileged high-level route diagnostic; same H5/R1 CEM budget as final-goal control, not deployable learned hierarchy."
+      },
+      {
+        "tag": "oracle_t16_single_waypoint_four_room_chain_b0_v1",
+        "model": "single",
+        "mode": "waypoint",
+        "map": "four_room_chain",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_t16_single_waypoint_four_room_chain_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "LEWM_ROUTE_MODE": "waypoint"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Only switch threshold8->16px; matches final goal tolerance. Sensitivity diagnosis, no tuning sweep or learned hierarchy."
+      },
+      {
+        "tag": "oracle_t16_single_waypoint_four_room_chain_b1_v1",
+        "model": "single",
+        "mode": "waypoint",
+        "map": "four_room_chain",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_t16_single_waypoint_four_room_chain_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "LEWM_ROUTE_MODE": "waypoint"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Only switch threshold8->16px; matches final goal tolerance. Sensitivity diagnosis, no tuning sweep or learned hierarchy."
+      },
+      {
+        "tag": "oracle_formal_multi_final_four_room_chain_b0_v1",
+        "model": "multi",
+        "mode": "final",
+        "map": "four_room_chain",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_formal_multi_final_four_room_chain_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+          "LEWM_ROUTE_MODE": "final"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Privileged high-level route diagnostic; same H5/R1 CEM budget as final-goal control, not deployable learned hierarchy."
+      },
+      {
+        "tag": "oracle_formal_multi_final_four_room_chain_b1_v1",
+        "model": "multi",
+        "mode": "final",
+        "map": "four_room_chain",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_formal_multi_final_four_room_chain_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+          "LEWM_ROUTE_MODE": "final"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Privileged high-level route diagnostic; same H5/R1 CEM budget as final-goal control, not deployable learned hierarchy."
+      },
+      {
+        "tag": "oracle_t16_multi_waypoint_four_room_chain_b0_v1",
+        "model": "multi",
+        "mode": "waypoint",
+        "map": "four_room_chain",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_t16_multi_waypoint_four_room_chain_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+          "LEWM_ROUTE_MODE": "waypoint"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Only switch threshold8->16px; matches final goal tolerance. Sensitivity diagnosis, no tuning sweep or learned hierarchy."
+      },
+      {
+        "tag": "oracle_t16_multi_waypoint_four_room_chain_b1_v1",
+        "model": "multi",
+        "mode": "waypoint",
+        "map": "four_room_chain",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_t16_multi_waypoint_four_room_chain_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+          "LEWM_ROUTE_MODE": "waypoint"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Only switch threshold8->16px; matches final goal tolerance. Sensitivity diagnosis, no tuning sweep or learned hierarchy."
+      },
+      {
+        "tag": "oracle_formal_single_final_four_room_cycle_b0_v1",
+        "model": "single",
+        "mode": "final",
+        "map": "four_room_cycle",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_formal_single_final_four_room_cycle_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "LEWM_ROUTE_MODE": "final"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Privileged high-level route diagnostic; same H5/R1 CEM budget as final-goal control, not deployable learned hierarchy."
+      },
+      {
+        "tag": "oracle_formal_single_final_four_room_cycle_b1_v1",
+        "model": "single",
+        "mode": "final",
+        "map": "four_room_cycle",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_formal_single_final_four_room_cycle_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "LEWM_ROUTE_MODE": "final"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Privileged high-level route diagnostic; same H5/R1 CEM budget as final-goal control, not deployable learned hierarchy."
+      },
+      {
+        "tag": "oracle_t16_single_waypoint_four_room_cycle_b0_v1",
+        "model": "single",
+        "mode": "waypoint",
+        "map": "four_room_cycle",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_t16_single_waypoint_four_room_cycle_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "LEWM_ROUTE_MODE": "waypoint"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Only switch threshold8->16px; matches final goal tolerance. Sensitivity diagnosis, no tuning sweep or learned hierarchy."
+      },
+      {
+        "tag": "oracle_t16_single_waypoint_four_room_cycle_b1_v1",
+        "model": "single",
+        "mode": "waypoint",
+        "map": "four_room_cycle",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_t16_single_waypoint_four_room_cycle_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "LEWM_ROUTE_MODE": "waypoint"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Only switch threshold8->16px; matches final goal tolerance. Sensitivity diagnosis, no tuning sweep or learned hierarchy."
+      },
+      {
+        "tag": "oracle_formal_multi_final_four_room_cycle_b0_v1",
+        "model": "multi",
+        "mode": "final",
+        "map": "four_room_cycle",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_formal_multi_final_four_room_cycle_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+          "LEWM_ROUTE_MODE": "final"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Privileged high-level route diagnostic; same H5/R1 CEM budget as final-goal control, not deployable learned hierarchy."
+      },
+      {
+        "tag": "oracle_formal_multi_final_four_room_cycle_b1_v1",
+        "model": "multi",
+        "mode": "final",
+        "map": "four_room_cycle",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_formal_multi_final_four_room_cycle_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+          "LEWM_ROUTE_MODE": "final"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Privileged high-level route diagnostic; same H5/R1 CEM budget as final-goal control, not deployable learned hierarchy."
+      },
+      {
+        "tag": "oracle_t16_multi_waypoint_four_room_cycle_b0_v1",
+        "model": "multi",
+        "mode": "waypoint",
+        "map": "four_room_cycle",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_t16_multi_waypoint_four_room_cycle_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+          "LEWM_ROUTE_MODE": "waypoint"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Only switch threshold8->16px; matches final goal tolerance. Sensitivity diagnosis, no tuning sweep or learned hierarchy."
+      },
+      {
+        "tag": "oracle_t16_multi_waypoint_four_room_cycle_b1_v1",
+        "model": "multi",
+        "mode": "waypoint",
+        "map": "four_room_cycle",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_t16_multi_waypoint_four_room_cycle_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+          "LEWM_ROUTE_MODE": "waypoint"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Only switch threshold8->16px; matches final goal tolerance. Sensitivity diagnosis, no tuning sweep or learned hierarchy."
+      },
+      {
+        "tag": "oracle_formal_single_final_six_room_branch_b0_v1",
+        "model": "single",
+        "mode": "final",
+        "map": "six_room_branch",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_formal_single_final_six_room_branch_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "LEWM_ROUTE_MODE": "final"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Privileged high-level route diagnostic; same H5/R1 CEM budget as final-goal control, not deployable learned hierarchy."
+      },
+      {
+        "tag": "oracle_formal_single_final_six_room_branch_b1_v1",
+        "model": "single",
+        "mode": "final",
+        "map": "six_room_branch",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_formal_single_final_six_room_branch_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "LEWM_ROUTE_MODE": "final"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Privileged high-level route diagnostic; same H5/R1 CEM budget as final-goal control, not deployable learned hierarchy."
+      },
+      {
+        "tag": "oracle_t16_single_waypoint_six_room_branch_b0_v1",
+        "model": "single",
+        "mode": "waypoint",
+        "map": "six_room_branch",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_t16_single_waypoint_six_room_branch_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "LEWM_ROUTE_MODE": "waypoint"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Only switch threshold8->16px; matches final goal tolerance. Sensitivity diagnosis, no tuning sweep or learned hierarchy."
+      },
+      {
+        "tag": "oracle_t16_single_waypoint_six_room_branch_b1_v1",
+        "model": "single",
+        "mode": "waypoint",
+        "map": "six_room_branch",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_t16_single_waypoint_six_room_branch_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "LEWM_ROUTE_MODE": "waypoint"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Only switch threshold8->16px; matches final goal tolerance. Sensitivity diagnosis, no tuning sweep or learned hierarchy."
+      },
+      {
+        "tag": "oracle_formal_multi_final_six_room_branch_b0_v1",
+        "model": "multi",
+        "mode": "final",
+        "map": "six_room_branch",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_formal_multi_final_six_room_branch_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+          "LEWM_ROUTE_MODE": "final"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Privileged high-level route diagnostic; same H5/R1 CEM budget as final-goal control, not deployable learned hierarchy."
+      },
+      {
+        "tag": "oracle_formal_multi_final_six_room_branch_b1_v1",
+        "model": "multi",
+        "mode": "final",
+        "map": "six_room_branch",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_formal_multi_final_six_room_branch_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+          "LEWM_ROUTE_MODE": "final"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Privileged high-level route diagnostic; same H5/R1 CEM budget as final-goal control, not deployable learned hierarchy."
+      },
+      {
+        "tag": "oracle_t16_multi_waypoint_six_room_branch_b0_v1",
+        "model": "multi",
+        "mode": "waypoint",
+        "map": "six_room_branch",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_t16_multi_waypoint_six_room_branch_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+          "LEWM_ROUTE_MODE": "waypoint"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Only switch threshold8->16px; matches final goal tolerance. Sensitivity diagnosis, no tuning sweep or learned hierarchy."
+      },
+      {
+        "tag": "oracle_t16_multi_waypoint_six_room_branch_b1_v1",
+        "model": "multi",
+        "mode": "waypoint",
+        "map": "six_room_branch",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints_t16.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "solver.n_steps=2",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=1",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_t16_multi_waypoint_six_room_branch_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+          "LEWM_ROUTE_MODE": "waypoint"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Only switch threshold8->16px; matches final goal tolerance. Sensitivity diagnosis, no tuning sweep or learned hierarchy."
+      }
+    ],
+    "audit_job": {
+      "tag": "audit_oracle_waypoint_t16_v1",
+      "argv": [
+        "/root/autodl-tmp/lewm_research/venv/bin/python",
+        "/root/autodl-tmp/lewm_research/strict_nav_20260910/audit_oracle_waypoint_t16.py"
+      ],
+      "env": {
+        "CUDA_VISIBLE_DEVICES": "",
+        "OMP_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "watchdog_seconds": 600
+    },
+    "budget": {
+      "physical_steps": 150,
+      "horizon_model_steps": 5,
+      "receding_model_steps": 1,
+      "action_block_physical_steps": 5,
+      "cem_iterations": 2,
+      "candidates": 300,
+      "topk": 30,
+      "warm_start": false,
+      "candidate_model_step_cap_per_case": 90000
+    },
+    "frozen_choice": "One sensitivity condition:16px matches final success radius; same8px global-control records reused. No outcome-adaptive further thresholds.",
+    "limits": [
+      "Development cases, not final reserved test. One matched seed4001 per training condition.",
+      "Oracle uses true graph, door positions and exact pose plus synthetic waypoint images; not learned visual hierarchy or deployable policy.",
+      "Target replacement never flushes buffers or changes true terminal goal. Switch threshold8px, door offsets20px fixed before formal outcomes.",
+      "Equal candidate-model-step caps do not mean equal actual cost after early stop. Encoder work, route image count and batch time logged; batch time is not online latency.",
+      "Compared to previous H5/R5, encoder and feedback counts differ despite same nominal candidate budget.",
+      "OOD topology also shifts geometry, scale and appearance. Positive/negative results do not isolate topology causal mechanisms.",
+      "No topology training, no memory, no partial observation, no robot deployment.",
+      "This16px sensitivity was proposed after observed8px failures approached within16 but not8; development diagnostic, not preregistered before8px outcomes.",
+      "CPU actual switching reference succeeds all300 cases for each tolerance.16px yields some non-clear next straight segments, resolved by sliding control; not a perfect collision-free subgoal oracle.",
+      "No action-buffer flush, same90000 candidate-model-step cap. Existing strict three-seed interventions retain priority.",
+      "Old CPU audit proved nominal exact waypoint routes; new CPU audit explicitly executes8/16 switching rule."
+    ],
+    "scheduled_after": "strict3074_test_long_base_b5"
+  },
+  "requires_stage_review": true,
+  "threshold16_vs8": {
+    "four_room_chain": {
+      "single": {
+        "n": 100,
+        "ci95_conditional_fixed_model_map": [
+          -3.0,
+          5.0
+        ],
+        "gained": 3,
+        "lost": 2,
+        "threshold16_minus_threshold8_pp": 1.0,
+        "sr8": 23.0,
+        "sr16": 24.0
+      },
+      "multi": {
+        "n": 100,
+        "ci95_conditional_fixed_model_map": [
+          3.0,
+          17.0
+        ],
+        "gained": 12,
+        "lost": 2,
+        "threshold16_minus_threshold8_pp": 10.0,
+        "sr8": 28.000000000000004,
+        "sr16": 38.0
+      }
+    },
+    "four_room_cycle": {
+      "single": {
+        "n": 100,
+        "ci95_conditional_fixed_model_map": [
+          1.0,
+          14.000000000000002
+        ],
+        "gained": 9,
+        "lost": 2,
+        "threshold16_minus_threshold8_pp": 7.000000000000001,
+        "sr8": 31.0,
+        "sr16": 38.0
+      },
+      "multi": {
+        "n": 100,
+        "ci95_conditional_fixed_model_map": [
+          13.0,
+          28.999999999999996
+        ],
+        "gained": 22,
+        "lost": 1,
+        "threshold16_minus_threshold8_pp": 21.0,
+        "sr8": 43.0,
+        "sr16": 64.0
+      }
+    },
+    "six_room_branch": {
+      "single": {
+        "n": 100,
+        "ci95_conditional_fixed_model_map": [
+          -2.0,
+          5.0
+        ],
+        "gained": 2,
+        "lost": 1,
+        "threshold16_minus_threshold8_pp": 1.0,
+        "sr8": 8.0,
+        "sr16": 9.0
+      },
+      "multi": {
+        "n": 100,
+        "ci95_conditional_fixed_model_map": [
+          0.0,
+          3.0
+        ],
+        "gained": 1,
+        "lost": 0,
+        "threshold16_minus_threshold8_pp": 1.0,
+        "sr8": 8.0,
+        "sr16": 9.0
+      }
+    }
+  }
+}

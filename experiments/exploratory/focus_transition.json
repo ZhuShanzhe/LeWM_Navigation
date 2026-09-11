@@ -1,0 +1,8 @@
+{
+  "at": 1788965061.51103,
+  "old_supervisor": 38948,
+  "preserved_training": 149240,
+  "new_wrapper": 150910,
+  "deadline_unix": 1788991894.8217802,
+  "reason": "User prioritizes diagnostic validity over full reproduction"
+}

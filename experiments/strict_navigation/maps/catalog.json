@@ -1,0 +1,515 @@
+{
+  "created_unix": 1789013610.2483623,
+  "maps": [
+    {
+      "id": "train_axis1_door49",
+      "split": "train",
+      "axis": 1,
+      "door_center": 49,
+      "init_value": {
+        "wall.axis": 1,
+        "door.position": [
+          49,
+          49,
+          49
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "train_axis1_door81",
+      "split": "train",
+      "axis": 1,
+      "door_center": 81,
+      "init_value": {
+        "wall.axis": 1,
+        "door.position": [
+          81,
+          81,
+          81
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "train_axis1_door113",
+      "split": "train",
+      "axis": 1,
+      "door_center": 113,
+      "init_value": {
+        "wall.axis": 1,
+        "door.position": [
+          113,
+          113,
+          113
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "train_axis1_door145",
+      "split": "train",
+      "axis": 1,
+      "door_center": 145,
+      "init_value": {
+        "wall.axis": 1,
+        "door.position": [
+          145,
+          145,
+          145
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "train_axis0_door49",
+      "split": "train",
+      "axis": 0,
+      "door_center": 49,
+      "init_value": {
+        "wall.axis": 0,
+        "door.position": [
+          49,
+          49,
+          49
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "train_axis0_door81",
+      "split": "train",
+      "axis": 0,
+      "door_center": 81,
+      "init_value": {
+        "wall.axis": 0,
+        "door.position": [
+          81,
+          81,
+          81
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "train_axis0_door113",
+      "split": "train",
+      "axis": 0,
+      "door_center": 113,
+      "init_value": {
+        "wall.axis": 0,
+        "door.position": [
+          113,
+          113,
+          113
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "train_axis0_door145",
+      "split": "train",
+      "axis": 0,
+      "door_center": 145,
+      "init_value": {
+        "wall.axis": 0,
+        "door.position": [
+          145,
+          145,
+          145
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "validation_axis1_door65",
+      "split": "validation",
+      "axis": 1,
+      "door_center": 65,
+      "init_value": {
+        "wall.axis": 1,
+        "door.position": [
+          65,
+          65,
+          65
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "validation_axis1_door129",
+      "split": "validation",
+      "axis": 1,
+      "door_center": 129,
+      "init_value": {
+        "wall.axis": 1,
+        "door.position": [
+          129,
+          129,
+          129
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "validation_axis0_door65",
+      "split": "validation",
+      "axis": 0,
+      "door_center": 65,
+      "init_value": {
+        "wall.axis": 0,
+        "door.position": [
+          65,
+          65,
+          65
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "validation_axis0_door129",
+      "split": "validation",
+      "axis": 0,
+      "door_center": 129,
+      "init_value": {
+        "wall.axis": 0,
+        "door.position": [
+          129,
+          129,
+          129
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "test_axis1_door97",
+      "split": "test",
+      "axis": 1,
+      "door_center": 97,
+      "init_value": {
+        "wall.axis": 1,
+        "door.position": [
+          97,
+          97,
+          97
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "test_axis1_door161",
+      "split": "test",
+      "axis": 1,
+      "door_center": 161,
+      "init_value": {
+        "wall.axis": 1,
+        "door.position": [
+          161,
+          161,
+          161
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "test_axis1_door177",
+      "split": "test",
+      "axis": 1,
+      "door_center": 177,
+      "init_value": {
+        "wall.axis": 1,
+        "door.position": [
+          177,
+          177,
+          177
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "test_axis0_door97",
+      "split": "test",
+      "axis": 0,
+      "door_center": 97,
+      "init_value": {
+        "wall.axis": 0,
+        "door.position": [
+          97,
+          97,
+          97
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "test_axis0_door161",
+      "split": "test",
+      "axis": 0,
+      "door_center": 161,
+      "init_value": {
+        "wall.axis": 0,
+        "door.position": [
+          161,
+          161,
+          161
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "test_axis0_door177",
+      "split": "test",
+      "axis": 0,
+      "door_center": 177,
+      "init_value": {
+        "wall.axis": 0,
+        "door.position": [
+          177,
+          177,
+          177
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    }
+  ],
+  "audit": [
+    {
+      "map": "train_axis1_door49",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 60,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "train_axis1_door81",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 48,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "train_axis1_door113",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 35,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "train_axis1_door145",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 47,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "train_axis0_door49",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 60,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "train_axis0_door81",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 48,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "train_axis0_door113",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 35,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "train_axis0_door145",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 47,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "validation_axis1_door65",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 54,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "validation_axis1_door129",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 41,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "validation_axis0_door65",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 54,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "validation_axis0_door129",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 41,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "test_axis1_door97",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 41,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "test_axis1_door161",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 54,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "test_axis1_door177",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 60,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "test_axis0_door97",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 41,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "test_axis0_door161",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 54,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "test_axis0_door177",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 60,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    }
+  ],
+  "geometry_note": "two rooms, one door; changed geometry and wall orientation, NOT new connectivity topology",
+  "train_test_geometry_disjoint": true,
+  "cases_reused_across_maps": true,
+  "generated_case_count": 1800
+}

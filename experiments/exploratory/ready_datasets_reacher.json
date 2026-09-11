@@ -1,0 +1,15 @@
+{
+  "env": "reacher",
+  "kind": "datasets",
+  "files": [
+    {
+      "path": "/root/autodl-tmp/lewm_research/round12h_20260909/downloads/reacher/reacher.tar.zst",
+      "bytes": 23750614946,
+      "sha256": "4ff2385e49712caa89f21b8e0a246e2614b621d3f22cf2d1224d845e879a1cc2",
+      "url": "https://huggingface.co/datasets/quentinll/lewm-reacher/resolve/e70a080d0d04c6072123c9ebd343acf7fff28dbf/reacher.tar.zst"
+    }
+  ],
+  "h5": [
+    "/root/autodl-tmp/lewm_research/round12h_20260909/datasets/reacher/reacher.h5"
+  ]
+}

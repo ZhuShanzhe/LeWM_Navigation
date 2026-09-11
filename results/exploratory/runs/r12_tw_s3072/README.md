@@ -1,0 +1,15 @@
+# r12_tw_s3072
+
+运行tag：`r12_tw_s3072`。可能为训练、冒烟或历史失败；查看training_summary/failure等记录，不推断为正式评估。
+
+[返回上一级](../README.md)
+
+## 内容
+
+| 文件或目录 | 说明 |
+|---|---|
+| [lightning_logs](lightning_logs/README.md) | 进入下一层说明。 |
+| [environment.json](environment.json) | 数值、参数或审计记录。 |
+| [invocation.json](invocation.json) | 数值、参数或审计记录。 |
+| [progress.json](progress.json) | 数值、参数或审计记录。 |
+| [training_summary.json](training_summary.json) | 数值、参数或审计记录。 |

@@ -1,0 +1,26 @@
+[
+  {
+    "episode": 0,
+    "start_step": 0,
+    "success": false,
+    "initial_success": false,
+    "steps": 10,
+    "endpoint_distance": 41.68932411274022,
+    "path_length": 37.62653815298676,
+    "stalled_steps_lt_0_5px": 0,
+    "different_room": false,
+    "initial_euclidean": 39.86261749267578
+  },
+  {
+    "episode": 1,
+    "start_step": 0,
+    "success": false,
+    "initial_success": false,
+    "steps": 10,
+    "endpoint_distance": 53.089941408827606,
+    "path_length": 39.84905329571661,
+    "stalled_steps_lt_0_5px": 0,
+    "different_room": false,
+    "initial_euclidean": 43.77201461791992
+  }
+]

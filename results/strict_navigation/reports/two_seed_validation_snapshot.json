@@ -1,0 +1,37 @@
+{
+  "results": {
+    "3072_short150": {
+      "n": 100,
+      "sr": 97.0,
+      "excluding_initial_sr": 96.62921348314607,
+      "n_excluding_initial": 89,
+      "cross_sr": 100.0,
+      "same_sr": 96.5909090909091
+    },
+    "3072_long_base": {
+      "n": 100,
+      "sr": 62.0,
+      "excluding_initial_sr": 62.0,
+      "n_excluding_initial": 100,
+      "cross_sr": 58.2089552238806,
+      "same_sr": 69.6969696969697
+    },
+    "3073_short150": {
+      "n": 100,
+      "sr": 95.0,
+      "excluding_initial_sr": 94.38202247191012,
+      "n_excluding_initial": 89,
+      "cross_sr": 100.0,
+      "same_sr": 94.31818181818183
+    },
+    "3073_long_base": {
+      "n": 100,
+      "sr": 62.0,
+      "excluding_initial_sr": 62.0,
+      "n_excluding_initial": 100,
+      "cross_sr": 58.2089552238806,
+      "same_sr": 69.6969696969697
+    }
+  },
+  "limits": "Only 2 independent training seeds on fixed development cases; no temporal/retrieval seed3073 result yet."
+}

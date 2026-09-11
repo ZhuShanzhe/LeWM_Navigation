@@ -1,0 +1,473 @@
+{
+  "passed": true,
+  "updated_unix": 1789051383.5383415,
+  "protocol": {
+    "created_unix": 1789041462.5955825,
+    "seed": 4001,
+    "fresh_training": true,
+    "epochs": 10,
+    "expected_steps": 51920,
+    "train_frames": 736684,
+    "train_clips": 664684,
+    "validation_clips": 83354,
+    "eval_cases_per_map": 100,
+    "maps": [
+      "train_axis1_door49",
+      "validation_axis1_door65",
+      "validation_axis1_door129",
+      "validation_axis0_door65",
+      "validation_axis0_door129"
+    ],
+    "selection": "last full 10-epoch weights, not best navigation validation",
+    "cap": {
+      "execution_steps": 150,
+      "horizon_model_steps": 5,
+      "receding_horizon_model_steps": 5,
+      "cem_samples": 300,
+      "cem_iterations": 10,
+      "topk": 30,
+      "warm_start": false
+    },
+    "limits": [
+      "one paired training seed; not cross-seed robustness",
+      "same 100 coordinate cases reused across maps; do not pool as independent trials",
+      "original map is training geometry but states are independently fixed development cases",
+      "geometry variants remain two rooms/one door, not new topology",
+      "both datasets contain matched geometry-guided collection prior",
+      "test geometry and final reserve not used for this stage",
+      "single and multi use their own training-only normalization; not a pure one-factor coordinate transformation"
+    ],
+    "files": {
+      "single": {
+        "manifest_sha256": "08d0bc78a2775518f1eb8c79a277f9fc70a6734e03b82540825af2a19a6da930",
+        "normalization_sha256": "21364f6d3810cf9847c0d65a2618d64ee9ebe8badbc8f9f001a321e804cffa1f"
+      },
+      "multi": {
+        "manifest_sha256": "c515bb82f177efb78ce28d500c995f94b3264744e28e900d79a63cf900ac2180",
+        "normalization_sha256": "5edec93f03dcb9ec559dfd59db102c17d20ca41d1af7c83032d79eb7d80bd74b"
+      }
+    }
+  },
+  "models": {
+    "single": {
+      "summary": {
+        "global_step": 51920,
+        "epoch_counter": 10,
+        "max_epochs": 10,
+        "batches_per_epoch": 5192,
+        "epoch_equivalent": 10.0,
+        "elapsed_seconds": 4065.9728331565857,
+        "metrics": {
+          "fit/pred_loss": 0.009757335297763348,
+          "fit/sigreg_loss": 1.28125,
+          "fit/loss": 0.13768702745437622,
+          "hparams/lr_model_opt": 0.0,
+          "hardware/cpu_percent": 10.5,
+          "hardware/ram_used_pct": 14.800000190734863,
+          "hardware/ram_used_gb": 48.98712921142578,
+          "hardware/disk_read_mb_s": 6.310248851776123,
+          "hardware/disk_write_mb_s": 0.9032909870147705,
+          "hardware/net_recv_mb_s": 0.0013485865201801062,
+          "hardware/net_sent_mb_s": 0.002264931332319975,
+          "validate/pred_loss": 0.0027260330971330404,
+          "validate/pred_loss_epoch": 0.0027260330971330404,
+          "validate/sigreg_loss": 10.99433422088623,
+          "validate/sigreg_loss_epoch": 10.99433422088623,
+          "validate/loss": 1.1022295951843262,
+          "validate/loss_epoch": 1.1022295951843262
+        },
+        "completed_unix": 1789045661.6613436,
+        "full_epoch_budget_completed": true,
+        "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt"
+      },
+      "weights_sha256": "608f5bd8b16176557c2d859482b0de13792cf9ee5779bceed237536e03319e7a",
+      "split_audit": {
+        "manifest_sha256": "08d0bc78a2775518f1eb8c79a277f9fc70a6734e03b82540825af2a19a6da930",
+        "clip_counts": {
+          "train": 664684,
+          "validation": 83354
+        },
+        "excluded_test_clips": 0,
+        "episode_counts": {
+          "train": 8000,
+          "validation": 1000,
+          "test": 0
+        },
+        "normalization": "frozen train-only mean and ddof1 std",
+        "passed": true
+      }
+    },
+    "multi": {
+      "summary": {
+        "global_step": 51920,
+        "epoch_counter": 10,
+        "max_epochs": 10,
+        "batches_per_epoch": 5192,
+        "epoch_equivalent": 10.0,
+        "elapsed_seconds": 4203.461936473846,
+        "metrics": {
+          "fit/pred_loss": 0.006727909203618765,
+          "fit/sigreg_loss": 1.0703125,
+          "fit/loss": 0.1136615052819252,
+          "hparams/lr_model_opt": 0.0,
+          "hardware/cpu_percent": 5.599999904632568,
+          "hardware/ram_used_pct": 7.300000190734863,
+          "hardware/ram_used_gb": 40.595008850097656,
+          "hardware/disk_read_mb_s": 352.0890197753906,
+          "hardware/disk_write_mb_s": 1.5082802772521973,
+          "hardware/net_recv_mb_s": 9.706701530376449e-05,
+          "hardware/net_sent_mb_s": 0.00010965330875478685,
+          "validate/pred_loss": 0.02191808633506298,
+          "validate/pred_loss_epoch": 0.02191808633506298,
+          "validate/sigreg_loss": 20.2236328125,
+          "validate/sigreg_loss_epoch": 20.2236328125,
+          "validate/loss": 2.044509172439575,
+          "validate/loss_epoch": 2.044509172439575
+        },
+        "completed_unix": 1789050620.0416465,
+        "full_epoch_budget_completed": true,
+        "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt"
+      },
+      "weights_sha256": "af2a75e4082af1145411dd781a7d783182f222e16ece7b41afd79926233734b2",
+      "split_audit": {
+        "manifest_sha256": "c515bb82f177efb78ce28d500c995f94b3264744e28e900d79a63cf900ac2180",
+        "clip_counts": {
+          "train": 664684,
+          "validation": 83354
+        },
+        "excluded_test_clips": 0,
+        "episode_counts": {
+          "train": 8000,
+          "validation": 1000,
+          "test": 0
+        },
+        "normalization": "frozen train-only mean and ddof1 std",
+        "passed": true
+      }
+    }
+  },
+  "trace_audits": {
+    "geometry_single4001_map_train_a1_d49_b0": {
+      "passed": true,
+      "executed_action_values": 12440,
+      "post_terminal_nan_padding_values": 2560,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_single4001_map_train_a1_d49_b1": {
+      "passed": true,
+      "executed_action_values": 11528,
+      "post_terminal_nan_padding_values": 3472,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_single4001_map_validation_a1_d65_b0": {
+      "passed": true,
+      "executed_action_values": 13016,
+      "post_terminal_nan_padding_values": 1984,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_single4001_map_validation_a1_d65_b1": {
+      "passed": true,
+      "executed_action_values": 12300,
+      "post_terminal_nan_padding_values": 2700,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_single4001_map_validation_a1_d129_b0": {
+      "passed": true,
+      "executed_action_values": 12576,
+      "post_terminal_nan_padding_values": 2424,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_single4001_map_validation_a1_d129_b1": {
+      "passed": true,
+      "executed_action_values": 14682,
+      "post_terminal_nan_padding_values": 318,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_single4001_map_validation_a0_d65_b0": {
+      "passed": true,
+      "executed_action_values": 14048,
+      "post_terminal_nan_padding_values": 952,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_single4001_map_validation_a0_d65_b1": {
+      "passed": true,
+      "executed_action_values": 14994,
+      "post_terminal_nan_padding_values": 6,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_single4001_map_validation_a0_d129_b0": {
+      "passed": true,
+      "executed_action_values": 14244,
+      "post_terminal_nan_padding_values": 756,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_single4001_map_validation_a0_d129_b1": {
+      "passed": true,
+      "executed_action_values": 14210,
+      "post_terminal_nan_padding_values": 790,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_multi4001_map_train_a1_d49_b0": {
+      "passed": true,
+      "executed_action_values": 13464,
+      "post_terminal_nan_padding_values": 1536,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_multi4001_map_train_a1_d49_b1": {
+      "passed": true,
+      "executed_action_values": 14628,
+      "post_terminal_nan_padding_values": 372,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_multi4001_map_validation_a1_d65_b0": {
+      "passed": true,
+      "executed_action_values": 13968,
+      "post_terminal_nan_padding_values": 1032,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_multi4001_map_validation_a1_d65_b1": {
+      "passed": true,
+      "executed_action_values": 14486,
+      "post_terminal_nan_padding_values": 514,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_multi4001_map_validation_a1_d129_b0": {
+      "passed": true,
+      "executed_action_values": 13724,
+      "post_terminal_nan_padding_values": 1276,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_multi4001_map_validation_a1_d129_b1": {
+      "passed": true,
+      "executed_action_values": 14022,
+      "post_terminal_nan_padding_values": 978,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_multi4001_map_validation_a0_d65_b0": {
+      "passed": true,
+      "executed_action_values": 13714,
+      "post_terminal_nan_padding_values": 1286,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_multi4001_map_validation_a0_d65_b1": {
+      "passed": true,
+      "executed_action_values": 13584,
+      "post_terminal_nan_padding_values": 1416,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_multi4001_map_validation_a0_d129_b0": {
+      "passed": true,
+      "executed_action_values": 13714,
+      "post_terminal_nan_padding_values": 1286,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "geometry_multi4001_map_validation_a0_d129_b1": {
+      "passed": true,
+      "executed_action_values": 13940,
+      "post_terminal_nan_padding_values": 1060,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    }
+  },
+  "results": {
+    "single": {
+      "train_a1_d49": {
+        "n": 100,
+        "sr": 30.0,
+        "sr_excluding_initial": 30.0,
+        "cross_sr": 34.0,
+        "same_sr": 26.0,
+        "mean_path_all": 284.2040259623985,
+        "mean_endpoint_distance": 77.29077643464474,
+        "stalled_step_fraction": 0.07201268357810414,
+        "candidate_model_steps": 7305000,
+        "batch_elapsed_seconds_not_online_latency": 114.72317933477461
+      },
+      "validation_a1_d65": {
+        "n": 100,
+        "sr": 23.0,
+        "sr_excluding_initial": 23.0,
+        "cross_sr": 30.0,
+        "same_sr": 16.0,
+        "mean_path_all": 306.74946465294636,
+        "mean_endpoint_distance": 82.15210003330995,
+        "stalled_step_fraction": 0.06462316321693791,
+        "candidate_model_steps": 7665000,
+        "batch_elapsed_seconds_not_online_latency": 121.55772551428527
+      },
+      "validation_a1_d129": {
+        "n": 100,
+        "sr": 13.0,
+        "sr_excluding_initial": 13.0,
+        "cross_sr": 4.0,
+        "same_sr": 22.0,
+        "mean_path_all": 321.10638315848655,
+        "mean_endpoint_distance": 87.17602464439388,
+        "stalled_step_fraction": 0.07872918042409568,
+        "candidate_model_steps": 8220000,
+        "batch_elapsed_seconds_not_online_latency": 129.17000487912446
+      },
+      "validation_a0_d65": {
+        "n": 100,
+        "sr": 11.0,
+        "sr_excluding_initial": 11.0,
+        "cross_sr": 2.0,
+        "same_sr": 20.0,
+        "mean_path_all": 390.3475816622863,
+        "mean_endpoint_distance": 81.98894166799637,
+        "stalled_step_fraction": 0.058811376626954064,
+        "candidate_model_steps": 8760000,
+        "batch_elapsed_seconds_not_online_latency": 133.50300567783415
+      },
+      "validation_a0_d129": {
+        "n": 100,
+        "sr": 14.000000000000002,
+        "sr_excluding_initial": 14.000000000000002,
+        "cross_sr": 10.0,
+        "same_sr": 18.0,
+        "mean_path_all": 398.6044551118814,
+        "mean_endpoint_distance": 82.94995028178214,
+        "stalled_step_fraction": 0.05152175441062768,
+        "candidate_model_steps": 8625000,
+        "batch_elapsed_seconds_not_online_latency": 134.896555214189
+      }
+    },
+    "multi": {
+      "train_a1_d49": {
+        "n": 100,
+        "sr": 9.0,
+        "sr_excluding_initial": 9.0,
+        "cross_sr": 6.0,
+        "same_sr": 12.0,
+        "mean_path_all": 319.9816762564674,
+        "mean_endpoint_distance": 95.26602366555096,
+        "stalled_step_fraction": 0.07575110351701551,
+        "candidate_model_steps": 8445000,
+        "batch_elapsed_seconds_not_online_latency": 130.194322491996
+      },
+      "validation_a1_d65": {
+        "n": 100,
+        "sr": 6.0,
+        "sr_excluding_initial": 6.0,
+        "cross_sr": 4.0,
+        "same_sr": 8.0,
+        "mean_path_all": 362.0989252902652,
+        "mean_endpoint_distance": 97.02753375797408,
+        "stalled_step_fraction": 0.06009699866451114,
+        "candidate_model_steps": 8550000,
+        "batch_elapsed_seconds_not_online_latency": 135.77786260377616
+      },
+      "validation_a1_d129": {
+        "n": 100,
+        "sr": 9.0,
+        "sr_excluding_initial": 9.0,
+        "cross_sr": 8.0,
+        "same_sr": 10.0,
+        "mean_path_all": 336.47772601130293,
+        "mean_endpoint_distance": 93.36935239386914,
+        "stalled_step_fraction": 0.05867512434224753,
+        "candidate_model_steps": 8355000,
+        "batch_elapsed_seconds_not_online_latency": 132.10898669343442
+      },
+      "validation_a0_d65": {
+        "n": 100,
+        "sr": 11.0,
+        "sr_excluding_initial": 11.0,
+        "cross_sr": 12.0,
+        "same_sr": 10.0,
+        "mean_path_all": 326.6665063781114,
+        "mean_endpoint_distance": 91.11033840826309,
+        "stalled_step_fraction": 0.060956846655432634,
+        "candidate_model_steps": 8235000,
+        "batch_elapsed_seconds_not_online_latency": 127.39178157318383
+      },
+      "validation_a0_d129": {
+        "n": 100,
+        "sr": 11.0,
+        "sr_excluding_initial": 11.0,
+        "cross_sr": 12.0,
+        "same_sr": 10.0,
+        "mean_path_all": 332.9760303899799,
+        "mean_endpoint_distance": 91.3920414272265,
+        "stalled_step_fraction": 0.04867288638171693,
+        "candidate_model_steps": 8325000,
+        "batch_elapsed_seconds_not_online_latency": 131.3065662048757
+      }
+    }
+  },
+  "paired": {
+    "train_a1_d49": {
+      "delta_pp": -21.0,
+      "paired_case_ci95_conditional_fixed_map_seed": [
+        -31.0,
+        -11.0
+      ],
+      "gained": 4,
+      "lost": 25
+    },
+    "validation_a1_d65": {
+      "delta_pp": -17.0,
+      "paired_case_ci95_conditional_fixed_map_seed": [
+        -26.0,
+        -9.0
+      ],
+      "gained": 2,
+      "lost": 19
+    },
+    "validation_a1_d129": {
+      "delta_pp": -4.0,
+      "paired_case_ci95_conditional_fixed_map_seed": [
+        -12.0,
+        4.0
+      ],
+      "gained": 6,
+      "lost": 10
+    },
+    "validation_a0_d65": {
+      "delta_pp": 0.0,
+      "paired_case_ci95_conditional_fixed_map_seed": [
+        -8.0,
+        8.0
+      ],
+      "gained": 8,
+      "lost": 8
+    },
+    "validation_a0_d129": {
+      "delta_pp": -3.0,
+      "paired_case_ci95_conditional_fixed_map_seed": [
+        -13.0,
+        7.000000000000001
+      ],
+      "gained": 11,
+      "lost": 14
+    }
+  },
+  "limits": [
+    "one paired training seed; not cross-seed robustness",
+    "same 100 coordinate cases reused across maps; do not pool as independent trials",
+    "original map is training geometry but states are independently fixed development cases",
+    "geometry variants remain two rooms/one door, not new topology",
+    "both datasets contain matched geometry-guided collection prior",
+    "test geometry and final reserve not used for this stage",
+    "single and multi use their own training-only normalization; not a pure one-factor coordinate transformation"
+  ]
+}

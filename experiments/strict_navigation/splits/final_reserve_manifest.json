@@ -1,0 +1,17 @@
+{
+  "created_unix": 1789020659.0211835,
+  "eligible_pool": 488,
+  "n": 300,
+  "disjoint_development_test_episodes": true,
+  "original_split_sha256": "3459cd193c56c531255c5c08f6f0e89753b4297f4aed0cd5b9de619fe2c611a5",
+  "files": {
+    "cases_final_reserve.json": "6859d39f21bacdbcd9a502686dba2fbe499608b871d4bce254e5a66317a44eb7",
+    "cases_final_reserve_0.json": "54f0738b0c3ea6a8a51405ec79b56c1f903ae489c20b2ac898d0acae74ff2b8f",
+    "cases_final_reserve_1.json": "4661d3c7eb93280442b5dcd4344609ba306ef82d940d2506ef4012fa37920578",
+    "cases_final_reserve_2.json": "b64e490d7774f77460e499d199e38532b72f59a44af91fcfaacb0e0cf41a638c",
+    "cases_final_reserve_3.json": "9884489dab3a011df52df0b85f11c9268bc70fcb33bfe06e44c709f995dc15ff",
+    "cases_final_reserve_4.json": "db231c43fbbeaf4088c9427f58fd8db4e6d8c4728e7f9bba6ea2b91f420f0fab",
+    "cases_final_reserve_5.json": "90cb27043da5a2ad304e86724e591d99c503f3953d7b6a60d824c0b86854552e"
+  },
+  "rationale": "Original test results now used for mechanism exploration. Independent episodes remain unqueried for final comparison; shared map still limits external validity."
+}

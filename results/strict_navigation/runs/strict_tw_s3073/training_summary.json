@@ -1,0 +1,30 @@
+{
+  "global_step": 51920,
+  "epoch_counter": 10,
+  "max_epochs": 10,
+  "batches_per_epoch": 5192,
+  "epoch_equivalent": 10.0,
+  "elapsed_seconds": 6009.0452580451965,
+  "metrics": {
+    "fit/pred_loss": 0.022611815482378006,
+    "fit/sigreg_loss": 1.3671875,
+    "fit/loss": 0.1593305617570877,
+    "hparams/lr_model_opt": 0.0,
+    "hardware/cpu_percent": 13.5,
+    "hardware/ram_used_pct": 6.900000095367432,
+    "hardware/ram_used_gb": 37.662635803222656,
+    "hardware/disk_read_mb_s": 11.729494094848633,
+    "hardware/disk_write_mb_s": 1.5917288064956665,
+    "hardware/net_recv_mb_s": 0.0,
+    "hardware/net_sent_mb_s": 0.0,
+    "validate/pred_loss": 0.007949876599013805,
+    "validate/pred_loss_epoch": 0.007949876599013805,
+    "validate/sigreg_loss": 8.526851654052734,
+    "validate/sigreg_loss_epoch": 8.526851654052734,
+    "validate/loss": 0.8604709506034851,
+    "validate/loss_epoch": 0.8604709506034851
+  },
+  "completed_unix": 1789037584.5172713,
+  "full_epoch_budget_completed": true,
+  "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3073/weights_final.pt"
+}

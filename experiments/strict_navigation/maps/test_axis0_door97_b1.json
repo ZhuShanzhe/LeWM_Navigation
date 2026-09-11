@@ -1,0 +1,1078 @@
+{
+  "id": "test_axis0_door97",
+  "split": "test",
+  "axis": 0,
+  "door_center": 97,
+  "init_value": {
+    "wall.axis": 0,
+    "door.position": [
+      97,
+      97,
+      97
+    ],
+    "door.number": 1,
+    "door.size": [
+      14,
+      14,
+      14
+    ]
+  },
+  "selection_seed": 9102030,
+  "task": "synthetic direct-goal navigation; key 75 is adapter compatibility, not logged horizon",
+  "distance_range": [
+    75,
+    125
+  ],
+  "cases": [
+    {
+      "episode": 50,
+      "start_step": 0,
+      "start_xy": [
+        177.75624084472656,
+        63.65190124511719
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            190.73980712890625,
+            137.92996215820312
+          ],
+          "euclidean": 75.40426635742188,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 39
+    },
+    {
+      "episode": 51,
+      "start_step": 0,
+      "start_xy": [
+        90.06795501708984,
+        136.01559448242188
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            135.1834259033203,
+            45.58918762207031
+          ],
+          "euclidean": 101.0561294555664,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 15
+    },
+    {
+      "episode": 52,
+      "start_step": 0,
+      "start_xy": [
+        113.67134857177734,
+        138.935302734375
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            108.19905090332031,
+            44.46314239501953
+          ],
+          "euclidean": 94.63052368164062,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 17
+    },
+    {
+      "episode": 53,
+      "start_step": 0,
+      "start_xy": [
+        111.5068588256836,
+        162.8339080810547
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            109.21240997314453,
+            54.92738342285156
+          ],
+          "euclidean": 107.93091583251953,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 19
+    },
+    {
+      "episode": 54,
+      "start_step": 0,
+      "start_xy": [
+        152.00625610351562,
+        81.50741577148438
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            163.0449676513672,
+            161.34213256835938
+          ],
+          "euclidean": 80.5942611694336,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 29
+    },
+    {
+      "episode": 55,
+      "start_step": 0,
+      "start_xy": [
+        60.8125,
+        54.07809829711914
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            30.477787017822266,
+            156.28680419921875
+          ],
+          "euclidean": 106.61526489257812,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 26
+    },
+    {
+      "episode": 56,
+      "start_step": 0,
+      "start_xy": [
+        42.7125129699707,
+        160.35232543945312
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            40.94203186035156,
+            59.436744689941406
+          ],
+          "euclidean": 100.93110656738281,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 27
+    },
+    {
+      "episode": 57,
+      "start_step": 0,
+      "start_xy": [
+        58.90694046020508,
+        192.6071319580078
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            97.09161376953125,
+            87.78968048095703
+          ],
+          "euclidean": 111.55612182617188,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 18
+    },
+    {
+      "episode": 58,
+      "start_step": 0,
+      "start_xy": [
+        92.79606628417969,
+        73.77362060546875
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            122.7492904663086,
+            164.39280700683594
+          ],
+          "euclidean": 95.44125366210938,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 16
+    },
+    {
+      "episode": 59,
+      "start_step": 0,
+      "start_xy": [
+        48.71400451660156,
+        181.25486755371094
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            43.626583099365234,
+            69.74064636230469
+          ],
+          "euclidean": 111.63021087646484,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 25
+    },
+    {
+      "episode": 60,
+      "start_step": 0,
+      "start_xy": [
+        53.74721908569336,
+        53.91619873046875
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            118.69337463378906,
+            148.02806091308594
+          ],
+          "euclidean": 114.34616088867188,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 18
+    },
+    {
+      "episode": 61,
+      "start_step": 0,
+      "start_xy": [
+        40.85688781738281,
+        143.04713439941406
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            119.08802032470703,
+            89.0556640625
+          ],
+          "euclidean": 95.0536117553711,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 20
+    },
+    {
+      "episode": 62,
+      "start_step": 0,
+      "start_xy": [
+        129.52899169921875,
+        172.32760620117188
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            147.17193603515625,
+            69.27288818359375
+          ],
+          "euclidean": 104.55404663085938,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 23
+    },
+    {
+      "episode": 63,
+      "start_step": 0,
+      "start_xy": [
+        114.42874908447266,
+        53.78213882446289
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            184.27011108398438,
+            155.28402709960938
+          ],
+          "euclidean": 123.20896911621094,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 30
+    },
+    {
+      "episode": 64,
+      "start_step": 0,
+      "start_xy": [
+        102.77537536621094,
+        83.94651794433594
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            138.732666015625,
+            188.72132873535156
+          ],
+          "euclidean": 110.77313232421875,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 18
+    },
+    {
+      "episode": 65,
+      "start_step": 0,
+      "start_xy": [
+        156.3923797607422,
+        164.36767578125
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            186.6000518798828,
+            51.04875564575195
+          ],
+          "euclidean": 117.27609252929688,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 34
+    },
+    {
+      "episode": 66,
+      "start_step": 0,
+      "start_xy": [
+        147.55453491210938,
+        70.67484283447266
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            93.41573333740234,
+            175.063232421875
+          ],
+          "euclidean": 117.59228515625,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 24
+    },
+    {
+      "episode": 67,
+      "start_step": 0,
+      "start_xy": [
+        88.11309051513672,
+        132.13894653320312
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            148.37777709960938,
+            50.364097595214844
+          ],
+          "euclidean": 101.582275390625,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 17
+    },
+    {
+      "episode": 68,
+      "start_step": 0,
+      "start_xy": [
+        175.62757873535156,
+        78.53803253173828
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            124.49376678466797,
+            168.8331298828125
+          ],
+          "euclidean": 103.76835632324219,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 28
+    },
+    {
+      "episode": 69,
+      "start_step": 0,
+      "start_xy": [
+        115.4915771484375,
+        66.75685119628906
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            41.12462615966797,
+            166.5756072998047
+          ],
+          "euclidean": 124.47581481933594,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 21
+    },
+    {
+      "episode": 70,
+      "start_step": 0,
+      "start_xy": [
+        80.74180603027344,
+        136.42349243164062
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            183.31155395507812,
+            80.76656341552734
+          ],
+          "euclidean": 116.6972427368164,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 25
+    },
+    {
+      "episode": 71,
+      "start_step": 0,
+      "start_xy": [
+        186.0787811279297,
+        34.30966567993164
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            192.80960083007812,
+            154.56761169433594
+          ],
+          "euclidean": 120.4461669921875,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 41
+    },
+    {
+      "episode": 72,
+      "start_step": 0,
+      "start_xy": [
+        80.90311431884766,
+        173.5991668701172
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            118.85258483886719,
+            74.86207580566406
+          ],
+          "euclidean": 105.77889251708984,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 18
+    },
+    {
+      "episode": 73,
+      "start_step": 0,
+      "start_xy": [
+        129.3290557861328,
+        154.3927459716797
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            105.361083984375,
+            82.28961181640625
+          ],
+          "euclidean": 75.98240661621094,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 13
+    },
+    {
+      "episode": 74,
+      "start_step": 0,
+      "start_xy": [
+        56.41815948486328,
+        83.91642761230469
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            143.45851135253906,
+            133.4888458251953
+          ],
+          "euclidean": 100.16709899902344,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 22
+    },
+    {
+      "episode": 75,
+      "start_step": 0,
+      "start_xy": [
+        34.39250946044922,
+        85.31107330322266
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            39.149845123291016,
+            173.66217041015625
+          ],
+          "euclidean": 88.47908782958984,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 28
+    },
+    {
+      "episode": 76,
+      "start_step": 0,
+      "start_xy": [
+        95.89889526367188,
+        144.64955139160156
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            42.19794464111328,
+            35.83756637573242
+          ],
+          "euclidean": 121.34182739257812,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 20
+    },
+    {
+      "episode": 77,
+      "start_step": 0,
+      "start_xy": [
+        31.954137802124023,
+        135.96124267578125
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            109.07039642333984,
+            76.90312957763672
+          ],
+          "euclidean": 97.13278198242188,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 21
+    },
+    {
+      "episode": 78,
+      "start_step": 0,
+      "start_xy": [
+        172.70347595214844,
+        169.8391571044922
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            175.2078399658203,
+            83.88335418701172
+          ],
+          "euclidean": 85.99227905273438,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 35
+    },
+    {
+      "episode": 79,
+      "start_step": 0,
+      "start_xy": [
+        184.4892120361328,
+        75.82845306396484
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            137.9709014892578,
+            161.1862030029297
+          ],
+          "euclidean": 97.21058654785156,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 30
+    },
+    {
+      "episode": 80,
+      "start_step": 0,
+      "start_xy": [
+        156.28604125976562,
+        158.3915557861328
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            106.38414001464844,
+            59.66132736206055
+          ],
+          "euclidean": 110.62484741210938,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 23
+    },
+    {
+      "episode": 81,
+      "start_step": 0,
+      "start_xy": [
+        139.62672424316406,
+        160.81643676757812
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            189.6561279296875,
+            46.97624969482422
+          ],
+          "euclidean": 124.34841918945312,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 31
+    },
+    {
+      "episode": 82,
+      "start_step": 0,
+      "start_xy": [
+        43.01960754394531,
+        160.6786346435547
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            45.34346389770508,
+            55.81071472167969
+          ],
+          "euclidean": 104.89366149902344,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 26
+    },
+    {
+      "episode": 83,
+      "start_step": 0,
+      "start_xy": [
+        74.09471893310547,
+        38.6957893371582
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            73.84442138671875,
+            145.7393341064453
+          ],
+          "euclidean": 107.04383850097656,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 20
+    },
+    {
+      "episode": 84,
+      "start_step": 0,
+      "start_xy": [
+        93.00826263427734,
+        49.50810241699219
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            52.64384460449219,
+            151.80386352539062
+          ],
+          "euclidean": 109.97139739990234,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 22
+    },
+    {
+      "episode": 85,
+      "start_step": 0,
+      "start_xy": [
+        105.43550109863281,
+        170.12953186035156
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            59.1465950012207,
+            89.97969055175781
+          ],
+          "euclidean": 92.5562515258789,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 20
+    },
+    {
+      "episode": 86,
+      "start_step": 0,
+      "start_xy": [
+        163.07139587402344,
+        83.0237045288086
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            112.33244323730469,
+            161.1917266845703
+          ],
+          "euclidean": 93.19164276123047,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 24
+    },
+    {
+      "episode": 87,
+      "start_step": 0,
+      "start_xy": [
+        87.99928283691406,
+        53.215450286865234
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            68.04889678955078,
+            153.6385040283203
+          ],
+          "euclidean": 102.38558197021484,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 19
+    },
+    {
+      "episode": 88,
+      "start_step": 0,
+      "start_xy": [
+        107.44326782226562,
+        64.81987762451172
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            128.4453887939453,
+            163.8065185546875
+          ],
+          "euclidean": 101.19013977050781,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 18
+    },
+    {
+      "episode": 89,
+      "start_step": 0,
+      "start_xy": [
+        118.51526641845703,
+        54.58291244506836
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            148.94924926757812,
+            137.65296936035156
+          ],
+          "euclidean": 88.46955108642578,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 23
+    },
+    {
+      "episode": 90,
+      "start_step": 0,
+      "start_xy": [
+        101.24056243896484,
+        85.37249755859375
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            48.14052200317383,
+            165.79429626464844
+          ],
+          "euclidean": 96.37052917480469,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 16
+    },
+    {
+      "episode": 91,
+      "start_step": 0,
+      "start_xy": [
+        56.7813606262207,
+        61.01271057128906
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            36.15764236450195,
+            170.12965393066406
+          ],
+          "euclidean": 111.04884338378906,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 24
+    },
+    {
+      "episode": 92,
+      "start_step": 0,
+      "start_xy": [
+        111.11349487304688,
+        174.6046142578125
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            33.08145523071289,
+            79.0877914428711
+          ],
+          "euclidean": 123.33881378173828,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 26
+    },
+    {
+      "episode": 93,
+      "start_step": 0,
+      "start_xy": [
+        100.21461486816406,
+        67.26103210449219
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            176.6380615234375,
+            150.9569549560547
+          ],
+          "euclidean": 113.33821105957031,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 25
+    },
+    {
+      "episode": 94,
+      "start_step": 0,
+      "start_xy": [
+        138.68551635742188,
+        32.855411529541016
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            157.63307189941406,
+            141.96263122558594
+          ],
+          "euclidean": 110.74021911621094,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 28
+    },
+    {
+      "episode": 95,
+      "start_step": 0,
+      "start_xy": [
+        177.4635009765625,
+        85.18279266357422
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            165.4680633544922,
+            172.64715576171875
+          ],
+          "euclidean": 88.28309631347656,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 34
+    },
+    {
+      "episode": 96,
+      "start_step": 0,
+      "start_xy": [
+        52.1114616394043,
+        191.88973999023438
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            64.29320526123047,
+            80.39361572265625
+          ],
+          "euclidean": 112.15962219238281,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 23
+    },
+    {
+      "episode": 97,
+      "start_step": 0,
+      "start_xy": [
+        140.15103149414062,
+        84.69014739990234
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            156.5291290283203,
+            181.2586212158203
+          ],
+          "euclidean": 97.94749450683594,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 26
+    },
+    {
+      "episode": 98,
+      "start_step": 0,
+      "start_xy": [
+        73.69335174560547,
+        82.47991180419922
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            104.42998504638672,
+            151.36231994628906
+          ],
+          "euclidean": 75.428955078125,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 14
+    },
+    {
+      "episode": 99,
+      "start_step": 0,
+      "start_xy": [
+        131.62586975097656,
+        83.62665557861328
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            148.2228240966797,
+            182.62249755859375
+          ],
+          "euclidean": 100.3774642944336,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      },
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 23
+    }
+  ]
+}

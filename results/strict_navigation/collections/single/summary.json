@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "smoke": false,
+  "variant": "single",
+  "dataset": "/root/autodl-tmp/lewm_research/data/nav_single_control.h5",
+  "episodes": 9000,
+  "frames": 829038,
+  "train_frames": 736684,
+  "elapsed_seconds": 2308.6925354003906,
+  "dataset_bytes": 7285028026,
+  "extra_supervision": "50% collection episodes use map geometry waypoint controller; model inputs still only images/actions",
+  "geometry_counts": {
+    "train_axis1_door49": 9000
+  },
+  "wall_midline_crossings": 10143,
+  "behavior_by_geometry": {
+    "train_axis1_door49": {
+      "random": 4500,
+      "waypoint": 4500
+    }
+  }
+}

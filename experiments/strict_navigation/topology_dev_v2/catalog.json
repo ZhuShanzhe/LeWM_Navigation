@@ -1,0 +1,733 @@
+{
+  "passed": true,
+  "created_unix": 1789043922.1144638,
+  "maps": [
+    {
+      "id": "bridge_two_room",
+      "rectangles": [
+        [
+          107,
+          117,
+          14,
+          35
+        ],
+        [
+          107,
+          117,
+          63,
+          210
+        ]
+      ],
+      "room_centers": [
+        [
+          63.0,
+          112.0
+        ],
+        [
+          161.0,
+          112.0
+        ]
+      ],
+      "room_bounds": [
+        [
+          14,
+          112,
+          14,
+          210
+        ],
+        [
+          112,
+          210,
+          14,
+          210
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "gates": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "xy": [
+            112,
+            49
+          ],
+          "normal": [
+            1,
+            0
+          ]
+        }
+      ],
+      "scope": "full-observation custom topology diagnostic; not official TwoRoom"
+    },
+    {
+      "id": "four_room_chain",
+      "rectangles": [
+        [
+          107,
+          117,
+          14,
+          49.0
+        ],
+        [
+          107,
+          117,
+          77.0,
+          112
+        ],
+        [
+          107,
+          117,
+          112,
+          147.0
+        ],
+        [
+          107,
+          117,
+          175.0,
+          210
+        ],
+        [
+          14,
+          49.0,
+          107,
+          117
+        ],
+        [
+          77.0,
+          112,
+          107,
+          117
+        ],
+        [
+          112,
+          210,
+          107,
+          117
+        ]
+      ],
+      "room_centers": [
+        [
+          63.0,
+          63.0
+        ],
+        [
+          161.0,
+          63.0
+        ],
+        [
+          63.0,
+          161.0
+        ],
+        [
+          161.0,
+          161.0
+        ]
+      ],
+      "room_bounds": [
+        [
+          14,
+          112,
+          14,
+          112
+        ],
+        [
+          112,
+          210,
+          14,
+          112
+        ],
+        [
+          14,
+          112,
+          112,
+          210
+        ],
+        [
+          112,
+          210,
+          112,
+          210
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "gates": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "xy": [
+            112,
+            63.0
+          ],
+          "normal": [
+            1,
+            0
+          ]
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "xy": [
+            112,
+            161.0
+          ],
+          "normal": [
+            1,
+            0
+          ]
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "xy": [
+            63.0,
+            112
+          ],
+          "normal": [
+            0,
+            1
+          ]
+        }
+      ],
+      "scope": "full-observation custom topology diagnostic; not official TwoRoom"
+    },
+    {
+      "id": "four_room_cycle",
+      "rectangles": [
+        [
+          107,
+          117,
+          14,
+          49.0
+        ],
+        [
+          107,
+          117,
+          77.0,
+          112
+        ],
+        [
+          107,
+          117,
+          112,
+          147.0
+        ],
+        [
+          107,
+          117,
+          175.0,
+          210
+        ],
+        [
+          14,
+          49.0,
+          107,
+          117
+        ],
+        [
+          77.0,
+          112,
+          107,
+          117
+        ],
+        [
+          112,
+          147.0,
+          107,
+          117
+        ],
+        [
+          175.0,
+          210,
+          107,
+          117
+        ]
+      ],
+      "room_centers": [
+        [
+          63.0,
+          63.0
+        ],
+        [
+          161.0,
+          63.0
+        ],
+        [
+          63.0,
+          161.0
+        ],
+        [
+          161.0,
+          161.0
+        ]
+      ],
+      "room_bounds": [
+        [
+          14,
+          112,
+          14,
+          112
+        ],
+        [
+          112,
+          210,
+          14,
+          112
+        ],
+        [
+          14,
+          112,
+          112,
+          210
+        ],
+        [
+          112,
+          210,
+          112,
+          210
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "gates": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "xy": [
+            112,
+            63.0
+          ],
+          "normal": [
+            1,
+            0
+          ]
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "xy": [
+            112,
+            161.0
+          ],
+          "normal": [
+            1,
+            0
+          ]
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "xy": [
+            63.0,
+            112
+          ],
+          "normal": [
+            0,
+            1
+          ]
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "xy": [
+            161.0,
+            112
+          ],
+          "normal": [
+            0,
+            1
+          ]
+        }
+      ],
+      "scope": "full-observation custom topology diagnostic; not official TwoRoom"
+    },
+    {
+      "id": "six_room_branch",
+      "rectangles": [
+        [
+          74,
+          84,
+          14,
+          49.0
+        ],
+        [
+          74,
+          84,
+          77.0,
+          112
+        ],
+        [
+          140,
+          150,
+          14,
+          49.0
+        ],
+        [
+          140,
+          150,
+          77.0,
+          112
+        ],
+        [
+          74,
+          84,
+          112,
+          147.0
+        ],
+        [
+          74,
+          84,
+          175.0,
+          210
+        ],
+        [
+          140,
+          150,
+          112,
+          147.0
+        ],
+        [
+          140,
+          150,
+          175.0,
+          210
+        ],
+        [
+          14,
+          79,
+          107,
+          117
+        ],
+        [
+          79,
+          98.0,
+          107,
+          117
+        ],
+        [
+          126.0,
+          145,
+          107,
+          117
+        ],
+        [
+          145,
+          210,
+          107,
+          117
+        ]
+      ],
+      "room_centers": [
+        [
+          46.5,
+          63.0
+        ],
+        [
+          112.0,
+          63.0
+        ],
+        [
+          177.5,
+          63.0
+        ],
+        [
+          46.5,
+          161.0
+        ],
+        [
+          112.0,
+          161.0
+        ],
+        [
+          177.5,
+          161.0
+        ]
+      ],
+      "room_bounds": [
+        [
+          14,
+          79,
+          14,
+          112
+        ],
+        [
+          79,
+          145,
+          14,
+          112
+        ],
+        [
+          145,
+          210,
+          14,
+          112
+        ],
+        [
+          14,
+          79,
+          112,
+          210
+        ],
+        [
+          79,
+          145,
+          112,
+          210
+        ],
+        [
+          145,
+          210,
+          112,
+          210
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "gates": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "xy": [
+            79,
+            63.0
+          ],
+          "normal": [
+            1,
+            0
+          ]
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "xy": [
+            145,
+            63.0
+          ],
+          "normal": [
+            1,
+            0
+          ]
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "xy": [
+            79,
+            161.0
+          ],
+          "normal": [
+            1,
+            0
+          ]
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "xy": [
+            145,
+            161.0
+          ],
+          "normal": [
+            1,
+            0
+          ]
+        },
+        {
+          "edge": [
+            1,
+            4
+          ],
+          "xy": [
+            112.0,
+            112
+          ],
+          "normal": [
+            0,
+            1
+          ]
+        }
+      ],
+      "scope": "full-observation custom topology diagnostic; not official TwoRoom"
+    }
+  ],
+  "audit": [
+    {
+      "id": "bridge_two_room",
+      "rooms": 2,
+      "edges": 1,
+      "cycles": 0,
+      "degrees": [
+        1,
+        1
+      ],
+      "diameter_hops": 1,
+      "reference_successes": 100,
+      "max_reference_steps": 55,
+      "gate_dynamics_checks": 2,
+      "blocked_segment_checks": 2,
+      "random_validity_steps": 400,
+      "render_mask_match": true,
+      "noop_and_target_render_checks": 100,
+      "cases_sha256": "748b0b8dd630ae473e55c61193e11a0c1145bff9aecf9653b7e749691f0cebb6"
+    },
+    {
+      "id": "four_room_chain",
+      "rooms": 4,
+      "edges": 3,
+      "cycles": 0,
+      "degrees": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "diameter_hops": 3,
+      "reference_successes": 100,
+      "max_reference_steps": 68,
+      "gate_dynamics_checks": 6,
+      "blocked_segment_checks": 7,
+      "random_validity_steps": 800,
+      "render_mask_match": true,
+      "noop_and_target_render_checks": 100,
+      "cases_sha256": "9fa52e42a2a8b17f74045598f2fa116687c008bd6fdf4d870112ec48a2bd5641"
+    },
+    {
+      "id": "four_room_cycle",
+      "rooms": 4,
+      "edges": 4,
+      "cycles": 1,
+      "degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "diameter_hops": 2,
+      "reference_successes": 100,
+      "max_reference_steps": 49,
+      "gate_dynamics_checks": 8,
+      "blocked_segment_checks": 8,
+      "random_validity_steps": 800,
+      "render_mask_match": true,
+      "noop_and_target_render_checks": 100,
+      "cases_sha256": "11c4442ca0fd39a057df046b19e72c79fe4e0922d0ad2054d15c7ed672f67576"
+    },
+    {
+      "id": "six_room_branch",
+      "rooms": 6,
+      "edges": 5,
+      "cycles": 0,
+      "degrees": [
+        1,
+        3,
+        1,
+        1,
+        3,
+        1
+      ],
+      "diameter_hops": 3,
+      "reference_successes": 100,
+      "max_reference_steps": 55,
+      "gate_dynamics_checks": 10,
+      "blocked_segment_checks": 10,
+      "random_validity_steps": 1200,
+      "render_mask_match": true,
+      "noop_and_target_render_checks": 100,
+      "cases_sha256": "ed29594086bd8aa3a50cc74428de007aca730309e3b634cb79c2ec92d1773e3d"
+    }
+  ],
+  "bridge": {
+    "n": 1000,
+    "one_step_different": 24,
+    "max_position_difference": 0.4549369812011719,
+    "free_space_n": 483,
+    "free_space_differences": 0,
+    "render_different_pixels": 242,
+    "reason": "custom inflated rectangular obstacles and swept/axis-sliding collision differ from original center-in-door allowance; bridge is mandatory before topology claims"
+  },
+  "limits": [
+    "custom simulator, not an official benchmark",
+    "full observation, no memory test",
+    "new conservative collision semantics require bridge control",
+    "reference room-center route is feasible, not exact shortest path/SPL",
+    "400 development cases, not independent final test or learned-model results",
+    "original TwoRoom code and current GPU queue untouched"
+  ]
+}

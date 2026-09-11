@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "updated_unix": 1789044172.3812385,
+  "checks": [
+    {
+      "tag": "topology_adapter_bridge_two_room_random_v2",
+      "passed": true,
+      "cases": 2,
+      "mode": "random",
+      "case_sha256": "63c3f90ab007556109d5f71af90ead7f92534062585787a9e4aa1aac110697be"
+    },
+    {
+      "tag": "topology_adapter_bridge_two_room_noop_v2",
+      "passed": true,
+      "cases": 2,
+      "mode": "noop",
+      "case_sha256": "63c3f90ab007556109d5f71af90ead7f92534062585787a9e4aa1aac110697be"
+    },
+    {
+      "tag": "topology_adapter_four_room_chain_random_v2",
+      "passed": true,
+      "cases": 2,
+      "mode": "random",
+      "case_sha256": "d2c897b8d3f22a73b01e96a49d74485b23b30180c9f5534c4ba2a88f06bb91ab"
+    },
+    {
+      "tag": "topology_adapter_four_room_chain_noop_v2",
+      "passed": true,
+      "cases": 2,
+      "mode": "noop",
+      "case_sha256": "d2c897b8d3f22a73b01e96a49d74485b23b30180c9f5534c4ba2a88f06bb91ab"
+    },
+    {
+      "tag": "topology_adapter_four_room_cycle_random_v2",
+      "passed": true,
+      "cases": 2,
+      "mode": "random",
+      "case_sha256": "c802fa1ffce4665da18235211c13d64bdfaed0019b6b407bddabc055e0ea41e5"
+    },
+    {
+      "tag": "topology_adapter_four_room_cycle_noop_v2",
+      "passed": true,
+      "cases": 2,
+      "mode": "noop",
+      "case_sha256": "c802fa1ffce4665da18235211c13d64bdfaed0019b6b407bddabc055e0ea41e5"
+    },
+    {
+      "tag": "topology_adapter_six_room_branch_random_v2",
+      "passed": true,
+      "cases": 2,
+      "mode": "random",
+      "case_sha256": "4b3c05a5beb20a0c27f8d23051dfbad2e8459ffa01711620ca06269117ad734f"
+    },
+    {
+      "tag": "topology_adapter_six_room_branch_noop_v2",
+      "passed": true,
+      "cases": 2,
+      "mode": "noop",
+      "case_sha256": "4b3c05a5beb20a0c27f8d23051dfbad2e8459ffa01711620ca06269117ad734f"
+    }
+  ],
+  "limits": "Random/no-op CPU interface only; no learned-model topology result."
+}

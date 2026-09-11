@@ -1,0 +1,62 @@
+{
+  "metrics": {
+    "success_rate": 0.0,
+    "episode_successes": [
+      false,
+      false
+    ],
+    "seeds": null
+  },
+  "elapsed_seconds": 0.5211048070341349,
+  "n_cases": 2,
+  "telemetry": {
+    "cost_calls": 4,
+    "candidate_sequences": 32,
+    "candidate_model_steps": 32,
+    "encoder_images": 8,
+    "predictor_token_inputs": 32,
+    "solver_calls": [
+      {
+        "seconds": 0.38608567230403423,
+        "n_active_envs": 2,
+        "candidate_model_steps": 16
+      },
+      {
+        "seconds": 0.019616263918578625,
+        "n_active_envs": 2,
+        "candidate_model_steps": 16
+      }
+    ],
+    "policy_calls_seconds": [
+      0.4002793738618493,
+      0.0027222149074077606,
+      0.0023713530972599983,
+      0.0021967384964227676,
+      0.0020847050473093987,
+      0.022373633459210396,
+      0.002218354493379593,
+      0.0021625328809022903,
+      0.002086728811264038,
+      0.0020904038101434708
+    ]
+  },
+  "argv": [
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_strict.py",
+    "--config-name",
+    "tworoom",
+    "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_smoke_multi_s4001/weights_final.pt",
+    "seed=42",
+    "eval.num_eval=2",
+    "eval.dataset_name=tworoom",
+    "eval.goal_offset_steps=75",
+    "eval.eval_budget=10",
+    "solver.n_steps=1",
+    "solver.num_samples=8",
+    "solver.topk=2",
+    "plan_config.horizon=1",
+    "plan_config.receding_horizon=1",
+    "+plan_config.warm_start=false",
+    "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/geometry_smoke_multi_eval/result.txt"
+  ],
+  "timing_note": "batched evaluation; single-env runs separately identify online latency; video disabled by default"
+}

@@ -1,0 +1,26 @@
+{
+  "step": 58400,
+  "epoch": 9,
+  "batches_per_epoch": 5841,
+  "elapsed_seconds": 6772.072987318039,
+  "metrics": {
+    "fit/pred_loss": 0.012806284241378307,
+    "fit/sigreg_loss": 1.234375,
+    "fit/loss": 0.13634143769741058,
+    "hparams/lr_model_opt": 3.6894653998587046e-12,
+    "hardware/cpu_percent": 8.5,
+    "hardware/ram_used_pct": 7.0,
+    "hardware/ram_used_gb": 36.57411193847656,
+    "hardware/disk_read_mb_s": 12.372361183166504,
+    "hardware/disk_write_mb_s": 2.2875726222991943,
+    "hardware/net_recv_mb_s": 0.0,
+    "hardware/net_sent_mb_s": 0.0,
+    "validate/pred_loss": 0.00816401094198227,
+    "validate/pred_loss_epoch": 0.00816401094198227,
+    "validate/sigreg_loss": 1.7217847108840942,
+    "validate/sigreg_loss_epoch": 1.7217847108840942,
+    "validate/loss": 0.1803625077009201,
+    "validate/loss_epoch": 0.1803625077009201
+  },
+  "updated_unix": 1788969147.8358676
+}

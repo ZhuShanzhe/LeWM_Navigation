@@ -1,0 +1,529 @@
+{
+  "passed": true,
+  "updated_unix": 1789057213.0652723,
+  "results": {
+    "a1_d65": {
+      "only": {
+        "n": 100,
+        "sr": 83.0,
+        "cross_sr": 80.0,
+        "same_sr": 86.0,
+        "excluding_initial_sr": 83.0,
+        "mean_path": 551.7005035356403,
+        "stalled_step_fraction": 0.003844921499519385,
+        "candidate_model_steps": 0,
+        "encoder_images": 822,
+        "retrieval_pair_distances": 27635640,
+        "batch_seconds_not_online": 24.349678402766585
+      },
+      "rerank": {
+        "n": 100,
+        "sr": 81.0,
+        "cross_sr": 70.0,
+        "same_sr": 92.0,
+        "excluding_initial_sr": 81.0,
+        "mean_path": 359.5803165132213,
+        "stalled_step_fraction": 0.022388059701492536,
+        "candidate_model_steps": 420000,
+        "encoder_images": 1120,
+        "retrieval_pair_distances": 18827200,
+        "batch_seconds_not_online": 25.411799510009587
+      },
+      "init": {
+        "n": 100,
+        "sr": 70.0,
+        "cross_sr": 57.99999999999999,
+        "same_sr": 82.0,
+        "excluding_initial_sr": 70.0,
+        "mean_path": 418.3602960088381,
+        "stalled_step_fraction": 0.019496931038632807,
+        "candidate_model_steps": 5310000,
+        "encoder_images": 7788,
+        "retrieval_pair_distances": 23802960,
+        "batch_seconds_not_online": 86.68465838301927
+      }
+    },
+    "a1_d129": {
+      "only": {
+        "n": 100,
+        "sr": 46.0,
+        "cross_sr": 6.0,
+        "same_sr": 86.0,
+        "excluding_initial_sr": 46.0,
+        "mean_path": 668.423899798506,
+        "stalled_step_fraction": 0.007653712050344417,
+        "candidate_model_steps": 0,
+        "encoder_images": 978,
+        "retrieval_pair_distances": 32880360,
+        "batch_seconds_not_online": 27.715125048533082
+      },
+      "rerank": {
+        "n": 100,
+        "sr": 48.0,
+        "cross_sr": 0.0,
+        "same_sr": 96.0,
+        "excluding_initial_sr": 48.0,
+        "mean_path": 524.1625775192188,
+        "stalled_step_fraction": 0.01353026234249122,
+        "candidate_model_steps": 604500,
+        "encoder_images": 1612,
+        "retrieval_pair_distances": 27097720,
+        "batch_seconds_not_online": 32.029288911260664
+      },
+      "init": {
+        "n": 100,
+        "sr": 48.0,
+        "cross_sr": 6.0,
+        "same_sr": 90.0,
+        "excluding_initial_sr": 48.0,
+        "mean_path": 521.8103266234061,
+        "stalled_step_fraction": 0.014006910075637315,
+        "candidate_model_steps": 6675000,
+        "encoder_images": 9790,
+        "retrieval_pair_distances": 29921800,
+        "batch_seconds_not_online": 107.07758777309209
+      }
+    },
+    "a0_d65": {
+      "only": {
+        "n": 100,
+        "sr": 15.0,
+        "cross_sr": 0.0,
+        "same_sr": 30.0,
+        "excluding_initial_sr": 15.0,
+        "mean_path": 744.0837058620455,
+        "stalled_step_fraction": 0.000515388013547342,
+        "candidate_model_steps": 0,
+        "encoder_images": 1100,
+        "retrieval_pair_distances": 36982000,
+        "batch_seconds_not_online": 31.99541261140257
+      },
+      "rerank": {
+        "n": 100,
+        "sr": 11.0,
+        "cross_sr": 0.0,
+        "same_sr": 22.0,
+        "excluding_initial_sr": 11.0,
+        "mean_path": 832.8574905071026,
+        "stalled_step_fraction": 0.004274103139013453,
+        "candidate_model_steps": 862500,
+        "encoder_images": 2300,
+        "retrieval_pair_distances": 38663000,
+        "batch_seconds_not_online": 42.478882770985365
+      },
+      "init": {
+        "n": 100,
+        "sr": 14.000000000000002,
+        "cross_sr": 0.0,
+        "same_sr": 28.000000000000004,
+        "excluding_initial_sr": 14.000000000000002,
+        "mean_path": 650.2488977416008,
+        "stalled_step_fraction": 0.01475662579839953,
+        "candidate_model_steps": 8280000,
+        "encoder_images": 12144,
+        "retrieval_pair_distances": 37116480,
+        "batch_seconds_not_online": 129.21365018654615
+      }
+    },
+    "a0_d129": {
+      "only": {
+        "n": 100,
+        "sr": 12.0,
+        "cross_sr": 0.0,
+        "same_sr": 24.0,
+        "excluding_initial_sr": 12.0,
+        "mean_path": 771.0040015701651,
+        "stalled_step_fraction": 0.0004314063848144953,
+        "candidate_model_steps": 0,
+        "encoder_images": 1122,
+        "retrieval_pair_distances": 37721640,
+        "batch_seconds_not_online": 32.46305471844971
+      },
+      "rerank": {
+        "n": 100,
+        "sr": 14.000000000000002,
+        "cross_sr": 0.0,
+        "same_sr": 28.000000000000004,
+        "excluding_initial_sr": 14.000000000000002,
+        "mean_path": 806.170817415716,
+        "stalled_step_fraction": 0.004784688995215311,
+        "candidate_model_steps": 847500,
+        "encoder_images": 2260,
+        "retrieval_pair_distances": 37990600,
+        "batch_seconds_not_online": 41.69982491154224
+      },
+      "init": {
+        "n": 100,
+        "sr": 14.000000000000002,
+        "cross_sr": 0.0,
+        "same_sr": 28.000000000000004,
+        "excluding_initial_sr": 14.000000000000002,
+        "mean_path": 661.3779137337691,
+        "stalled_step_fraction": 0.01354616680090796,
+        "candidate_model_steps": 8280000,
+        "encoder_images": 12144,
+        "retrieval_pair_distances": 37116480,
+        "batch_seconds_not_online": 126.3825725633651
+      }
+    }
+  },
+  "paired_against_only": {
+    "a1_d65": {
+      "rerank": {
+        "all": {
+          "n": 100,
+          "delta_pp": -2.0,
+          "ci95_conditional": [
+            -10.0,
+            6.0
+          ],
+          "wins": 8,
+          "losses": 10
+        },
+        "cross": {
+          "n": 50,
+          "delta_pp": -10.0,
+          "ci95_conditional": [
+            -22.0,
+            2.0
+          ],
+          "wins": 3,
+          "losses": 8
+        }
+      },
+      "init": {
+        "all": {
+          "n": 100,
+          "delta_pp": -13.0,
+          "ci95_conditional": [
+            -22.0,
+            -5.0
+          ],
+          "wins": 4,
+          "losses": 17
+        },
+        "cross": {
+          "n": 50,
+          "delta_pp": -22.0,
+          "ci95_conditional": [
+            -36.0,
+            -8.0
+          ],
+          "wins": 2,
+          "losses": 13
+        }
+      }
+    },
+    "a1_d129": {
+      "rerank": {
+        "all": {
+          "n": 100,
+          "delta_pp": 2.0,
+          "ci95_conditional": [
+            -4.0,
+            8.0
+          ],
+          "wins": 6,
+          "losses": 4
+        },
+        "cross": {
+          "n": 50,
+          "delta_pp": -6.0,
+          "ci95_conditional": [
+            -14.000000000000002,
+            0.0
+          ],
+          "wins": 0,
+          "losses": 3
+        }
+      },
+      "init": {
+        "all": {
+          "n": 100,
+          "delta_pp": 2.0,
+          "ci95_conditional": [
+            -5.0,
+            9.0
+          ],
+          "wins": 7,
+          "losses": 5
+        },
+        "cross": {
+          "n": 50,
+          "delta_pp": 0.0,
+          "ci95_conditional": [
+            -8.0,
+            8.0
+          ],
+          "wins": 2,
+          "losses": 2
+        }
+      }
+    },
+    "a0_d65": {
+      "rerank": {
+        "all": {
+          "n": 100,
+          "delta_pp": -4.0,
+          "ci95_conditional": [
+            -11.0,
+            3.0
+          ],
+          "wins": 4,
+          "losses": 8
+        },
+        "cross": {
+          "n": 50,
+          "delta_pp": 0.0,
+          "ci95_conditional": [
+            0.0,
+            0.0
+          ],
+          "wins": 0,
+          "losses": 0
+        }
+      },
+      "init": {
+        "all": {
+          "n": 100,
+          "delta_pp": -1.0,
+          "ci95_conditional": [
+            -5.0,
+            3.0
+          ],
+          "wins": 2,
+          "losses": 3
+        },
+        "cross": {
+          "n": 50,
+          "delta_pp": 0.0,
+          "ci95_conditional": [
+            0.0,
+            0.0
+          ],
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "a0_d129": {
+      "rerank": {
+        "all": {
+          "n": 100,
+          "delta_pp": 2.0,
+          "ci95_conditional": [
+            -4.0,
+            8.0
+          ],
+          "wins": 5,
+          "losses": 3
+        },
+        "cross": {
+          "n": 50,
+          "delta_pp": 0.0,
+          "ci95_conditional": [
+            0.0,
+            0.0
+          ],
+          "wins": 0,
+          "losses": 0
+        }
+      },
+      "init": {
+        "all": {
+          "n": 100,
+          "delta_pp": 2.0,
+          "ci95_conditional": [
+            -2.0,
+            6.0
+          ],
+          "wins": 3,
+          "losses": 1
+        },
+        "cross": {
+          "n": 50,
+          "delta_pp": 0.0,
+          "ci95_conditional": [
+            0.0,
+            0.0
+          ],
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "trace_audits": {
+    "strict3072_map_validation_a1_d65_retrieval_only_b0": {
+      "passed": true,
+      "executed_action_values": 8668,
+      "post_terminal_nan_padding_values": 6332,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a1_d65_retrieval_only_b1": {
+      "passed": true,
+      "executed_action_values": 10058,
+      "post_terminal_nan_padding_values": 4942,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a1_d65_retrieval_rerank_b0": {
+      "passed": true,
+      "executed_action_values": 4746,
+      "post_terminal_nan_padding_values": 10254,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a1_d65_retrieval_rerank_b1": {
+      "passed": true,
+      "executed_action_values": 8118,
+      "post_terminal_nan_padding_values": 6882,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a1_d65_retrieval_init_b0": {
+      "passed": true,
+      "executed_action_values": 6480,
+      "post_terminal_nan_padding_values": 8520,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a1_d65_retrieval_init_b1": {
+      "passed": true,
+      "executed_action_values": 10138,
+      "post_terminal_nan_padding_values": 4862,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a1_d129_retrieval_only_b0": {
+      "passed": true,
+      "executed_action_values": 8790,
+      "post_terminal_nan_padding_values": 6210,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a1_d129_retrieval_only_b1": {
+      "passed": true,
+      "executed_action_values": 14728,
+      "post_terminal_nan_padding_values": 272,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a1_d129_retrieval_rerank_b0": {
+      "passed": true,
+      "executed_action_values": 4364,
+      "post_terminal_nan_padding_values": 10636,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a1_d129_retrieval_rerank_b1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a1_d129_retrieval_init_b0": {
+      "passed": true,
+      "executed_action_values": 6522,
+      "post_terminal_nan_padding_values": 8478,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a1_d129_retrieval_init_b1": {
+      "passed": true,
+      "executed_action_values": 14896,
+      "post_terminal_nan_padding_values": 104,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a0_d65_retrieval_only_b0": {
+      "passed": true,
+      "executed_action_values": 12164,
+      "post_terminal_nan_padding_values": 2836,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a0_d65_retrieval_only_b1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a0_d65_retrieval_rerank_b0": {
+      "passed": true,
+      "executed_action_values": 13544,
+      "post_terminal_nan_padding_values": 1456,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a0_d65_retrieval_rerank_b1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a0_d65_retrieval_init_b0": {
+      "passed": true,
+      "executed_action_values": 12242,
+      "post_terminal_nan_padding_values": 2758,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a0_d65_retrieval_init_b1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a0_d129_retrieval_only_b0": {
+      "passed": true,
+      "executed_action_values": 12816,
+      "post_terminal_nan_padding_values": 2184,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a0_d129_retrieval_only_b1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a0_d129_retrieval_rerank_b0": {
+      "passed": true,
+      "executed_action_values": 13006,
+      "post_terminal_nan_padding_values": 1994,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a0_d129_retrieval_rerank_b1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a0_d129_retrieval_init_b0": {
+      "passed": true,
+      "executed_action_values": 12314,
+      "post_terminal_nan_padding_values": 2686,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "strict3072_map_validation_a0_d129_retrieval_init_b1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    }
+  },
+  "model_sha256": "e838b7d49b0bf06ef9a77f0030c7af1875270f2dc0a804e88eef63bf82065ada",
+  "library_sha256": "c8acee3afbf9c089e1a08858ac54c7ef18f57218646141cc3b1eeb62812bf71a",
+  "limits": "Single trained model seed3072, four development geometries reuse coordinates; conditional per-map case bootstrap only, no pooled independent-trial interpretation. Retrieval+CEM differs in compute and candidate rules."
+}

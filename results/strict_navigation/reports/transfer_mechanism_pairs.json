@@ -1,0 +1,187 @@
+{
+  "updated": "2026-09-11T04:55:51+08:00",
+  "paired": [
+    {
+      "baseline": "strict3072_validation_long_base_retrieval_only",
+      "variant": "strict3072_validation_long_base_retrieval_rerank",
+      "stratum": "all",
+      "n": 100,
+      "delta_pp": -1.0,
+      "ci95": [
+        -6.0,
+        3.0
+      ],
+      "wins": 2,
+      "losses": 3
+    },
+    {
+      "baseline": "strict3072_validation_long_base_retrieval_only",
+      "variant": "strict3072_validation_long_base_retrieval_init",
+      "stratum": "all",
+      "n": 100,
+      "delta_pp": -1.0,
+      "ci95": [
+        -5.0,
+        2.0
+      ],
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "baseline": "strict3072_map_validation_a1_d65",
+      "variant": "strict3072_map_validation_a1_d65_temporal_replace",
+      "stratum": "all",
+      "n": 100,
+      "delta_pp": 64.0,
+      "ci95": [
+        54.0,
+        73.0
+      ],
+      "wins": 64,
+      "losses": 0
+    },
+    {
+      "baseline": "strict3072_map_validation_a1_d65",
+      "variant": "strict3072_map_validation_a1_d65_temporal_replace",
+      "stratum": "across",
+      "n": 50,
+      "delta_pp": 60.0,
+      "ci95": [
+        46.0,
+        74.0
+      ],
+      "wins": 30,
+      "losses": 0
+    },
+    {
+      "baseline": "strict3072_map_validation_a1_d65",
+      "variant": "strict3072_map_validation_a1_d65_temporal_replace",
+      "stratum": "same",
+      "n": 50,
+      "delta_pp": 68.0,
+      "ci95": [
+        54.0,
+        80.0
+      ],
+      "wins": 34,
+      "losses": 0
+    },
+    {
+      "baseline": "strict3072_map_validation_a1_d129",
+      "variant": "strict3072_map_validation_a1_d129_temporal_replace",
+      "stratum": "all",
+      "n": 100,
+      "delta_pp": 45.0,
+      "ci95": [
+        35.0,
+        55.00000000000001
+      ],
+      "wins": 45,
+      "losses": 0
+    },
+    {
+      "baseline": "strict3072_map_validation_a1_d129",
+      "variant": "strict3072_map_validation_a1_d129_temporal_replace",
+      "stratum": "across",
+      "n": 50,
+      "delta_pp": 14.000000000000002,
+      "ci95": [
+        6.0,
+        24.0
+      ],
+      "wins": 7,
+      "losses": 0
+    },
+    {
+      "baseline": "strict3072_map_validation_a1_d129",
+      "variant": "strict3072_map_validation_a1_d129_temporal_replace",
+      "stratum": "same",
+      "n": 50,
+      "delta_pp": 76.0,
+      "ci95": [
+        64.0,
+        88.0
+      ],
+      "wins": 38,
+      "losses": 0
+    },
+    {
+      "baseline": "strict3072_map_validation_a0_d65",
+      "variant": "strict3072_map_validation_a0_d65_temporal_replace",
+      "stratum": "all",
+      "n": 100,
+      "delta_pp": -1.0,
+      "ci95": [
+        -8.0,
+        6.0
+      ],
+      "wins": 6,
+      "losses": 7
+    },
+    {
+      "baseline": "strict3072_map_validation_a0_d65",
+      "variant": "strict3072_map_validation_a0_d65_temporal_replace",
+      "stratum": "across",
+      "n": 50,
+      "delta_pp": 2.0,
+      "ci95": [
+        0.0,
+        6.0
+      ],
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "baseline": "strict3072_map_validation_a0_d65",
+      "variant": "strict3072_map_validation_a0_d65_temporal_replace",
+      "stratum": "same",
+      "n": 50,
+      "delta_pp": -4.0,
+      "ci95": [
+        -18.0,
+        10.0
+      ],
+      "wins": 5,
+      "losses": 7
+    },
+    {
+      "baseline": "strict3072_map_validation_a0_d129",
+      "variant": "strict3072_map_validation_a0_d129_temporal_replace",
+      "stratum": "all",
+      "n": 100,
+      "delta_pp": 3.0,
+      "ci95": [
+        -4.0,
+        11.0
+      ],
+      "wins": 9,
+      "losses": 6
+    },
+    {
+      "baseline": "strict3072_map_validation_a0_d129",
+      "variant": "strict3072_map_validation_a0_d129_temporal_replace",
+      "stratum": "across",
+      "n": 50,
+      "delta_pp": 2.0,
+      "ci95": [
+        0.0,
+        6.0
+      ],
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "baseline": "strict3072_map_validation_a0_d129",
+      "variant": "strict3072_map_validation_a0_d129_temporal_replace",
+      "stratum": "same",
+      "n": 50,
+      "delta_pp": 4.0,
+      "ci95": [
+        -10.0,
+        18.0
+      ],
+      "wins": 8,
+      "losses": 6
+    }
+  ]
+}

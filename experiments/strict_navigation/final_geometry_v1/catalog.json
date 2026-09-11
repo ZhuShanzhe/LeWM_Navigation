@@ -1,0 +1,123 @@
+{
+  "created_unix": 1789067457.931597,
+  "maps": [
+    {
+      "id": "final_geometry_axis1_door73",
+      "split": "final_geometry",
+      "axis": 1,
+      "door_center": 73,
+      "init_value": {
+        "wall.axis": 1,
+        "door.position": [
+          73,
+          73,
+          73
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "final_geometry_axis1_door169",
+      "split": "final_geometry",
+      "axis": 1,
+      "door_center": 169,
+      "init_value": {
+        "wall.axis": 1,
+        "door.position": [
+          169,
+          169,
+          169
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "final_geometry_axis0_door73",
+      "split": "final_geometry",
+      "axis": 0,
+      "door_center": 73,
+      "init_value": {
+        "wall.axis": 0,
+        "door.position": [
+          73,
+          73,
+          73
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "final_geometry_axis0_door169",
+      "split": "final_geometry",
+      "axis": 0,
+      "door_center": 169,
+      "init_value": {
+        "wall.axis": 0,
+        "door.position": [
+          169,
+          169,
+          169
+        ],
+        "door.number": 1,
+        "door.size": [
+          14,
+          14,
+          14
+        ]
+      }
+    }
+  ],
+  "audit": [
+    {
+      "map": "final_geometry_axis1_door73",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 48,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "final_geometry_axis1_door169",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 54,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "final_geometry_axis0_door73",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 48,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    },
+    {
+      "map": "final_geometry_axis0_door169",
+      "oracle_reference_successes": 100,
+      "n": 100,
+      "max_reference_steps": 54,
+      "noop_state_consistency": true,
+      "wall_blocks_and_door_passes": true
+    }
+  ],
+  "geometry_note": "two rooms, one door; changed geometry and wall orientation, NOT new connectivity topology",
+  "train_test_geometry_disjoint": true,
+  "cases_reused_across_maps": true,
+  "generated_case_count": 400
+}

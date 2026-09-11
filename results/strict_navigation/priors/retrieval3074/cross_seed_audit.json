@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "seed": 3074,
+  "same_training_state_pairs_and_action_chunks_as_3072": true,
+  "n": 67240,
+  "model_sha256": "562551286da64cbfb3c0981a4b6537d3aea1ec8b007980152ae28fec67328486",
+  "library_sha256": "21cf53fccdc7b908ee6d9d42e31bd62442fbdb209d266c190756ab0965304acd",
+  "source_builder_sha256": "451ae44139571b96ba8458734788ac122eea80af49636e1c6b98b5f438bd1020",
+  "split_sha256": "3459cd193c56c531255c5c08f6f0e89753b4297f4aed0cd5b9de619fe2c611a5",
+  "extra_training": false,
+  "note": "Frozen encoder differs by independently trained model; same logged training pairs/actions. No navigation outcome selection."
+}

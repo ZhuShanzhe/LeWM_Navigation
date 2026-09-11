@@ -1,0 +1,31 @@
+{
+  "metrics": {
+    "success_rate": 50.0,
+    "episode_successes": [
+      true,
+      false
+    ],
+    "seeds": null
+  },
+  "elapsed_seconds": 0.09659853857010603,
+  "n_cases": 2,
+  "telemetry": {
+    "cost_calls": 0,
+    "candidate_sequences": 0,
+    "candidate_model_steps": 0,
+    "encoder_images": 0,
+    "predictor_token_inputs": 0,
+    "solver_calls": [],
+    "policy_calls_seconds": []
+  },
+  "argv": [
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_strict.py",
+    "--config-name",
+    "tworoom",
+    "policy=random",
+    "eval.num_eval=2",
+    "eval.eval_budget=25",
+    "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/smoke_eval_random/result.txt"
+  ],
+  "timing_note": "batched evaluation; single-env runs separately identify online latency; video disabled by default"
+}

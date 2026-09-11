@@ -1,0 +1,940 @@
+[
+  {
+    "series": "focus_noop_long",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_noop_long",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_noop_long",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_noop_long",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_noop_long",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_noop_long",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_noop_short",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 56,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_noop_short",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 79,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_noop_short",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 2,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_noop_short",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 6,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_public_long_cem30",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_long_cem30",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 35.714285714285715
+  },
+  {
+    "series": "focus_public_long_cem30",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 11.11111111111111
+  },
+  {
+    "series": "focus_public_long_cem30",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_long_cem30",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 66.66666666666666
+  },
+  {
+    "series": "focus_public_long_cem30",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 31.57894736842105
+  },
+  {
+    "series": "focus_public_long_h10_n150",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_long_h10_n150",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 71.42857142857143
+  },
+  {
+    "series": "focus_public_long_h10_n150",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 11.11111111111111
+  },
+  {
+    "series": "focus_public_long_h10_n150",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_long_h10_n150",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 48.148148148148145
+  },
+  {
+    "series": "focus_public_long_h10_n150",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 39.473684210526315
+  },
+  {
+    "series": "focus_public_long_replan1_iter10",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_long_replan1_iter10",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 64.28571428571429
+  },
+  {
+    "series": "focus_public_long_replan1_iter10",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 14.814814814814813
+  },
+  {
+    "series": "focus_public_long_replan1_iter10",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_long_replan1_iter10",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 51.85185185185185
+  },
+  {
+    "series": "focus_public_long_replan1_iter10",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 27.631578947368425
+  },
+  {
+    "series": "focus_public_long_replan1_iter2",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_long_replan1_iter2",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 35.714285714285715
+  },
+  {
+    "series": "focus_public_long_replan1_iter2",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 11.11111111111111
+  },
+  {
+    "series": "focus_public_long_replan1_iter2",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_long_replan1_iter2",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 81.48148148148148
+  },
+  {
+    "series": "focus_public_long_replan1_iter2",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 22.36842105263158
+  },
+  {
+    "series": "focus_public_long",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_long",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 35.714285714285715
+  },
+  {
+    "series": "focus_public_long",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 14.814814814814813
+  },
+  {
+    "series": "focus_public_long",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_long",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 77.77777777777779
+  },
+  {
+    "series": "focus_public_long",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 23.684210526315788
+  },
+  {
+    "series": "focus_public_short150",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 56,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_short150",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 79,
+    "success_rate": 64.55696202531645
+  },
+  {
+    "series": "focus_public_short150",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 2,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_short150",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 6,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_short",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 56,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_short",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 79,
+    "success_rate": 63.29113924050633
+  },
+  {
+    "series": "focus_public_short",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 2,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_public_short",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 6,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_random_long",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 80.0
+  },
+  {
+    "series": "focus_random_long",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_random_long",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_random_long",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_random_long",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_random_long",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_random_short",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 56,
+    "success_rate": 51.78571428571429
+  },
+  {
+    "series": "focus_random_short",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 79,
+    "success_rate": 7.59493670886076
+  },
+  {
+    "series": "focus_random_short",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 2,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_random_short",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 6,
+    "success_rate": 0.0
+  },
+  {
+    "series": "focus_trained3072_long_cem30",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_long_cem30",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 92.85714285714286
+  },
+  {
+    "series": "focus_trained3072_long_cem30",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 25.925925925925924
+  },
+  {
+    "series": "focus_trained3072_long_cem30",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_long_cem30",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 85.18518518518519
+  },
+  {
+    "series": "focus_trained3072_long_cem30",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 51.31578947368421
+  },
+  {
+    "series": "focus_trained3072_long_h10_n150",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_long_h10_n150",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 85.71428571428571
+  },
+  {
+    "series": "focus_trained3072_long_h10_n150",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 44.44444444444444
+  },
+  {
+    "series": "focus_trained3072_long_h10_n150",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_long_h10_n150",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 62.96296296296296
+  },
+  {
+    "series": "focus_trained3072_long_h10_n150",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 63.1578947368421
+  },
+  {
+    "series": "focus_trained3072_long_replan1_iter10",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_long_replan1_iter10",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 92.85714285714286
+  },
+  {
+    "series": "focus_trained3072_long_replan1_iter10",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 33.33333333333333
+  },
+  {
+    "series": "focus_trained3072_long_replan1_iter10",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_long_replan1_iter10",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 85.18518518518519
+  },
+  {
+    "series": "focus_trained3072_long_replan1_iter10",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 56.57894736842105
+  },
+  {
+    "series": "focus_trained3072_long_replan1_iter2",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_long_replan1_iter2",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 85.71428571428571
+  },
+  {
+    "series": "focus_trained3072_long_replan1_iter2",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 14.814814814814813
+  },
+  {
+    "series": "focus_trained3072_long_replan1_iter2",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_long_replan1_iter2",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 92.5925925925926
+  },
+  {
+    "series": "focus_trained3072_long_replan1_iter2",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 47.368421052631575
+  },
+  {
+    "series": "focus_trained3072_long",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_long",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 85.71428571428571
+  },
+  {
+    "series": "focus_trained3072_long",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 25.925925925925924
+  },
+  {
+    "series": "focus_trained3072_long",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_long",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 85.18518518518519
+  },
+  {
+    "series": "focus_trained3072_long",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 48.68421052631579
+  },
+  {
+    "series": "focus_trained3072_short150",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 56,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_short150",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 79,
+    "success_rate": 92.40506329113924
+  },
+  {
+    "series": "focus_trained3072_short150",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 2,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_short150",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 6,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_short",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 56,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_short",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 79,
+    "success_rate": 91.13924050632912
+  },
+  {
+    "series": "focus_trained3072_short",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 2,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3072_short",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 6,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_long_cem30",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_long_cem30",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 64.28571428571429
+  },
+  {
+    "series": "focus_trained3073_long_cem30",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 51.85185185185185
+  },
+  {
+    "series": "focus_trained3073_long_cem30",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_long_cem30",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 92.5925925925926
+  },
+  {
+    "series": "focus_trained3073_long_cem30",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 51.31578947368421
+  },
+  {
+    "series": "focus_trained3073_long_h10_n150",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_long_h10_n150",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 85.71428571428571
+  },
+  {
+    "series": "focus_trained3073_long_h10_n150",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 70.37037037037037
+  },
+  {
+    "series": "focus_trained3073_long_h10_n150",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_long_h10_n150",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 70.37037037037037
+  },
+  {
+    "series": "focus_trained3073_long_h10_n150",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 55.26315789473685
+  },
+  {
+    "series": "focus_trained3073_long_replan1_iter10",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_long_replan1_iter10",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 92.85714285714286
+  },
+  {
+    "series": "focus_trained3073_long_replan1_iter10",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 59.25925925925925
+  },
+  {
+    "series": "focus_trained3073_long_replan1_iter10",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_long_replan1_iter10",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 88.88888888888889
+  },
+  {
+    "series": "focus_trained3073_long_replan1_iter10",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 57.89473684210527
+  },
+  {
+    "series": "focus_trained3073_long_replan1_iter2",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_long_replan1_iter2",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 92.85714285714286
+  },
+  {
+    "series": "focus_trained3073_long_replan1_iter2",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 48.148148148148145
+  },
+  {
+    "series": "focus_trained3073_long_replan1_iter2",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_long_replan1_iter2",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 85.18518518518519
+  },
+  {
+    "series": "focus_trained3073_long_replan1_iter2",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 55.26315789473685
+  },
+  {
+    "series": "focus_trained3073_long",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 5,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_long",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 14,
+    "success_rate": 71.42857142857143
+  },
+  {
+    "series": "focus_trained3073_long",
+    "across_wall": false,
+    "distance_bin": "80-inf",
+    "n": 27,
+    "success_rate": 48.148148148148145
+  },
+  {
+    "series": "focus_trained3073_long",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 1,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_long",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 27,
+    "success_rate": 85.18518518518519
+  },
+  {
+    "series": "focus_trained3073_long",
+    "across_wall": true,
+    "distance_bin": "80-inf",
+    "n": 76,
+    "success_rate": 51.31578947368421
+  },
+  {
+    "series": "focus_trained3073_short150",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 56,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_short150",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 79,
+    "success_rate": 86.07594936708861
+  },
+  {
+    "series": "focus_trained3073_short150",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 2,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_short150",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 6,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_short",
+    "across_wall": false,
+    "distance_bin": "16-40",
+    "n": 56,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_short",
+    "across_wall": false,
+    "distance_bin": "40-80",
+    "n": 79,
+    "success_rate": 86.07594936708861
+  },
+  {
+    "series": "focus_trained3073_short",
+    "across_wall": true,
+    "distance_bin": "16-40",
+    "n": 2,
+    "success_rate": 100.0
+  },
+  {
+    "series": "focus_trained3073_short",
+    "across_wall": true,
+    "distance_bin": "40-80",
+    "n": 6,
+    "success_rate": 100.0
+  }
+]

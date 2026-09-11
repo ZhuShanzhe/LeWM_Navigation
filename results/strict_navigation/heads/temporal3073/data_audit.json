@@ -1,0 +1,50 @@
+{
+  "train_pairs": 100000,
+  "validation_pairs": 10000,
+  "train_episode_count": 8000,
+  "validation_episode_count": 1000,
+  "test_episode_overlap": 0,
+  "unique_encoded_rows": 188823,
+  "temporal_bins": [
+    [
+      1,
+      15
+    ],
+    [
+      16,
+      30
+    ],
+    [
+      31,
+      50
+    ],
+    [
+      51,
+      75
+    ],
+    [
+      76,
+      "episode end"
+    ]
+  ],
+  "train_bin_counts": [
+    20000,
+    20000,
+    20000,
+    20000,
+    20000
+  ],
+  "val_bin_counts": [
+    2000,
+    2000,
+    2000,
+    2000,
+    2000
+  ],
+  "sampling": "equal fixed absolute-delta bins; eligible episodes sampled uniformly within bin; random pair order",
+  "adaptation": "TRM-inspired, not exact package reproduction; strict episode train/val separation; bin edges explicitly selected here before outcomes",
+  "checkpoint": "/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3073/weights_final.pt",
+  "checkpoint_sha256": "52593ab1e0fd4487007ceddbba9aa01facce102fac65607b8dd4d5ec9f3b4849",
+  "split_sha256": "3459cd193c56c531255c5c08f6f0e89753b4297f4aed0cd5b9de619fe2c611a5",
+  "pair_indices_sha256": "92e6aa5df39c0c146f237fcfa3fa613167d5936b8f06e3786a91e27c3db599e6"
+}

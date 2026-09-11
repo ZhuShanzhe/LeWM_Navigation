@@ -1,0 +1,6 @@
+{
+  "time": 1788952232.6147072,
+  "change": "Validate expected size and Content-Range; preserve truncated responses; full SHA before accepting.",
+  "prefix_matches": true,
+  "recovered_partial_bytes": 12687993949
+}

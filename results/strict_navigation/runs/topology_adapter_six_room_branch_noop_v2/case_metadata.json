@@ -1,0 +1,316 @@
+{
+  "id": "six_room_branch",
+  "split": "development",
+  "topology_spec": {
+    "id": "six_room_branch",
+    "rectangles": [
+      [
+        74,
+        84,
+        14,
+        49.0
+      ],
+      [
+        74,
+        84,
+        77.0,
+        112
+      ],
+      [
+        140,
+        150,
+        14,
+        49.0
+      ],
+      [
+        140,
+        150,
+        77.0,
+        112
+      ],
+      [
+        74,
+        84,
+        112,
+        147.0
+      ],
+      [
+        74,
+        84,
+        175.0,
+        210
+      ],
+      [
+        140,
+        150,
+        112,
+        147.0
+      ],
+      [
+        140,
+        150,
+        175.0,
+        210
+      ],
+      [
+        14,
+        79,
+        107,
+        117
+      ],
+      [
+        79,
+        98.0,
+        107,
+        117
+      ],
+      [
+        126.0,
+        145,
+        107,
+        117
+      ],
+      [
+        145,
+        210,
+        107,
+        117
+      ]
+    ],
+    "room_centers": [
+      [
+        46.5,
+        63.0
+      ],
+      [
+        112.0,
+        63.0
+      ],
+      [
+        177.5,
+        63.0
+      ],
+      [
+        46.5,
+        161.0
+      ],
+      [
+        112.0,
+        161.0
+      ],
+      [
+        177.5,
+        161.0
+      ]
+    ],
+    "room_bounds": [
+      [
+        14,
+        79,
+        14,
+        112
+      ],
+      [
+        79,
+        145,
+        14,
+        112
+      ],
+      [
+        145,
+        210,
+        14,
+        112
+      ],
+      [
+        14,
+        79,
+        112,
+        210
+      ],
+      [
+        79,
+        145,
+        112,
+        210
+      ],
+      [
+        145,
+        210,
+        112,
+        210
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "gates": [
+      {
+        "edge": [
+          0,
+          1
+        ],
+        "xy": [
+          79,
+          63.0
+        ],
+        "normal": [
+          1,
+          0
+        ]
+      },
+      {
+        "edge": [
+          1,
+          2
+        ],
+        "xy": [
+          145,
+          63.0
+        ],
+        "normal": [
+          1,
+          0
+        ]
+      },
+      {
+        "edge": [
+          3,
+          4
+        ],
+        "xy": [
+          79,
+          161.0
+        ],
+        "normal": [
+          1,
+          0
+        ]
+      },
+      {
+        "edge": [
+          4,
+          5
+        ],
+        "xy": [
+          145,
+          161.0
+        ],
+        "normal": [
+          1,
+          0
+        ]
+      },
+      {
+        "edge": [
+          1,
+          4
+        ],
+        "xy": [
+          112.0,
+          112
+        ],
+        "normal": [
+          0,
+          1
+        ]
+      }
+    ],
+    "scope": "full-observation custom topology diagnostic; not official TwoRoom"
+  },
+  "selection_seed": 9104101,
+  "task": "full-observation custom topology stress; 75 only adapter key, not trajectory offset",
+  "cases": [
+    {
+      "episode": 0,
+      "start_step": 0,
+      "start_xy": [
+        170.37692260742188,
+        146.7732391357422
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            167.89353942871094,
+            186.5584259033203
+          ],
+          "euclidean": 39.86261749267578,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 5,
+      "goal_room": 5,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 5,
+      "reference_path_length_not_geodesic": 25.582758459068817
+    },
+    {
+      "episode": 1,
+      "start_step": 0,
+      "start_xy": [
+        52.13875198364258,
+        89.82535552978516
+      ],
+      "goals": {
+        "75": {
+          "xy": [
+            53.545902252197266,
+            46.075965881347656
+          ],
+          "euclidean": 43.77201461791992,
+          "different_room": false,
+          "initially_within_success": false
+        }
+      },
+      "start_room": 0,
+      "goal_room": 0,
+      "room_graph_hops": 0,
+      "oracle_reference_solved": true,
+      "oracle_reference_steps": 6,
+      "reference_path_length_not_geodesic": 30.194234484338722
+    }
+  ],
+  "not_final_untouched_test": true,
+  "case_sha256": "4b3c05a5beb20a0c27f8d23051dfbad2e8459ffa01711620ca06269117ad734f",
+  "goal_offset": 75,
+  "budget": 10,
+  "normalization": "strict training set only",
+  "normalization_path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/normalization.json",
+  "normalization_sha256": "aac6909e786e4d7eb548a6f5a3c7faca0fae028b005a9cc73fa80c5b13501a6b",
+  "action_constraint": "original unconstrained search; environment clips physical actions",
+  "argv": [
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+    "--config-name",
+    "tworoom",
+    "policy=random",
+    "seed=42",
+    "eval.num_eval=2",
+    "eval.dataset_name=tworoom",
+    "eval.goal_offset_steps=75",
+    "eval.eval_budget=10",
+    "plan_config.horizon=1",
+    "plan_config.receding_horizon=1",
+    "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_adapter_six_room_branch_noop_v2/result.txt"
+  ]
+}

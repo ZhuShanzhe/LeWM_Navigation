@@ -1,0 +1,302 @@
+[
+  {
+    "episode": 50,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 51,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 52,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 53,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 54,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 55,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 56,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 57,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 58,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 59,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 60,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 61,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 62,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 63,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 64,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 65,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 66,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 67,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 68,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 69,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 70,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 71,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 72,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 73,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 74,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 75,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 76,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 77,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 78,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 79,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 80,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 81,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 82,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 83,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 84,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 85,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 86,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 87,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 88,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 89,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 90,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 91,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 92,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 93,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 94,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 95,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 96,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 97,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 98,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 99,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  }
+]

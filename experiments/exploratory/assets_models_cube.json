@@ -1,0 +1,38 @@
+{
+  "kind": "models",
+  "env": "cube",
+  "name": "quentinll/lewm-cube",
+  "revision": "b0747c5002e86d2ce8f3cd8178004b97524c587d",
+  "files": [
+    {
+      "type": "file",
+      "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "222ac499578bbd24d51e5045c79a77b0d8a5be8e",
+      "size": 167,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "f9a946cdc87e3f7139de9e8eecccc2a436007425",
+      "size": 1313,
+      "path": "config.json"
+    },
+    {
+      "type": "file",
+      "oid": "d349bccc09fca264183262592f997a4c7bf156f1",
+      "size": 72291425,
+      "lfs": {
+        "oid": "2839a907362f403f9136383016e91774373a295d958ae75121791f22a9fddf89",
+        "size": 72291425,
+        "pointerSize": 133
+      },
+      "xetHash": "e2b89475ca427b12847894c8d1414fa2fe6b63955e62ba4a2effd30823e0b8eb",
+      "path": "weights.pt"
+    }
+  ]
+}

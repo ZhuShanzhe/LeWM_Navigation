@@ -1,0 +1,1371 @@
+{
+  "passed": true,
+  "updated_unix": 1789053187.3142118,
+  "results": {
+    "four_room_chain": {
+      "single": {
+        "n": 100,
+        "sr": 23.0,
+        "sr_excluding_initial": 23.0,
+        "same_room_sr": 90.0,
+        "cross_room_sr": 6.25,
+        "mean_path_all": 264.56706304215396,
+        "mean_path_success": 67.4959625189142,
+        "mean_endpoint_distance": 79.20739162623144,
+        "stalled_step_fraction": 0.10419418758256274,
+        "candidate_model_steps": 7395000,
+        "encoder_images": 9860,
+        "batch_elapsed_seconds_not_online_latency": 114.71687259431928,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 90.0
+          },
+          "1": {
+            "n": 37,
+            "sr": 13.513513513513514
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 10,
+            "sr": 0.0
+          }
+        }
+      },
+      "multi": {
+        "n": 100,
+        "sr": 28.000000000000004,
+        "sr_excluding_initial": 28.000000000000004,
+        "same_room_sr": 90.0,
+        "cross_room_sr": 12.5,
+        "mean_path_all": 266.2156824255018,
+        "mean_path_success": 85.23762457696446,
+        "mean_endpoint_distance": 74.957229539796,
+        "stalled_step_fraction": 0.07183883411915988,
+        "candidate_model_steps": 7110000,
+        "encoder_images": 9480,
+        "batch_elapsed_seconds_not_online_latency": 109.64401601999998,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 90.0
+          },
+          "1": {
+            "n": 37,
+            "sr": 27.027027027027028
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 10,
+            "sr": 0.0
+          }
+        }
+      },
+      "random": {
+        "n": 100,
+        "sr": 4.0,
+        "sr_excluding_initial": 4.0,
+        "same_room_sr": 20.0,
+        "cross_room_sr": 0.0,
+        "mean_path_all": 547.7041597944807,
+        "mean_path_success": 293.3198141403225,
+        "mean_endpoint_distance": 104.5234467382515,
+        "stalled_step_fraction": 0.013251783893985729,
+        "candidate_model_steps": 0,
+        "encoder_images": 0,
+        "batch_elapsed_seconds_not_online_latency": 20.309437402524054,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 20.0
+          },
+          "1": {
+            "n": 37,
+            "sr": 0.0
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 10,
+            "sr": 0.0
+          }
+        }
+      },
+      "noop": {
+        "n": 100,
+        "sr": 0.0,
+        "sr_excluding_initial": 0.0,
+        "same_room_sr": 0.0,
+        "cross_room_sr": 0.0,
+        "mean_path_all": 0.0,
+        "mean_path_success": null,
+        "mean_endpoint_distance": 104.63078332304063,
+        "stalled_step_fraction": 1.0,
+        "candidate_model_steps": 0,
+        "encoder_images": 0,
+        "batch_elapsed_seconds_not_online_latency": 21.43319769203663,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 0.0
+          },
+          "1": {
+            "n": 37,
+            "sr": 0.0
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 10,
+            "sr": 0.0
+          }
+        }
+      }
+    },
+    "four_room_cycle": {
+      "single": {
+        "n": 100,
+        "sr": 37.0,
+        "sr_excluding_initial": 37.0,
+        "same_room_sr": 95.0,
+        "cross_room_sr": 22.5,
+        "mean_path_all": 245.58924732716355,
+        "mean_path_success": 95.29062436071987,
+        "mean_endpoint_distance": 70.24308766382245,
+        "stalled_step_fraction": 0.08286569397680509,
+        "candidate_model_steps": 6570000,
+        "encoder_images": 8760,
+        "batch_elapsed_seconds_not_online_latency": 101.96661144122481,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 95.0
+          },
+          "1": {
+            "n": 51,
+            "sr": 35.294117647058826
+          },
+          "2": {
+            "n": 29,
+            "sr": 0.0
+          }
+        }
+      },
+      "multi": {
+        "n": 100,
+        "sr": 39.0,
+        "sr_excluding_initial": 39.0,
+        "same_room_sr": 95.0,
+        "cross_room_sr": 25.0,
+        "mean_path_all": 257.67587567259733,
+        "mean_path_success": 98.33213146024775,
+        "mean_endpoint_distance": 70.05203101661317,
+        "stalled_step_fraction": 0.06102399395427924,
+        "candidate_model_steps": 6525000,
+        "encoder_images": 8700,
+        "batch_elapsed_seconds_not_online_latency": 100.33794514462352,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 95.0
+          },
+          "1": {
+            "n": 51,
+            "sr": 39.21568627450981
+          },
+          "2": {
+            "n": 29,
+            "sr": 0.0
+          }
+        }
+      },
+      "random": {
+        "n": 100,
+        "sr": 5.0,
+        "sr_excluding_initial": 5.0,
+        "same_room_sr": 25.0,
+        "cross_room_sr": 0.0,
+        "mean_path_all": 537.87227934882,
+        "mean_path_success": 160.74901480549642,
+        "mean_endpoint_distance": 99.26966427927982,
+        "stalled_step_fraction": 0.014383514279787013,
+        "candidate_model_steps": 0,
+        "encoder_images": 0,
+        "batch_elapsed_seconds_not_online_latency": 20.49774302262813,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 25.0
+          },
+          "1": {
+            "n": 51,
+            "sr": 0.0
+          },
+          "2": {
+            "n": 29,
+            "sr": 0.0
+          }
+        }
+      },
+      "noop": {
+        "n": 100,
+        "sr": 0.0,
+        "sr_excluding_initial": 0.0,
+        "same_room_sr": 0.0,
+        "cross_room_sr": 0.0,
+        "mean_path_all": 0.0,
+        "mean_path_success": null,
+        "mean_endpoint_distance": 100.65627989852055,
+        "stalled_step_fraction": 1.0,
+        "candidate_model_steps": 0,
+        "encoder_images": 0,
+        "batch_elapsed_seconds_not_online_latency": 21.208098456263542,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 0.0
+          },
+          "1": {
+            "n": 51,
+            "sr": 0.0
+          },
+          "2": {
+            "n": 29,
+            "sr": 0.0
+          }
+        }
+      }
+    },
+    "six_room_branch": {
+      "single": {
+        "n": 100,
+        "sr": 13.0,
+        "sr_excluding_initial": 13.0,
+        "same_room_sr": 35.0,
+        "cross_room_sr": 7.5,
+        "mean_path_all": 275.5659152302257,
+        "mean_path_success": 145.62130631990615,
+        "mean_endpoint_distance": 93.93718594378903,
+        "stalled_step_fraction": 0.11579251136281654,
+        "candidate_model_steps": 8415000,
+        "encoder_images": 11220,
+        "batch_elapsed_seconds_not_online_latency": 129.46594023518264,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 35.0
+          },
+          "1": {
+            "n": 27,
+            "sr": 22.22222222222222
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 20,
+            "sr": 0.0
+          }
+        }
+      },
+      "multi": {
+        "n": 100,
+        "sr": 13.0,
+        "sr_excluding_initial": 13.0,
+        "same_room_sr": 50.0,
+        "cross_room_sr": 3.75,
+        "mean_path_all": 302.1834848911087,
+        "mean_path_success": 197.63546417286446,
+        "mean_endpoint_distance": 80.57639262544416,
+        "stalled_step_fraction": 0.05576493579006142,
+        "candidate_model_steps": 8685000,
+        "encoder_images": 11580,
+        "batch_elapsed_seconds_not_online_latency": 130.74921053089201,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 50.0
+          },
+          "1": {
+            "n": 27,
+            "sr": 11.11111111111111
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 20,
+            "sr": 0.0
+          }
+        }
+      },
+      "random": {
+        "n": 100,
+        "sr": 6.0,
+        "sr_excluding_initial": 6.0,
+        "same_room_sr": 30.0,
+        "cross_room_sr": 0.0,
+        "mean_path_all": 536.4150890507885,
+        "mean_path_success": 281.0575474382499,
+        "mean_endpoint_distance": 94.57663181269565,
+        "stalled_step_fraction": 0.015608883999174861,
+        "candidate_model_steps": 0,
+        "encoder_images": 0,
+        "batch_elapsed_seconds_not_online_latency": 20.847475539892912,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 30.0
+          },
+          "1": {
+            "n": 27,
+            "sr": 0.0
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 20,
+            "sr": 0.0
+          }
+        }
+      },
+      "noop": {
+        "n": 100,
+        "sr": 0.0,
+        "sr_excluding_initial": 0.0,
+        "same_room_sr": 0.0,
+        "cross_room_sr": 0.0,
+        "mean_path_all": 0.0,
+        "mean_path_success": null,
+        "mean_endpoint_distance": 92.7750182988745,
+        "stalled_step_fraction": 1.0,
+        "candidate_model_steps": 0,
+        "encoder_images": 0,
+        "batch_elapsed_seconds_not_online_latency": 21.48928952496499,
+        "room_graph_hops": {
+          "0": {
+            "n": 20,
+            "sr": 0.0
+          },
+          "1": {
+            "n": 27,
+            "sr": 0.0
+          },
+          "2": {
+            "n": 33,
+            "sr": 0.0
+          },
+          "3": {
+            "n": 20,
+            "sr": 0.0
+          }
+        }
+      }
+    }
+  },
+  "paired": {
+    "four_room_chain": {
+      "multi_minus_single_pp": 5.0,
+      "ci95_cases_conditional_fixed_models_map": [
+        -2.0,
+        12.0
+      ],
+      "gained": 9,
+      "lost": 4
+    },
+    "four_room_cycle": {
+      "multi_minus_single_pp": 2.0,
+      "ci95_cases_conditional_fixed_models_map": [
+        -8.0,
+        12.0
+      ],
+      "gained": 13,
+      "lost": 11
+    },
+    "six_room_branch": {
+      "multi_minus_single_pp": 0.0,
+      "ci95_cases_conditional_fixed_models_map": [
+        -8.0,
+        8.0
+      ],
+      "gained": 8,
+      "lost": 8
+    }
+  },
+  "trace_audits": {
+    "topology_stress_single_four_room_chain_b0_v1": {
+      "passed": true,
+      "executed_action_values": 9904,
+      "post_terminal_nan_padding_values": 5096,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_single_four_room_chain_b1_v1": {
+      "passed": true,
+      "executed_action_values": 14320,
+      "post_terminal_nan_padding_values": 680,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_multi_four_room_chain_b0_v1": {
+      "passed": true,
+      "executed_action_values": 9974,
+      "post_terminal_nan_padding_values": 5026,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_multi_four_room_chain_b1_v1": {
+      "passed": true,
+      "executed_action_values": 13356,
+      "post_terminal_nan_padding_values": 1644,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_random_four_room_chain_b0_v1": {
+      "passed": true,
+      "executed_action_values": 14430,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_random_four_room_chain_b1_v1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_noop_four_room_chain_b0_v1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_noop_four_room_chain_b1_v1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_single_four_room_cycle_b0_v1": {
+      "passed": true,
+      "executed_action_values": 7600,
+      "post_terminal_nan_padding_values": 7400,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_single_four_room_cycle_b1_v1": {
+      "passed": true,
+      "executed_action_values": 13784,
+      "post_terminal_nan_padding_values": 1216,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_multi_four_room_cycle_b0_v1": {
+      "passed": true,
+      "executed_action_values": 8904,
+      "post_terminal_nan_padding_values": 6096,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_multi_four_room_cycle_b1_v1": {
+      "passed": true,
+      "executed_action_values": 12268,
+      "post_terminal_nan_padding_values": 2732,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_random_four_room_cycle_b0_v1": {
+      "passed": true,
+      "executed_action_values": 13922,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_random_four_room_cycle_b1_v1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_noop_four_room_cycle_b0_v1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_noop_four_room_cycle_b1_v1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_single_six_room_branch_b0_v1": {
+      "passed": true,
+      "executed_action_values": 13540,
+      "post_terminal_nan_padding_values": 1460,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_single_six_room_branch_b1_v1": {
+      "passed": true,
+      "executed_action_values": 14182,
+      "post_terminal_nan_padding_values": 818,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_multi_six_room_branch_b0_v1": {
+      "passed": true,
+      "executed_action_values": 13980,
+      "post_terminal_nan_padding_values": 1020,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_multi_six_room_branch_b1_v1": {
+      "passed": true,
+      "executed_action_values": 14676,
+      "post_terminal_nan_padding_values": 324,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_random_six_room_branch_b0_v1": {
+      "passed": true,
+      "executed_action_values": 14086,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_random_six_room_branch_b1_v1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_noop_six_room_branch_b0_v1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    },
+    "topology_stress_noop_six_room_branch_b1_v1": {
+      "passed": true,
+      "executed_action_values": 15000,
+      "post_terminal_nan_padding_values": 0,
+      "active_nonfinite_values": 0,
+      "rule": "All states finite; actions finite through first terminal inclusive. Only post-terminal NaN padding allowed; infinity never allowed."
+    }
+  },
+  "protocol": {
+    "created_unix": 1789052125.3460512,
+    "stage_review": {
+      "bridge_paired": {
+        "single": {
+          "custom_minus_original_pp": -4.0,
+          "paired_case_ci95_fixed_model_and_map": [
+            -10.0,
+            1.0
+          ],
+          "gained": 2,
+          "lost": 6
+        },
+        "multi": {
+          "custom_minus_original_pp": 6.0,
+          "paired_case_ci95_fixed_model_and_map": [
+            2.0,
+            11.0
+          ],
+          "gained": 6,
+          "lost": 0
+        }
+      },
+      "decision": "Proceed only as standalone custom-simulator stress test, not equivalence or pure topology transfer. Bridge shifts -4pp and +6pp indicate simulator effects cannot be ignored."
+    },
+    "maps": [
+      "four_room_chain",
+      "four_room_cycle",
+      "six_room_branch"
+    ],
+    "models": {
+      "single": {
+        "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+        "normalization": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+        "normalization_sha256": "21364f6d3810cf9847c0d65a2618d64ee9ebe8badbc8f9f001a321e804cffa1f",
+        "training_run": "geometry_control_single_s4001"
+      },
+      "multi": {
+        "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+        "normalization": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json",
+        "normalization_sha256": "5edec93f03dcb9ec559dfd59db102c17d20ca41d1af7c83032d79eb7d80bd74b",
+        "training_run": "geometry_control_multi_s4001"
+      }
+    },
+    "frozen_model_sha256": {
+      "single": "608f5bd8b16176557c2d859482b0de13792cf9ee5779bceed237536e03319e7a",
+      "multi": "af2a75e4082af1145411dd781a7d783182f222e16ece7b41afd79926233734b2"
+    },
+    "source_sha256": {
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_strict.py": "d3694f2bf58809b933a9dc7fbfed615c51c5d4335df01d28eaabaf4c0d92a323",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py": "56c98ce0c17ca8f67932743f8d40f9d807edb3d9efe7c6590cac9b01795c9492",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_env.py": "0258ae45631e0edf6eeb6755ee746532a644a0abc5dabcace940e185510c0c61",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/audit_executed_trace.py": "3dc816fd5ebf8aa167474ffb095f2f828b4b0b3a4c2f99a2f2d72f2a4247917f",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/audit_topology_stress.py": "a7fee9e70c2df6aa41e465db03d4ff3217d55712f69dd2b943628731ca368cc1"
+    },
+    "case_files_sha256": {
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b0.json": "d2c897b8d3f22a73b01e96a49d74485b23b30180c9f5534c4ba2a88f06bb91ab",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b1.json": "1fe9a79899e037b835faade7952f5b422586262532f6b96afb85ea7da4a039cf",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b0.json": "c802fa1ffce4665da18235211c13d64bdfaed0019b6b407bddabc055e0ea41e5",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b1.json": "e1b873f0b88c17c33d401aa02bfde08388d7245029df08d2ff94ac524a94afb5",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b0.json": "4b3c05a5beb20a0c27f8d23051dfbad2e8459ffa01711620ca06269117ad734f",
+      "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b1.json": "e925812897ca41a72b478c748c1cf89794f05c19b7649281403917b889dda986"
+    },
+    "bridge_results_sha256": "fc7fbb9a3ca2cc6dff1347605f0dd4a0c98f0befcfcc52c1ad82d5da37987c0f",
+    "jobs": [
+      {
+        "tag": "topology_stress_single_four_room_chain_b0_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "solver.n_steps=10",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_single_four_room_chain_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_single_four_room_chain_b1_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "solver.n_steps=10",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_single_four_room_chain_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_multi_four_room_chain_b0_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "solver.n_steps=10",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_multi_four_room_chain_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_multi_four_room_chain_b1_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "solver.n_steps=10",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_multi_four_room_chain_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_random_four_room_chain_b0_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=random",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_random_four_room_chain_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "CUDA_VISIBLE_DEVICES": "",
+          "LEWM_EVAL_DEVICE": "cpu"
+        },
+        "watchdog_seconds": 600,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_random_four_room_chain_b1_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=random",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_random_four_room_chain_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "CUDA_VISIBLE_DEVICES": "",
+          "LEWM_EVAL_DEVICE": "cpu"
+        },
+        "watchdog_seconds": 600,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_noop_four_room_chain_b0_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=random",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_noop_four_room_chain_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "CUDA_VISIBLE_DEVICES": "",
+          "LEWM_EVAL_DEVICE": "cpu",
+          "LEWM_NOOP": "1"
+        },
+        "watchdog_seconds": 600,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_noop_four_room_chain_b1_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=random",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_noop_four_room_chain_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_chain_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "CUDA_VISIBLE_DEVICES": "",
+          "LEWM_EVAL_DEVICE": "cpu",
+          "LEWM_NOOP": "1"
+        },
+        "watchdog_seconds": 600,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_single_four_room_cycle_b0_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "solver.n_steps=10",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_single_four_room_cycle_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_single_four_room_cycle_b1_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "solver.n_steps=10",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_single_four_room_cycle_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_multi_four_room_cycle_b0_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "solver.n_steps=10",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_multi_four_room_cycle_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_multi_four_room_cycle_b1_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "solver.n_steps=10",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_multi_four_room_cycle_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_random_four_room_cycle_b0_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=random",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_random_four_room_cycle_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "CUDA_VISIBLE_DEVICES": "",
+          "LEWM_EVAL_DEVICE": "cpu"
+        },
+        "watchdog_seconds": 600,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_random_four_room_cycle_b1_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=random",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_random_four_room_cycle_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "CUDA_VISIBLE_DEVICES": "",
+          "LEWM_EVAL_DEVICE": "cpu"
+        },
+        "watchdog_seconds": 600,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_noop_four_room_cycle_b0_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=random",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_noop_four_room_cycle_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "CUDA_VISIBLE_DEVICES": "",
+          "LEWM_EVAL_DEVICE": "cpu",
+          "LEWM_NOOP": "1"
+        },
+        "watchdog_seconds": 600,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_noop_four_room_cycle_b1_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=random",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_noop_four_room_cycle_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/four_room_cycle_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "CUDA_VISIBLE_DEVICES": "",
+          "LEWM_EVAL_DEVICE": "cpu",
+          "LEWM_NOOP": "1"
+        },
+        "watchdog_seconds": 600,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_single_six_room_branch_b0_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "solver.n_steps=10",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_single_six_room_branch_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_single_six_room_branch_b1_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_single_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "solver.n_steps=10",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_single_six_room_branch_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_multi_six_room_branch_b0_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "solver.n_steps=10",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_multi_six_room_branch_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_multi_six_room_branch_b1_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "solver.n_steps=10",
+          "solver.num_samples=300",
+          "solver.topk=30",
+          "+plan_config.warm_start=false",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_multi_six_room_branch_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi/normalization.json"
+        },
+        "watchdog_seconds": 2400,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_random_six_room_branch_b0_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=random",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_random_six_room_branch_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "CUDA_VISIBLE_DEVICES": "",
+          "LEWM_EVAL_DEVICE": "cpu"
+        },
+        "watchdog_seconds": 600,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_random_six_room_branch_b1_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=random",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_random_six_room_branch_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "CUDA_VISIBLE_DEVICES": "",
+          "LEWM_EVAL_DEVICE": "cpu"
+        },
+        "watchdog_seconds": 600,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_noop_six_room_branch_b0_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=random",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_noop_six_room_branch_b0_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b0.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "CUDA_VISIBLE_DEVICES": "",
+          "LEWM_EVAL_DEVICE": "cpu",
+          "LEWM_NOOP": "1"
+        },
+        "watchdog_seconds": 600,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "topology_stress_noop_six_room_branch_b1_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_topology.py",
+          "--config-name",
+          "tworoom",
+          "policy=random",
+          "seed=42",
+          "eval.num_eval=50",
+          "eval.dataset_name=tworoom",
+          "eval.goal_offset_steps=75",
+          "eval.eval_budget=150",
+          "plan_config.horizon=5",
+          "plan_config.receding_horizon=5",
+          "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/topology_stress_noop_six_room_branch_b1_v1/result.txt"
+        ],
+        "env": {
+          "LEWM_CASE_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/topology_dev_v2/six_room_branch_b1.json",
+          "LEWM_CASE_LIMIT": "50",
+          "LEWM_VIDEO": "0",
+          "LEWM_NORMALIZATION_FILE": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single/normalization.json",
+          "CUDA_VISIBLE_DEVICES": "",
+          "LEWM_EVAL_DEVICE": "cpu",
+          "LEWM_NOOP": "1"
+        },
+        "watchdog_seconds": 600,
+        "note": "Finite full-observation OOD geometry+topology stress, not pure topology causal effect, not final test."
+      },
+      {
+        "tag": "audit_topology_stress_v1",
+        "argv": [
+          "/root/autodl-tmp/lewm_research/venv/bin/python",
+          "/root/autodl-tmp/lewm_research/strict_nav_20260910/audit_topology_stress.py"
+        ],
+        "env": {
+          "CUDA_VISIBLE_DEVICES": ""
+        },
+        "watchdog_seconds": 600
+      }
+    ],
+    "limits": [
+      "Custom full-observation simulator, not first-person or real robot.",
+      "Original and new simulators differ: bridge bounds observed combined collision/render shift, not equivalence.",
+      "New room graphs also change geometry, room scale and visual distribution; no isolated topology causal claim.",
+      "Each map100 fixed development cases20same/80cross; no topology data used to train either model.",
+      "One matched training seed4001, 8 training geometries for multi; map/seed uncertainty not captured by case bootstrap.",
+      "Low known-layout score means low topology score alone cannot localize topology reasoning failure.",
+      "No-op/random share150 physical steps, but not learned planning compute.",
+      "Reference paths feasible, not shortest; no SPL reported.",
+      "No memory or partial-observation experiment authorized by this protocol."
+    ]
+  },
+  "next_stage_requires_review": true
+}

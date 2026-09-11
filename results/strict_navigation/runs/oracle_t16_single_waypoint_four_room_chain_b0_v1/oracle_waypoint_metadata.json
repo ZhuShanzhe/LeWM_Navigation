@@ -1,0 +1,1262 @@
+{
+  "privileged": true,
+  "extra_information": "true room graph, doorway coordinates and exact current pose; synthetic waypoint goal images",
+  "mode": "waypoint",
+  "threshold_px": 16.0,
+  "calls": 150,
+  "goal_replacements": 5232,
+  "cached_goal_images": 56,
+  "buffer_flushing": false,
+  "final_environment_goal_unchanged": true,
+  "events": [
+    {
+      "call": 0,
+      "episode": 22,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 0,
+      "episode": 30,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 0,
+      "episode": 33,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 0,
+      "episode": 42,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 6,
+      "episode": 26,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 6,
+      "episode": 44,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 7,
+      "episode": 41,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 9,
+      "episode": 23,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 9,
+      "episode": 37,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 12,
+      "episode": 25,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 13,
+      "episode": 27,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 15,
+      "episode": 21,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 19,
+      "episode": 46,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 19,
+      "episode": 49,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 23,
+      "episode": 40,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 24,
+      "episode": 29,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 25,
+      "episode": 30,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 26,
+      "episode": 28,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 26,
+      "episode": 39,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 28,
+      "episode": 48,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 29,
+      "episode": 45,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 34,
+      "episode": 31,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 36,
+      "episode": 35,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 38,
+      "episode": 26,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 41,
+      "episode": 43,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 41,
+      "episode": 44,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 48,
+      "episode": 21,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 48,
+      "episode": 36,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 48,
+      "episode": 47,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 49,
+      "episode": 37,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 50,
+      "episode": 22,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 51,
+      "episode": 24,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 51,
+      "episode": 27,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 52,
+      "episode": 20,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "call": 52,
+      "episode": 25,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 53,
+      "episode": 49,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 70,
+      "episode": 42,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 93,
+      "episode": 28,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 105,
+      "episode": 43,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 108,
+      "episode": 20,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "call": 134,
+      "episode": 33,
+      "before": 1,
+      "after": 2
+    }
+  ],
+  "cases": [
+    {
+      "episode": 0,
+      "route": [
+        [
+          184.7037811279297,
+          134.1441192626953
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 1,
+      "route": [
+        [
+          166.5959930419922,
+          135.00050354003906
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 2,
+      "route": [
+        [
+          148.4371795654297,
+          65.4282455444336
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 3,
+      "route": [
+        [
+          135.06893920898438,
+          85.3080825805664
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 4,
+      "route": [
+        [
+          185.12347412109375,
+          76.67317962646484
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 5,
+      "route": [
+        [
+          144.5197296142578,
+          43.561500549316406
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 6,
+      "route": [
+        [
+          136.74778747558594,
+          170.9745635986328
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 7,
+      "route": [
+        [
+          181.9486846923828,
+          176.9645233154297
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 8,
+      "route": [
+        [
+          184.06446838378906,
+          156.8084259033203
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 9,
+      "route": [
+        [
+          168.84521484375,
+          81.70492553710938
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 10,
+      "route": [
+        [
+          60.73182678222656,
+          141.93417358398438
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 11,
+      "route": [
+        [
+          80.08470153808594,
+          172.6202850341797
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 12,
+      "route": [
+        [
+          179.6526336669922,
+          57.52692413330078
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 13,
+      "route": [
+        [
+          139.9808807373047,
+          152.90919494628906
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 14,
+      "route": [
+        [
+          155.85372924804688,
+          138.3641357421875
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 15,
+      "route": [
+        [
+          69.1338119506836,
+          135.21913146972656
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 16,
+      "route": [
+        [
+          176.10279846191406,
+          36.660709381103516
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 17,
+      "route": [
+        [
+          174.2344970703125,
+          137.50062561035156
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 18,
+      "route": [
+        [
+          178.05865478515625,
+          38.3326416015625
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 19,
+      "route": [
+        [
+          154.69491577148438,
+          178.78138732910156
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 0
+    },
+    {
+      "episode": 20,
+      "route": [
+        [
+          132.0,
+          63.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          63.0,
+          132.0
+        ],
+        [
+          43.9462776184082,
+          140.94566345214844
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 4
+    },
+    {
+      "episode": 21,
+      "route": [
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          77.60782623291016,
+          45.1045036315918
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 22,
+      "route": [
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          132.0,
+          63.0
+        ],
+        [
+          184.25534057617188,
+          57.71903610229492
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 4
+    },
+    {
+      "episode": 23,
+      "route": [
+        [
+          92.0,
+          161.0
+        ],
+        [
+          132.0,
+          161.0
+        ],
+        [
+          177.8118896484375,
+          142.45156860351562
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 24,
+      "route": [
+        [
+          132.0,
+          161.0
+        ],
+        [
+          92.0,
+          161.0
+        ],
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          132.0,
+          63.0
+        ],
+        [
+          140.62118530273438,
+          41.96548080444336
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 6
+    },
+    {
+      "episode": 25,
+      "route": [
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          61.6338005065918,
+          45.62431716918945
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 26,
+      "route": [
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          132.0,
+          63.0
+        ],
+        [
+          158.50277709960938,
+          40.0149040222168
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 4
+    },
+    {
+      "episode": 27,
+      "route": [
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          132.0,
+          63.0
+        ],
+        [
+          134.77723693847656,
+          72.73208618164062
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 4
+    },
+    {
+      "episode": 28,
+      "route": [
+        [
+          92.0,
+          161.0
+        ],
+        [
+          132.0,
+          161.0
+        ],
+        [
+          173.7272186279297,
+          137.73194885253906
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 29,
+      "route": [
+        [
+          132.0,
+          161.0
+        ],
+        [
+          92.0,
+          161.0
+        ],
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          88.51936340332031,
+          42.452613830566406
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 4
+    },
+    {
+      "episode": 30,
+      "route": [
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          132.0,
+          63.0
+        ],
+        [
+          171.0765838623047,
+          71.27690124511719
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 4
+    },
+    {
+      "episode": 31,
+      "route": [
+        [
+          132.0,
+          161.0
+        ],
+        [
+          92.0,
+          161.0
+        ],
+        [
+          78.0380630493164,
+          138.82249450683594
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 32,
+      "route": [
+        [
+          63.0,
+          92.0
+        ],
+        [
+          63.0,
+          132.0
+        ],
+        [
+          92.0,
+          161.0
+        ],
+        [
+          132.0,
+          161.0
+        ],
+        [
+          144.3532257080078,
+          145.6668243408203
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 4
+    },
+    {
+      "episode": 33,
+      "route": [
+        [
+          132.0,
+          63.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          63.0,
+          132.0
+        ],
+        [
+          92.0,
+          161.0
+        ],
+        [
+          132.0,
+          161.0
+        ],
+        [
+          161.9025421142578,
+          139.3137664794922
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 6
+    },
+    {
+      "episode": 34,
+      "route": [
+        [
+          63.0,
+          92.0
+        ],
+        [
+          63.0,
+          132.0
+        ],
+        [
+          92.0,
+          161.0
+        ],
+        [
+          132.0,
+          161.0
+        ],
+        [
+          174.50900268554688,
+          163.5242156982422
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 4
+    },
+    {
+      "episode": 35,
+      "route": [
+        [
+          132.0,
+          161.0
+        ],
+        [
+          92.0,
+          161.0
+        ],
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          61.14885711669922,
+          53.19584274291992
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 4
+    },
+    {
+      "episode": 36,
+      "route": [
+        [
+          132.0,
+          161.0
+        ],
+        [
+          92.0,
+          161.0
+        ],
+        [
+          78.77973175048828,
+          136.8527374267578
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 37,
+      "route": [
+        [
+          132.0,
+          63.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          63.0,
+          132.0
+        ],
+        [
+          45.23966598510742,
+          173.87026977539062
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 4
+    },
+    {
+      "episode": 38,
+      "route": [
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          44.807674407958984,
+          48.4963264465332
+        ]
+      ],
+      "index": 0,
+      "intermediate_reached": 0,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 39,
+      "route": [
+        [
+          92.0,
+          161.0
+        ],
+        [
+          132.0,
+          161.0
+        ],
+        [
+          151.4528045654297,
+          186.83009338378906
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 40,
+      "route": [
+        [
+          92.0,
+          63.0
+        ],
+        [
+          132.0,
+          63.0
+        ],
+        [
+          159.3026885986328,
+          40.3173942565918
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 41,
+      "route": [
+        [
+          92.0,
+          63.0
+        ],
+        [
+          132.0,
+          63.0
+        ],
+        [
+          159.53927612304688,
+          78.92707824707031
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 42,
+      "route": [
+        [
+          132.0,
+          63.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          59.914337158203125,
+          41.794315338134766
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 43,
+      "route": [
+        [
+          132.0,
+          63.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          55.71498489379883,
+          51.35066604614258
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 44,
+      "route": [
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          132.0,
+          63.0
+        ],
+        [
+          155.2929229736328,
+          63.8866081237793
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 4
+    },
+    {
+      "episode": 45,
+      "route": [
+        [
+          92.0,
+          161.0
+        ],
+        [
+          132.0,
+          161.0
+        ],
+        [
+          165.68145751953125,
+          182.2276153564453
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 46,
+      "route": [
+        [
+          92.0,
+          161.0
+        ],
+        [
+          132.0,
+          161.0
+        ],
+        [
+          152.29812622070312,
+          137.75328063964844
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 2
+    },
+    {
+      "episode": 47,
+      "route": [
+        [
+          132.0,
+          161.0
+        ],
+        [
+          92.0,
+          161.0
+        ],
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          132.0,
+          63.0
+        ],
+        [
+          166.64698791503906,
+          38.42860412597656
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 6
+    },
+    {
+      "episode": 48,
+      "route": [
+        [
+          132.0,
+          161.0
+        ],
+        [
+          92.0,
+          161.0
+        ],
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          132.0,
+          63.0
+        ],
+        [
+          170.57949829101562,
+          62.94355392456055
+        ]
+      ],
+      "index": 1,
+      "intermediate_reached": 1,
+      "intermediate_total": 6
+    },
+    {
+      "episode": 49,
+      "route": [
+        [
+          63.0,
+          132.0
+        ],
+        [
+          63.0,
+          92.0
+        ],
+        [
+          92.0,
+          63.0
+        ],
+        [
+          132.0,
+          63.0
+        ],
+        [
+          146.23370361328125,
+          48.897438049316406
+        ]
+      ],
+      "index": 2,
+      "intermediate_reached": 2,
+      "intermediate_total": 4
+    }
+  ],
+  "limits": "Oracle scaffold diagnostic, not learned hierarchy or deployment algorithm; threshold/progress uses true state."
+}

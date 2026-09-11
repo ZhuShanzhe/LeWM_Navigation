@@ -1,0 +1,26 @@
+{
+  "checked_unix": 1789084765.007361,
+  "protocol_sha256": "a1c7da7e4d3f215d289121205d9d896007232771970304654fca78dd3c2e7da5",
+  "tag": "finalv1_final_geometry_axis0_door169_s3073_temporal_b0",
+  "inputs_sha256": {
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/final_geometry_v1/final_geometry_axis0_door169_b0.json": "4d51e1ca051bfcc41700eec915c340c6a1619ecfc09f82c3290b38dcd928f884",
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/normalization.json": "aac6909e786e4d7eb548a6f5a3c7faca0fae028b005a9cc73fa80c5b13501a6b",
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/splits/manifest.json": "3459cd193c56c531255c5c08f6f0e89753b4297f4aed0cd5b9de619fe2c611a5",
+    "/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3073/weights_final.pt": "52593ab1e0fd4487007ceddbba9aa01facce102fac65607b8dd4d5ec9f3b4849",
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/temporal3073/temporal.pt": "6192b1ea7cb14e37291e34b4381e5263643f0a8a7deb22da83ed7691b6ec4990"
+  },
+  "source_sha256": {
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/run_final_frozen.py": "d9fe69f8735a6889275f714158e87f41edd54415db6ecc2da4a769f18638458f",
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/audit_final_confirmation.py": "98f78c7d8fe1a67be7ff48aea485e9d2655d09915edf54b63d13fa27f5f76e5f",
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_strict.py": "d3694f2bf58809b933a9dc7fbfed615c51c5d4335df01d28eaabaf4c0d92a323",
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_retrieval.py": "431a08584c075da3373ecf5c0884a59adf623585f8318f31391b22507817c640",
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/retrieval_prior.py": "451ae44139571b96ba8458734788ac122eea80af49636e1c6b98b5f438bd1020",
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/reachability_model.py": "c5e2adb23aedbcb46a6ed5fcf49e2679f1c0d5e597e21c1464dd7ba00c23dfc5",
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/audit_executed_trace.py": "3dc816fd5ebf8aa167474ffb095f2f828b4b0b3a4c2f99a2f2d72f2a4247917f",
+    "/root/autodl-tmp/lewm_research/le-wm/eval.py": "6584f009b40550fa0df2f8dee22b9329fbfacdfaf74464aa4fd105f464795245",
+    "/root/autodl-tmp/lewm_research/le-wm/jepa.py": "41bad7fd21e0f14aea4c9c3d39a9c87037e787746d953ab62cdc0677e938ce96",
+    "/root/autodl-tmp/lewm_research/le-wm/module.py": "0b258a9e8dc24c29fcb1e8c50a09ec78b8ea85aeb79e21dd8adf712396646620",
+    "/root/autodl-tmp/lewm_research/venv/lib/python3.12/site-packages/stable_worldmodel/policy.py": "4967e7e3d5b20eb7a1d0b00e5d60fd701cce1c750ae7ec4a9b02529b9366db22"
+  },
+  "no_training": true
+}

@@ -1,0 +1,64 @@
+{
+  "research_complete": true,
+  "updated_unix": 1789087822.1005633,
+  "final_eval_batches": 238,
+  "final_eval_all_complete": true,
+  "final_audit_passed": true,
+  "supplement_passed": true,
+  "pending_jobs": [],
+  "active_job": null,
+  "three_training_models_verified": true,
+  "frozen_source_hashes_unchanged": true,
+  "historical_failed_records_retained": [
+    [
+      "strict_tw_s3072",
+      "failed"
+    ],
+    [
+      "geometry_smoke_single_s4001",
+      "failed"
+    ]
+  ],
+  "artifacts": {
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/reports/final_research_synthesis.md": {
+      "bytes": 17524,
+      "sha256": "697b4e4ace48ca4c8358c23e4119cd90c2b8c2af3059369e7395e6a67bec005e"
+    },
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/reports/final_supplementary_analysis.md": {
+      "bytes": 3532,
+      "sha256": "bfbb69890170baad506b32b4dc9fa91589bc2de98094ae0673e8e7b4de20241a"
+    },
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/reports/final_supplementary_analysis.json": {
+      "bytes": 24812,
+      "sha256": "d8350995d96cd93652caf6c50fb9eb4b2eed8a29314d7e9919ebbb10637619bf"
+    },
+    "/root/autodl-tmp/lewm_research/reports/navigation_capability_merged.md": {
+      "bytes": 126792,
+      "sha256": "91f1e66f62371cb7b50a730fff0715109b078138b6c2080c74e10ca7dfa1ebbd"
+    },
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/reports/frontier_transfer_review.md": {
+      "bytes": 122476,
+      "sha256": "4b9df85ccbdfc3cdcad8c01e36aeea832cea87f54b5977f13b08d024ca785082"
+    },
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/final_confirmation_v1/results.json": {
+      "bytes": 287224,
+      "sha256": "86a8fb15188a0e2edc0e54db3515c3bde085654b4932259feb83eedc14de8b42"
+    },
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/final_confirmation_v1/protocol.json": {
+      "bytes": 607845,
+      "sha256": "a1c7da7e4d3f215d289121205d9d896007232771970304654fca78dd3c2e7da5"
+    },
+    "/root/autodl-tmp/lewm_research/reports/World_Model_Navigation_frontier_report_20260910.pdf": {
+      "bytes": 343907,
+      "sha256": "1caa563712e97a1eee147d35d0c5f6046d9ff47d989414092b018ab25c1afa31"
+    }
+  },
+  "scope_closed": "No more experiments/training. Partial observation, first-person 3D, real robots, full external baselines and complete final-method online latency unmeasured; explicitly documented.",
+  "automation_pause_pending": false,
+  "server_shutdown": false,
+  "automation_status": "PAUSED",
+  "automation_id": "leworldmodel-12",
+  "automation_paused_confirmed_unix": 1789087869.6151946,
+  "gpu_processes_at_final_check": [],
+  "queue_supervisor_exited": true
+}

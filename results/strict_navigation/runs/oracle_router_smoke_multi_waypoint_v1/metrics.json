@@ -1,0 +1,62 @@
+{
+  "metrics": {
+    "success_rate": 0.0,
+    "episode_successes": [
+      false,
+      false
+    ],
+    "seeds": null
+  },
+  "elapsed_seconds": 0.49413621332496405,
+  "n_cases": 2,
+  "telemetry": {
+    "cost_calls": 4,
+    "candidate_sequences": 32,
+    "candidate_model_steps": 32,
+    "encoder_images": 8,
+    "predictor_token_inputs": 32,
+    "solver_calls": [
+      {
+        "seconds": 0.3721735794097185,
+        "n_active_envs": 2,
+        "candidate_model_steps": 16
+      },
+      {
+        "seconds": 0.018301659263670444,
+        "n_active_envs": 2,
+        "candidate_model_steps": 16
+      }
+    ],
+    "policy_calls_seconds": [
+      0.3937495704740286,
+      0.0031684767454862595,
+      0.0022076163440942764,
+      0.0022234488278627396,
+      0.0022985534742474556,
+      0.021112453192472458,
+      0.0022761989384889603,
+      0.002140980213880539,
+      0.002214520238339901,
+      0.002216445282101631
+    ]
+  },
+  "argv": [
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_oracle_waypoints.py",
+    "--config-name",
+    "tworoom",
+    "policy=/root/autodl-tmp/lewm_research/data/checkpoints/geometry_control_multi_s4001/weights_final.pt",
+    "seed=42",
+    "eval.num_eval=2",
+    "eval.dataset_name=tworoom",
+    "eval.goal_offset_steps=75",
+    "eval.eval_budget=10",
+    "solver.n_steps=1",
+    "solver.num_samples=8",
+    "solver.topk=4",
+    "plan_config.horizon=1",
+    "plan_config.receding_horizon=1",
+    "+plan_config.warm_start=false",
+    "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/oracle_router_smoke_multi_waypoint_v1/result.txt"
+  ],
+  "timing_note": "batched evaluation; single-env runs separately identify online latency; video disabled by default"
+}

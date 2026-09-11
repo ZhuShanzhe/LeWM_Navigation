@@ -1,0 +1,30 @@
+{
+  "global_step": 3000,
+  "epoch_counter": 1,
+  "max_epochs": 10,
+  "batches_per_epoch": 5841,
+  "epoch_equivalent": 0.5136106831022085,
+  "elapsed_seconds": 412.6197934150696,
+  "metrics": {
+    "fit/pred_loss": 0.040995314717292786,
+    "fit/sigreg_loss": 2.171875,
+    "fit/loss": 0.2577921748161316,
+    "hparams/lr_model_opt": 4.978495417162776e-05,
+    "hardware/cpu_percent": 11.300000190734863,
+    "hardware/ram_used_pct": 8.5,
+    "hardware/ram_used_gb": 46.607666015625,
+    "hardware/disk_read_mb_s": 8.854097366333008,
+    "hardware/disk_write_mb_s": 1.2030150890350342,
+    "hardware/net_recv_mb_s": 9.914490874507464e-06,
+    "hardware/net_sent_mb_s": 9.914490874507464e-06,
+    "validate/pred_loss": 3.029266595840454,
+    "validate/pred_loss_epoch": 3.029266595840454,
+    "validate/sigreg_loss": 133.2091522216797,
+    "validate/sigreg_loss_epoch": 133.2091522216797,
+    "validate/loss": 16.349611282348633,
+    "validate/loss_epoch": 16.349611282348633
+  },
+  "completed_unix": 1788961780.9496613,
+  "full_epoch_budget_completed": false,
+  "weights": "/root/autodl-tmp/lewm_research/data/checkpoints/r12_dim64/weights_final.pt"
+}

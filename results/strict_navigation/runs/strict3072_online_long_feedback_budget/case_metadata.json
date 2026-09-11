@@ -1,0 +1,66 @@
+{
+  "split": "validation",
+  "selection_seed": 9102027,
+  "sampling": "one uniformly chosen eligible start per unique episode, length>=81; fixed before outcomes",
+  "cases": [
+    {
+      "episode": 936,
+      "start_step": 19,
+      "start_xy": [
+        124.5,
+        64.86894989013672
+      ],
+      "goals": {
+        "25": {
+          "xy": [
+            116.37661743164062,
+            62.695960998535156
+          ],
+          "euclidean": 8.40899658203125,
+          "across_wall": false,
+          "initially_within_success": true
+        },
+        "75": {
+          "xy": [
+            109.49224090576172,
+            55.82057189941406
+          ],
+          "euclidean": 17.524438858032227,
+          "across_wall": true,
+          "initially_within_success": false
+        }
+      }
+    }
+  ],
+  "case_sha256": "d408a621fce75fa10446a40b28d0c695f74ac36011b5974b73551752adc8dff0",
+  "goal_offset": 75,
+  "budget": 150,
+  "normalization": "strict training set only",
+  "action_constraint": "original unconstrained search; environment clips physical actions",
+  "argv": [
+    "/root/autodl-tmp/lewm_research/strict_nav_20260910/eval_strict.py",
+    "--config-name",
+    "tworoom",
+    "policy=/root/autodl-tmp/lewm_research/data/checkpoints/strict_tw_s3072_v2/weights_final.pt",
+    "seed=42",
+    "eval.num_eval=1",
+    "eval.dataset_name=tworoom",
+    "eval.goal_offset_steps=75",
+    "eval.eval_budget=150",
+    "solver.n_steps=2",
+    "solver.num_samples=300",
+    "solver.topk=30",
+    "plan_config.horizon=5",
+    "plan_config.receding_horizon=1",
+    "+plan_config.warm_start=false",
+    "output.filename=/root/autodl-tmp/lewm_research/strict_nav_20260910/runs/strict3072_online_long_feedback_budget/result.txt"
+  ],
+  "compute_cap_per_case": {
+    "candidate_model_steps": 90000,
+    "horizon": 5,
+    "iterations": 2,
+    "candidates": 300,
+    "receding": 1,
+    "warm_start": false
+  }
+}

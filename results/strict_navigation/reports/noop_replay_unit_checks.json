@@ -1,0 +1,6 @@
+{
+  "valid": true,
+  "nonzero_action": true,
+  "incorrect_position": true,
+  "incorrect_path": true
+}

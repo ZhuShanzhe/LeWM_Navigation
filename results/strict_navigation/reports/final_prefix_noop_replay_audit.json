@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "completed_batches_audited": 199,
+  "noop_replay_audits": {
+    "finalv1_known_layout_sreference_noop_b0": {
+      "passed": true,
+      "n": 50,
+      "initial_projection_cases": [
+        {
+          "episode": 3024,
+          "start_step": 0,
+          "initial_xy": [
+            14.395345687866211,
+            75.98297882080078
+          ],
+          "projected_xy": [
+            21.0,
+            75.98297882080078
+          ],
+          "displacement": 6.604654312133789,
+          "success": false
+        }
+      ]
+    },
+    "finalv1_known_layout_sreference_noop_b1": {
+      "passed": true,
+      "n": 50,
+      "initial_projection_cases": []
+    },
+    "finalv1_known_layout_sreference_noop_b2": {
+      "passed": true,
+      "n": 50,
+      "initial_projection_cases": [
+        {
+          "episode": 6221,
+          "start_step": 0,
+          "initial_xy": [
+            17.770187377929688,
+            44.712364196777344
+          ],
+          "projected_xy": [
+            21.0,
+            44.712364196777344
+          ],
+          "displacement": 3.2298126220703125,
+          "success": false
+        }
+      ]
+    },
+    "finalv1_known_layout_sreference_noop_b3": {
+      "passed": true,
+      "n": 50,
+      "initial_projection_cases": []
+    },
+    "finalv1_known_layout_sreference_noop_b4": {
+      "passed": true,
+      "n": 50,
+      "initial_projection_cases": [
+        {
+          "episode": 3782,
+          "start_step": 0,
+          "initial_xy": [
+            208.26316833496094,
+            42.14579772949219
+          ],
+          "projected_xy": [
+            203.0,
+            42.14579772949219
+          ],
+          "displacement": 5.2631683349609375,
+          "success": false
+        }
+      ]
+    },
+    "finalv1_known_layout_sreference_noop_b5": {
+      "passed": true,
+      "n": 50,
+      "initial_projection_cases": []
+    },
+    "finalv1_final_geometry_axis1_door73_sreference_noop_b0": {
+      "passed": true,
+      "n": 50,
+      "initial_projection_cases": []
+    },
+    "finalv1_final_geometry_axis1_door73_sreference_noop_b1": {
+      "passed": true,
+      "n": 50,
+      "initial_projection_cases": []
+    },
+    "finalv1_final_geometry_axis1_door169_sreference_noop_b0": {
+      "passed": true,
+      "n": 50,
+      "initial_projection_cases": []
+    },
+    "finalv1_final_geometry_axis1_door169_sreference_noop_b1": {
+      "passed": true,
+      "n": 50,
+      "initial_projection_cases": []
+    }
+  },
+  "amendment": {
+    "created_unix": 1789079827.629943,
+    "reason": "Original auditor assumed zero actions imply zero position displacement. Official border collision projects dataset starts inside radius-inflated border on first step. Replace assumption with zero-action and exact official CPU one-step replay plus subsequent stationarity checks; no evaluation protocol, model, cases or results modified.",
+    "wrapper_sha256": "d770d3092187ec765e40910c6c25291831798927d3e8180f20351eb05f0b115a",
+    "original_auditor_sha256": "98f78c7d8fe1a67be7ff48aea485e9d2655d09915edf54b63d13fa27f5f76e5f",
+    "frozen_protocol_sha256": "a1c7da7e4d3f215d289121205d9d896007232771970304654fca78dd3c2e7da5",
+    "first_affected_case": {
+      "tag": "finalv1_known_layout_sreference_noop_b0",
+      "episode": 3024,
+      "start_step": 0,
+      "start_x": 14.395345687866211,
+      "projected_x": 21.0
+    },
+    "experiments_changed": false
+  }
+}

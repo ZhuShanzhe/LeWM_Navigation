@@ -1,0 +1,25 @@
+{
+  "created_unix": 1789020659.0245538,
+  "new_tags": [
+    "smoke_bounded_posttrain",
+    "strict3072_validation_long_feedback_budget_warm_b0",
+    "strict3072_validation_long_feedback_budget_warm_b1",
+    "strict3072_validation_long_feedback_extra_warm_b0",
+    "strict3072_validation_long_feedback_extra_warm_b1",
+    "strict3072_validation_long_h10_budget_warm_b0",
+    "strict3072_validation_long_h10_budget_warm_b1",
+    "strict3072_validation_long_base_bounded_b0",
+    "strict3072_validation_long_base_bounded_b1",
+    "strict3072_validation_long_feedback_extra_bounded_b0",
+    "strict3072_validation_long_feedback_extra_bounded_b1",
+    "strict3072_validation_long_feedback_extra_warm_bounded_b0",
+    "strict3072_validation_long_feedback_extra_warm_bounded_b1"
+  ],
+  "observations_used": "completed validation groups; counterfactual audit on development-test only",
+  "hypotheses": [
+    "Warm-start plan continuity interacts with feedback and horizon.",
+    "Unbounded normalized proposals are clipped by the simulator but not by original world-model predictions."
+  ],
+  "not_novelty_claim": true,
+  "final_reserve_not_queued": true
+}

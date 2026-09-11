@@ -1,0 +1,80 @@
+[
+  {
+    "baseline": "long_feedback_extra",
+    "variant": "long_feedback_extra_warm",
+    "n": 100,
+    "delta_pp": 20.0,
+    "ci95": [
+      11.0,
+      30.0
+    ],
+    "wins": 24,
+    "losses": 4,
+    "scope": "one model, development validation; not independent training-seed confidence"
+  },
+  {
+    "baseline": "long_h10_budget",
+    "variant": "long_h10_budget_warm",
+    "n": 100,
+    "delta_pp": 38.0,
+    "ci95": [
+      28.999999999999996,
+      48.0
+    ],
+    "wins": 38,
+    "losses": 0,
+    "scope": "one model, development validation; not independent training-seed confidence"
+  },
+  {
+    "baseline": "long_feedback_budget",
+    "variant": "long_feedback_budget_warm",
+    "n": 100,
+    "delta_pp": 2.0,
+    "ci95": [
+      -3.0,
+      8.0
+    ],
+    "wins": 5,
+    "losses": 3,
+    "scope": "one model, development validation; not independent training-seed confidence"
+  },
+  {
+    "baseline": "long_base",
+    "variant": "long_base_bounded",
+    "n": 100,
+    "delta_pp": -13.0,
+    "ci95": [
+      -20.0,
+      -6.0
+    ],
+    "wins": 1,
+    "losses": 14,
+    "scope": "one model, development validation; not independent training-seed confidence"
+  },
+  {
+    "baseline": "long_feedback_extra",
+    "variant": "long_feedback_extra_bounded",
+    "n": 100,
+    "delta_pp": 3.0,
+    "ci95": [
+      -6.0,
+      12.0
+    ],
+    "wins": 12,
+    "losses": 9,
+    "scope": "one model, development validation; not independent training-seed confidence"
+  },
+  {
+    "baseline": "long_feedback_extra_warm",
+    "variant": "long_feedback_extra_warm_bounded",
+    "n": 100,
+    "delta_pp": -18.0,
+    "ci95": [
+      -27.0,
+      -10.0
+    ],
+    "wins": 2,
+    "losses": 20,
+    "scope": "one model, development validation; not independent training-seed confidence"
+  }
+]

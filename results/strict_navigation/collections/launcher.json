@@ -1,0 +1,20 @@
+[
+  {
+    "variant": "single",
+    "pid": 411946,
+    "log": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/single.log",
+    "started_unix": 1789030564.6016579,
+    "timeout_seconds": 10800,
+    "device": "cpu",
+    "status": "launched_not_completed"
+  },
+  {
+    "variant": "multi",
+    "pid": 411947,
+    "log": "/root/autodl-tmp/lewm_research/strict_nav_20260910/collections/multi.log",
+    "started_unix": 1789030564.6028416,
+    "timeout_seconds": 10800,
+    "device": "cpu",
+    "status": "launched_not_completed"
+  }
+]

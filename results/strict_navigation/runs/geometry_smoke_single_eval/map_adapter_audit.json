@@ -1,0 +1,14 @@
+[
+  {
+    "episode": 0,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  },
+  {
+    "episode": 1,
+    "start_render_max_error": 0.0,
+    "goal_render_max_error": 0.0,
+    "start_state_error": 0.0
+  }
+]

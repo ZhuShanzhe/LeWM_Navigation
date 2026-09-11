@@ -1,0 +1,10 @@
+{
+  "path": "/root/autodl-tmp/lewm_research/strict_nav_20260910/heads/temporal3072/temporal.pt",
+  "sha256": "9123f303f0e190a214c2aef331e15c6d76b5c961178190013a960ca79e1a40cf",
+  "kind": "temporal",
+  "cost": "hybrid",
+  "parameters": 262913,
+  "model_sha256": "e838b7d49b0bf06ef9a77f0030c7af1875270f2dc0a804e88eef63bf82065ada",
+  "adapted": true,
+  "extra_supervision": "training trajectory temporal separations only"
+}

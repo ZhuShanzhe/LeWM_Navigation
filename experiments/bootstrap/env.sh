@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+source /root/autodl-tmp/lewm_research/venv/bin/activate
+export STABLEWM_HOME=/root/autodl-tmp/lewm_research/data
+export HF_HOME=/root/autodl-tmp/lewm_research/hf_cache
+export UV_CACHE_DIR=/root/autodl-tmp/lewm_research/uv_cache
+export SPT_CACHE_DIR=/root/autodl-tmp/lewm_research/spt_cache
+export WANDB_MODE=offline
+export WANDB_DIR=/root/autodl-tmp/lewm_research/logs
+export SDL_VIDEODRIVER=dummy
+export MUJOCO_GL=egl
+export OMP_NUM_THREADS=8
+export MKL_NUM_THREADS=8
+export TOKENIZERS_PARALLELISM=false
+export HYDRA_FULL_ERROR=1
+export PYTHONUNBUFFERED=1
+cd /root/autodl-tmp/lewm_research/le-wm
