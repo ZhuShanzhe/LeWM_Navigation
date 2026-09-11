@@ -1,13 +1,8 @@
-# docs
+# 文档
 
-复现说明、实验代码索引、局限、后续更新约定及 WM × Navigation 文献调研。
+- [EXPERIMENTS.md](EXPERIMENTS.md)：核心模块、实验目的及对应结果文件。
+- [REPRODUCING.md](REPRODUCING.md)：数值复算、文件路径恢复、环境与外部资源要求。
+- [LIMITATIONS.md](LIMITATIONS.md)：数据、评估协议和能力结论的适用边界。
+- [literature](literature/README.md)：WM × Navigation 前沿工作调研 PDF。
 
-[返回上一级](../README.md)
-
-## 目录索引
-
-- [EXPERIMENTS.md](EXPERIMENTS.md)
-- [LIMITATIONS.md](LIMITATIONS.md)
-- [REPRODUCING.md](REPRODUCING.md)
-- [WORKFLOW.md](WORKFLOW.md)
-- [literature/](literature/README.md)
+[返回项目](../README.md)

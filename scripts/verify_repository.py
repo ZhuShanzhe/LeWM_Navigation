@@ -11,7 +11,7 @@ def main():
     for row in manifest['files']:
         p=root/row['repository_path']
         if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest()!=row['sha256']:
-            errors.append('Changed archived file: '+row['repository_path'])
+            errors.append('File checksum mismatch: '+row['repository_path'])
     transformation=json.loads((root/'provenance/compact_transformation.json').read_text())
     compact=root/transformation['output']
     if hashlib.sha256(compact.read_bytes()).hexdigest()!=transformation['output_sha256']:
@@ -51,7 +51,7 @@ def main():
     if not final['passed'] or len(final['trace_audits'])!=238:errors.append('Final audit incomplete')
     means=final['three_seed_descriptive']['known_layout']
     if abs(means['temporal']['mean_sr']-98.88888888888889)>1e-8:errors.append('Summary mismatch')
-    print(json.dumps({'passed':not errors,'files_checked':count,'originals_verified':len(manifest['files']),
+    print(json.dumps({'passed':not errors,'files_checked':count,'manifest_files_verified':len(manifest['files']),
                       'errors':errors},ensure_ascii=False,indent=2))
     raise SystemExit(bool(errors))
 

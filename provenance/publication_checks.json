@@ -1,8 +1,8 @@
 {
   "repository": {
     "passed": true,
-    "files_checked": 307,
-    "originals_verified": 241,
+    "files_checked": 304,
+    "manifest_files_verified": 241,
     "errors": []
   },
   "recompute_final_table": {
@@ -13,20 +13,12 @@
     "summary_rows": 25,
     "note": "Recomputed from compact case records, not a raw trace re-audit. Cases reused across seeds/methods/maps; not independent sample count."
   },
-  "source_records_retained_on_server": 476,
-  "compact_projection_equals_server_originals": true,
   "restore": {
     "dry_run": true,
-    "byte_identical_copy": true,
+    "checksum_verified_copy": true,
     "idempotent": true,
-    "different_file_refused": true,
-    "temporary_copy_removed": true
+    "different_file_refused": true
   },
-  "scope": {
-    "files": 307,
-    "directory_readmes": 47,
-    "archive_commit": "cb0d22e894546b4ff99abbd120a88bfc9e59a54c",
-    "no_training_or_closed_loop_rerun": true
-  },
+  "documentation_links_valid": true,
   "passed": true
 }

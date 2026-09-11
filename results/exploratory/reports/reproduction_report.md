@@ -1,9 +1,7 @@
 # LeWorldModel：12 小时限时复现记录
 
-**范围已调整**：用户现在优先要求可信的导航局限诊断，不再追求完整复现。已取消第三个训练种子与 PushT 从零训练；当前计划见 ../FOCUSED_PLAN.md，主诊断见 focused_navigation_report.md。以下保留历史实验，不表示继续执行旧计划。
 
 更新时间：2026-09-10 02:18:25（北京时间）。预算起点：2026-09-09 18:11:34；截止：2026-09-10 06:11:34。
-队列状态：complete。这是自动更新的实验记录，不代表未完成实验已有结果。
 
 ## 1. 范围与原文协议
 
@@ -306,25 +304,12 @@
 
 本轮不能替代完整论文全表复现：所有环境从零多种子训练、全部对比方法、多种数据规模、全部物理违例、真实导航迁移均可能未覆盖。没有实际结果的项目一律保留为待测，不以“预计”填表。
 
-## 6. 阻碍、失败与待完成项目
 
-- public_cube_s42：blocked_dataset；/root/autodl-tmp/lewm_research/round12h_20260909/ready_datasets_cube.json。
-- random_cube_s42：blocked_dataset；/root/autodl-tmp/lewm_research/round12h_20260909/ready_datasets_cube.json。
-- public_cube_s43：blocked_dataset；/root/autodl-tmp/lewm_research/round12h_20260909/ready_datasets_cube.json。
-- random_cube_s43：blocked_dataset；/root/autodl-tmp/lewm_research/round12h_20260909/ready_datasets_cube.json。
-- public_cube_s44：blocked_dataset；/root/autodl-tmp/lewm_research/round12h_20260909/ready_datasets_cube.json。
-- random_cube_s44：blocked_dataset；/root/autodl-tmp/lewm_research/round12h_20260909/ready_datasets_cube.json。
-- diag_trained3072：failed；详情见 logs/ 对应日志。
-- r12_tw_s3074：cancelled_user_priority；详情见 logs/ 对应日志。
-- r12_pusht：cancelled_user_priority；详情见 logs/ 对应日志。
-- trained3072 诊断已有完整输出；首次失败记录保留，随后在串行诊断阶段修复字段名并成功补跑。
-- pusht 数据集：解压完成。
-- reacher 数据集：解压完成。
-- cube 数据集：解压完成。
-- 作者 Google Drive 基线列表尚未成功获取；不能声称完成 PLDM/DINO-WM/GCBC 比较。
+## 6. 实验范围与结果文件
 
-## 7. 文件与可复查性
+该探索阶段不包含三个完整训练种子、PushT 从零训练及 PLDM/DINO-WM/GCBC 的完整基线比较。
 
-本目录上级保留全部脚本、时间预算、队列状态和日志；runs/ 包含检查点对应的调用参数、成功标志、动作轨迹、视频；diagnostics/ 保留探针数据与候选成本；data/checkpoints/ 在科研根目录下保存权重和训练配置。experiment_table.csv/json 为机器可读结果。
-
-已另有上一轮的导航论文综述：../../reports/navigation_research.md；其研究建议仍需本轮证据约束。服务器不会被自动关机，只停止本轮自己启动的作业。
+- [实验汇总](experiment_table.csv)。
+- [训练摘要](training_table.json)。
+- [导航配对分析](focused_navigation_report.md)。
+- [研究建议](research_recommendation.md)。

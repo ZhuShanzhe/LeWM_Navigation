@@ -1,6 +1,6 @@
 # LeWM × Navigation
 
-研究 LeWM 在导航中的能力、失败原因和可迁移改进。当前版本只保留核心实现、实验配置、关键结果与分析、WM × Navigation 调研，不是 LeWM 全任务或真实机器人复现。
+研究 LeWM 在导航中的能力、失败原因和可迁移改进。仓库包含核心实现、实验配置、关键结果与分析、WM × Navigation 调研，不是 LeWM 全任务或真实机器人复现。
 
 ## 从这里开始
 
@@ -11,14 +11,14 @@
 
 ## 目录
 
-| 目录 | 保留内容 |
+| 目录 | 内容 |
 |---|---|
 | [experiments](experiments/README.md) | 训练、导航评估、时间头、检索、几何/拓扑/路点诊断及冻结协议 |
 | [results](results/README.md) | 最终逐例紧凑记录、汇总、关键分析与训练完成证据 |
 | [docs](docs/README.md) | 调研报告、复现入口、实验范围与局限 |
 | [artifacts](artifacts/README.md) / [environment](environment/README.md) | 核心模型配置与依赖版本，不含权重或数据 |
 | [third_party](third_party/README.md) | 固定版本的 LeWM 原始实现及许可 |
-| [scripts](scripts/README.md) / [provenance](provenance/README.md) | 数字复算、完整性检查、来源与归档恢复 |
+| [scripts](scripts/README.md) / [provenance](provenance/README.md) | 数字复算、完整性检查、来源与路径恢复 |
 
 ## 结果解读
 
@@ -33,6 +33,4 @@ python scripts/verify_repository.py
 python scripts/recompute_final_table.py
 ```
 
-只用 Python 标准库即可复算最终成功率，不需要 GPU。闭环重跑还需未上传的数据、权重和原环境，不能把数字复算等同于从零复现。
-
-本次精简没有更改实验观察或重跑训练。中间运行目录、历史队列、修补脚本和重复报告已从当前树移除；[精简前完整归档](https://github.com/ZhuShanzhe/LeWM_Navigation/tree/cb0d22e894546b4ff99abbd120a88bfc9e59a54c)与服务器原始档案仍保留。后续阶段继续更新本仓库，保留同样的核心范围与每级 README。
+只用 Python 标准库即可复算最终成功率，不需要 GPU。闭环重跑还需外部数据、权重和原环境，不能把数字复算等同于从零复现。

@@ -1,6 +1,6 @@
 # runs
 
-核心模型的实际训练实参、环境、训练完成摘要及划分审计。逐闭环评估成功结果已合并到 results/final_cases.json。
+模型的训练参数、环境、完成摘要及划分审计。最终闭环评估的逐例成功记录位于 results/final_cases.json。
 
 [返回上一级](../README.md)
 

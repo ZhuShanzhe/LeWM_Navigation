@@ -1,6 +1,6 @@
 # reports
 
-优先读 final_research_synthesis.md，其次 final_supplementary_analysis.md。其余为机制、几何、拓扑和路点阶段证据；历史判断以最终结论为准。部分历史文件中的路径指向服务器完整归档。
+final_research_synthesis.md 汇总研究结论与方向建议；final_supplementary_analysis.md 提供分层统计。其余文件记录基础规划、迁移机制、几何、拓扑和路点实验。开发阶段结果与最终独立确认采用不同协议。
 
 [返回上一级](../README.md)
 

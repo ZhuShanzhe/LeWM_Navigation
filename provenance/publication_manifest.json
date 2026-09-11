@@ -635,8 +635,9 @@
     {
       "repository_path": "results/strict_navigation/reports/final_confirmation_results.md",
       "workspace_path": "strict_nav_20260910/reports/final_confirmation_results.md",
-      "bytes": 1797,
-      "sha256": "33b6a0de26bd6ea606f0cef87827bf7baac51f909e0fdc5d2d6da1f136de5936"
+      "bytes": 1749,
+      "sha256": "3773e95f00b56a16c5d5cdf9016273b6ace7e38d2e2a152a34544a8881ce62ec",
+      "source_sha256": "33b6a0de26bd6ea606f0cef87827bf7baac51f909e0fdc5d2d6da1f136de5936"
     },
     {
       "repository_path": "results/strict_navigation/reports/final_prefix_noop_replay_audit.json",
@@ -647,8 +648,9 @@
     {
       "repository_path": "results/strict_navigation/reports/final_research_synthesis.md",
       "workspace_path": "strict_nav_20260910/reports/final_research_synthesis.md",
-      "bytes": 17524,
-      "sha256": "697b4e4ace48ca4c8358c23e4119cd90c2b8c2af3059369e7395e6a67bec005e"
+      "bytes": 16120,
+      "sha256": "5c246c7ca34c284e897452432c7cbf47a0ab284a37d353cb2edacefc19625c09",
+      "source_sha256": "697b4e4ace48ca4c8358c23e4119cd90c2b8c2af3059369e7395e6a67bec005e"
     },
     {
       "repository_path": "results/strict_navigation/reports/final_supplementary_analysis.json",
@@ -671,8 +673,9 @@
     {
       "repository_path": "results/strict_navigation/reports/geometry_control_pair4001.md",
       "workspace_path": "strict_nav_20260910/reports/geometry_control_pair4001.md",
-      "bytes": 1209,
-      "sha256": "8438091eb2c888f826e7ae0e89887a934ccd2b18272745d6afd3a45b8e4758cd"
+      "bytes": 1167,
+      "sha256": "880591200ed445f89252a1e67d9a3d403886cff27806ab93afdfd27e71694199",
+      "source_sha256": "8438091eb2c888f826e7ae0e89887a934ccd2b18272745d6afd3a45b8e4758cd"
     },
     {
       "repository_path": "results/strict_navigation/reports/geometry_results.json",
@@ -683,8 +686,9 @@
     {
       "repository_path": "results/strict_navigation/reports/geometry_results.md",
       "workspace_path": "strict_nav_20260910/reports/geometry_results.md",
-      "bytes": 7301,
-      "sha256": "e6fee501481d12db60138321832296a943ca4558ed0a22f786e4dbb75a681b5e"
+      "bytes": 7248,
+      "sha256": "70dba84dad3926b359106266b9b9677e6283d620e7dd63264129ef412e241dbc",
+      "source_sha256": "e6fee501481d12db60138321832296a943ca4558ed0a22f786e4dbb75a681b5e"
     },
     {
       "repository_path": "results/strict_navigation/reports/oracle_failure_stage_breakdown.json",
@@ -695,8 +699,9 @@
     {
       "repository_path": "results/strict_navigation/reports/oracle_threshold_interpretation_20260911.md",
       "workspace_path": "strict_nav_20260910/reports/oracle_threshold_interpretation_20260911.md",
-      "bytes": 3160,
-      "sha256": "bda1eef8643b4bbb26b7b43cdd7f94ff0a357ab0cafb359a8ade89dcbb4c66e4"
+      "bytes": 2228,
+      "sha256": "59dfa24645312f4c6404c9b8a28221011c9c106c4073210474bda057b783fce7",
+      "source_sha256": "bda1eef8643b4bbb26b7b43cdd7f94ff0a357ab0cafb359a8ade89dcbb4c66e4"
     },
     {
       "repository_path": "results/strict_navigation/reports/oracle_waypoint_formal_results.md",
@@ -725,8 +730,9 @@
     {
       "repository_path": "results/strict_navigation/reports/three_seed_baseline_results.md",
       "workspace_path": "strict_nav_20260910/reports/three_seed_baseline_results.md",
-      "bytes": 2430,
-      "sha256": "77e86dcb0389186bd57a08caf26d37a41f6b654229e8fb794d51b42a177b6672"
+      "bytes": 2295,
+      "sha256": "76a487833ea577dbfd20292914fa4c749fcc2e130b7b5591dd2ad54e6e6333ba",
+      "source_sha256": "77e86dcb0389186bd57a08caf26d37a41f6b654229e8fb794d51b42a177b6672"
     },
     {
       "repository_path": "results/strict_navigation/reports/three_seed_planning_controls.json",
@@ -1223,20 +1229,23 @@
     {
       "repository_path": "results/exploratory/reports/focused_navigation_report.md",
       "workspace_path": "round12h_20260909/reports/focused_navigation_report.md",
-      "bytes": 7828,
-      "sha256": "679465eb65100fa441292d3e9f8e8d8a3655ae0bcfd1e4882c5b839932aaebd7"
+      "bytes": 7576,
+      "sha256": "71517382999a5ca27c94e4cc5e76761ddd34c2e564938e18e99744fcb643a0cf",
+      "source_sha256": "679465eb65100fa441292d3e9f8e8d8a3655ae0bcfd1e4882c5b839932aaebd7"
     },
     {
       "repository_path": "results/exploratory/reports/reproduction_report.md",
       "workspace_path": "round12h_20260909/reports/reproduction_report.md",
-      "bytes": 27431,
-      "sha256": "1b9506b581ee1377145734ba5ed5c35fc4a952dc75c2eb8c62bb9ca993487ef8"
+      "bytes": 25535,
+      "sha256": "a7d22408f64ad9f469cd0b447c7aad1f97a7a43d77b8de676ed0d8827a33606f",
+      "source_sha256": "1b9506b581ee1377145734ba5ed5c35fc4a952dc75c2eb8c62bb9ca993487ef8"
     },
     {
       "repository_path": "results/exploratory/reports/research_recommendation.md",
       "workspace_path": "round12h_20260909/reports/research_recommendation.md",
-      "bytes": 9294,
-      "sha256": "16a5e4ceea61dcb23b0f56c555f734987c27edbdc5199dd4786947bd7f352d14"
+      "bytes": 8565,
+      "sha256": "262c510bcae7efc65e2b7a5f4242677d4a291eeb2b15ece67bc20aa7079d3dbb",
+      "source_sha256": "16a5e4ceea61dcb23b0f56c555f734987c27edbdc5199dd4786947bd7f352d14"
     },
     {
       "repository_path": "results/exploratory/reports/training_table.json",
@@ -1449,5 +1458,5 @@
       "sha256": "b3e5cfce6d0eecd9510f06a7adc178edde86074e1474b899ff739ed8a5355b08"
     }
   ],
-  "policy": "Compact core subset of byte-identical originals; complete publication preserved in git at cb0d22e894546b4ff99abbd120a88bfc9e59a54c. Generated compact cases have separate derivation provenance."
+  "policy": "SHA256 and byte sizes identify repository files. workspace_path gives the corresponding experiment path; source_sha256 identifies source documents where present."
 }

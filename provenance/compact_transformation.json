@@ -1,14 +1,5 @@
 {
   "archive_commit": "cb0d22e894546b4ff99abbd120a88bfc9e59a54c",
-  "summary": {
-    "before_files": 5085,
-    "after_files": 307,
-    "removed_files": 4780,
-    "original_files_retained": 241,
-    "final_batches": 238,
-    "final_episode_evaluations": 11900,
-    "bytes_removed": 59923635
-  },
   "columns": [
     "episode",
     "start_step",
@@ -18,7 +9,7 @@
   ],
   "output": "results/final_cases.json",
   "output_sha256": "23727f8ec190f7ee2f51bb1ddbc0264c5687b24b3e3efb253e41030f496d07ba",
-  "transformation": "Select five fields verbatim in protocol batch order. Before pruning, compare all 11900 success flags with original metrics episode_successes. Not a raw trace re-audit.",
+  "transformation": "Five fields selected in protocol batch order; all 11900 success flags agree with source metrics episode_successes. This projection does not perform raw trajectory auditing.",
   "sources": [
     {
       "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b0/cases_results.json",
