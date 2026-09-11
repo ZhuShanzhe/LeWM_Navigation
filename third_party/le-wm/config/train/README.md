@@ -1,14 +1,12 @@
 # train
 
-本目录属于 third_party/le-wm/config；保存对应模型、地图或阶段的原始记录。身份以内部JSON和来源清单为准，不能从目录名推断额外实验已完成。
+固定上游版本的配置文件，保持原文与许可证归属。
 
 [返回上一级](../README.md)
 
-## 内容
+## 目录索引
 
-| 文件或目录 | 说明 |
-|---|---|
-| [data](data/README.md) | 进入下一层说明。 |
-| [launcher](launcher/README.md) | 进入下一层说明。 |
-| [model](model/README.md) | 进入下一层说明。 |
-| [lewm.yaml](lewm.yaml) | 模型/运行配置。 |
+- [data/](data/README.md)
+- [launcher/](launcher/README.md)
+- [lewm.yaml](lewm.yaml)
+- [model/](model/README.md)

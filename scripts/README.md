@@ -1,7 +1,15 @@
-# 仓库辅助工具（默认不运行GPU）
+# 检查与恢复工具
 
-- `verify_repository.py`：标准库静态验证，检查逐字节快照、每级README、JSON/Python语法、文件类型/大小、常见凭据模式和最终完成标记。自动模式不是完整安全保证，上传前还需人工审阅差异。
-- `recompute_final_table.py`：从238批逐例cases_results重新计算各方法SR、跨墙/同侧分层和三种子均值，校对冻结results.json及发布CSV。
-- `restore_workspace.py`：按来源清单恢复原树，默认dry-run，`--apply`写入；不同内容已有文件会触发拒绝，绝不强制覆盖。
+- `verify_repository.py`：保留原文件 SHA256、目录说明、语法、敏感信息、紧凑记录哈希及最终审计摘要检查。
+- `recompute_final_table.py`：从单个紧凑逐例 JSON 复算全部最终成功率、分层结果及三种子汇总；无需 GPU。
+- `restore_workspace.py`：恢复当前保留原文件的历史相对路径，默认 dry-run，拒绝覆盖不同文件。只恢复核心子集，不恢复权重、数据、已删中间记录或原始 trace。
 
-工具在仓库根执行，Python标准库即可。历史实验入口不在这里，见experiments及复现指南。任何命令都不应自动启动旧supervisor。
+前两个工具不会启动训练或闭环评估。原始完整轨迹审计依赖服务器资源，不由此处检查替代。
+
+[返回项目](../README.md)
+
+## 目录索引
+
+- [recompute_final_table.py](recompute_final_table.py)
+- [restore_workspace.py](restore_workspace.py)
+- [verify_repository.py](verify_repository.py)

@@ -1,0 +1,1928 @@
+{
+  "archive_commit": "cb0d22e894546b4ff99abbd120a88bfc9e59a54c",
+  "summary": {
+    "before_files": 5085,
+    "after_files": 307,
+    "removed_files": 4780,
+    "original_files_retained": 241,
+    "final_batches": 238,
+    "final_episode_evaluations": 11900,
+    "bytes_removed": 59923635
+  },
+  "columns": [
+    "episode",
+    "start_step",
+    "success",
+    "initial_success",
+    "across_wall"
+  ],
+  "output": "results/final_cases.json",
+  "output_sha256": "23727f8ec190f7ee2f51bb1ddbc0264c5687b24b3e3efb253e41030f496d07ba",
+  "transformation": "Select five fields verbatim in protocol batch order. Before pruning, compare all 11900 success flags with original metrics episode_successes. Not a raw trace re-audit.",
+  "sources": [
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b0/cases_results.json",
+      "sha256": "e05041b6e4ef11651003624aa03f9be2d688b5b0b45cbcbbe88b61aec5be6cac"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b0/metrics.json",
+      "sha256": "6670ffd3135c4adf31a71925b2ab6d1e6df6c4992ec6e5d8a2fe50c0c2b30e12"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b1/cases_results.json",
+      "sha256": "b0675b63f21e35681396ae3430774a033689c7eb7a47c77bb2a646df53acbad1"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b1/metrics.json",
+      "sha256": "681526d301542166217d6632567f5dbf35db0eb625b74d049814fc0846b383c5"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b2/cases_results.json",
+      "sha256": "49d66b9b68959c588c28d0de5493ad59cbe66dc44d40f25b53cfd4735972d425"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b2/metrics.json",
+      "sha256": "f8b8e4100176dbd59b2ae69d5ada5f9c4847c6ed4d4fab8902dbd592c1714c24"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b3/cases_results.json",
+      "sha256": "1ff1b26348ed87b7e9f24f53753e65d6148f2aa58e68aaa4dbe9b5049d844f74"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b3/metrics.json",
+      "sha256": "579ebb38efbfdcb5cc5ef94084a8ded7b5804d0b5d6a1759734e1ba225a60d49"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b4/cases_results.json",
+      "sha256": "9e06de9cf6f8b8a746b7152955b544b9d775c025bb7784482e87bda98491b58c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b4/metrics.json",
+      "sha256": "f5c927d05e715782d46c5fa4ac66903b96f619969aca6253eabb331d66f75844"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b5/cases_results.json",
+      "sha256": "635a1c65567836f32f9066909d352af712d9b15f5f0c5b031dbab8b880f67ec4"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_base_b5/metrics.json",
+      "sha256": "fe8c2e0ed59fc7c70ccf62d591ed71ccda0a895312375cce08c13c3ad1b28f6f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_h10_warm_b0/cases_results.json",
+      "sha256": "79719a47977caacd3b0ac8609d099fc61edc50e291cc0e2485b402a49274695c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_h10_warm_b0/metrics.json",
+      "sha256": "991c6277a358cdaa1d90242e1e1ccfb24f8ffc8f2c7f02e28cea1c49b0fc6255"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_h10_warm_b1/cases_results.json",
+      "sha256": "feaa63c798cacdae94d88ac6a2b382cdb32ca5691cd4ed0c71a6974ff4ae6e56"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_h10_warm_b1/metrics.json",
+      "sha256": "9ef1883aaa86ad6f617fa5d3b7eeebaa1bd2f86e3ffb679c1c56fa3b92eee5c7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_h10_warm_b2/cases_results.json",
+      "sha256": "cdebf6b8e4c739aca395d141fdb6ddaf2078f7cbe3f23843d271e8bbfdf4a742"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_h10_warm_b2/metrics.json",
+      "sha256": "325287546a8741a817c6960ba90d2495370e1ee593477b6c097bf3abfb212522"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_h10_warm_b3/cases_results.json",
+      "sha256": "d6c392b69a4ae9ef4313849fbae2d7803cc51c6a3d391c1042b951138211d18d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_h10_warm_b3/metrics.json",
+      "sha256": "adaf2a4f0b9dfa903011abc122af941c2febe28de8628bd6dc75a5b5d8301f56"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_h10_warm_b4/cases_results.json",
+      "sha256": "387644dfaa64639b544bdc648ef6f712214dc3afa1ca61f6d788938af6f23518"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_h10_warm_b4/metrics.json",
+      "sha256": "573cba656c3f0a08741b894b00552ec8019df02147e8ff12ea71c9126a53e21f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_h10_warm_b5/cases_results.json",
+      "sha256": "8b83577c609ec5e5a9147edf9d70e6f3e1bc9feaab2f3d86fc5383d18eaf9628"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_h10_warm_b5/metrics.json",
+      "sha256": "d03a79bd1aebb29f00f2eff493bf190f92b057de4904429084fe9240945c65f0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_temporal_b0/cases_results.json",
+      "sha256": "743889064ea363b6805182a9b2d4bfffa246759b8c9ba77f4686b4910c61f96c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_temporal_b0/metrics.json",
+      "sha256": "0499d4fc514debadf9d603061d7a3ca1517cdb4a4d54496c4c2e61ae1677e662"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_temporal_b1/cases_results.json",
+      "sha256": "ac5dfb807d63bc220a5d32fb755e5c0ab4b0654b37aee573b502cf76b3e60eb7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_temporal_b1/metrics.json",
+      "sha256": "ef436ba3eb27e9963026c38dafa216af41dcd82e6c90841ee929bbefc15e4d15"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_temporal_b2/cases_results.json",
+      "sha256": "b65929b3f20c5ba9b64583bd42991012ef24ec0c417eb0a30e3fc4b4fb26b199"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_temporal_b2/metrics.json",
+      "sha256": "34f49728ca428bf916d53f56c7ea824ee64ae2df61c51132885e3a28a594793f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_temporal_b3/cases_results.json",
+      "sha256": "f21117bb7fafaacd373b92b6c39287dc19b478085f1aca387ff5901cdbe04e90"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_temporal_b3/metrics.json",
+      "sha256": "7889e6011850db20a9ecf0a7a8910afb7e4b1ee5b7e9ee7d583d0b6b64f73886"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_temporal_b4/cases_results.json",
+      "sha256": "c0da7907f69d593fffc2698f8729f018a0313126fb12f6109e5964c3c6b6bc5a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_temporal_b4/metrics.json",
+      "sha256": "33aa4aaea6d38360dea82304c6488273b59f90612924bd490bd9cc8c1955ebb2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_temporal_b5/cases_results.json",
+      "sha256": "bc876bdf2e2b7e4e0057455d322dd4e3832d9f1990a9dfd99e8fdd66600fdd78"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_temporal_b5/metrics.json",
+      "sha256": "8a442cdbed00b6032dc4c73f550473464d3a1eeb43f024c25fde763ce95552a0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_only_b0/cases_results.json",
+      "sha256": "f1b306e9abdeb274315b584b459d0ba3245b4f4495c1525f16d0b8cc2ac2bf66"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_only_b0/metrics.json",
+      "sha256": "220801e31097551e109d195d63feeba81b9f02da9abac14c44987ae731ab25f6"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_only_b1/cases_results.json",
+      "sha256": "6521e2484db1fd03dbd779c0c1a954473e3ac539d205546b4347add1bd9c80eb"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_only_b1/metrics.json",
+      "sha256": "7187190484726098da2e7b7268bfd02c2d0256717f8bd2dda04ea0f5ad600922"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_only_b2/cases_results.json",
+      "sha256": "3ed2687e1a56468068e04af2c49ffb4c9e16a1bae3476af53d1678074f4c7800"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_only_b2/metrics.json",
+      "sha256": "b97aa3ffe079ed38032696a61e421ebe41a4e87ae7aaa44948d936c785795f78"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_only_b3/cases_results.json",
+      "sha256": "791928fff557d5e0030688c28148e2d76fb66cabb6721101f33cf8d5937df9cf"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_only_b3/metrics.json",
+      "sha256": "7c1a4b2b275d5ad0952c9a7ec3e0f05189c84ed1ef840c37ce88a5f0e079d4e9"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_only_b4/cases_results.json",
+      "sha256": "0e0c99f3982d734c837e44e849d5281980750c338895af754d37670d3789cd81"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_only_b4/metrics.json",
+      "sha256": "980b7989c0c1f5e1291ffcf8233b9b146754d1efd5a65070747da9bf311a8c09"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_only_b5/cases_results.json",
+      "sha256": "38bb5da107a1e5e1e758390af161d88d499bd77f79d8d31d678854669d4ed5e7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_only_b5/metrics.json",
+      "sha256": "290648588093fbdfc1e14e2247a23c144de125c14306f94960b907db1abf25cc"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_rerank_b0/cases_results.json",
+      "sha256": "2608607156e155f47411089e264b36e03f56a68301e51a2142446ec64dd8cd57"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_rerank_b0/metrics.json",
+      "sha256": "2c73778da2dd87229f3cdebc872670f8acfc359bab2880224a243b755eb1e2ed"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_rerank_b1/cases_results.json",
+      "sha256": "d28cc8751c2a7ac5a0eee78e291e500441e4965b09d149291e1c1d7d7db95850"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_rerank_b1/metrics.json",
+      "sha256": "796dcd91c39c2c473128afd1342daf50d6c6d8a157ba80be9c5c2ea555d7979b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_rerank_b2/cases_results.json",
+      "sha256": "4f272c4185254ec71b4ce9953fb40ea985a0ec92ae5709a1dd1123e0b020e3b8"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_rerank_b2/metrics.json",
+      "sha256": "469067d1e99e69598843b7f51b177a46d8ffb309f382e0337cdd436d6412a7de"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_rerank_b3/cases_results.json",
+      "sha256": "5a483445ee36c11cd1327f424dca2b7861bae25b3ec6b580da09e16e1b7518ed"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_rerank_b3/metrics.json",
+      "sha256": "86ad3618e784e7dfa8fec14ac807c9335e8ade6e7b626e4486369608de3de89a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_rerank_b4/cases_results.json",
+      "sha256": "42ca1b1fe271d8621c0fdfb1dbad42ba7d726acc90466676dabb40163b8d8729"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_rerank_b4/metrics.json",
+      "sha256": "87114a092037beb338e18be099676e35bbaf07ed2dfd0a131b29623d1f2db791"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_rerank_b5/cases_results.json",
+      "sha256": "3c77a41f398028ea9455cbfa42c36ff23c23aa5070e239d393b8fc2b748dd30d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3072_retrieval_rerank_b5/metrics.json",
+      "sha256": "9d0cb9407f187262d16f34db47e6b3184e2cc9e06de5f9805e271761413476a7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_base_b0/cases_results.json",
+      "sha256": "f750b4edc5141e9d12e893791c1639a8b6ed1dc541f036c97b66ad30ec5d346e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_base_b0/metrics.json",
+      "sha256": "c095f176a09edfe18725288c878256d5c3abc9904c9ccdcf53ff3646902974c9"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_base_b1/cases_results.json",
+      "sha256": "c8b3cd0ebc0e41f125f4cf8c3cff43b0539e232dffe90a7e326e3f71a5e4ddb8"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_base_b1/metrics.json",
+      "sha256": "513bde497825ff3ab3d0f9d0abac6775bdf2fa8cca8b21281e3be121162f6dd6"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_base_b2/cases_results.json",
+      "sha256": "3a804600b0aac683be84a88768e77cdfdf3e9949d273278a6cd8044c361fb598"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_base_b2/metrics.json",
+      "sha256": "6b8d50c672199e1b9ed2fad48d46b006455209e0e8ae32cde2fc1746f70a205e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_base_b3/cases_results.json",
+      "sha256": "d75e637c50a709f71f73861a9548fd212d9b8b68a85a04acd1b76406213544c2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_base_b3/metrics.json",
+      "sha256": "2b9d59283c0777937bb1cde11bcb261d138efe39b610c3f831c7d8777d0e2116"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_base_b4/cases_results.json",
+      "sha256": "527e573c8ea19b39574e2b544c0f4a43bdf00932eef8360efc66b330917b28cc"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_base_b4/metrics.json",
+      "sha256": "6fef3ff13f33939e6d0e51abc8553ac8dbe67108e9611d18f86acdf1da3b97ad"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_base_b5/cases_results.json",
+      "sha256": "4d79dc9e28477fa96ebe0f1f6ea34243ab04f3bf83ac8ee7235c273303d5be60"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_base_b5/metrics.json",
+      "sha256": "f4b37adb043f6b3c2f4163c32da88b44548f37992e3c2efd8a083ec72034fb98"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_h10_warm_b0/cases_results.json",
+      "sha256": "1c079796281217816003a6c5480859634904e63541799892d7a2ca1381e9b92e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_h10_warm_b0/metrics.json",
+      "sha256": "94f54f10ad1b8d115e51b488661581eebe79036f109ec464ebe4624fa937790a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_h10_warm_b1/cases_results.json",
+      "sha256": "e8fdafcd147b5a4b36eb262a43d44f93d78960ce51839faae43512a0702b7b90"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_h10_warm_b1/metrics.json",
+      "sha256": "229a78ddc0f20165a29e9a600a31086b6018cd45a670d6206f08e8b4979f73a4"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_h10_warm_b2/cases_results.json",
+      "sha256": "28548bd087a71f56f47dd5c6282b9d6ed7beddcdb7800628e88b609db6fe5c45"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_h10_warm_b2/metrics.json",
+      "sha256": "53d4197c1842cb05b48a7ab74df2278c38442dae071a77ef784cdb26ca11b9d0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_h10_warm_b3/cases_results.json",
+      "sha256": "ca9883b2d419dec854782053ad7ca5b89da4cc229bb5b6a7792140d40f017d61"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_h10_warm_b3/metrics.json",
+      "sha256": "e9db13a735d63b571b324f339e14aa3e42e2f3ecdaf74f92450cf8ebd109ec85"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_h10_warm_b4/cases_results.json",
+      "sha256": "d9d1500143eb526a3fbca1d85d7ecb771b130689d003a28da000745a2fdf08e9"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_h10_warm_b4/metrics.json",
+      "sha256": "f082bad59bf554bd3031569708e9dccdc3f7f64d72c370360de4e1cc87ac24a9"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_h10_warm_b5/cases_results.json",
+      "sha256": "99e6a0bd60cb295bc8a551fd6ccc6b59c3af981e524d82a4a89a0fbb4af23eb6"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_h10_warm_b5/metrics.json",
+      "sha256": "b9c1846ae262ee8e082da06eb286465a5f5fe5d52242d0d0e419da1aab49c8c2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_temporal_b0/cases_results.json",
+      "sha256": "a5f083b9825367606c5ffcae62417b33e8ad0614398289eec2575ec83ad5e884"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_temporal_b0/metrics.json",
+      "sha256": "dd52169f65549adcb22fdf9b1aae2d5910880fb3b4ecf1222764f1a418cd160a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_temporal_b1/cases_results.json",
+      "sha256": "ca17448ffec2260d0ba7b7adb746573b39bad4ca4e6b14c3d59853e88edd65d5"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_temporal_b1/metrics.json",
+      "sha256": "e1654f23509f809d528336e88afc8a58e76c4777f5909b01efb086406f29abab"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_temporal_b2/cases_results.json",
+      "sha256": "8ec82bbe7191950791cdcbde1f15f68af8f14646a715cbacd1f8c133c869d55f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_temporal_b2/metrics.json",
+      "sha256": "22dba2f2749298b9d67eb779ca5eaffa258969bb0c7f40c9a17bcb8c6d0e7133"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_temporal_b3/cases_results.json",
+      "sha256": "3680083729215fb0b1c3a3a39b0af1ab5a337f7f3b3601206e18dbf78666b205"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_temporal_b3/metrics.json",
+      "sha256": "43b49a8a67cbba56d0345fe329f23c557fb1f66caa1226ac6c8ce73a21094a2c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_temporal_b4/cases_results.json",
+      "sha256": "f8671a846fa6f2541573a75db22e835fc228bdd39cb224d7936255ecc39166e9"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_temporal_b4/metrics.json",
+      "sha256": "22095cf9446e8c4e4b453bb675abd9ab7cc475355e7a48c6ca721ad355673209"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_temporal_b5/cases_results.json",
+      "sha256": "f60822390bfd7eeeed6bca0604c44ffac0a7f36353adb4d99f98fc441f4066f0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_temporal_b5/metrics.json",
+      "sha256": "4eb6fe05b3d438a8a436db3662c7fec0e4e4b6f7cbc5cb2bee7fb1b006cc5374"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_only_b0/cases_results.json",
+      "sha256": "312e9edd0eb9a3eee2bc55af8795791653c11af10aa5d4d944a6570588adfd16"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_only_b0/metrics.json",
+      "sha256": "97ad7a78001a5b7854bf3fc8f06c9b0562f509d03f75633d266f4340b3b22881"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_only_b1/cases_results.json",
+      "sha256": "e390ac0a7a305ff389d55a27077d8fe2d75e31d51f9afe1bd64ceae70ac4b87f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_only_b1/metrics.json",
+      "sha256": "d4b99f7bef63384bac4c77bf15634e240315746f2af0386407165c247df71fc0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_only_b2/cases_results.json",
+      "sha256": "a8bf9cceb561464ebc657c40dce9b1510ae28cb86444f2a00cfa697a13b0833f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_only_b2/metrics.json",
+      "sha256": "a8d9e8689c9218eac997f8cfd1fd87cade9970699d968b03e9ddede98fcc1a88"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_only_b3/cases_results.json",
+      "sha256": "64fa6786d810375c414375d7c31ff0cbec10c0bed4823283c1f935f32bef8f71"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_only_b3/metrics.json",
+      "sha256": "f8e27834666a5d913e7cb21a2fc99b1ffabb11baf131f23c3812ee18b6b80755"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_only_b4/cases_results.json",
+      "sha256": "e34020ec6cdcc1f015040c0d574137a501b7a03d057979e1b4c0405fd8e27c98"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_only_b4/metrics.json",
+      "sha256": "d2723897099cd36d584d0c8c1e4251b65c738ac739bba3fcb9d78df3cba06218"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_only_b5/cases_results.json",
+      "sha256": "4d98d8ccc0f25c3d2f4a139cfe3dfc1148d5659e565f8ad197a609f5a0f49713"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_only_b5/metrics.json",
+      "sha256": "bd3a2d264bdc25ff2726ea1c54f1f1f2a7aee151fe6056504036aa570774ecc7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_rerank_b0/cases_results.json",
+      "sha256": "145cd7873a973177e7ea66ebb1297670522f51e8934061fd364c380c07c1369a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_rerank_b0/metrics.json",
+      "sha256": "833587d258fce62a000935c71a68b7880d9a281a9837ec40760ea1b0bb63ef70"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_rerank_b1/cases_results.json",
+      "sha256": "fb9dcc7c2297826331f008d53813e63ce05fb1542342a497175cc56dd2d3b01c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_rerank_b1/metrics.json",
+      "sha256": "a67c0c3f25a363bfe3654d22f67ce749e5c72212d449a187128be90e80e5290a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_rerank_b2/cases_results.json",
+      "sha256": "3a3ae14bb7badf05a25761c11252f8acaaa9a44c3a476cd18ff663fd0a8dae70"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_rerank_b2/metrics.json",
+      "sha256": "d6f4ac9ebc6d5e823ad26e6d3fbe7862efd74c792c3fb62d5f0d99ac4e61f976"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_rerank_b3/cases_results.json",
+      "sha256": "6667b5a25479043b5e25f545d1b01fc824a5d1c3239c4e7905f5a020a9368c3c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_rerank_b3/metrics.json",
+      "sha256": "39b01880ec7cd5d3821fbd3b3d5a654017df57cb82df83e56417e03574bd79b1"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_rerank_b4/cases_results.json",
+      "sha256": "56ac6dab4c7acba56bb207057c5f46dbc67735755f1cab845d99e63e8296448d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_rerank_b4/metrics.json",
+      "sha256": "50a74d8524b1449c40a81b161857b529a35a6d9e227ca3393fdd92c287d7952b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_rerank_b5/cases_results.json",
+      "sha256": "045bb4259afffb8e43e0ed046fafb25a5f6398e9b682a01168ddb63ba17b78eb"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3073_retrieval_rerank_b5/metrics.json",
+      "sha256": "305128e3569fdac1274de088dd24f6d40bf4e9203ec65e769ecf16e471ccc85e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_base_b0/cases_results.json",
+      "sha256": "ee4a8b4808e59b82d59454d85d4ea643ad450372b5a4e5062a6d2288a6be037d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_base_b0/metrics.json",
+      "sha256": "eb2e1e9a3eb2d973b3390a3a7a594d4433bc956e88bec784f509d83c346fcd30"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_base_b1/cases_results.json",
+      "sha256": "bf1f79c6a4cd81364b428b3e37b7abbb0b36024d039530392fe15372c4adae6d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_base_b1/metrics.json",
+      "sha256": "b11181f3c56d6ac527a6775f1715648c5f763516a9e455a36d587344dff37f56"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_base_b2/cases_results.json",
+      "sha256": "720840f62f319acb57200878e889b2c6fba936a113d84d2f786034a4db224301"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_base_b2/metrics.json",
+      "sha256": "34656a02003a49205cd2759c023c67392c3ac61189e0db0ebaedbbeb0549fa37"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_base_b3/cases_results.json",
+      "sha256": "5e0cd1311d187fa97a7853c72604ee810a60832998de0df2913aa5f9b725b5d5"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_base_b3/metrics.json",
+      "sha256": "a268bfd35aac544ff7d18001314e632aa8089a17c343085c2d5dea460d8fef20"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_base_b4/cases_results.json",
+      "sha256": "e7a66be363115fa9ce592a253818cacc916d698c1f584805362a9d783e4e7234"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_base_b4/metrics.json",
+      "sha256": "293c032f56653cc45afafc225843f142e87022ac2803427e19585a964b4f373b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_base_b5/cases_results.json",
+      "sha256": "6b68cc81b3a18a6e9be6a3a918b9704a535893cee8eb6ee0b0fe95d3ab6f9f10"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_base_b5/metrics.json",
+      "sha256": "b67168b46bc5e7d3203944cbbe0e55bec18bf53f31ae347761ca0f5cd6de5c10"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_h10_warm_b0/cases_results.json",
+      "sha256": "649db35f536944d82e10b270bf644180f446d627df90284f35b1880067dad81e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_h10_warm_b0/metrics.json",
+      "sha256": "4b075fb59eb49160eb249506feef63aea6b0ffb52d502b7ef83f93145332efd1"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_h10_warm_b1/cases_results.json",
+      "sha256": "e8a83c06c5128ebb4a0e9c82dafe75f844c46de92d93a74d347a6bab94e1f358"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_h10_warm_b1/metrics.json",
+      "sha256": "d6ead0d5234b98643c1aca2de07ad0205ceb3d4850a158cd7a253e5da020fe60"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_h10_warm_b2/cases_results.json",
+      "sha256": "6c3d3a029bd88720908412639238e84fcdacd61f712108c4e23ca929a6aae0d7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_h10_warm_b2/metrics.json",
+      "sha256": "796b1e41faeba1075badc6d9a94d4c4b484f194419925d84b6e85f7314431928"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_h10_warm_b3/cases_results.json",
+      "sha256": "26231bdcd7cc04521ca3a1e7775f4ecf2304ba165d6e9eaecbc6ece09f70277e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_h10_warm_b3/metrics.json",
+      "sha256": "fe74cb81e1b614e93a1402271a68debaf44d8a8a5d026057227390cc198bf9f3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_h10_warm_b4/cases_results.json",
+      "sha256": "da7f07aafb8b21890c6c43de084a0bbcf68fef016331d258d0de3a8484d6722f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_h10_warm_b4/metrics.json",
+      "sha256": "96ac6a440d7eed0c1fe8b235120e99e1bfde847ac4003bbb1d7126c6f25c693e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_h10_warm_b5/cases_results.json",
+      "sha256": "20c33dfd9ef6a867c4e73ee953c8c1d1e34f1b5d3d0fdcfb3f7188d0cfda77f9"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_h10_warm_b5/metrics.json",
+      "sha256": "bff5aed3cd2868a20196f5f127263075c1b21b1fccd803c1a31c1a508c3f8bc3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_temporal_b0/cases_results.json",
+      "sha256": "273b75188a20ee02057c9df74fe82e6b6502ccd71f6049b074020edcc3ab2375"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_temporal_b0/metrics.json",
+      "sha256": "628e3e1a7e3ec6144440ef70f2515c20ff0e55cfed8937b85e4a08558d3c4636"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_temporal_b1/cases_results.json",
+      "sha256": "91bac7a69d5a2a2bc3cba3c1ed7f99d65b670c5b6e17dc560fae248039999fb8"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_temporal_b1/metrics.json",
+      "sha256": "742a76a10b5b5a95ff981405e5c9f80cd4abbeb1a8afd9e1135abac4b3ebf3ff"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_temporal_b2/cases_results.json",
+      "sha256": "404142e798619df64db49ede5c854c67d659ba22af883d9f6978fa2203c6c274"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_temporal_b2/metrics.json",
+      "sha256": "cec29cf9d36e3fcb9461afeba66d106fe1c908d87eb822f614f343d7d6797bb4"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_temporal_b3/cases_results.json",
+      "sha256": "002f3dfd7fe64b2902c88e09bc2a3466a3f045fba9424f667a2b7792e5d0dad3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_temporal_b3/metrics.json",
+      "sha256": "53cce9ce7e68ecd18298549aef32594dca4ee17fb5a94b73e5e95d7bd2cc351b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_temporal_b4/cases_results.json",
+      "sha256": "daf6030d4405a139468b311e15d02847655883efa6782b1bf35c689586474dab"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_temporal_b4/metrics.json",
+      "sha256": "5cea9946b151e5a42e7b14cd29d52b0ef2f80a7519f446d29e8d9a4c383bc871"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_temporal_b5/cases_results.json",
+      "sha256": "d1e88dfccf04abeda98d73d0e7d0366a3420ca1e631688ffda5c6c89d7c7b88c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_temporal_b5/metrics.json",
+      "sha256": "533333b306b647786f497a692e93e4a07797fef521ec30fd7ccbcd91c1c7e562"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_only_b0/cases_results.json",
+      "sha256": "8ec42305ef3e695062515e53d38f0456d264185f85f4c2a48f4594a1769f25c5"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_only_b0/metrics.json",
+      "sha256": "f4c01e345de48484b335f82029fa021f71b29302298c9c99f17fd125122060c0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_only_b1/cases_results.json",
+      "sha256": "f33e8bfdd01c06a3f7aa95bf662603d1214e99b0b6089f1743e4b7e6fb64ce05"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_only_b1/metrics.json",
+      "sha256": "a311d5d091959fd21f51e37ee592a136556e0d5ab64b48e352e01da9f8b56458"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_only_b2/cases_results.json",
+      "sha256": "46f1910ca9aed9f4728f1979c801de2e10b8af977dab75d377b14891e9a7cedb"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_only_b2/metrics.json",
+      "sha256": "b98d359100239fce87566b75da5cbdf5c4ccf0da09045e05fa3c4d880f3c3790"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_only_b3/cases_results.json",
+      "sha256": "42a08507a8f2871f51e03fbb88e7fef2e4d49a8a69b8a986db6252ee8fe83657"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_only_b3/metrics.json",
+      "sha256": "c9f72313c6c461abcdc5bfce9165470ac0e9238c25b51cbbdcc4ea0accf093b0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_only_b4/cases_results.json",
+      "sha256": "99073d3bb04df1f64c0c1429edb85b389f5d6e9745c99bf9319ffb6d4fa81d5e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_only_b4/metrics.json",
+      "sha256": "f04f565101c2ac6a9e4d30dd5b52a104cc57687bbc11772240b94dad1df1be5a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_only_b5/cases_results.json",
+      "sha256": "2f65f568bf9001faffc940d46415d1e4304fb0440b60ee3f1e1f21957c98cb5c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_only_b5/metrics.json",
+      "sha256": "3b60fcbb97035ef85d87472e19f07fb245d284717aafedcc16509738d20e6b5b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_rerank_b0/cases_results.json",
+      "sha256": "a999386bccb76b8f87ad57fb92406692a588490e016e009e820f43ea1fb3d623"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_rerank_b0/metrics.json",
+      "sha256": "85204327814b406f8a7ee003d484bbb5bf123e798bf5d8ade5cd2c2383474343"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_rerank_b1/cases_results.json",
+      "sha256": "08fc3a140ec56e882581c2f36aa284cd4c7c68b79e8b0e31465f5c8fef62d88e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_rerank_b1/metrics.json",
+      "sha256": "c232b8d65fbc9e73e81eca5d19a9f38895aa15a7826f1216b37ab65d3842f443"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_rerank_b2/cases_results.json",
+      "sha256": "fef759605233970c755f4a622835e886fb12342ec2ab92690a5960ef5abb0f30"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_rerank_b2/metrics.json",
+      "sha256": "a9f49ab2b9e71435d66418a389ef9e8ec65ab5d5f328bd9c47013fbf2b897a78"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_rerank_b3/cases_results.json",
+      "sha256": "fda081f01acef7f2ce8c6adb934ed3cc010ecfc01ec98204f45b712189a7448f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_rerank_b3/metrics.json",
+      "sha256": "caf780e4f7990aea42f738dfc143a6d9ad967ba7eb9ff6a1354b250960adeeb8"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_rerank_b4/cases_results.json",
+      "sha256": "29278e8fc0ac6840d4e167295d343b5d0e27792a2e520fc0bb2519219735eb17"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_rerank_b4/metrics.json",
+      "sha256": "49e4e4b60764e1262644e29b67258fd21edefce113c738d611dfd59bfed99113"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_rerank_b5/cases_results.json",
+      "sha256": "03ee822700e3a2a0cb7ab309b534ab560ae07c87bc08c8869267e1cd2e221b2b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_s3074_retrieval_rerank_b5/metrics.json",
+      "sha256": "143522553bd95d1db4b9ed37cd7d29e6b63d428d0aeef8172d8289fe8a70e4fe"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_random_b0/cases_results.json",
+      "sha256": "ee9fcf44365e8ba0b92d07081fafa058543ae56a04e111ddedb9c4af32e8ed6c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_random_b0/metrics.json",
+      "sha256": "8c08bf572d1ed2e546ee5da24e829f5043fa2d051ccd239542129910b517f9df"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_random_b1/cases_results.json",
+      "sha256": "debfb106873468b51b867ba1be999b18abd99717e5a383615969f54e9ceab6c2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_random_b1/metrics.json",
+      "sha256": "ffcd1a9501c1f4ba9b07a489c4ebd13453f81e59d31ee9509ec8f451f07c75a0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_random_b2/cases_results.json",
+      "sha256": "f935af5474a4e7116911a0f3650d054c9a658178e27d6a4da5e63b2c9635bbbc"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_random_b2/metrics.json",
+      "sha256": "07a58523207de584bfeae7bf17ac187b570682887a18eccbc5d614f347e853cf"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_random_b3/cases_results.json",
+      "sha256": "415e580724a2fb042ea1d1fb8c7caed992cf98a2489602ff9605e0336d4733fa"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_random_b3/metrics.json",
+      "sha256": "e32446bbb5346d581d90ba8b4714552cb269ce6e28acc89d3a6ee749e567d4a2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_random_b4/cases_results.json",
+      "sha256": "8e4143e6efd6d21af57412dbb5e65bc8a464e5b9b164ef4e356df0d646dd9a87"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_random_b4/metrics.json",
+      "sha256": "7e7bb659ff83e62b3c33d6381b77c684ff6bb007d96a0f1513ab60267f6677de"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_random_b5/cases_results.json",
+      "sha256": "1bb8616d630dd075f7716f82c566e916f7a7af834b8ccccbcdada622e5a10b96"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_random_b5/metrics.json",
+      "sha256": "00908986d4063cda2470807614cf7e8d2a388cdc686138c23550efa868c7e4bd"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_noop_b0/cases_results.json",
+      "sha256": "62e18f218bba5020b59e64095941ae81344368f973e94b0f76d7890bf3b9fa8f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_noop_b0/metrics.json",
+      "sha256": "383f7cb7cb7bd3a9fc05d196d307448767cdabc3b3b8dbdd4906f1b05144b6b9"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_noop_b1/cases_results.json",
+      "sha256": "0bf1f513b4a23096f250db88661197df71a5bc370420d9bd33d011b62f5be778"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_noop_b1/metrics.json",
+      "sha256": "30211cdc1b724b1f3a734ba722a50ee1a1dc24d8d2e908879bf25c524bf665cc"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_noop_b2/cases_results.json",
+      "sha256": "4fe0ce6f3ae51290f4fdb8c6ed5c540bd3d36a7aafab88cbf58c0e5c013cf049"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_noop_b2/metrics.json",
+      "sha256": "1b79c47ce793f589b18855c4dddfc2a4751cc07f0aa328e10e1eab4a08b6518c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_noop_b3/cases_results.json",
+      "sha256": "ea9b403c5735e7b74ffb3a80683434a5b2a0688be97af34b69073c8ec7939ee7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_noop_b3/metrics.json",
+      "sha256": "053fd490ccfc55c1123a11b80984335860f2d1d848523f741ad8af0c4f84b3e8"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_noop_b4/cases_results.json",
+      "sha256": "f7e7da41bdd703d22a793f9ee713154837a599d34dea21381edfc145c8db52a3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_noop_b4/metrics.json",
+      "sha256": "16be4012d2bbc3b7b01bfde17630e15f3cf4228a26433bc5e63381943580ffec"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_noop_b5/cases_results.json",
+      "sha256": "c3b5459cea1793d9c0703b5f7e7b1de9c549436639a0ef0c7938a0a4d5c51cc2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_known_layout_sreference_noop_b5/metrics.json",
+      "sha256": "4b53bbad2980ae397e47d879e3291371dfac92151535f77ed1e1a4ba7e0ac341"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_base_b0/cases_results.json",
+      "sha256": "0bb9b9a84b20f3eefede57af19ea4d20611efcc5a1140649fdc1a5e584f8cd58"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_base_b0/metrics.json",
+      "sha256": "c27f552915b033bdd4631b6e8d5fd900e252302bb4ce9e583cbb3299b0f57f76"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_base_b1/cases_results.json",
+      "sha256": "3744800c3e6876774f67c052da246b85ce04962ddfd84e16722e9e445f2cb67e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_base_b1/metrics.json",
+      "sha256": "a63690ed01ea8bb45f8f49903401d12d3e0cc4655fb728ebd0701cfa2040b1a3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_h10_warm_b0/cases_results.json",
+      "sha256": "159dc934f5870abaa0f1c4b07c6cd48c6e8581b328f8e2bec2bea8f27b2b12b7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_h10_warm_b0/metrics.json",
+      "sha256": "9fed4b51da0db32f542098df9577d21962981e9c125980a82965a5d03aac6a79"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_h10_warm_b1/cases_results.json",
+      "sha256": "b2b4d5ec0b7dfa325db7166db8ca2d703d73e116309d4456b94fc694d4e8f2c0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_h10_warm_b1/metrics.json",
+      "sha256": "c234a8f917de2a15c6813ff6503de337d68aaea293abe62db3edb1ecf1fe945e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_temporal_b0/cases_results.json",
+      "sha256": "73b59e56950a544ce108df2afdb98ac02b4e63db707f6b276435531b36fa7cce"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_temporal_b0/metrics.json",
+      "sha256": "554b8b41b42993eb2ab727f48f456b5d134ff359f4ebc9bd74e18a26e9a6179f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_temporal_b1/cases_results.json",
+      "sha256": "12bf8204946686715b353ab37f7e1bf69f7cd9a815d2df3d0b98123526cec5ad"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_temporal_b1/metrics.json",
+      "sha256": "0b6b1e0d467380d525e2c4d638c1b05f80c0192e9871b6da2c4decf3ff847ff2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_retrieval_only_b0/cases_results.json",
+      "sha256": "08fbe60e264ed5e1549cd8787b258d3d1908cfbe7516f6384857f5fa80f2c5ce"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_retrieval_only_b0/metrics.json",
+      "sha256": "2801473056453f714447f8371d5a538cf8a057412661092f84824b4d37ba293c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_retrieval_only_b1/cases_results.json",
+      "sha256": "43fa2bae24d3591ad8f0f0db9032addb7162a091b27e4678ecc96dbe19765ffb"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_retrieval_only_b1/metrics.json",
+      "sha256": "0a7fa87fddb02ea7578762a2ad9e6aaf713e4c4084120412b8c5f8af5b700c19"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_retrieval_rerank_b0/cases_results.json",
+      "sha256": "272c97ea34955f10f3f825efdca1de4dc16b4b6a199caebe14652e105013f489"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_retrieval_rerank_b0/metrics.json",
+      "sha256": "ded6064f4866985dad817f740c7e33acf3a40577a90fd1d43787180b73e591bb"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_retrieval_rerank_b1/cases_results.json",
+      "sha256": "5e3bdc5e39ae20c0d9009aad3d0a4fff34dd227f499fe03bdaf9999487c42b4f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3072_retrieval_rerank_b1/metrics.json",
+      "sha256": "0f7c3764ffa94dba5cc515956806efd4d1dd1849621bf23b9620aebc13643278"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_base_b0/cases_results.json",
+      "sha256": "208371bfd194be2416ab256e694546183f0edffd8c6ba5297a925417befd9a07"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_base_b0/metrics.json",
+      "sha256": "e392dbdf528557f9cf0eb9540c692380555c4a1a1e43800923bf41f8b9fc7049"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_base_b1/cases_results.json",
+      "sha256": "fdbcfe7d3a1bf200b6947055b06bc01fe31977ab599cdafc735dc1d067a9100c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_base_b1/metrics.json",
+      "sha256": "9056a054de7b5e40db8dd7179bed68c728824b1f0d90c0acb4dbf2b858db1a3d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_h10_warm_b0/cases_results.json",
+      "sha256": "1a879190efc899f91ccc3061b88379f74160a96f9941222003745894feaea9f5"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_h10_warm_b0/metrics.json",
+      "sha256": "5638cc67d1bf9c9f17f9023c58880e6674f88818b0875c06070f193d724aeb38"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_h10_warm_b1/cases_results.json",
+      "sha256": "2a82cb2432a4ae53ccf66430acd16d017755e060dea07ef74f76082a10ca3af3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_h10_warm_b1/metrics.json",
+      "sha256": "e2eb0e70bf2adc0906507ce329e0902c2beab421655fded9af6903e620482f72"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_temporal_b0/cases_results.json",
+      "sha256": "c8d5f173567a923babe42a01fe5907c3e3126c9132c0221f3e10fd6d11f03570"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_temporal_b0/metrics.json",
+      "sha256": "18b73d3dafee6c365bf1bfd2c45ddd8fa28861cb03bf1996e16360f5c85d80a1"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_temporal_b1/cases_results.json",
+      "sha256": "b91e0144d04322e060c5a74a09849c2b4d5e9ef4bb69832e477c07c1783cd067"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_temporal_b1/metrics.json",
+      "sha256": "f0e07537f2096a2bd05d6803bed7d65611ef7d3dd488430495af0574e6cbee03"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_retrieval_only_b0/cases_results.json",
+      "sha256": "c63b24c468f3688c33a5ad6734975fd5d5c7c4e9c3ac1ec2b089762790afc93e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_retrieval_only_b0/metrics.json",
+      "sha256": "f3cc07de1c9b71262d91707351df1698ea44b570eb2f6ff0af6a56e0a6e02a18"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_retrieval_only_b1/cases_results.json",
+      "sha256": "b90849f8812e46ca9d625d1b5d7ad162a4b9a823af48ab89e309760b0e2b30cc"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_retrieval_only_b1/metrics.json",
+      "sha256": "da73f8ec9f3c7209143bb4c616075d1c2af2a70c29a2d9ae396d38e79b6d14f6"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_retrieval_rerank_b0/cases_results.json",
+      "sha256": "b352ea9b5129462221b4a588c6c5940ffd2c6a42848c01ffbb7be39d42180cb3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_retrieval_rerank_b0/metrics.json",
+      "sha256": "ce4dc78f1f7303945a9ef34368aa10f8204d3123b69414fd0024e195898d0d4a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_retrieval_rerank_b1/cases_results.json",
+      "sha256": "14a51ccf603412e1b475ce4b5499552a23ab9132054ccfca0a283a0d348d679d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3073_retrieval_rerank_b1/metrics.json",
+      "sha256": "b8a219c2c2b3d4c1e517f95dd4aaf04e6f783473b26d1cf83e84e3310a900ecb"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_base_b0/cases_results.json",
+      "sha256": "938c78acb19719804aff0b02e70133ea9aa13b63c3a91d546169c8d8b40092da"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_base_b0/metrics.json",
+      "sha256": "412a918d70cb3dae05f544064ac2dea6762f0e33c2dc7ec700d91be8cafbd015"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_base_b1/cases_results.json",
+      "sha256": "d17ac85292901bed213a00e20e3a9946545b40ee68d59752c5592859fba5c5fd"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_base_b1/metrics.json",
+      "sha256": "252d56a8d762301c0833c5b918e41dd9819e5f7836eb687f1c58dd57e16defc7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_h10_warm_b0/cases_results.json",
+      "sha256": "ebd79502a5d9a6a483407d567564d580db344ca66a54723ec3df4b45ed1bba6a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_h10_warm_b0/metrics.json",
+      "sha256": "663b672c8e06eb5deea2493f2f0345962c6218b5728b70a91f25d174443be515"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_h10_warm_b1/cases_results.json",
+      "sha256": "dde2fec725fbb40e554cdaa30dcf80acfc78588d9fbc6b01ad4bbd6a83a6ff4c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_h10_warm_b1/metrics.json",
+      "sha256": "649c3ba1378bcc1cfe64f51e18e89408cc28585a3e5bf26286d6d5e7abc6d714"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_temporal_b0/cases_results.json",
+      "sha256": "9ba1bbecd68f3d0951382c4761c2685b5beed3f8539c51e6fd9f132bf20441c6"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_temporal_b0/metrics.json",
+      "sha256": "e8dcfe06c9121cf659d88cbef2896761504431627346b15c9b2bef420e5dbb09"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_temporal_b1/cases_results.json",
+      "sha256": "684f998e14c7f3ad38e43306b4d2c5f4cbba596bbc89f067d41af8f9c716c295"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_temporal_b1/metrics.json",
+      "sha256": "6d1a38668ca68a50bdeb50054dc05beed8685ebf98c3eb8f7bf30aa85d492237"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_retrieval_only_b0/cases_results.json",
+      "sha256": "0af52f1490bcda771fac49ed3d44e40152a72fad862ee7b3282a30f195e57122"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_retrieval_only_b0/metrics.json",
+      "sha256": "25e9f00dc4dbbf3b8547fe0bbcf22b9909ae7918884b128cd0b1e34a8e1b4846"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_retrieval_only_b1/cases_results.json",
+      "sha256": "c1059ae791d722f9261a452c61f186e7b1da3dda8708147ee05e3fc8084e1b36"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_retrieval_only_b1/metrics.json",
+      "sha256": "0709a3f280fd8a42fb019493494070e8ea0cba03695fc434532d20144853f9ea"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_retrieval_rerank_b0/cases_results.json",
+      "sha256": "fe6be5fcab192f6b31f861aab6dd545384cdf7fb7c35aa51f4ac66e085a589a1"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_retrieval_rerank_b0/metrics.json",
+      "sha256": "be82872c5d6b1b876fe9cccca48ecbacf61cdac5a79fb83fbc5685cb9a697096"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_retrieval_rerank_b1/cases_results.json",
+      "sha256": "601071774a84491f8ae5e4ddc2167c1014178d255cc353621d39791a002afbab"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_s3074_retrieval_rerank_b1/metrics.json",
+      "sha256": "f57accdab39a0460163db5a685221fd4c5d13d54e9fd4237c45d43bc349e7f53"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_sreference_random_b0/cases_results.json",
+      "sha256": "8903eb123850b5e74542f39ba642ecc972e05c05ce86453bf58539357c251692"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_sreference_random_b0/metrics.json",
+      "sha256": "8922cf31e401e4d6b1b32ba1304369ea26466c28b721b763ee99c9ca16f886ad"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_sreference_random_b1/cases_results.json",
+      "sha256": "02bd6ded32f4fd06f151b324144e50306320bc86f4a8ce6c71e88d79c9043b63"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_sreference_random_b1/metrics.json",
+      "sha256": "e081bf8e107424357d728326d13362a3e28f161dedce1dfb589f5d760bdf4f6a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_sreference_noop_b0/cases_results.json",
+      "sha256": "77131ed1ff8271cd1247e7a65b12cc4012d764895ee67daa35a0b85c1d7e2b8a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_sreference_noop_b0/metrics.json",
+      "sha256": "db8ae1c683e3be85a7bb42a3c0a85ee78b9e46fb98331671f6b5f5ad2293f786"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_sreference_noop_b1/cases_results.json",
+      "sha256": "3156bc3c5b467f4a56aa33ad9d475c4b13e1c5f3d0ca31187d406218b886f56a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door73_sreference_noop_b1/metrics.json",
+      "sha256": "6493b70292bdbc0563d2b8f5239d79a04f4e080b145ce918aadb98bc1177548f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_base_b0/cases_results.json",
+      "sha256": "a434a29c810f5eae1ef0c9a3e3faa80ebc27b5f804811c138accfe383c9cb42a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_base_b0/metrics.json",
+      "sha256": "8d45d5301e06bf9654d33a133986cf7c887c10f00a391202e6514faf466ed3da"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_base_b1/cases_results.json",
+      "sha256": "714c3a6fbc942903b0e6f15b89ec2ceae1dc417d298d18159ad639c1e77f3667"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_base_b1/metrics.json",
+      "sha256": "8350ada5d4ebb432621e23eccd3f5ec69770d02206ac134ac50a658868b7bfca"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_h10_warm_b0/cases_results.json",
+      "sha256": "a5536cb768fac65b8af236c907fa4aa382a199d2c6f9513097855a58c5f8bc07"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_h10_warm_b0/metrics.json",
+      "sha256": "eac636daaf6c47254af8fc5227b19afb929e26892c4b03da4571223588c97fd0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_h10_warm_b1/cases_results.json",
+      "sha256": "68f5ca4456c20b8570f2b23eb5b4358fdf21286ecfbf0992a0ca461edb6dc8a2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_h10_warm_b1/metrics.json",
+      "sha256": "3652567697418facbbd914a0e04fa2dfaa7ddc612bcc969ed505f4d69e019d8b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_temporal_b0/cases_results.json",
+      "sha256": "dec983d35d85d9b683f6be3c4ccae9c09b0f67d1e1663f0332bbb00359a324e4"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_temporal_b0/metrics.json",
+      "sha256": "e9783242bd187874318b8b8fed0a3af764ce9db1263a3ed26b4cfd35d5ecd650"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_temporal_b1/cases_results.json",
+      "sha256": "3f21549d2f73aaef2ccb6471f94c55aea7f522def716ddbe64bf087fc121b7fe"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_temporal_b1/metrics.json",
+      "sha256": "8d9905b6bb3912f987db6af0668c3ff7380df6ad89d5e51094a3720d0a73000d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_retrieval_only_b0/cases_results.json",
+      "sha256": "d864586852b88385dc9700e275817aceeb547988318b3686e475066fc4f14381"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_retrieval_only_b0/metrics.json",
+      "sha256": "42c5a8bad046d6874c457c14bc4ef1477434725b55504bd80047f775fc5d3f01"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_retrieval_only_b1/cases_results.json",
+      "sha256": "95b8455f600df26985f6dd6b22e0ff6b6478c5b852e7f008958ee3bcbaf7a48d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_retrieval_only_b1/metrics.json",
+      "sha256": "cd59a9ae966b7685b6f8e284f00b2b390fa0518aed5cef7cd65a401ebe88bb64"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_retrieval_rerank_b0/cases_results.json",
+      "sha256": "c1a7771a347f2d3386e1037c9fcc8385d3ceb9f9a3808f16c45c6142f1daa496"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_retrieval_rerank_b0/metrics.json",
+      "sha256": "830d68298084a9c47581f8825e3294e6e45d8cb3c974b4cc9060ced743f40dd3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_retrieval_rerank_b1/cases_results.json",
+      "sha256": "a81922d7df2db121d3243a61272ab720c1c105471e5bf68da1d978d1e66774a3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3072_retrieval_rerank_b1/metrics.json",
+      "sha256": "623de054d1e80e5023fe634a13cc06689e32cf0c33dc51839f92e2e674641766"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_base_b0/cases_results.json",
+      "sha256": "500de2ef0546ecda564a26521d25aa1f02a926a11a3dc9271737313fab008486"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_base_b0/metrics.json",
+      "sha256": "0e0e5a96b378a80fe814fc513c6b525085d1fb98d55976be339d3d0ef0370d22"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_base_b1/cases_results.json",
+      "sha256": "0aa908cbcc33796a4e04c4e1e68c7aeedcf5547f8b2c7e268429ee81444a12f0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_base_b1/metrics.json",
+      "sha256": "dae7a1ee0ed3658485a41ea722b135cab0118f0871d725636b317b42269678c5"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_h10_warm_b0/cases_results.json",
+      "sha256": "eea39007ea40acb00551121cf22522c8e2fe9d9a70e6d49f5ca2f42d75e5d8ec"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_h10_warm_b0/metrics.json",
+      "sha256": "5812cd6a3822dcaa8b99d583a7f8f5e510e44a782d2eeb477b02c0dcd1c0e939"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_h10_warm_b1/cases_results.json",
+      "sha256": "ace4abf2fbe354fbcd686cb9eae77f02ed0d543a4bf73ec136e098cb71b018dc"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_h10_warm_b1/metrics.json",
+      "sha256": "550e7867c899111c7a3a96cd58aba5726afd23e554ae941b635b2c36bebb1816"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_temporal_b0/cases_results.json",
+      "sha256": "e2d4a6207af61cb49067255c160e8c6915c043da29c485e935b9b01599e80e0e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_temporal_b0/metrics.json",
+      "sha256": "9f9e1ed46725587eeb88b1d206b8407d5118f541cbdf74fcf16e7a3bdf568295"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_temporal_b1/cases_results.json",
+      "sha256": "402b2b02687a124b15d169662547c18591b1a92e7b1c1f04ab5705741b71b78d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_temporal_b1/metrics.json",
+      "sha256": "03fb9353412ed548bed4d6c0921c767bb3f1531269bc589829a646508c448638"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_retrieval_only_b0/cases_results.json",
+      "sha256": "9be94183ba660d93f60778f4b5316abb1b44ca9cd3b177fc2ac455d647835450"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_retrieval_only_b0/metrics.json",
+      "sha256": "ef075bccd9cd8d7b944e3755a1320c5077b93534f8ea14cfdfffcbd63002740b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_retrieval_only_b1/cases_results.json",
+      "sha256": "0ff8db447098fe2557bc6031f85f09cffe66ee9d91e24c15d7aa4d54a2be0d2d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_retrieval_only_b1/metrics.json",
+      "sha256": "2fc424014344c29c27f8260e9f2d04d686f8fe7a7c005d958d517f2fc3dfa53b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_retrieval_rerank_b0/cases_results.json",
+      "sha256": "42b9987d7924dca7b89f1f3265414f6b7a21cf1d81bc5790eb23509f37d6c346"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_retrieval_rerank_b0/metrics.json",
+      "sha256": "05d30191315aa69fda01647c6c840813ed4c047e98b267bc704055e74dbeddcd"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_retrieval_rerank_b1/cases_results.json",
+      "sha256": "2e094e4f27cea1efe86a8e33f5bfcc83a49fec09251a050881a8abfd42e41a3b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3073_retrieval_rerank_b1/metrics.json",
+      "sha256": "f16a92f0e058f61b9b351c005d7fa403b7c8ce2ba52279414f503d2dff7d4874"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_base_b0/cases_results.json",
+      "sha256": "29471b2ba0b17ff5e56cbf41318dcafc4810a3d67d181b6e205577df201451b8"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_base_b0/metrics.json",
+      "sha256": "07385e74ae468fb20d2b5f2d81e538ddb7880b1b54909fc454adfbc675679d6f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_base_b1/cases_results.json",
+      "sha256": "3a8fce51b935ff8524f1f8835b289af06933e47225cabb4f92fbabd370431d9b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_base_b1/metrics.json",
+      "sha256": "e4ccc54b47ce0b29d0a9dba765fe2823625e470e7a700289bd91177ef39350bc"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_h10_warm_b0/cases_results.json",
+      "sha256": "34af6239d42394722ef5fcc1823a520410b78601910ed289a200423c34a7769a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_h10_warm_b0/metrics.json",
+      "sha256": "540ade63769662e3b9ae731132629e2955d17629f1a04b54b0a1d7c35a9e5792"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_h10_warm_b1/cases_results.json",
+      "sha256": "a7666d86fcf24731720e7acbeba84dd2d41783cf01e386b71bc9e39e1a6e7f14"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_h10_warm_b1/metrics.json",
+      "sha256": "098fa8202f65026ea1222d5239fb5ceed1ed5f15c42f0f049db34f29bab9b090"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_temporal_b0/cases_results.json",
+      "sha256": "8181e50320e4b65f93cc71234ee5bca025b40e8478f15a41159ad42a663200b3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_temporal_b0/metrics.json",
+      "sha256": "0c5d169487fb51c4615cc694ac6ae3968d6a6490c31999f4c25a1e4f79c1e6a5"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_temporal_b1/cases_results.json",
+      "sha256": "bbf72d9eff2fb4eda03ba2002465144b109ab5f30f70d79cab05fc4f8ea74be1"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_temporal_b1/metrics.json",
+      "sha256": "618e041a862cfdd9db0fa1d2145077d5248b59f193d5d7498737a785f47e193e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_retrieval_only_b0/cases_results.json",
+      "sha256": "1a92a4fe88426345b4b6b843bfc697c3883dd7938e408720e5b2184a50724228"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_retrieval_only_b0/metrics.json",
+      "sha256": "d7bd63a3fb2d5cb513d3a30f091ae0cb9c7160b34935a87a0e58d2c221bab040"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_retrieval_only_b1/cases_results.json",
+      "sha256": "5debe84d0142328979fbea42e4db65cb4e4d021731956717bd20e9ab09ca5b85"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_retrieval_only_b1/metrics.json",
+      "sha256": "adf147c9c38dcf89565e1858b84f8609beba686fa4c57d5ba621fdaed0175c73"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_retrieval_rerank_b0/cases_results.json",
+      "sha256": "dc4b796ddd81143e6c72aded9e7b81f925c67d6bc465e2ba38f0e8949152e0c2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_retrieval_rerank_b0/metrics.json",
+      "sha256": "4528141a27736798c9ebcd0a3ecf56f3e3bb269ef1d4073887faaa015a67fdad"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_retrieval_rerank_b1/cases_results.json",
+      "sha256": "6dcad18f6132ab016b731ce1e71ce70e96103aa6ad2d542a5c515f4ff768dd3f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_s3074_retrieval_rerank_b1/metrics.json",
+      "sha256": "6c79f052f9cf70336ea56197c90882123224f12546a14afcdee11f898dae1e58"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_sreference_random_b0/cases_results.json",
+      "sha256": "95913a65af8c0bbb0011c08ccb618fe090bcedae4d56ba564fa396caf036242b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_sreference_random_b0/metrics.json",
+      "sha256": "55c32e9be6d6b9e0df0e7073a794fdc5957012bc2b3883478c97e7bfcd153023"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_sreference_random_b1/cases_results.json",
+      "sha256": "957b0c28d9ed661b8cc6c8dec889f25a1149e402e6a0eaaf9d0577d079bbb848"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_sreference_random_b1/metrics.json",
+      "sha256": "199721f55bdc3c308fb69083e8a48a5bc3f4c0772fb2a45e403db9d899852dd1"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_sreference_noop_b0/cases_results.json",
+      "sha256": "77131ed1ff8271cd1247e7a65b12cc4012d764895ee67daa35a0b85c1d7e2b8a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_sreference_noop_b0/metrics.json",
+      "sha256": "1959196e506e52395e23ceda40b29ae95c52a907a94c574404a3c5e374d301dc"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_sreference_noop_b1/cases_results.json",
+      "sha256": "3156bc3c5b467f4a56aa33ad9d475c4b13e1c5f3d0ca31187d406218b886f56a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis1_door169_sreference_noop_b1/metrics.json",
+      "sha256": "35166ca8d368023a79aa8bffb2b92c08d053398628c852a6c7686b7804671c1e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_base_b0/cases_results.json",
+      "sha256": "49ff95aced82c44b77d68b97ba5f981abafde11db318e1877cd8b740e2ef2607"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_base_b0/metrics.json",
+      "sha256": "a4eeedf2dd70b08c548299b47d4fe50501d4a17ab1539e8cda426e9c494a0ce4"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_base_b1/cases_results.json",
+      "sha256": "8df80cfed045194bf8987bf82165035575230a0859fc6064d97936cba0ae47f0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_base_b1/metrics.json",
+      "sha256": "e4f98ba334ad34f6069db442df770b6222b5f7a0721395036a81bd0b76ded6cd"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_h10_warm_b0/cases_results.json",
+      "sha256": "7b135460e8b5a0729362b724a7fd58988f5111db49ebd404c36a47796c20a1ea"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_h10_warm_b0/metrics.json",
+      "sha256": "23fbb92b9ff9d4e867d5437cf7556f221ca8e69b1551ab19993af45d6a23d10c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_h10_warm_b1/cases_results.json",
+      "sha256": "19f40dbf3b9e648bc267128e771108e9c2e6d438ee957c7bc7832e2e0cc36594"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_h10_warm_b1/metrics.json",
+      "sha256": "355f1305f088c49e7f21aa3f7d0013e78e73eaeed287718d8573f2ba499e6195"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_temporal_b0/cases_results.json",
+      "sha256": "d7acd52cecc5aee34a01661148ab178721cd5b4e85eda546cbf2182fe9ce47c5"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_temporal_b0/metrics.json",
+      "sha256": "255b66a9b455b7120acfa758f21729472c4bcdcac6a9838b1f82a020c0f0ee32"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_temporal_b1/cases_results.json",
+      "sha256": "289c56e705873ff8cbf82ead01775a2045ce73d8b317f120b3f9ad83ce8d4a57"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_temporal_b1/metrics.json",
+      "sha256": "45c9b3bedb6f241029271ea77b8848d106eaf51d8a0dd7c37c4651f715215e59"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_retrieval_only_b0/cases_results.json",
+      "sha256": "32e255902836cea532f90ad4724261caa5911b81a0d4fb03bd9ba3357a9b107f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_retrieval_only_b0/metrics.json",
+      "sha256": "978252424e5605ab8b654883317e35be0f2f4b25940e5eaeff018b78ec90d925"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_retrieval_only_b1/cases_results.json",
+      "sha256": "292549cbd02be835e5a7c4d37be348dc85a12f8b53a8dce8dea4c00ef8acdb1e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_retrieval_only_b1/metrics.json",
+      "sha256": "bc73cbe061590c5d5ee290f192b00de129f48c16483ced7015b213a5cc9bdf81"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_retrieval_rerank_b0/cases_results.json",
+      "sha256": "d149f5dc5c496d0f2ce9daaa2fb863fa738e9d5c419410bbf3b92e974b352fbb"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_retrieval_rerank_b0/metrics.json",
+      "sha256": "96237fac3ad0fd1224ab1ef4141b984dee60ba5fa7c188c58da6903993c730c4"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_retrieval_rerank_b1/cases_results.json",
+      "sha256": "4d8db7198984978ba78cc197d6be7bdd56c5008f9ad99b38dff19400680d7639"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3072_retrieval_rerank_b1/metrics.json",
+      "sha256": "8033f319298a1148078bc7707347d8b028e2a6506bab27ad1b087118d813d3a1"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_base_b0/cases_results.json",
+      "sha256": "06cb25184897b1ad6f52f34dd15f24be46de7e8f687601f93f779705985d48c2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_base_b0/metrics.json",
+      "sha256": "88a96c66747fee28c97872f1ed6a9aa28438ae3a6694f4575d17802e9c6ddffd"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_base_b1/cases_results.json",
+      "sha256": "e2737373a1aa8418dbe8cc177bd7413d48352c66deae0563d8cf626defcbe2fb"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_base_b1/metrics.json",
+      "sha256": "7cc60b8fb822f674e83734c383c9f6f7b44160f7fba9b5f249cb2ad5f22ba2d5"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_h10_warm_b0/cases_results.json",
+      "sha256": "67d9e53af19322dd3f4c423a0bb2f84f76c045d1ad561b63e4a81ebf6c58a879"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_h10_warm_b0/metrics.json",
+      "sha256": "4eaf6bf41ee62c0ca36c5cd2630f1bc8f6bc4154b642f4e6ed736a031bf185da"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_h10_warm_b1/cases_results.json",
+      "sha256": "0f7f0a48915d93cec55d0dd29a23ae23553d18b0babe95d965d1a6a6dce5d706"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_h10_warm_b1/metrics.json",
+      "sha256": "6ba18b9cc142cc1a63ff6b4b192a92ad056cf9cf4e459a9dd8ef4f44e207cdc4"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_temporal_b0/cases_results.json",
+      "sha256": "64e5ac0f9fe54d80f1158be63f51aa40a23a30937f28a75ad3184eb68ef092ba"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_temporal_b0/metrics.json",
+      "sha256": "53621a3ad39f74204a4a1eaf347c32dab5ae069c810ed4646bd4418b37322242"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_temporal_b1/cases_results.json",
+      "sha256": "e22ca0bc5648714ecd4f3c58cb155a0d202b874232d160f30caf654f5c8fa886"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_temporal_b1/metrics.json",
+      "sha256": "9a346629e9a3fe3cf73c9bf061df850366b8347d2cd61919bf9ca34af07b8081"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_retrieval_only_b0/cases_results.json",
+      "sha256": "9cfdbbbabf7e1a1140f6afa1248e3fe97a7e8a43b828f075524d7662d3a01e24"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_retrieval_only_b0/metrics.json",
+      "sha256": "048baab04124a530bfcc23e3ee77a306ad9acbc2244176dfefd1426367cb2d3e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_retrieval_only_b1/cases_results.json",
+      "sha256": "3a0c9dfc649d5768e6a0dbc166f2fca51df0c5f9fee46cb7ae5e5978b5b8454d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_retrieval_only_b1/metrics.json",
+      "sha256": "17085f250b536232d6f80f6cc0a4724dac1600867df20cb7b00a84cec30eb810"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_retrieval_rerank_b0/cases_results.json",
+      "sha256": "ee3e5b5474bf58611f83eebc80f5aad38c5ff21e801cdf1470cfd969b9cd9e5c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_retrieval_rerank_b0/metrics.json",
+      "sha256": "1e7699e5ca630891e867772c3c38c3e7229f436b7588879835786b6b6b79f5a7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_retrieval_rerank_b1/cases_results.json",
+      "sha256": "485c2c94aca7f188b35ba95187900eda4b7ac988d6109e951971cd21e9c2abf7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3073_retrieval_rerank_b1/metrics.json",
+      "sha256": "cb2433bf4fa7a90b58d04de09ee8ca9b9ad2e8a62e17c0fbee88f0294df9f695"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_base_b0/cases_results.json",
+      "sha256": "351a4728020383c54d61179a68347396b73de0df7ec2d453aa0b0beb18e486c2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_base_b0/metrics.json",
+      "sha256": "005728e2a1753cbc7e004ce675aef16ac1c69a2ceb7e570393a7b723f161e94e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_base_b1/cases_results.json",
+      "sha256": "0b0092710de169b4c5b93a785c5108ad069438a215f73a91e2943da88e9856c5"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_base_b1/metrics.json",
+      "sha256": "c48d0a90eaa0bd2c8527bef14dd6587d0e3b9a0c639607689a12d95ed6503457"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_h10_warm_b0/cases_results.json",
+      "sha256": "c7950aa982fe83dfad88835cfcf7be27a582ebcda9538d28875bffb771c78840"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_h10_warm_b0/metrics.json",
+      "sha256": "2cf719e73fd31ea0ca547de9130bd1b2c9524ab67292254e951d431d5c58f8a7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_h10_warm_b1/cases_results.json",
+      "sha256": "0241d76838c8d7f9b44b1661aa4a7b76a75438db7a005316797d42d5ff31f618"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_h10_warm_b1/metrics.json",
+      "sha256": "5531cd81a67e793974875a04449481c3befd5c6009bf186a1592bd4845472fb7"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_temporal_b0/cases_results.json",
+      "sha256": "912241a2a8420e9c2196f3053b4d9e115f236aa1db6552b69927533a26b24b2c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_temporal_b0/metrics.json",
+      "sha256": "14c2f0bfa0aeb82be76c939a418af8f9fac88e25fd7aa383a61644f588ee54c5"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_temporal_b1/cases_results.json",
+      "sha256": "641097b8cf75bf749e15d94c22e3d3521bb3c908fc145e3c9ecf80623ef00239"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_temporal_b1/metrics.json",
+      "sha256": "11900029974fd6f3108c49cb62b9b180245981ae7d9295c42fa32430225bc843"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_retrieval_only_b0/cases_results.json",
+      "sha256": "ed5d41b1b52b3b5ee7fa25c72389a106874f78ef775730c98b3e94a1aa823fe5"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_retrieval_only_b0/metrics.json",
+      "sha256": "6458abf2b38b3951991c2340d982d4ae392c65b515d8fa0b87c47c6edec553c6"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_retrieval_only_b1/cases_results.json",
+      "sha256": "2b76058645cad13ff8f08da549bdbdbbc00e2493c822c4e010253cdc25d46a9d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_retrieval_only_b1/metrics.json",
+      "sha256": "f8802d8477242b0358e890d7e0aff8b536d8b07f38761f6fdb985f1955173ac3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_retrieval_rerank_b0/cases_results.json",
+      "sha256": "a4c7a74034ac367d1f74594d4b613f70c219c8235b93de695b6e521e1601f8eb"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_retrieval_rerank_b0/metrics.json",
+      "sha256": "8786a3f64e9a9d391de6a1b3b882047009a51162926d8b8f491b8d93880a1f30"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_retrieval_rerank_b1/cases_results.json",
+      "sha256": "5c5296a36da59ae2efd5b03246f292668d58ca882cdf4c134163befdd843dee0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_s3074_retrieval_rerank_b1/metrics.json",
+      "sha256": "a3741598452e03588282d2c6f0fff41ee43c427edb4093da86ab898af566018f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_sreference_random_b0/cases_results.json",
+      "sha256": "b304d32b54969642478b6c8dd88af28cd6bf3e682eea8e7a9552e5914c4a493b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_sreference_random_b0/metrics.json",
+      "sha256": "2e3609e31478853e19e17f4204814af5f85c58b91cc0f63e135f0bddb8dc1209"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_sreference_random_b1/cases_results.json",
+      "sha256": "a164bfff65b17d8f3668ec72fa0046c456bc3e4cc06c1e0d04589e27bfc4bd08"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_sreference_random_b1/metrics.json",
+      "sha256": "1901f780cf41bdac248d075a05904e1a81ad010a03aa383ab51f951c1e0e412e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_sreference_noop_b0/cases_results.json",
+      "sha256": "77131ed1ff8271cd1247e7a65b12cc4012d764895ee67daa35a0b85c1d7e2b8a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_sreference_noop_b0/metrics.json",
+      "sha256": "66bef10d2843949431b25daf620e5b26a7b1bfaf7224a2fc9609a3152994ad29"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_sreference_noop_b1/cases_results.json",
+      "sha256": "3156bc3c5b467f4a56aa33ad9d475c4b13e1c5f3d0ca31187d406218b886f56a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door73_sreference_noop_b1/metrics.json",
+      "sha256": "baea0bfb5b3395e04529064d3cf082ec0571ce27daf659ada54ea2daf4e0890e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_base_b0/cases_results.json",
+      "sha256": "113c747728f81ff8c6d23d0608897d7aaf64b887b2fd3c8411b82bc6525dd209"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_base_b0/metrics.json",
+      "sha256": "c8ac283fa0206d38b43057a71a57e03e68d02f0198eec90c0d04228324f6a724"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_base_b1/cases_results.json",
+      "sha256": "768f45603f3e23097e6b22a933f31411679aff2c5de6354b972159b9ace58ea8"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_base_b1/metrics.json",
+      "sha256": "92aaa7d1c1b5cdd8b9f62dc731dc8ba021e344a56545dee4be299b82cd8cf773"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_h10_warm_b0/cases_results.json",
+      "sha256": "4a959916a78570ecd3a5a636d0049bd806cd5d0d03cc901a7009cc3dbaa94f80"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_h10_warm_b0/metrics.json",
+      "sha256": "96daa53a643b489219392b9a851dfa79dc6ee883bec86e7ba5dc29280bad7106"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_h10_warm_b1/cases_results.json",
+      "sha256": "083ff1bd7609b48502f2c8c61d21b45f0b3e5d1f7875dcc7dc720105ddbc4878"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_h10_warm_b1/metrics.json",
+      "sha256": "dbf888cd115e1df42a30e9d1d8dcbc65a9c25e46aee74e2548a4d5f43866288a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_temporal_b0/cases_results.json",
+      "sha256": "dc1b448c1e0b86c810a0b7b906e70d56fbee168cc4364399a43f2efec8760ff3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_temporal_b0/metrics.json",
+      "sha256": "cc9806e38e0faa554c5c62c2b227aee7b4a96136cf64b5e606bcf87d9afa7c1c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_temporal_b1/cases_results.json",
+      "sha256": "d13881cc643751740583b1ffb20f88e2c22c064651cb08e310c9f33e0f3537a8"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_temporal_b1/metrics.json",
+      "sha256": "115bd30e86c11dbf0c50c5dab39d1c228fe96f8f65989da4063a3ed123b561a4"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_retrieval_only_b0/cases_results.json",
+      "sha256": "462980e5069701a7bda9a985b5785df83ce070474cd3f5813deeebbed345d050"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_retrieval_only_b0/metrics.json",
+      "sha256": "422b05ef5b3d226885811f78eefa2cc634b52886a5cfcb93b0409c8246f21944"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_retrieval_only_b1/cases_results.json",
+      "sha256": "d32497ee3cb465af9fa22753f17b7eb3946694e262c98e61c5af28889a3cbdb4"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_retrieval_only_b1/metrics.json",
+      "sha256": "c98a523a6a2d88af8c910d41df6e868b41693add15dae0a082ba82947921ebea"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_retrieval_rerank_b0/cases_results.json",
+      "sha256": "bd0328060d2e75f8483df70a8de83b3fb7d3dbf504368a79f4f0e3345974312a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_retrieval_rerank_b0/metrics.json",
+      "sha256": "56fd8be3c5f48bb3810c26972b693469e181d53eed5aeb35483121fdb96b8781"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_retrieval_rerank_b1/cases_results.json",
+      "sha256": "007fcd98f7544f166a7818f03c00a6e3b50f152558adc1fc620bfcb060a3aa98"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3072_retrieval_rerank_b1/metrics.json",
+      "sha256": "fcbcd82326080f4f26c18b728f5bd8a1424e6b50f21b789d5be5f68d396bc111"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_base_b0/cases_results.json",
+      "sha256": "1f5cc8a32f9f3c473e9135c92a1e807002ddfc5a41a15bf73a7102d69e7b6551"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_base_b0/metrics.json",
+      "sha256": "734ba8a5418b48492cc8a4b649ebb5c59e4c8aa032412e433ee3ddebd71e0644"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_base_b1/cases_results.json",
+      "sha256": "45180ff90649e7eda03440fa64f8a3300323a9adb1cb22889d9c4713e740d367"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_base_b1/metrics.json",
+      "sha256": "b0444941ef5bdac15af693d99e4d86cf5c0e4422fc661378d469b58fc19a9eca"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_h10_warm_b0/cases_results.json",
+      "sha256": "c7ea800681101adaded8e34d60b169501bc1d55331082c5d98a96fcef0ecd34c"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_h10_warm_b0/metrics.json",
+      "sha256": "ce112cd075827dcefeeef372e5877735792df18d6c48d99681c4bdff23e49b4b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_h10_warm_b1/cases_results.json",
+      "sha256": "434b0449e71cb1e3ae86cc91418ed9ae84d7cd8c2f5e6aec85a4c33a37fa0e66"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_h10_warm_b1/metrics.json",
+      "sha256": "1882ce793b540d766a5ff7916ae325ad3ebf35a1359163df220bb5872ba3f49e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_temporal_b0/cases_results.json",
+      "sha256": "8219e3963296c973564027b1eb5e7dffd57fb95bd9c5c51dafa1bf1ff0f077ac"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_temporal_b0/metrics.json",
+      "sha256": "f13db4709cddb6d4fb6da8b0be563a290eb6468b474a0afcfa070ed82504c65f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_temporal_b1/cases_results.json",
+      "sha256": "770fbe698df2d01b88ecf7bf94e87ba520e09325a8ebe9c315c50fe01c11a41f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_temporal_b1/metrics.json",
+      "sha256": "8c6ce16250704600e8c44fe81af96838273a8d4d1939cc3edecd470aeb2282e1"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_retrieval_only_b0/cases_results.json",
+      "sha256": "77cfea2602902a9e18bc16ccb298004c2754c897220624231eb71db47583704e"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_retrieval_only_b0/metrics.json",
+      "sha256": "c5576749113012ce4f5cde6c2bbe872cfd9cc2666b14831909e5606e26222ab0"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_retrieval_only_b1/cases_results.json",
+      "sha256": "9fc8070ba0e37da574fce1fcba48225e353e57e51aa0ec5db781c5c5deb6a807"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_retrieval_only_b1/metrics.json",
+      "sha256": "63ef7d544c09734b7c21806d7d1991a3dbadd2e587524e00dbb80d3eb962df95"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_retrieval_rerank_b0/cases_results.json",
+      "sha256": "3a9a4424f59cd867f6466d0dba43a2d4a1d765822e6908636afd797b3a54b79a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_retrieval_rerank_b0/metrics.json",
+      "sha256": "1adcd87e7b5b514c9c42a708b1ab88c0c59bacf7b6ab7ffb2ca1117af27053e8"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_retrieval_rerank_b1/cases_results.json",
+      "sha256": "738a1186f4c4f7cd223a1895410f7786400fc70a31d771b1bb1d3215c45f59b2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3073_retrieval_rerank_b1/metrics.json",
+      "sha256": "7ad40079ac4e46fd1255bbab08689bac82319c97f812be3a6838df4af256f390"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_base_b0/cases_results.json",
+      "sha256": "8f774e3ae48797b0765282ca3a8d80a649ae981e7cda7cebfce65fbd2181abab"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_base_b0/metrics.json",
+      "sha256": "2e819b34cf91fd8fbbf20984d5a5e9e34360ecd76bc053aa119e1f19e42bd432"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_base_b1/cases_results.json",
+      "sha256": "0b9ec84504966c44f1170f2f802b265c73ca2154dd8e27fce2251d9d8c7f8930"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_base_b1/metrics.json",
+      "sha256": "f06ad56a10c705bc72711e4724874c29e3624ba6acf7f0d2f71160992e79a561"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_h10_warm_b0/cases_results.json",
+      "sha256": "18851eda407f7d478d37fe4517b2a7b2d5b7541d1d31e96fe58b9d02450a921f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_h10_warm_b0/metrics.json",
+      "sha256": "99e775d549a706a821cc5500b6b0394ac477bfc337563c2144e2e82c848a3799"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_h10_warm_b1/cases_results.json",
+      "sha256": "7ca84ceda11170b890a15def44071c66f11ca01262c918b2e4e1d76d85f38c90"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_h10_warm_b1/metrics.json",
+      "sha256": "0fdceaeb20f2d608749bf63a5d537611cbaa80428b8b332c9d11cf82482eee5f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_temporal_b0/cases_results.json",
+      "sha256": "1f66d4c8df31ffdaa43e3e6e9a6f6a8efa4418b5338553990f6e63fd24caf576"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_temporal_b0/metrics.json",
+      "sha256": "0e5f19b6e311843100d427257a580065124ed88e74a39c91df455874edbdb1fd"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_temporal_b1/cases_results.json",
+      "sha256": "ff8815561cdb58794c7370fed2d8ca33842e60b75883d93390d30948d4e215e4"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_temporal_b1/metrics.json",
+      "sha256": "347c72047a34529945aa7b7ca1f71b16cf8c8bdeccffe4f4a87bd0a1ff344903"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_retrieval_only_b0/cases_results.json",
+      "sha256": "fb7ab47bab8ed9732912754fad150f017aad2a072e1e9c0e6244883bd3f0300b"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_retrieval_only_b0/metrics.json",
+      "sha256": "a21960c329d16a123f4377df4e3b51b193edce5edace57d08559c03ee2e5af62"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_retrieval_only_b1/cases_results.json",
+      "sha256": "5b9ca00d53b61820b4089c99488d674d636bfc0990f810ea7ea3cb2b44ad5658"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_retrieval_only_b1/metrics.json",
+      "sha256": "1bead01aa75d912f293573746c58eaef771d934e7d9bac56ca309c376617dd1f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_retrieval_rerank_b0/cases_results.json",
+      "sha256": "4bef518a9a6c159e43233bf6c984debf2b5cdfb16feb1e5f5ee85211d1ef5c3d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_retrieval_rerank_b0/metrics.json",
+      "sha256": "974eeced61dc1cdf25b334a04e71fbe6e9a0dc2a5dda486f74e778c7db163370"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_retrieval_rerank_b1/cases_results.json",
+      "sha256": "cd9f97e0985081a3012d274dffe5f977bad32427a6439f0094fe90b054e94f3d"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_s3074_retrieval_rerank_b1/metrics.json",
+      "sha256": "31de87fcb001f150b6a37b5d850d79d46e45b6e0e0d9f042109f69c26255f3e2"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_sreference_random_b0/cases_results.json",
+      "sha256": "3834b4c605b2121c07a28c49898cfb883bde24d773dcf44e91df91de37cd7726"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_sreference_random_b0/metrics.json",
+      "sha256": "50957459dc88f168ae2a49677f24a0a46349ca5e91ef1ceebe7b17fd611742d3"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_sreference_random_b1/cases_results.json",
+      "sha256": "7875692814af16402996de2ec57b86d1d2f5bcda2e3a56afab90fa5868274eb4"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_sreference_random_b1/metrics.json",
+      "sha256": "6813d6a336ef4feb2b2b2e1ddc284d465ce033e40a134e507f90f3b9ff04c57f"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_sreference_noop_b0/cases_results.json",
+      "sha256": "77131ed1ff8271cd1247e7a65b12cc4012d764895ee67daa35a0b85c1d7e2b8a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_sreference_noop_b0/metrics.json",
+      "sha256": "4ce3a57a631cb327a2344abe6d43eb3f5d4c212f49d7630c136fc6310a0116bd"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_sreference_noop_b1/cases_results.json",
+      "sha256": "3156bc3c5b467f4a56aa33ad9d475c4b13e1c5f3d0ca31187d406218b886f56a"
+    },
+    {
+      "path": "results/strict_navigation/runs/finalv1_final_geometry_axis0_door169_sreference_noop_b1/metrics.json",
+      "sha256": "396e0f9001ee1fd5bba832d461fb1310648b02165732cf9a7a7ae710d8ba49f8"
+    }
+  ]
+}

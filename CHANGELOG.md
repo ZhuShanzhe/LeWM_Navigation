@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-11 — Compact research publication
+
+Retained core code/configurations, final results and analysis, and the WM × Navigation review. Consolidated 238 final batch case records into one JSON; retained all 11900 success observations. Removed intermediate run trees, queue/repair history and duplicate reports from the current tree only. Original server experiments and the complete prior Git commit remain recoverable. No experiments were rerun and no frozen observations were changed.
+
+# Changelog
+
 ## 2026-09-11 — 导航能力审计归档与首次项目发布
 
 - 整理旧探索与严格导航阶段，保留冻结脚本、协议、划分、数值结果、训练摘要及失败记录。

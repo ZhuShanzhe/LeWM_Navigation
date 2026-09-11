@@ -1,11 +1,9 @@
 # third_party
 
-固定上游源码及许可证，不将作者实现冒称本项目原创。
+固定版本 LeWM 原始实现；保留作者 README 和 MIT LICENSE，归属与复用边界见根目录 NOTICE.md。
 
 [返回上一级](../README.md)
 
-## 内容
+## 目录索引
 
-| 文件或目录 | 说明 |
-|---|---|
-| [le-wm](le-wm/README.md) | 进入下一层说明。 |
+- [le-wm/](le-wm/README.md)

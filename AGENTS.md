@@ -12,3 +12,5 @@ https://github.com/ZhuShanzhe/LeWM_Navigation
 - Keep the upstream LICENSE/attribution. Adapted/inspired baselines must not be called full reproductions of the named papers.
 - Training seeds reuse cases; maps reuse coordinates. State conditional uncertainty, actual compute versus maximum budget, and whether latency is batch throughput or online latency.
 - The original research round is complete. Do not restart historical queues/supervisors or run old queue-generation scripts merely because a snapshot contains pending-stage prose.
+
+- Keep future publications compact: core implementation/configs, necessary reproducible result records, analysis and WM × Navigation literature review. Leave run-directory trees, queue snapshots, temporary repair scripts and duplicate reports out of the current tree. Preserve recoverability through Git history and original server archives.

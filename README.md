@@ -1,70 +1,38 @@
 # LeWM × Navigation
 
-面向 **LeWorldModel 导航能力边界与方法迁移** 的复现、诊断和实验记录。不是 LeWM 全任务复现，也不是第一人称或真实机器人导航系统。
+研究 LeWM 在导航中的能力、失败原因和可迁移改进。当前版本只保留核心实现、实验配置、关键结果与分析、WM × Navigation 调研，不是 LeWM 全任务或真实机器人复现。
 
-**项目固定仓库：<https://github.com/ZhuShanzhe/LeWM_Navigation>**。后续相关阶段的代码、配置、结果、核验和文档在这里持续更新。
+## 从这里开始
 
-## 从哪里开始
-
-1. [最终结论与研究方向](results/strict_navigation/reports/final_research_synthesis.md)：先理解可靠结论、负结果和未测范围。
-2. [复现指南](docs/REPRODUCING.md)：阅读、复算、恢复原始工作目录、补齐外部资源是不同层级。
-3. [实验流程与代码索引](docs/EXPERIMENTS.md)：训练、评价头、检索、地图、路点和最终核验的入口。
-4. [最终数值汇总](results/final_summary.csv) / [逐种子及配对区间](experiments/strict_navigation/final_confirmation_v1/results.json)。
-5. [WM + Navigation 文献报告](docs/literature/World_Model_Navigation_frontier_report_20260910.pdf)：22项工作的内容、效果、不足与迁移思路；该 PDF 成稿早于最终实验，不含后续数字。
+- [最终结论与研究方向建议](results/strict_navigation/reports/final_research_synthesis.md)：优先阅读，包含主要发现、对照与限制。
+- [最终结果表](results/final_summary.csv)与[补充分析](results/strict_navigation/reports/final_supplementary_analysis.md)：三种子、分层成功率、配对比较和预算解释。
+- [WM × Navigation 前沿调研](docs/literature/README.md)：各项工作的目的、思路、效果、不足及迁移线索。
+- [核心代码与协议](experiments/strict_navigation/README.md)和[复现说明](docs/REPRODUCING.md)。
 
 ## 目录
 
-```text
-.
-├── docs/                   # 导读、复现步骤、方法关系、文献与更新规范
-├── experiments/            # 保持字节不变的脚本、冻结协议、划分与地图定义
-│   ├── bootstrap/          # 最早环境与下载/训练包装器
-│   ├── exploratory/        # 2026-09-09旧探索；不算严格测试
-│   └── strict_navigation/  # 2026-09-10起的严格导航研究
-├── results/                # 报告、逐例JSON、训练摘要、诊断与统计
-│   ├── overview/           # 跨阶段合并报告及最早探索汇总
-│   ├── exploratory/        # 旧轮结果
-│   └── strict_navigation/  # 本轮正式记录及最终解释
-├── environment/            # 实际环境、核心版本和完整freeze记录
-├── artifacts/              # 模型配置；不含模型权重
-├── provenance/             # 原文件SHA256、来源映射和未上传资源清单
-├── scripts/                # 无GPU的仓库验证、统计复算和安全恢复工具
-└── third_party/le-wm/      # 固定上游提交的原始源码与MIT许可证
-```
+| 目录 | 保留内容 |
+|---|---|
+| [experiments](experiments/README.md) | 训练、导航评估、时间头、检索、几何/拓扑/路点诊断及冻结协议 |
+| [results](results/README.md) | 最终逐例紧凑记录、汇总、关键分析与训练完成证据 |
+| [docs](docs/README.md) | 调研报告、复现入口、实验范围与局限 |
+| [artifacts](artifacts/README.md) / [environment](environment/README.md) | 核心模型配置与依赖版本，不含权重或数据 |
+| [third_party](third_party/README.md) | 固定版本的 LeWM 原始实现及许可 |
+| [scripts](scripts/README.md) / [provenance](provenance/README.md) | 数字复算、完整性检查、来源与归档恢复 |
 
-每一级被跟踪目录都有 README；历史脚本保留原名称和依赖关系，避免整理目录时破坏原实验哈希。README 是新增导读，不把历史原文中的“待完成”当作当前执行指令。
+## 结果解读
 
-## 2026-09-11阶段结论
+时间评价头在原布局达到约 98.89% 成功率，仅检索也达到约 97.33%；这不代表未知地图规划已经解决。墙方向改变后仍明显失败，且时间头在较远门位置的跨墙成功率仅约 3.33%。原布局的高成功率不能替代绕障和泛化评估。
 
-3个独立训练种子，最终5种方法；预留300个新回合、4个新几何各100例；238个评估批次及总体核验完成。下表为三种子成功率均值±样本标准差，**不是置信区间**。
+全部最终评估覆盖 238 批、11900 次环境回合；各方法和种子共享病例，11900 不是独立样本数。详细解释以最终报告为准。当前未开展部分观测、实机及全部大型论文基线；见[局限](docs/LIMITATIONS.md)。
 
-| 任务 | 原始LeWM | H10暖启动 | 时间评价头 | 仅检索 | 检索+排序 |
-|---|---:|---:|---:|---:|---:|
-| 原布局新回合 | 60.89±2.04% | 50.44±2.22% | 98.89±1.07% | 97.33±0.88% | 98.67±0.00% |
-| 垂直墙/门73 | 24.67±2.08% | 27.67±2.31% | 91.33±2.52% | 80.67±4.93% | 85.00±2.65% |
-| 垂直墙/门169 | 15.67±1.53% | 21.00±0.00% | 51.00±1.00% | 47.67±1.53% | 46.67±0.58% |
-| 水平墙/门73 | 9.00±1.73% | 10.00±3.61% | 10.67±4.04% | 9.00±2.00% | 13.33±1.15% |
-| 水平墙/门169 | 8.00±2.00% | 11.00±4.00% | 9.00±3.61% | 8.00±1.73% | 12.67±2.52% |
-
-- 时间评价与训练动作支持能改善同布局任务，但不能据此宣称未知地图泛化。门169时间头总成功率51%，跨墙仅约3.3%。
-- 仅检索不调用动作条件预测器，却有97.33%原布局成功率；必须分开核对表示、先验与动态排序贡献。
-- H10暖启动在开发验证上的收益没有延续到最终原布局测试，是需保留的负结果。
-- 多房间与特权路点是单种子匹配诊断；不等于学会自主拓扑规划。部分观测、实机和全大型基线未测。
-
-更多统计边界见[限制说明](docs/LIMITATIONS.md)。严格模型的数据、归一化、时间头和检索库均不得用测试数据训练。
-
-## 快速检查（无需GPU、数据集或第三方Python包）
+## 检查
 
 ```bash
 python scripts/verify_repository.py
 python scripts/recompute_final_table.py
-python scripts/restore_workspace.py --destination /tmp/lewm-release-check
 ```
 
-最后一条默认只检查，不写目标目录。添加 `--apply` 才复制；任何不同内容的已有文件都会使恢复停止。完整训练/逐轨迹审计还需要未上传的数据、权重和原始trace，详见复现指南。**本仓库不是已经在全新机器验证过的一键训练包。**
+只用 Python 标准库即可复算最终成功率，不需要 GPU。闭环重跑还需未上传的数据、权重和原环境，不能把数字复算等同于从零复现。
 
-## 归档与安全
-
-上传脚本、配置、数值结果、报告和来源校验；不上传数据集、权重、原始视频/trace、缓存、虚拟环境、凭据或私钥。原始归档仍在研究服务器，见[外部资源](artifacts/README.md)。公开仓库不授予第三方数据集或论文PDF的再分发权限；文献目录仅放自行撰写报告，不放论文全文。
-
-上游固定提交为 `8edfeb336732b5f3ce7b8b210d0ba370a09e2cac`，源码MIT许可证保留。新增研究材料的许可尚未另行指定，详见 [NOTICE](NOTICE.md)。后续阶段遵循[更新规范](docs/WORKFLOW.md)和[项目协作约定](AGENTS.md)。
+本次精简没有更改实验观察或重跑训练。中间运行目录、历史队列、修补脚本和重复报告已从当前树移除；[精简前完整归档](https://github.com/ZhuShanzhe/LeWM_Navigation/tree/cb0d22e894546b4ff99abbd120a88bfc9e59a54c)与服务器原始档案仍保留。后续阶段继续更新本仓库，保留同样的核心范围与每级 README。

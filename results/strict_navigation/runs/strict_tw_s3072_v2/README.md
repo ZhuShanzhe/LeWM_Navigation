@@ -1,16 +1,12 @@
 # strict_tw_s3072_v2
 
-运行tag：`strict_tw_s3072_v2`。可能为训练、冒烟或历史失败；查看training_summary/failure等记录，不推断为正式评估。
+该模型的训练实参、完成摘要及可用的环境/划分记录。
 
 [返回上一级](../README.md)
 
-## 内容
+## 目录索引
 
-| 文件或目录 | 说明 |
-|---|---|
-| [lightning_logs](lightning_logs/README.md) | 进入下一层说明。 |
-| [environment.json](environment.json) | 数值、参数或审计记录。 |
-| [invocation.json](invocation.json) | 数值、参数或审计记录。 |
-| [progress.json](progress.json) | 数值、参数或审计记录。 |
-| [split_audit.json](split_audit.json) | 数值、参数或审计记录。 |
-| [training_summary.json](training_summary.json) | 数值、参数或审计记录。 |
+- [environment.json](environment.json)
+- [invocation.json](invocation.json)
+- [split_audit.json](split_audit.json)
+- [training_summary.json](training_summary.json)

@@ -1,13 +1,9 @@
 # exploratory
 
-旧探索阶段，原目录名round12h_20260909。使用旧协议，不能当作新严格测试或新的训练种子。
+早期探索阶段结果，不能与最终未触碰保留集混作同一个评估协议。
 
 [返回上一级](../README.md)
 
-## 内容
+## 目录索引
 
-| 文件或目录 | 说明 |
-|---|---|
-| [diagnostics](diagnostics/README.md) | 进入下一层说明。 |
-| [reports](reports/README.md) | 进入下一层说明。 |
-| [runs](runs/README.md) | 进入下一层说明。 |
+- [reports/](reports/README.md)

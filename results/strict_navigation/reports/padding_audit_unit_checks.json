@@ -1,7 +1,0 @@
-{
-  "post_terminal_nan_allowed": true,
-  "active_nan_rejected": true,
-  "terminal_action_nan_rejected": true,
-  "infinity_rejected": true,
-  "invalid_state_rejected": true
-}

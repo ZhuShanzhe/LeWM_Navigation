@@ -1,6 +1,0 @@
-{
-  "model_path": "/root/autodl-tmp/lewm_research/data/checkpoints/geometry_smoke_single_s4001_v2/weights_final.pt",
-  "class": "<class 'jepa.JEPA'>",
-  "history": 1,
-  "parameters": 18034094
-}

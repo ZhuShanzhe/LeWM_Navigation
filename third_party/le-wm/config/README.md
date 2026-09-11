@@ -1,12 +1,10 @@
 # config
 
-本目录属于 third_party/le-wm；保存对应模型、地图或阶段的原始记录。身份以内部JSON和来源清单为准，不能从目录名推断额外实验已完成。
+固定上游版本的配置文件，保持原文与许可证归属。
 
 [返回上一级](../README.md)
 
-## 内容
+## 目录索引
 
-| 文件或目录 | 说明 |
-|---|---|
-| [eval](eval/README.md) | 进入下一层说明。 |
-| [train](train/README.md) | 进入下一层说明。 |
+- [eval/](eval/README.md)
+- [train/](train/README.md)

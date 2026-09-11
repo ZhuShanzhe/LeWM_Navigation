@@ -6,10 +6,17 @@ def main():
     root=Path(__file__).resolve().parents[1]
     errors=[]; count=0
     manifest=json.loads((root/'provenance/publication_manifest.json').read_text())
+    if len({r['repository_path'] for r in manifest['files']})!=len(manifest['files']):
+        errors.append('Duplicate manifest entry')
     for row in manifest['files']:
         p=root/row['repository_path']
         if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest()!=row['sha256']:
             errors.append('Changed archived file: '+row['repository_path'])
+    transformation=json.loads((root/'provenance/compact_transformation.json').read_text())
+    compact=root/transformation['output']
+    if hashlib.sha256(compact.read_bytes()).hexdigest()!=transformation['output_sha256']:
+        errors.append('Compact record digest mismatch')
+    if len(transformation['sources'])!=476:errors.append('Incomplete derivation provenance')
     patterns=[r'-----BEGIN (?:OPENSSH|RSA|EC|DSA)? ?PRIVATE KEY-----',
               r'\bgh[pousr]_[A-Za-z0-9]{30,}\b',r'\bgithub_pat_[A-Za-z0-9_]{30,}\b',
               r'\bhf_[A-Za-z0-9]{25,}\b',r'\bsk-[A-Za-z0-9_-]{25,}\b',
@@ -33,6 +40,13 @@ def main():
                 except Exception as e:errors.append(f'Python {p}: {e}')
             for pattern in patterns:
                 if re.search(pattern,text):errors.append('Potential secret (value suppressed): '+str(p.relative_to(root)));break
+            # Authored navigation links must resolve. Original archived prose may
+            # deliberately reference the original server tree and is left intact.
+            if p.suffix=='.md' and str(p.relative_to(root).as_posix()) not in {r['repository_path'] for r in manifest['files']}:
+                for href in re.findall(r'\]\(([^)]+)\)',text):
+                    if '://' in href or href.startswith('#'):continue
+                    href=href.split('#')[0]
+                    if not (p.parent/href).exists():errors.append('Broken documentation link: '+str(p.relative_to(root))+' -> '+href)
     final=json.loads((root/'experiments/strict_navigation/final_confirmation_v1/results.json').read_text())
     if not final['passed'] or len(final['trace_audits'])!=238:errors.append('Final audit incomplete')
     means=final['three_seed_descriptive']['known_layout']

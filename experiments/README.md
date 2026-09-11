@@ -1,13 +1,11 @@
 # experiments
 
-冻结实验代码、参数与输入定义；结果放在results。历史文件保留原始字节与绝对路径，先看docs/REPRODUCING.md，不直接批量运行队列。
+核心训练/评估、冻结划分及协议。bootstrap 和 exploratory 仅保留严格训练所依赖的历史包装器。
 
 [返回上一级](../README.md)
 
-## 内容
+## 目录索引
 
-| 文件或目录 | 说明 |
-|---|---|
-| [bootstrap](bootstrap/README.md) | 进入下一层说明。 |
-| [exploratory](exploratory/README.md) | 进入下一层说明。 |
-| [strict_navigation](strict_navigation/README.md) | 进入下一层说明。 |
+- [bootstrap/](bootstrap/README.md)
+- [exploratory/](exploratory/README.md)
+- [strict_navigation/](strict_navigation/README.md)

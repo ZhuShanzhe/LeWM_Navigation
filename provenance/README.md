@@ -1,8 +1,17 @@
-# 来源与一致性
+# 来源与精简记录
 
-- `publication_manifest.json` 将仓库路径映射回原工作目录相对路径，并记录大小/SHA256。被选入的历史文件逐字节保留，未重写绝对路径。
-- `upstream.json` 记录作者仓库及固定提交；原MIT许可证保留在third_party。
-- `excluded-artifacts.json` 说明整类未遍历目录和其他未上传大文件；不是数据下载凭据或完整数据清单。
-- `publication_checks.json` 记录本次整理的静态验证、逐例复算和恢复检查结果；不能等同于全新GPU训练复现。
+- `publication_manifest.json`：当前保留的原始文件及 SHA256、服务器相对路径。
+- `compact_transformation.json`：逐例紧凑记录的字段定义、转换哈希、原始 476 个输入文件哈希和归档提交。
+- `publication_checks.json`：本次精简后的实际检查结果。
+- `upstream.json`：LeWM 上游版本来源。
 
-仓库新增README和工具不属于历史源文件哈希。原报告内绝对路径指向服务器归档；通过manifest定位仓库副本。冻结协议里的原源文件哈希不可随意换成整理版路径的哈希。
+原始实验根目录 `/root/autodl-tmp/lewm_research` 不受本次精简影响。完整历史快照见[精简前提交](https://github.com/ZhuShanzhe/LeWM_Navigation/tree/cb0d22e894546b4ff99abbd120a88bfc9e59a54c)。当前 manifest 只列仍存在的原文件，生成的 README 和紧凑记录不冒充原文件。
+
+[返回项目](../README.md)
+
+## 目录索引
+
+- [compact_transformation.json](compact_transformation.json)
+- [publication_checks.json](publication_checks.json)
+- [publication_manifest.json](publication_manifest.json)
+- [upstream.json](upstream.json)

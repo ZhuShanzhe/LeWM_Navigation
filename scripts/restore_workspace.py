@@ -29,7 +29,7 @@ def main():
     if args.apply:
         for src,dst in pending:
             dst.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(src,dst)
-        print('Restored. Datasets, checkpoint weights, raw traces, caches and virtualenv were NOT restored.')
+        print('Restored retained core subset only. Removed historical records, datasets, checkpoint weights, raw traces, caches and virtualenv were NOT restored.')
     else:
         print('Dry-run only. Pass --apply to copy. Historical scripts require the documented original absolute root.')
 
