@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="765.8897637795277" height="380" preserveAspectRatio="xMinYMin meet" viewBox="0 0 765 380" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="765.8897637795277" height="380"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-380)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="43.23622047244096" y="361" style="font-family: Song; font-size: 10.5px;fill: rgb(20%,29%,35%); stroke:none;" transform="translate(0,722) scale(1,-1)">原布局：竖直墙，门49</text>
+			<rect x="30.62014904386953" y="218.38392857142858" width="130.23214285714286" height="130.23214285714286" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="30.62014904386953" y="218.38392857142858" width="2.5535714285714306" height="130.23214285714286" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="158.29872047244095" y="218.38392857142858" width="2.5535714285714164" height="130.23214285714286" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="30.62014904386953" y="346.0625" width="130.23214285714286" height="2.553571428571445" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="30.62014904386953" y="218.38392857142858" width="130.23214285714286" height="2.5535714285714164" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="92.54425618672667" y="332.65625" width="6.383928571428569" height="13.40625" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="92.54425618672667" y="220.9375" width="6.383928571428569" height="93.84375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<circle cx="95.73622047244096" cy="323.71875" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="59.3478276152981" cy="259.24107142857144" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,46%,72%); fill-rule: evenodd;"/>
+			<text x="66.3478276152981" y="256.24107142857144" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,46%,72%); stroke:none;" transform="translate(0,512) scale(1,-1)">S</text>
+			<circle cx="132.76300618672667" cy="259.24107142857144" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,48%,9%); fill-rule: evenodd;"/>
+			<text x="139.76300618672667" y="256.24107142857144" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(83%,48%,9%); stroke:none;" transform="translate(0,512) scale(1,-1)">G</text>
+			<text x="234.7086614173229" y="361" style="font-family: Song; font-size: 10.5px;fill: rgb(20%,29%,35%); stroke:none;" transform="translate(0,722) scale(1,-1)">新几何：竖直墙，门73</text>
+			<rect x="222.09258998875148" y="218.38392857142858" width="130.23214285714286" height="130.23214285714286" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="222.09258998875148" y="218.38392857142858" width="2.5535714285714164" height="130.23214285714286" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="349.7711614173229" y="218.38392857142858" width="2.553571428571445" height="130.23214285714286" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="222.09258998875148" y="346.0625" width="130.23214285714286" height="2.553571428571445" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="222.09258998875148" y="218.38392857142858" width="130.23214285714286" height="2.5535714285714164" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="284.0166971316086" y="317.33482142857144" width="6.383928571428555" height="28.727678571428555" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="284.0166971316086" y="220.9375" width="6.383928571428555" height="78.52232142857144" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<circle cx="287.2086614173229" cy="308.39732142857144" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="250.82026856018004" cy="259.24107142857144" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,46%,72%); fill-rule: evenodd;"/>
+			<text x="257.82026856018" y="256.24107142857144" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,46%,72%); stroke:none;" transform="translate(0,512) scale(1,-1)">S</text>
+			<circle cx="324.2354471316086" cy="259.24107142857144" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,48%,9%); fill-rule: evenodd;"/>
+			<text x="331.2354471316086" y="256.24107142857144" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(83%,48%,9%); stroke:none;" transform="translate(0,512) scale(1,-1)">G</text>
+			<text x="423.5561023622048" y="361" style="font-family: Song; font-size: 10.5px;fill: rgb(20%,29%,35%); stroke:none;" transform="translate(0,722) scale(1,-1)">新几何：竖直墙，门169</text>
+			<rect x="413.56503093363335" y="218.38392857142858" width="130.2321428571429" height="130.23214285714286" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="413.56503093363335" y="218.38392857142858" width="2.553571428571445" height="130.23214285714286" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="541.2436023622048" y="218.38392857142858" width="2.553571428571445" height="130.23214285714286" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="413.56503093363335" y="346.0625" width="130.2321428571429" height="2.553571428571445" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="413.56503093363335" y="218.38392857142858" width="130.2321428571429" height="2.5535714285714164" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="475.4891380764905" y="256.0491071428571" width="6.383928571428555" height="90.01339285714283" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="475.4891380764905" y="220.9375" width="6.383928571428555" height="17.23660714285714" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<circle cx="478.6811023622048" cy="247.11160714285714" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="442.2927095050619" cy="259.24107142857144" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,46%,72%); fill-rule: evenodd;"/>
+			<text x="449.2927095050619" y="256.24107142857144" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,46%,72%); stroke:none;" transform="translate(0,512) scale(1,-1)">S</text>
+			<circle cx="515.7078880764905" cy="259.24107142857144" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,48%,9%); fill-rule: evenodd;"/>
+			<text x="522.7078880764905" y="256.24107142857144" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(83%,48%,9%); stroke:none;" transform="translate(0,512) scale(1,-1)">G</text>
+			<text x="617.6535433070867" y="361" style="font-family: Song; font-size: 10.5px;fill: rgb(20%,29%,35%); stroke:none;" transform="translate(0,722) scale(1,-1)">新几何：水平墙，门73</text>
+			<rect x="605.0374718785154" y="218.38392857142858" width="130.2321428571429" height="130.23214285714286" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="605.0374718785154" y="218.38392857142858" width="2.553571428571445" height="130.23214285714286" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="732.7160433070868" y="218.38392857142858" width="2.553571428571445" height="130.23214285714286" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="605.0374718785154" y="346.0625" width="130.2321428571429" height="2.553571428571445" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="605.0374718785154" y="218.38392857142858" width="130.2321428571429" height="2.5535714285714164" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="607.5910433070868" y="280.3080357142857" width="28.727678571428555" height="6.383928571428555" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="654.1937218785154" y="280.3080357142857" width="78.52232142857144" height="6.383928571428555" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<circle cx="645.2562218785154" cy="283.5" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="694.4124718785154" cy="319.88839285714283" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,46%,72%); fill-rule: evenodd;"/>
+			<text x="701.4124718785154" y="316.88839285714283" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,46%,72%); stroke:none;" transform="translate(0,633) scale(1,-1)">S</text>
+			<circle cx="694.4124718785154" cy="246.47321428571428" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,48%,9%); fill-rule: evenodd;"/>
+			<text x="701.4124718785154" y="243.47321428571428" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(83%,48%,9%); stroke:none;" transform="translate(0,486) scale(1,-1)">G</text>
+			<text x="40.61122047244096" y="184" style="font-family: Song; font-size: 10.5px;fill: rgb(20%,29%,35%); stroke:none;" transform="translate(0,368) scale(1,-1)">新几何：水平墙，门169</text>
+			<rect x="30.62014904386953" y="41.38392857142857" width="130.23214285714286" height="130.2321428571429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="30.62014904386953" y="41.38392857142857" width="2.5535714285714306" height="130.2321428571429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="158.29872047244095" y="41.38392857142857" width="2.5535714285714164" height="130.2321428571429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="30.62014904386953" y="169.0625" width="130.23214285714286" height="2.5535714285714164" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="30.62014904386953" y="41.38392857142857" width="130.23214285714286" height="2.5535714285714306" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="33.17372047244096" y="103.30803571428571" width="90.01339285714285" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="141.0621133295838" y="103.30803571428571" width="17.23660714285714" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<circle cx="132.1246133295838" cy="106.5" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="119.99514904386953" cy="142.88839285714283" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,46%,72%); fill-rule: evenodd;"/>
+			<text x="126.99514904386953" y="139.88839285714283" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,46%,72%); stroke:none;" transform="translate(0,279) scale(1,-1)">S</text>
+			<circle cx="119.99514904386953" cy="69.47321428571428" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,48%,9%); fill-rule: evenodd;"/>
+			<text x="126.99514904386953" y="66.47321428571428" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(83%,48%,9%); stroke:none;" transform="translate(0,132) scale(1,-1)">G</text>
+			<text x="234.7086614173229" y="184" style="font-family: Song; font-size: 10.5px;fill: rgb(20%,29%,35%); stroke:none;" transform="translate(0,368) scale(1,-1)">开发诊断：四房间链形</text>
+			<rect x="222.09258998875148" y="41.38392857142857" width="130.23214285714286" height="130.2321428571429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="222.09258998875148" y="41.38392857142857" width="2.5535714285714164" height="130.2321428571429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="349.7711614173229" y="41.38392857142857" width="2.553571428571445" height="130.2321428571429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="222.09258998875148" y="169.0625" width="130.23214285714286" height="2.5535714285714164" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="222.09258998875148" y="41.38392857142857" width="130.23214285714286" height="2.5535714285714306" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="284.0166971316086" y="146.71875" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="284.0166971316086" y="106.5" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="284.0166971316086" y="84.15625" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="284.0166971316086" y="43.9375" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="224.6461614173229" y="103.30803571428571" width="22.34375" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="264.8649114173229" y="103.30803571428571" width="22.34375" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="287.2086614173229" y="103.30803571428571" width="62.5625" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<circle cx="287.2086614173229" cy="137.78125" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="287.2086614173229" cy="75.21875" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="255.9274114173229" cy="106.5" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="255.9274114173229" cy="137.78125" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,46%,72%); fill-rule: evenodd;"/>
+			<text x="262.9274114173229" y="134.78125" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,46%,72%); stroke:none;" transform="translate(0,269) scale(1,-1)">S</text>
+			<circle cx="318.4899114173229" cy="75.21875" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,48%,9%); fill-rule: evenodd;"/>
+			<text x="325.4899114173229" y="72.21875" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(83%,48%,9%); stroke:none;" transform="translate(0,144) scale(1,-1)">G</text>
+			<text x="426.1811023622048" y="184" style="font-family: Song; font-size: 10.5px;fill: rgb(20%,29%,35%); stroke:none;" transform="translate(0,368) scale(1,-1)">开发诊断：四房间环形</text>
+			<rect x="413.56503093363335" y="41.38392857142857" width="130.2321428571429" height="130.2321428571429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="413.56503093363335" y="41.38392857142857" width="2.553571428571445" height="130.2321428571429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="541.2436023622048" y="41.38392857142857" width="2.553571428571445" height="130.2321428571429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="413.56503093363335" y="169.0625" width="130.2321428571429" height="2.5535714285714164" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="413.56503093363335" y="41.38392857142857" width="130.2321428571429" height="2.5535714285714306" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="475.4891380764905" y="146.71875" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="475.4891380764905" y="106.5" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="475.4891380764905" y="84.15625" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="475.4891380764905" y="43.9375" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="416.1186023622048" y="103.30803571428571" width="22.34375" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="456.3373523622048" y="103.30803571428571" width="22.34375" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="478.6811023622048" y="103.30803571428571" width="22.34375" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="518.8998523622048" y="103.30803571428571" width="22.34375" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<circle cx="478.6811023622048" cy="137.78125" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="478.6811023622048" cy="75.21875" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="447.3998523622048" cy="106.5" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="509.9623523622048" cy="106.5" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="447.3998523622048" cy="137.78125" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,46%,72%); fill-rule: evenodd;"/>
+			<text x="454.3998523622048" y="134.78125" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,46%,72%); stroke:none;" transform="translate(0,269) scale(1,-1)">S</text>
+			<circle cx="509.9623523622048" cy="75.21875" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,48%,9%); fill-rule: evenodd;"/>
+			<text x="516.9623523622048" y="72.21875" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(83%,48%,9%); stroke:none;" transform="translate(0,144) scale(1,-1)">G</text>
+			<text x="617.6535433070867" y="184" style="font-family: Song; font-size: 10.5px;fill: rgb(20%,29%,35%); stroke:none;" transform="translate(0,368) scale(1,-1)">开发诊断：六房间分支</text>
+			<rect x="605.0374718785154" y="41.38392857142857" width="130.2321428571429" height="130.2321428571429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="605.0374718785154" y="41.38392857142857" width="2.553571428571445" height="130.2321428571429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="732.7160433070868" y="41.38392857142857" width="2.553571428571445" height="130.2321428571429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="605.0374718785154" y="169.0625" width="130.2321428571429" height="2.5535714285714164" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="605.0374718785154" y="41.38392857142857" width="130.2321428571429" height="2.5535714285714306" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="645.8946147356583" y="146.71875" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="645.8946147356583" y="106.5" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="688.0285433070868" y="146.71875" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="688.0285433070868" y="106.5" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="645.8946147356583" y="84.15625" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="645.8946147356583" y="43.9375" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="688.0285433070868" y="84.15625" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="688.0285433070868" y="43.9375" width="6.383928571428555" height="22.34375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="607.5910433070868" y="103.30803571428571" width="41.495535714285666" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="649.0865790213725" y="103.30803571428571" width="12.129464285714334" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="679.0910433070868" y="103.30803571428571" width="12.129464285714334" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<rect x="691.2205075928011" y="103.30803571428571" width="41.495535714285666" height="6.383928571428569" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<circle cx="649.0865790213725" cy="137.78125" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="691.2205075928011" cy="137.78125" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="649.0865790213725" cy="75.21875" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="691.2205075928011" cy="75.21875" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="670.1535433070868" cy="106.5" r="3.8" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="628.3388111642297" cy="137.78125" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,46%,72%); fill-rule: evenodd;"/>
+			<text x="635.3388111642297" y="134.78125" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,46%,72%); stroke:none;" transform="translate(0,269) scale(1,-1)">S</text>
+			<circle cx="711.9682754499439" cy="75.21875" r="4.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,48%,9%); fill-rule: evenodd;"/>
+			<text x="718.9682754499439" y="72.21875" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(83%,48%,9%); stroke:none;" transform="translate(0,144) scale(1,-1)">G</text>
+			<rect x="18" y="10" width="12" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,29%,35%); fill-rule: evenodd;"/>
+			<text x="37" y="10" style="font-family: Song; font-size: 10px;fill: rgb(20%,29%,35%); stroke:none;" transform="translate(0,20) scale(1,-1)">墙体</text>
+			<circle cx="115" cy="14" r="4" style="stroke: rgb(9%,66%,60%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+			<text x="126" y="10" style="font-family: Song; font-size: 10px;fill: rgb(20%,29%,35%); stroke:none;" transform="translate(0,20) scale(1,-1)">门洞（可通过）</text>
+			<circle cx="297" cy="14" r="4" style="stroke: rgb(9%,46%,72%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,46%,72%); fill-rule: evenodd;"/>
+			<text x="308" y="10" style="font-family: Song; font-size: 10px;fill: rgb(20%,29%,35%); stroke:none;" transform="translate(0,20) scale(1,-1)">S：示意起点</text>
+			<circle cx="473" cy="14" r="4" style="stroke: rgb(83%,48%,9%); stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,48%,9%); fill-rule: evenodd;"/>
+			<text x="484" y="10" style="font-family: Song; font-size: 10px;fill: rgb(20%,29%,35%); stroke:none;" transform="translate(0,20) scale(1,-1)">G：示意目标</text>
+		</g>
+	</g>
+</svg>

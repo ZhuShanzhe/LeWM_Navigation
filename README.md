@@ -4,9 +4,9 @@
 
 ## 从这里开始
 
-- [测试环境、结果与不足](results/strict_navigation/reports/final_research_synthesis.md)（[PDF](results/strict_navigation/reports/LeWM_Navigation_summary.pdf)）：用通俗语言介绍测试组、方法对照、性能和局限，并附文献对照表。
+- [测试环境、结果与不足](results/strict_navigation/reports/final_research_synthesis.md)（[PDF](results/strict_navigation/reports/LeWM_Navigation_summary.pdf)）：用通俗语言介绍测试组、方法对照、性能和局限，并附环境平面图与文献对照表。
 - [最终结果表](results/final_summary.csv)与[补充分析](results/strict_navigation/reports/final_supplementary_analysis.md)：三种子、分层成功率、配对比较和预算解释。
-- [LeWM 与 WM × Navigation 调研](docs/literature/README.md)：LeWM 简介及22项工作的研究方向、改进、效果和不足表格。
+- [LeWM 与 WM × Navigation 调研](docs/literature/README.md)：22项工作的研究方向、改进、效果和不足表格。
 - [核心代码与协议](experiments/strict_navigation/README.md)和[复现说明](docs/REPRODUCING.md)。
 
 ## 目录

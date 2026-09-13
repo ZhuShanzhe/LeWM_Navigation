@@ -1,12 +1,14 @@
 # 结果与分析报告
 
-- [通俗汇总 Markdown](final_research_synthesis.md)与[PDF](LeWM_Navigation_summary.pdf)：测试环境、实验组差别、性能结果、不足及文献对照表。
+- [通俗汇总 Markdown](final_research_synthesis.md)与[PDF](LeWM_Navigation_summary.pdf)：测试环境及平面示意图、实验组差别、性能结果、不足及文献对照表。
 - [补充统计](final_supplementary_analysis.md)：跨墙/同侧分层、实际计算与边界起点敏感性。
 - 其余文件记录基础规划、迁移机制、几何、拓扑和路点实验；开发阶段与最终独立确认采用不同协议。
 
 [返回上一级](../README.md)
 
 ## 目录索引
+
+- [环境平面示意图 PNG](navigation_environment_schematic.png)与[矢量图 SVG](navigation_environment_schematic.svg)：墙体、门洞和示意起终点；不是实际模型轨迹。
 
 - [LeWM_Navigation_summary.pdf](LeWM_Navigation_summary.pdf)
 

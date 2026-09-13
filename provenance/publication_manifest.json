@@ -648,8 +648,8 @@
     {
       "repository_path": "results/strict_navigation/reports/final_research_synthesis.md",
       "workspace_path": "strict_nav_20260910/reports/final_research_synthesis.md",
-      "bytes": 21907,
-      "sha256": "32076ff7aadbae8fa9b71b064ae3ed80c65971f2b10065498266cbf28057ebfa",
+      "bytes": 21432,
+      "sha256": "5466f00627dce39458acd1ca2d9a2cc04438ecbb370e1750cbe48ee5c3833dcc",
       "source_sha256": "697b4e4ace48ca4c8358c23e4119cd90c2b8c2af3059369e7395e6a67bec005e"
     },
     {
@@ -1268,8 +1268,8 @@
     {
       "repository_path": "docs/literature/World_Model_Navigation_frontier_report_20260910.pdf",
       "workspace_path": "reports/World_Model_Navigation_frontier_report_20260910.pdf",
-      "bytes": 169045,
-      "sha256": "847663434f68999bf844c609b9fda97c652a10398e316e0189bba4f6d5725037",
+      "bytes": 164741,
+      "sha256": "8745edeee44c197bdfb58a7d21376934e1c52c9672329ab9d029dc563a031785",
       "source_sha256": "1caa563712e97a1eee147d35d0c5f6046d9ff47d989414092b018ab25c1afa31"
     },
     {
