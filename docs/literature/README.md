@@ -1,13 +1,9 @@
-# WM × Navigation 工作调研
+# LeWM 与 WM × Navigation 工作调研
 
-[阅读 PDF：World Model + Navigation 前沿工作报告](World_Model_Navigation_frontier_report_20260910.pdf)
+- [调研报告 PDF](World_Model_Navigation_frontier_report_20260910.pdf)：LeWM 简介，以及22项工作的研究方向、主要改进、效果和不足对照表。
+- [调研报告 Markdown](world_model_navigation_review.md)：适合在 GitHub 中直接阅读与检索的文字表格，包含论文链接。
+- [导航实验汇总](../../results/strict_navigation/reports/final_research_synthesis.md)：测试环境、各组差别、结果与不足，以及同一份文献对照表。
 
-报告按工作介绍研究目的、主要框架、效果与不足，讨论对 LeWM 导航改进的启发。报告包含原论文链接。
-
-PDF 是文献调研阶段产物，后续实验与选择研究方向时请结合[最终研究结论](../../results/strict_navigation/reports/final_research_synthesis.md)。轻量迁移实验不等同于对相关论文的完整复现。
+论文报告的效果与本项目实验分别标注；不同任务、传感器、成功半径和预算下的分数不构成共同排行榜。
 
 [返回文档目录](../README.md)
-
-## 目录索引
-
-- [World_Model_Navigation_frontier_report_20260910.pdf](World_Model_Navigation_frontier_report_20260910.pdf)

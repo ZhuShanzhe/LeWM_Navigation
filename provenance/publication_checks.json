@@ -1,7 +1,7 @@
 {
   "repository": {
     "passed": true,
-    "files_checked": 304,
+    "files_checked": 307,
     "manifest_files_verified": 241,
     "errors": []
   },
@@ -20,5 +20,40 @@
     "different_file_refused": true
   },
   "documentation_links_valid": true,
-  "passed": true
+  "passed": true,
+  "documents": {
+    "work_count": 22,
+    "common_table_identical": true,
+    "displayed_result_cells_verified": 25,
+    "pdf_layout": {
+      "passed": true,
+      "survey_pages": 9,
+      "summary_pages": 16,
+      "literature_table_identical_in_both_markdown_and_pdf": true,
+      "work_count": 22,
+      "links": [
+        49,
+        52
+      ],
+      "visual_review_passed": true
+    },
+    "files": [
+      {
+        "path": "docs/literature/World_Model_Navigation_frontier_report_20260910.pdf",
+        "sha256": "847663434f68999bf844c609b9fda97c652a10398e316e0189bba4f6d5725037"
+      },
+      {
+        "path": "results/strict_navigation/reports/LeWM_Navigation_summary.pdf",
+        "sha256": "218261a2a074aaf39cc5f412778fdef499a7150fedbc4f8bd0a3f8f6b31bdb4f"
+      },
+      {
+        "path": "docs/literature/world_model_navigation_review.md",
+        "sha256": "86a379b57dead787be3cb23972f33e7272f551711fb5a446cc9630796ab906aa"
+      },
+      {
+        "path": "results/strict_navigation/reports/final_research_synthesis.md",
+        "sha256": "32076ff7aadbae8fa9b71b064ae3ed80c65971f2b10065498266cbf28057ebfa"
+      }
+    ]
+  }
 }
