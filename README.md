@@ -1,12 +1,13 @@
 # LeWM × Navigation
 
-研究 LeWM 在导航中的能力、失败原因和可迁移改进。仓库包含核心实现、实验配置、关键结果与分析、WM × Navigation 调研，不是 LeWM 全任务或真实机器人复现。
+研究 LeWM、JEPA 类潜在世界模型在视觉导航中的能力、失败原因和可迁移改进。仓库包含核心实现、实验配置、关键结果与分析、WM × Navigation 及 JEPA × ImageNav 调研，不是 LeWM 全任务或真实机器人复现。
 
 ## 从这里开始
 
+- [JEPA-VLA 与 Image-Goal Visual Navigation 调研](docs/literature/jepa_vla_vln_image_goal_survey.md)：任务边界、前沿工作、研究空白及 JEPA-based ImageNav 的模型与实验路线。
 - [测试环境、结果与不足](results/strict_navigation/reports/final_research_synthesis.md)（[PDF](results/strict_navigation/reports/LeWM_Navigation_summary.pdf)）：用通俗语言介绍测试组、方法对照、性能和局限，并附环境平面图与文献对照表。
 - [最终结果表](results/final_summary.csv)与[补充分析](results/strict_navigation/reports/final_supplementary_analysis.md)：三种子、分层成功率、配对比较和预算解释。
-- [LeWM 与 WM × Navigation 调研](docs/literature/README.md)：22项工作的研究方向、改进、效果和不足表格。
+- [LeWM 与 WM × Navigation 调研](docs/literature/README.md)：世界模型、导航和 JEPA 相关论文入口。
 - [核心代码与协议](experiments/strict_navigation/README.md)和[复现说明](docs/REPRODUCING.md)。
 
 ## 目录
