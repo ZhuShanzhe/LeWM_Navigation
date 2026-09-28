@@ -1,0 +1,31 @@
+{
+  "scope": "Portable source on same server and same official assets; not additional independent trials or hardware test",
+  "replays": [
+    {
+      "episode_id": "v2_0005",
+      "reason": "survived_command_sequence",
+      "max_position_difference": 0.0,
+      "xy_rmse_difference": 0.0
+    },
+    {
+      "episode_id": "v2_0060",
+      "reason": "timeout",
+      "max_position_difference": 0.0,
+      "xy_rmse_difference": 0.0
+    },
+    {
+      "episode_id": "v2_0080",
+      "reason": "success",
+      "max_position_difference": 0.0,
+      "xy_rmse_difference": 0.0
+    },
+    {
+      "episode_id": "v2_0155",
+      "reason": "success",
+      "max_position_difference": 0.0,
+      "xy_rmse_difference": 0.0
+    }
+  ],
+  "offline_contract_tests": 10,
+  "passed": true
+}

@@ -1,0 +1,11 @@
+{
+  "public_download_url": null,
+  "reason_not_in_git": "Model weights, datasets, videos and full trajectories are external experiment resources.",
+  "server_workspace": "/root/autodl-tmp/jeplo_eval_20260928",
+  "files": [
+    {"path": "runs/deployment_v2_230/videos/box_0.3.mp4", "bytes": 235887, "sha256": "8e0afabdfe936c9c8bc73885ce1f144cdaba35c83ac4b7ecf1a47e6327373f2c"},
+    {"path": "runs/deployment_v2_230/videos/stairs_0.15.mp4", "bytes": 153754, "sha256": "bfad5947b63bc943adb2d593e9797ce3f3771177ec1bef88483f0bb49aa90608"},
+    {"path": "runs/deployment_v2_230/videos/rotate_left.mp4", "bytes": 124507, "sha256": "61c646ac2bb20f53b8b2600e4e82e330f6533f383323a17e713450f5d09baae4"},
+    {"path": "runs/deployment_v2_bundle.tar.gz", "bytes": 49711442, "sha256": "6a49f9fada0de2bc02f68601abe213c10afb7c43fe50284f68e312613aed7d9d"}
+  ]
+}

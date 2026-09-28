@@ -1,0 +1,1020 @@
+[
+  {
+    "mode": "deployment_default",
+    "group": "stand",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.014215765403926012,
+    "tracking_yaw_rmse": 0.0050813103850450275,
+    "policy_ms_p95": 0.3128137160092592,
+    "estimator_ms_p95": 2.3423315677791825,
+    "max_tau_proxy_Nm": 23.401612401699786,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6335986666666666
+  },
+  {
+    "mode": "deployment_default",
+    "group": "forward025",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.049157030136511695,
+    "tracking_yaw_rmse": 0.14644935000937748,
+    "policy_ms_p95": 0.3120302129536867,
+    "estimator_ms_p95": 2.266055354848504,
+    "max_tau_proxy_Nm": 23.401612401699786,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.608692
+  },
+  {
+    "mode": "deployment_default",
+    "group": "forward075",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.12532861997057917,
+    "tracking_yaw_rmse": 0.23235071329479942,
+    "policy_ms_p95": 0.3164632059633732,
+    "estimator_ms_p95": 2.144719734787941,
+    "max_tau_proxy_Nm": 24.114587638943625,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.5887839999999999
+  },
+  {
+    "mode": "deployment_default",
+    "group": "forward125",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.29983868350397624,
+    "tracking_yaw_rmse": 0.2823542094537793,
+    "policy_ms_p95": 0.32133622094988823,
+    "estimator_ms_p95": 2.342069409787655,
+    "max_tau_proxy_Nm": 29.973720108179577,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.5951413333333333
+  },
+  {
+    "mode": "deployment_default",
+    "group": "backward",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.10218953298938523,
+    "tracking_yaw_rmse": 0.2045257978913984,
+    "policy_ms_p95": 0.32783922739326954,
+    "estimator_ms_p95": 2.3550224397331476,
+    "max_tau_proxy_Nm": 23.401612401699786,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6645773333333332
+  },
+  {
+    "mode": "deployment_default",
+    "group": "left",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.12166951904352223,
+    "tracking_yaw_rmse": 0.2354367794184223,
+    "policy_ms_p95": 0.32660437747836113,
+    "estimator_ms_p95": 2.3666281439363956,
+    "max_tau_proxy_Nm": 23.401612401699786,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6272306666666666
+  },
+  {
+    "mode": "deployment_default",
+    "group": "right",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.22164993649602982,
+    "tracking_yaw_rmse": 0.17513328768180841,
+    "policy_ms_p95": 0.3270997665822506,
+    "estimator_ms_p95": 2.387866545468569,
+    "max_tau_proxy_Nm": 23.401612401699786,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6943440000000001
+  },
+  {
+    "mode": "deployment_default",
+    "group": "rotate_left",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.10608677106588764,
+    "tracking_yaw_rmse": 0.7768628560850714,
+    "policy_ms_p95": 0.32663682475686073,
+    "estimator_ms_p95": 2.2258950863033533,
+    "max_tau_proxy_Nm": 23.401612401699786,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.73478
+  },
+  {
+    "mode": "deployment_default",
+    "group": "rotate_right",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.04839084322562816,
+    "tracking_yaw_rmse": 0.5085476345632692,
+    "policy_ms_p95": 0.32843204215168953,
+    "estimator_ms_p95": 2.4059356097131968,
+    "max_tau_proxy_Nm": 23.401612401699786,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.634788
+  },
+  {
+    "mode": "deployment_default",
+    "group": "curve",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.07011577471955287,
+    "tracking_yaw_rmse": 0.3210574383902426,
+    "policy_ms_p95": 0.3342836070805788,
+    "estimator_ms_p95": 2.509408462792635,
+    "max_tau_proxy_Nm": 24.810286752250896,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6011946666666667
+  },
+  {
+    "mode": "deployment_default",
+    "group": "start_stop",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.12664159797436816,
+    "tracking_yaw_rmse": 0.1787814632989379,
+    "policy_ms_p95": 0.32741730101406574,
+    "estimator_ms_p95": 2.3461167700588703,
+    "max_tau_proxy_Nm": 24.03076048478155,
+    "stop_final_speed_m_s": 0.005410314623760416,
+    "stop_displacement_m": 0.16132732548297155,
+    "scan_coverage": 0.60744
+  },
+  {
+    "mode": "deployment_default",
+    "group": "box_0.15",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.17906561293981843,
+    "tracking_yaw_rmse": 0.3566942333287807,
+    "policy_ms_p95": 0.3312741778790951,
+    "estimator_ms_p95": 2.391573926433921,
+    "max_tau_proxy_Nm": 36.79850570568425,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6267593468468469
+  },
+  {
+    "mode": "deployment_default",
+    "group": "box_0.3",
+    "n": 5,
+    "completed": 0,
+    "rate": 0.0,
+    "wilson95": [
+      -2.7755575615628914e-17,
+      0.43449149475208104
+    ],
+    "reasons": {
+      "timeout": 5
+    },
+    "tracking_xy_rmse": 0.7300964072261025,
+    "tracking_yaw_rmse": 0.3121348583697162,
+    "policy_ms_p95": 0.32163863070309157,
+    "estimator_ms_p95": 2.4285943061113358,
+    "max_tau_proxy_Nm": 29.646901671413218,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7996992592592593
+  },
+  {
+    "mode": "deployment_default",
+    "group": "box_0.4",
+    "n": 5,
+    "completed": 4,
+    "rate": 0.8,
+    "wilson95": [
+      0.3755282641185388,
+      0.9637768390302125
+    ],
+    "reasons": {
+      "success": 4,
+      "fall": 1
+    },
+    "tracking_xy_rmse": 0.30932689192234253,
+    "tracking_yaw_rmse": 0.2976192226984633,
+    "policy_ms_p95": 0.3218787722289562,
+    "estimator_ms_p95": 2.116784695535898,
+    "max_tau_proxy_Nm": 42.74571386163268,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.5669906766917293
+  },
+  {
+    "mode": "deployment_default",
+    "group": "box_0.5",
+    "n": 5,
+    "completed": 4,
+    "rate": 0.8,
+    "wilson95": [
+      0.3755282641185388,
+      0.9637768390302125
+    ],
+    "reasons": {
+      "success": 4,
+      "fall": 1
+    },
+    "tracking_xy_rmse": 0.3397631031286282,
+    "tracking_yaw_rmse": 0.3812365150668257,
+    "policy_ms_p95": 0.32469287514686584,
+    "estimator_ms_p95": 2.3284366354346275,
+    "max_tau_proxy_Nm": 40.85352099985407,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.5370504565467723
+  },
+  {
+    "mode": "deployment_default",
+    "group": "stairs_0.1",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.25358968795415515,
+    "tracking_yaw_rmse": 0.39371401142122464,
+    "policy_ms_p95": 0.3224016632884741,
+    "estimator_ms_p95": 2.1306432131677866,
+    "max_tau_proxy_Nm": 42.921315982758635,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7501648546496604
+  },
+  {
+    "mode": "deployment_default",
+    "group": "stairs_0.15",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.40858588549831715,
+    "tracking_yaw_rmse": 0.5213498727675608,
+    "policy_ms_p95": 0.3208202961832285,
+    "estimator_ms_p95": 2.306200647726655,
+    "max_tau_proxy_Nm": 54.907888071484294,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7460241369971417
+  },
+  {
+    "mode": "deployment_default",
+    "group": "stairs_0.2",
+    "n": 5,
+    "completed": 4,
+    "rate": 0.8,
+    "wilson95": [
+      0.3755282641185388,
+      0.9637768390302125
+    ],
+    "reasons": {
+      "success": 4,
+      "timeout": 1
+    },
+    "tracking_xy_rmse": 0.5588295807114506,
+    "tracking_yaw_rmse": 0.6141719932933769,
+    "policy_ms_p95": 0.32170606777071953,
+    "estimator_ms_p95": 2.3092931415885687,
+    "max_tau_proxy_Nm": 60.563232694625114,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.734581703910489
+  },
+  {
+    "mode": "raw_actions",
+    "group": "stand",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.011872438609731464,
+    "tracking_yaw_rmse": 0.0015848192016841452,
+    "policy_ms_p95": 0.31454578042030334,
+    "estimator_ms_p95": 2.126466864719987,
+    "max_tau_proxy_Nm": 25.259490517622588,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6478893333333333
+  },
+  {
+    "mode": "raw_actions",
+    "group": "forward025",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.04333872271332343,
+    "tracking_yaw_rmse": 0.020001566388940673,
+    "policy_ms_p95": 0.3200090862810612,
+    "estimator_ms_p95": 2.2246445901691914,
+    "max_tau_proxy_Nm": 25.259490517622588,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6321999999999999
+  },
+  {
+    "mode": "raw_actions",
+    "group": "forward075",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.13633434976730355,
+    "tracking_yaw_rmse": 0.03535992420742791,
+    "policy_ms_p95": 0.3233493212610483,
+    "estimator_ms_p95": 2.245993921533227,
+    "max_tau_proxy_Nm": 26.961391649450302,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.5982653333333333
+  },
+  {
+    "mode": "raw_actions",
+    "group": "forward125",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.31694812592890076,
+    "tracking_yaw_rmse": 0.05701227956594161,
+    "policy_ms_p95": 0.3230699524283409,
+    "estimator_ms_p95": 2.1885622292757034,
+    "max_tau_proxy_Nm": 36.472228530874744,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.5855226666666667
+  },
+  {
+    "mode": "raw_actions",
+    "group": "backward",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.07973201951199763,
+    "tracking_yaw_rmse": 0.044333258365970116,
+    "policy_ms_p95": 0.31702171079814434,
+    "estimator_ms_p95": 2.102765031158924,
+    "max_tau_proxy_Nm": 25.259490517622588,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6482786666666666
+  },
+  {
+    "mode": "raw_actions",
+    "group": "left",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.1553358350074326,
+    "tracking_yaw_rmse": 0.042874148877502294,
+    "policy_ms_p95": 0.3180501703172922,
+    "estimator_ms_p95": 2.1112337708473206,
+    "max_tau_proxy_Nm": 25.259490517622588,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6498546666666667
+  },
+  {
+    "mode": "raw_actions",
+    "group": "right",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.11641637027641653,
+    "tracking_yaw_rmse": 0.05723376049176958,
+    "policy_ms_p95": 0.3182012867182493,
+    "estimator_ms_p95": 2.0976858027279377,
+    "max_tau_proxy_Nm": 25.259490517622588,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6317320000000001
+  },
+  {
+    "mode": "raw_actions",
+    "group": "rotate_left",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.04759900475017938,
+    "tracking_yaw_rmse": 0.2705113984151467,
+    "policy_ms_p95": 0.31749160028994083,
+    "estimator_ms_p95": 2.089349878951907,
+    "max_tau_proxy_Nm": 25.259490517622588,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6676373333333332
+  },
+  {
+    "mode": "raw_actions",
+    "group": "rotate_right",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.05077013059944987,
+    "tracking_yaw_rmse": 0.23540348515836446,
+    "policy_ms_p95": 0.3200950752943754,
+    "estimator_ms_p95": 2.096307370811701,
+    "max_tau_proxy_Nm": 25.259490517622588,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.631252
+  },
+  {
+    "mode": "raw_actions",
+    "group": "curve",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.0834457381019031,
+    "tracking_yaw_rmse": 0.13245176189046798,
+    "policy_ms_p95": 0.31728025525808334,
+    "estimator_ms_p95": 2.082283077761531,
+    "max_tau_proxy_Nm": 25.259490517622588,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.61008
+  },
+  {
+    "mode": "raw_actions",
+    "group": "start_stop",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.12450003973372377,
+    "tracking_yaw_rmse": 0.028471022904154507,
+    "policy_ms_p95": 0.3169215936213732,
+    "estimator_ms_p95": 2.1012751664966345,
+    "max_tau_proxy_Nm": 26.961391649450302,
+    "stop_final_speed_m_s": 0.0012566378322041106,
+    "stop_displacement_m": 0.1107224824535726,
+    "scan_coverage": 0.6143786666666667
+  },
+  {
+    "mode": "raw_actions",
+    "group": "box_0.15",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.2019789999755896,
+    "tracking_yaw_rmse": 0.18284350450149997,
+    "policy_ms_p95": 0.3169805742800236,
+    "estimator_ms_p95": 2.1123989205807447,
+    "max_tau_proxy_Nm": 39.550492449280135,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6256587044534414
+  },
+  {
+    "mode": "raw_actions",
+    "group": "box_0.3",
+    "n": 5,
+    "completed": 1,
+    "rate": 0.2,
+    "wilson95": [
+      0.03622316096978745,
+      0.6244717358814613
+    ],
+    "reasons": {
+      "timeout": 4,
+      "success": 1
+    },
+    "tracking_xy_rmse": 0.7169641776595344,
+    "tracking_yaw_rmse": 0.15447372203087922,
+    "policy_ms_p95": 0.31300773844122887,
+    "estimator_ms_p95": 2.083839103579521,
+    "max_tau_proxy_Nm": 30.382580310749894,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7928980475272961
+  },
+  {
+    "mode": "raw_actions",
+    "group": "box_0.4",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.19967548895914747,
+    "tracking_yaw_rmse": 0.08703459580569811,
+    "policy_ms_p95": 0.3183011896908283,
+    "estimator_ms_p95": 2.152892798185348,
+    "max_tau_proxy_Nm": 36.362822849482924,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.5428271724355935
+  },
+  {
+    "mode": "raw_actions",
+    "group": "box_0.5",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.19802510173865212,
+    "tracking_yaw_rmse": 0.13831548602705596,
+    "policy_ms_p95": 0.31794887967407703,
+    "estimator_ms_p95": 2.107542874291539,
+    "max_tau_proxy_Nm": 36.835845532897416,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.5411394021551916
+  },
+  {
+    "mode": "raw_actions",
+    "group": "stairs_0.1",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.2166201279946042,
+    "tracking_yaw_rmse": 0.17631953988131116,
+    "policy_ms_p95": 0.3186017833650112,
+    "estimator_ms_p95": 2.0856935996562243,
+    "max_tau_proxy_Nm": 38.435904891634145,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7399301537612292
+  },
+  {
+    "mode": "raw_actions",
+    "group": "stairs_0.15",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.3543241180739238,
+    "tracking_yaw_rmse": 0.26220523782704747,
+    "policy_ms_p95": 0.32069772481918335,
+    "estimator_ms_p95": 2.1110433153808117,
+    "max_tau_proxy_Nm": 55.043807286443815,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7172100728599858
+  },
+  {
+    "mode": "raw_actions",
+    "group": "stairs_0.2",
+    "n": 5,
+    "completed": 3,
+    "rate": 0.6,
+    "wilson95": [
+      0.23071993220883708,
+      0.8823817688407467
+    ],
+    "reasons": {
+      "timeout": 1,
+      "success": 3,
+      "fall": 1
+    },
+    "tracking_xy_rmse": 0.41440989180287086,
+    "tracking_yaw_rmse": 0.3459119831902172,
+    "policy_ms_p95": 0.321014616638422,
+    "estimator_ms_p95": 2.1689502708613873,
+    "max_tau_proxy_Nm": 56.29846261714884,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7036546324690278
+  },
+  {
+    "mode": "deployment_default",
+    "group": "robustness_clean",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.40892846046758785,
+    "tracking_yaw_rmse": 0.46458970855159415,
+    "policy_ms_p95": 0.3237481974065304,
+    "estimator_ms_p95": 2.3070114850997925,
+    "max_tau_proxy_Nm": 55.43766566219851,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7441953424557292
+  },
+  {
+    "mode": "deployment_default",
+    "group": "robustness_sparse1",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.3903142769471143,
+    "tracking_yaw_rmse": 0.4708241140677939,
+    "policy_ms_p95": 0.31942013651132584,
+    "estimator_ms_p95": 2.1537433005869384,
+    "max_tau_proxy_Nm": 54.84668330255422,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6653187155460858
+  },
+  {
+    "mode": "deployment_default",
+    "group": "robustness_mask0.4",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.46145545263608173,
+    "tracking_yaw_rmse": 0.5204535439691742,
+    "policy_ms_p95": 0.32165625132620335,
+    "estimator_ms_p95": 2.1785577945411196,
+    "max_tau_proxy_Nm": 51.45488174993309,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7848232862957419
+  },
+  {
+    "mode": "deployment_default",
+    "group": "robustness_noise5cm",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.38840158456718393,
+    "tracking_yaw_rmse": 0.4640085190206146,
+    "policy_ms_p95": 0.3194996062666178,
+    "estimator_ms_p95": 2.1320329979062076,
+    "max_tau_proxy_Nm": 60.79936621321701,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7170132422274105
+  },
+  {
+    "mode": "deployment_default",
+    "group": "robustness_delay100",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.3995458824853386,
+    "tracking_yaw_rmse": 0.49445929297594604,
+    "policy_ms_p95": 0.3187975846230984,
+    "estimator_ms_p95": 2.0685067120939493,
+    "max_tau_proxy_Nm": 50.90075487668006,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7191207477751156
+  },
+  {
+    "mode": "deployment_default",
+    "group": "robustness_delay300",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.4186609737302779,
+    "tracking_yaw_rmse": 0.43246351121849996,
+    "policy_ms_p95": 0.3195220697671175,
+    "estimator_ms_p95": 2.07644185051322,
+    "max_tau_proxy_Nm": 55.88726960049824,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7002854442430142
+  },
+  {
+    "mode": "deployment_default",
+    "group": "robustness_blackout1s",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.46620593024003754,
+    "tracking_yaw_rmse": 0.487811253704826,
+    "policy_ms_p95": 0.32064654864370823,
+    "estimator_ms_p95": 2.0800518337637186,
+    "max_tau_proxy_Nm": 54.49115943807355,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7765342939966967
+  },
+  {
+    "mode": "deployment_default",
+    "group": "robustness_push_lateral",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.3651936137153042,
+    "tracking_yaw_rmse": 0.4816530612696844,
+    "policy_ms_p95": 0.3194268885999918,
+    "estimator_ms_p95": 2.0775956101715565,
+    "max_tau_proxy_Nm": 48.87694839695895,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7374326104776809
+  },
+  {
+    "mode": "deployment_default",
+    "group": "robustness_friction_low",
+    "n": 5,
+    "completed": 0,
+    "rate": 0.0,
+    "wilson95": [
+      -2.7755575615628914e-17,
+      0.43449149475208104
+    ],
+    "reasons": {
+      "timeout": 5
+    },
+    "tracking_xy_rmse": 0.7281113210572362,
+    "tracking_yaw_rmse": 0.5208211661782796,
+    "policy_ms_p95": 0.31914918683469296,
+    "estimator_ms_p95": 2.0823558140546083,
+    "max_tau_proxy_Nm": 59.1683718872815,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.8388103703703704
+  },
+  {
+    "mode": "deployment_default",
+    "group": "robustness_mass_plus20",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "success": 5
+    },
+    "tracking_xy_rmse": 0.43414537054474805,
+    "tracking_yaw_rmse": 0.6145242950380124,
+    "policy_ms_p95": 0.31787654384970665,
+    "estimator_ms_p95": 2.100916365161538,
+    "max_tau_proxy_Nm": 62.50942634029566,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.7713457368111943
+  }
+]

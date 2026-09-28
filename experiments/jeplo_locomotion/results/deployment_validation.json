@@ -1,0 +1,23 @@
+{
+  "deployment_v2_230": {
+    "episodes": 230,
+    "complete": true,
+    "unique_ids": true,
+    "trace_count": 230
+  },
+  "deployment_v2_extended135": {
+    "episodes": 135,
+    "complete": true,
+    "unique_ids": true,
+    "trace_count": 135
+  },
+  "deployment_v2_rotation_ablation20": {
+    "episodes": 20,
+    "complete": true,
+    "unique_ids": true,
+    "trace_count": 20
+  },
+  "video_replays_exact": 3,
+  "physical_robot_used": false,
+  "total_episodes": 385
+}

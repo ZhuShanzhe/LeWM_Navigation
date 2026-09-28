@@ -1,0 +1,90 @@
+[
+  {
+    "mode": "smooth_only",
+    "group": "rotate_left",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.0513488311297842,
+    "tracking_yaw_rmse": 0.27502555255014477,
+    "policy_ms_p95": 0.2976044360548258,
+    "estimator_ms_p95": 2.1249801199883223,
+    "max_tau_proxy_Nm": 22.83565937600906,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6673906666666667
+  },
+  {
+    "mode": "hip_only",
+    "group": "rotate_left",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.10576916965067536,
+    "tracking_yaw_rmse": 0.7965326913623761,
+    "policy_ms_p95": 0.29872183687984943,
+    "estimator_ms_p95": 2.1737845800817013,
+    "max_tau_proxy_Nm": 25.086305573326992,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.738084
+  },
+  {
+    "mode": "smooth_only",
+    "group": "rotate_right",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.052284267915759866,
+    "tracking_yaw_rmse": 0.23541814746592266,
+    "policy_ms_p95": 0.30220248736441135,
+    "estimator_ms_p95": 2.1816132124513388,
+    "max_tau_proxy_Nm": 22.83565937600906,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6326986666666666
+  },
+  {
+    "mode": "hip_only",
+    "group": "rotate_right",
+    "n": 5,
+    "completed": 5,
+    "rate": 1.0,
+    "wilson95": [
+      0.5655085052479191,
+      1.0000000000000002
+    ],
+    "reasons": {
+      "survived_command_sequence": 5
+    },
+    "tracking_xy_rmse": 0.04565802524224373,
+    "tracking_yaw_rmse": 0.5104324609544346,
+    "policy_ms_p95": 0.30405450612306595,
+    "estimator_ms_p95": 2.2410963475704193,
+    "max_tau_proxy_Nm": 25.009653861777714,
+    "stop_final_speed_m_s": null,
+    "stop_displacement_m": null,
+    "scan_coverage": 0.6274693333333333
+  }
+]

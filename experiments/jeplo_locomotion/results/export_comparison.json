@@ -1,0 +1,120 @@
+{
+  "policy": {
+    "deployment_sha256": "ffe8318312ac2e27a159115a70e3f12ddbb7444d7aa1325a22cce57223a05520",
+    "training_sha256": "6a8999c8a818b69f89709cc0c9f9e82829f81c0439566887428cd89165e718e5",
+    "training_inputs": {
+      "proprio_hist": [
+        1,
+        450
+      ],
+      "high_feat": [
+        1,
+        512
+      ]
+    },
+    "samples": [
+      {
+        "sample": "sample_000000.npz",
+        "max_difference": 1.097109079360962
+      },
+      {
+        "sample": "sample_000001.npz",
+        "max_difference": 1.216644048690796
+      },
+      {
+        "sample": "sample_000002.npz",
+        "max_difference": 0.5471489429473877
+      },
+      {
+        "sample": "sample_000003.npz",
+        "max_difference": 0.5078606605529785
+      },
+      {
+        "sample": "sample_000004.npz",
+        "max_difference": 0.2734719514846802
+      },
+      {
+        "sample": "sample_000005.npz",
+        "max_difference": 0.5958232879638672
+      },
+      {
+        "sample": "sample_000006.npz",
+        "max_difference": 0.38132771849632263
+      },
+      {
+        "sample": "sample_000007.npz",
+        "max_difference": 0.5843278169631958
+      },
+      {
+        "sample": "sample_000008.npz",
+        "max_difference": 0.418804407119751
+      },
+      {
+        "sample": "sample_000009.npz",
+        "max_difference": 0.6362999081611633
+      }
+    ]
+  },
+  "sensor_estimator": {
+    "deployment_sha256": "efe563d65e9aaab6626c816ba420d7e193e202259af65f64f313b0d30a436ba4",
+    "training_sha256": "057a10acb961265cf6e64d9b941025db95f1129dcb768c88b0cd15e31843e41f",
+    "training_inputs": {
+      "prop_hist": [
+        1,
+        450
+      ],
+      "depth_stack": [
+        1,
+        2,
+        25,
+        60
+      ],
+      "hidden_in": [
+        1,
+        512
+      ]
+    },
+    "samples": [
+      {
+        "sample": "sample_000000.npz",
+        "max_difference": 0.7844831943511963
+      },
+      {
+        "sample": "sample_000001.npz",
+        "max_difference": 0.9682557582855225
+      },
+      {
+        "sample": "sample_000002.npz",
+        "max_difference": 0.6925014853477478
+      },
+      {
+        "sample": "sample_000003.npz",
+        "max_difference": 0.5784069299697876
+      },
+      {
+        "sample": "sample_000004.npz",
+        "max_difference": 0.6485716104507446
+      },
+      {
+        "sample": "sample_000005.npz",
+        "max_difference": 0.7701858282089233
+      },
+      {
+        "sample": "sample_000006.npz",
+        "max_difference": 0.7023475766181946
+      },
+      {
+        "sample": "sample_000007.npz",
+        "max_difference": 0.8748093843460083
+      },
+      {
+        "sample": "sample_000008.npz",
+        "max_difference": 0.6162668466567993
+      },
+      {
+        "sample": "sample_000009.npz",
+        "max_difference": 0.949998676776886
+      }
+    ]
+  }
+}

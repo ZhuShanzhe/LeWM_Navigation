@@ -1,0 +1,474 @@
+{
+  "scope": "CPU ONNX + synchronous MuJoCo; no DDS/ROS/hardware test",
+  "commit": "460e2272907af053d6e66b57fec71fdbe6ca1774",
+  "versions": {
+    "python": "3.11.16",
+    "numpy": "2.4.6",
+    "onnxruntime": "1.30.0",
+    "mujoco": "3.3.7"
+  },
+  "models": {
+    "policy": {
+      "sha256": "ffe8318312ac2e27a159115a70e3f12ddbb7444d7aa1325a22cce57223a05520",
+      "inputs": {
+        "proprio_hist": [
+          1,
+          450
+        ],
+        "high_feat": [
+          1,
+          512
+        ]
+      },
+      "outputs": {
+        "actions": [
+          1,
+          12
+        ]
+      },
+      "errors": [
+        {
+          "sample": "sample_000000.npz",
+          "output": "actions",
+          "max_abs": 0.0023398399353027344,
+          "mean_abs": 0.0009998828172683716,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000001.npz",
+          "output": "actions",
+          "max_abs": 0.005034446716308594,
+          "mean_abs": 0.0013256320962682366,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000002.npz",
+          "output": "actions",
+          "max_abs": 0.0010715723037719727,
+          "mean_abs": 0.0005374699831008911,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000003.npz",
+          "output": "actions",
+          "max_abs": 0.002108931541442871,
+          "mean_abs": 0.0007666274905204773,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000004.npz",
+          "output": "actions",
+          "max_abs": 0.0011663436889648438,
+          "mean_abs": 0.00044269548379816115,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000005.npz",
+          "output": "actions",
+          "max_abs": 0.0023232698440551758,
+          "mean_abs": 0.0008616695995442569,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000006.npz",
+          "output": "actions",
+          "max_abs": 0.0027781128883361816,
+          "mean_abs": 0.0009097823058255017,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000007.npz",
+          "output": "actions",
+          "max_abs": 0.001941181719303131,
+          "mean_abs": 0.0010343572357669473,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000008.npz",
+          "output": "actions",
+          "max_abs": 0.0024396181106567383,
+          "mean_abs": 0.0008443978731520474,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000009.npz",
+          "output": "actions",
+          "max_abs": 0.0035347044467926025,
+          "mean_abs": 0.0010465076193213463,
+          "strict_allclose": false
+        }
+      ],
+      "official_deployment_tolerance_pass": true,
+      "strict_allclose_pass": false,
+      "max_abs": 0.005034446716308594,
+      "worst_mean_abs": 0.0013256320962682366,
+      "training_export_identical": false
+    },
+    "sensor_estimator": {
+      "sha256": "efe563d65e9aaab6626c816ba420d7e193e202259af65f64f313b0d30a436ba4",
+      "inputs": {
+        "prop_hist": [
+          1,
+          450
+        ],
+        "depth_stack": [
+          1,
+          2,
+          25,
+          60
+        ],
+        "hidden_in": [
+          1,
+          512
+        ]
+      },
+      "outputs": {
+        "feature": [
+          1,
+          512
+        ],
+        "hidden_out": [
+          1,
+          512
+        ],
+        "depth_latent": [
+          1,
+          64
+        ],
+        "prop_hist_latent": [
+          1,
+          32
+        ]
+      },
+      "errors": [
+        {
+          "sample": "sample_000000.npz",
+          "output": "feature",
+          "max_abs": 0.0014991164207458496,
+          "mean_abs": 0.00014365772949531674,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000000.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0014991164207458496,
+          "mean_abs": 0.00014365772949531674,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000000.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0007597208023071289,
+          "mean_abs": 0.0003186250978615135,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000000.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0005285143852233887,
+          "mean_abs": 0.00020644767209887505,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000001.npz",
+          "output": "feature",
+          "max_abs": 0.0009080469608306885,
+          "mean_abs": 0.00016113754827529192,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000001.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0009080469608306885,
+          "mean_abs": 0.00016113754827529192,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000001.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0009455010294914246,
+          "mean_abs": 0.0002921843552030623,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000001.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0007828474044799805,
+          "mean_abs": 0.0002698594471439719,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000002.npz",
+          "output": "feature",
+          "max_abs": 0.0016181468963623047,
+          "mean_abs": 0.00016459522885270417,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000002.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0016181468963623047,
+          "mean_abs": 0.00016459522885270417,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000002.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0009270384907722473,
+          "mean_abs": 0.0003071335959248245,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000002.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0006622672080993652,
+          "mean_abs": 0.0002484263386577368,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000003.npz",
+          "output": "feature",
+          "max_abs": 0.0009942948818206787,
+          "mean_abs": 0.00013284815941005945,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000003.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0009942948818206787,
+          "mean_abs": 0.00013284815941005945,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000003.npz",
+          "output": "depth_latent",
+          "max_abs": 0.001097559928894043,
+          "mean_abs": 0.0002978730481117964,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000003.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0006971806287765503,
+          "mean_abs": 0.000239525455981493,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000004.npz",
+          "output": "feature",
+          "max_abs": 0.0012249350547790527,
+          "mean_abs": 0.0001549287117086351,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000004.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0012249350547790527,
+          "mean_abs": 0.0001549287117086351,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000004.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0008780956268310547,
+          "mean_abs": 0.0003062246832996607,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000004.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0009012222290039062,
+          "mean_abs": 0.0002989100757986307,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000005.npz",
+          "output": "feature",
+          "max_abs": 0.0014339536428451538,
+          "mean_abs": 0.00014141990686766803,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000005.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0014339536428451538,
+          "mean_abs": 0.00014141990686766803,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000005.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0009066443890333176,
+          "mean_abs": 0.000326266250340268,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000005.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.00033614039421081543,
+          "mean_abs": 0.00011051164619857445,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000006.npz",
+          "output": "feature",
+          "max_abs": 0.0009044557809829712,
+          "mean_abs": 0.0001506982371211052,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000006.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0009044557809829712,
+          "mean_abs": 0.0001506982371211052,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000006.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0009075403213500977,
+          "mean_abs": 0.00029843399534001946,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000006.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0012317299842834473,
+          "mean_abs": 0.0002737532777246088,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000007.npz",
+          "output": "feature",
+          "max_abs": 0.0026960670948028564,
+          "mean_abs": 0.00017364702944178134,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000007.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0026960670948028564,
+          "mean_abs": 0.00017364702944178134,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000007.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0011955201625823975,
+          "mean_abs": 0.00037033401895314455,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000007.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.000834345817565918,
+          "mean_abs": 0.0002648807130753994,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000008.npz",
+          "output": "feature",
+          "max_abs": 0.001930326223373413,
+          "mean_abs": 0.00014394377649296075,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000008.npz",
+          "output": "hidden_out",
+          "max_abs": 0.001930326223373413,
+          "mean_abs": 0.00014394377649296075,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000008.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0010080337524414062,
+          "mean_abs": 0.00031261349795386195,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000008.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0006254911422729492,
+          "mean_abs": 0.0003008903004229069,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000009.npz",
+          "output": "feature",
+          "max_abs": 0.000714525580406189,
+          "mean_abs": 0.0001318609865847975,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000009.npz",
+          "output": "hidden_out",
+          "max_abs": 0.000714525580406189,
+          "mean_abs": 0.0001318609865847975,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000009.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0010781288146972656,
+          "mean_abs": 0.00026314976275898516,
+          "strict_allclose": false
+        },
+        {
+          "sample": "sample_000009.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0006881207227706909,
+          "mean_abs": 0.00030171533580869436,
+          "strict_allclose": false
+        }
+      ],
+      "official_deployment_tolerance_pass": true,
+      "strict_allclose_pass": false,
+      "max_abs": 0.0026960670948028564,
+      "worst_mean_abs": 0.00037033401895314455,
+      "training_export_identical": false
+    }
+  },
+  "interface_checks": {
+    "motor_permutation_roundtrip": true,
+    "joint2motor_idx": [
+      3,
+      0,
+      9,
+      6,
+      4,
+      1,
+      10,
+      7,
+      5,
+      2,
+      11,
+      8
+    ],
+    "history_newest_first": true,
+    "default_smoothing_and_hip_scale": true,
+    "policy_50Hz_estimator_10Hz": true,
+    "depth_shape": [
+      1,
+      2,
+      25,
+      60
+    ],
+    "depth_units": "range/2 metres, missing=1",
+    "command_frame": "body x forward,y left,yaw CCW",
+    "joint_position_units": "radians",
+    "imu_quaternion_order": "wxyz",
+    "physics_hz": 500,
+    "lidar_hz": 20,
+    "lidar_accumulation": 5,
+    "depth_publish_hz": 10,
+    "lidar_downsample": 1
+  },
+  "limitations": [
+    "Official default action processing reimplemented from C++; no full C++/DDS transport execution.",
+    "Synchronous clocks and deterministic initial standing replace asynchronous hardware timing and stand-up sequence.",
+    "Official deployment tolerance passing is not bitwise parity; strict tolerance is reported independently.",
+    "Threshold safety stop terminates trial; subsequent hardware damping trajectory is not simulated.",
+    "CPU timings exclude network, sensor preprocessing, Jetson scheduling and motor transport."
+  ]
+}

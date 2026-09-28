@@ -1,0 +1,7 @@
+{
+  "tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "pass": true,
+  "scope": "offline serialization and helper watchdog only; no live ZMQ/DDS/robot"
+}

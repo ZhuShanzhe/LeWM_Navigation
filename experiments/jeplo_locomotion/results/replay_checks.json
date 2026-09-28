@@ -1,0 +1,23 @@
+[
+  {
+    "episode_id": "v2_0060",
+    "group": "box_0.3",
+    "original_reason": "timeout",
+    "replay_reason": "timeout",
+    "position_difference_max": 0.0
+  },
+  {
+    "episode_id": "v2_0080",
+    "group": "stairs_0.15",
+    "original_reason": "success",
+    "replay_reason": "success",
+    "position_difference_max": 0.0
+  },
+  {
+    "episode_id": "v2_0035",
+    "group": "rotate_left",
+    "original_reason": "survived_command_sequence",
+    "replay_reason": "survived_command_sequence",
+    "position_difference_max": 0.0
+  }
+]
