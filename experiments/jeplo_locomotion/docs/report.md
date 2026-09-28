@@ -147,5 +147,5 @@ JEPLO 可以保留为四足机器人运动执行层的候选方案，但当前�
 ## 参考
 
 - [JEPLO 官方仓库](https://github.com/ASIG-X/JEPLO)
-- [固定版本控制器](https://github.com/ASIG-X/JEPLO/blob/460e2272907af053d6e66b57fecc71fdbe6ca1774/deployment/go2_deploy/deploy/src/deploy.cpp)
-- [固定版本 LiDAR 预处理](https://github.com/ASIG-X/JEPLO/blob/460e2272907af053d6e66b57fecc71fdbe6ca1774/deployment/lidar_depth_pub/lidar_depth_pub.cpp)
+- [固定版本控制器](https://github.com/ASIG-X/JEPLO/blob/460e2272907af053d6e66b57fec71fdbe6ca1774/deployment/go2_deploy/deploy/src/deploy.cpp)
+- [固定版本 LiDAR 预处理](https://github.com/ASIG-X/JEPLO/blob/460e2272907af053d6e66b57fec71fdbe6ca1774/deployment/lidar_depth_pub/lidar_depth_pub.cpp)

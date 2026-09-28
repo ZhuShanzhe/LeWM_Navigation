@@ -1,0 +1,22 @@
+{
+  "profile_id": "jeplo-official-readme-sim-20260928",
+  "upstream_repository": "https://github.com/ASIG-X/JEPLO",
+  "upstream_commit": "460e2272907af053d6e66b57fec71fdbe6ca1774",
+  "scope": "simulation only; deployment README alignment, not confirmed paper Table II protocol",
+  "model_subdir": "deployment/go2_deploy/model/pretrained",
+  "models_sha256": {
+    "policy.onnx": "ffe8318312ac2e27a159115a70e3f12ddbb7444d7aa1325a22cce57223a05520",
+    "sensor_estimator.onnx": "efe563d65e9aaab6626c816ba420d7e193e202259af65f64f313b0d30a436ba4"
+  },
+  "commands": {
+    "simulator": ["unitree_mujoco", "--lidar"],
+    "depth": ["lidar_depth_pub", "--sim", "--downsample-rate", "4", "--fov", "25x60"],
+    "controller": ["deploy", "--net", "lo", "--model-dir", "pretrained", "--ood-count-threshold", "15", "--raw-actions"]
+  },
+  "runtime_readme": {"os": "Ubuntu 22.04", "onnxruntime": "1.22.0", "tensorrt": "10.9", "cuda": "12.8", "cudnn_major": 9, "mujoco": null, "unitree_sdk2_commit": null},
+  "sensor": {"rows": 25, "columns": 60, "point_downsample": 4, "stacked_scans": 5, "lidar_hz": 20, "depth_publish_hz": 10, "cage_mask": true, "cage_seed": "upstream random_device; record realized mask per run"},
+  "controller": {"policy_hz": 50, "estimator_hz": 10, "raw_actions": true, "ood_consecutive": 15, "dds_domain": 1, "interface": "lo"},
+  "paper_protocol": {"confirmed": false, "checkpoint_mapping": null, "initial_state_distribution": null, "command_schedule": null, "success_predicate": null, "timeout_seconds": null, "occlusion_generators": null, "standard_deviation_grouping": null},
+  "paper_comparison_allowed": false,
+  "historical_results": "385 independent diagnostic trials are excluded from this profile"
+}

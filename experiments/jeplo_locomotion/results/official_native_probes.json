@@ -1,0 +1,470 @@
+{
+  "scope": "native README-aligned deployment probes; self-defined constant commands; no paper success-rate claim",
+  "source_commit": "460e2272907af053d6e66b57fec71fdbe6ca1774",
+  "mujoco_candidate": "3.3.7",
+  "sdk_candidate_commit": "63096d0ac0c5d2dec9d6e0c22cd5233410ca2f36",
+  "cage_mask": "enabled, upstream random_device realization per process",
+  "paper_protocol_confirmed": false,
+  "paper_performance_reproduced": false,
+  "cases": [
+    {
+      "run": "native_smoke_004",
+      "driver": {
+        "scope": "native-stack initialization and zero-command smoke only; not paper performance",
+        "complete": true,
+        "ready_seconds": 18.511084970086813,
+        "received_lidar_packets": 539
+      },
+      "controller_cpp_fixture_pass": true,
+      "ood_positive_log_lines": 0,
+      "safety_fault_logged": false,
+      "sensor_periodic_statistics": [
+        "[LidarDepth] 72 frames in 5.00086s (14.3975 fps), 50 published (9.99827 pub/s), last: 14442 points",
+        "[LidarDepth] 98 frames in 5.1s (19.2157 fps), 51 published (10 pub/s), last: 13767 points",
+        "[LidarDepth] 100 frames in 5.00001s (20 fps), 50 published (9.99998 pub/s), last: 13767 points",
+        "[LidarDepth] 101 frames in 5s (20.2 fps), 50 published (10 pub/s), last: 13777 points",
+        "[LidarDepth] 102 frames in 5.10001s (20 fps), 51 published (9.99999 pub/s), last: 14253 points"
+      ],
+      "raw_files_sha256": {
+        "summary.json": "f42b6f54df2885155ded218b8ac61529a1b67fd10c6aa23df9c427b1ae4d89c8",
+        "controller.log": "0ebea0724f5125e929c0dc36bdfd9926485e661cda09ba3a8f1f063cbade7ad5",
+        "simulator.log": "5919e7523570bbed520b2916ce7162d3695ae7ce1569d74c5a2b857ed7fa846f",
+        "sensor.log": "d3bb45a28033b4a7f5e10e500a25b7b2c00b5ab31f339db6a36f1f73f55507cd",
+        "lidar_pose.jsonl": "27a6e6abc7535d9c48242a3bcb2cd3d8251263f3d5083f0d13177d0e40b86bbe"
+      },
+      "recomputed": {
+        "elapsed_seconds": 7.956867270171642,
+        "raw_lidar_hz": 19.982738759015408,
+        "base_xy_displacement_m": 0.0059044622133112255,
+        "mean_displacement_speed_m_s": 0.0007420586535916737,
+        "mean_yaw_rate_rad_s": -2.5018613827012724e-05,
+        "min_base_z_m": 0.30936814553209113,
+        "max_base_z_m": 0.31310696956375617,
+        "min_base_upright_cos": 0.9985179305076599,
+        "final_base_xyz": [
+          0.05655593833955935,
+          0.0038705025361850855,
+          0.3106504231326981
+        ]
+      }
+    },
+    {
+      "run": "native_forward_001",
+      "driver": {
+        "scope": "native-stack deployment README smoke; self-defined commands, not paper performance",
+        "case": "forward",
+        "complete": true,
+        "requested_duration": 10.0,
+        "command": [
+          0.25,
+          0,
+          0
+        ],
+        "ready_seconds": 16.54086743760854,
+        "received_lidar_packets": 499,
+        "pose_metrics": {
+          "measurement": "base-link pose reconstructed from official LiDAR site extrinsics",
+          "samples": 160,
+          "measured_lidar_hz": 20.008452094869117,
+          "measurement_seconds": 7.9466417115181684,
+          "xyz_first": [
+            0.04803230870096009,
+            -0.010925869734026492,
+            0.312781777061522
+          ],
+          "xyz_last": [
+            1.790754923025146,
+            0.013412184469867498,
+            0.30644505251199006
+          ],
+          "xy_displacement_m": 1.7428925530162085,
+          "yaw_change_rad": -0.0037043534172984203,
+          "mean_yaw_rate_rad_s": -0.0004661533200784915,
+          "mean_xy_displacement_speed_m_s": 0.21932441605993044,
+          "min_base_z": 0.30519584019621837,
+          "max_base_z": 0.3215697437282652,
+          "min_base_upright_cos": 0.9987149238586426
+        },
+        "ood_positive_log_lines": 0,
+        "safety_stop_detected": false
+      },
+      "controller_cpp_fixture_pass": true,
+      "ood_positive_log_lines": 0,
+      "safety_fault_logged": false,
+      "sensor_periodic_statistics": [
+        "[LidarDepth] 70 frames in 5.00096s (13.9973 fps), 50 published (9.99807 pub/s), last: 13767 points",
+        "[LidarDepth] 100 frames in 5.09998s (19.6079 fps), 51 published (10 pub/s), last: 13767 points",
+        "[LidarDepth] 100 frames in 5.00002s (19.9999 fps), 50 published (9.99996 pub/s), last: 13767 points",
+        "[LidarDepth] 102 frames in 5.1s (20 fps), 51 published (10 pub/s), last: 14442 points",
+        "[LidarDepth] 102 frames in 5.1s (20 fps), 51 published (10 pub/s), last: 14419 points"
+      ],
+      "raw_files_sha256": {
+        "summary.json": "65a0dda65a639a8f6980e049cd7f438b66521c984fa089cf79570b60973c1ef7",
+        "controller.log": "3d7de905f89e71d31b8255a14a09144b18657b6cab65010314407dd6d45321d6",
+        "simulator.log": "23c021b2972a08efffdd9aa779f67594a73176b32a998fbf7f2fbf808c811ab6",
+        "sensor.log": "a8a99e7f61823c675c0509faed180a673604d6cd3efa031278fb8137a9847960",
+        "lidar_pose.jsonl": "05ba1d5d1b94b0c08200c4fa867898a61981467402f8cfb3b4fba0b339176d9c"
+      },
+      "recomputed": {
+        "elapsed_seconds": 7.9466417115181684,
+        "raw_lidar_hz": 20.008452094869117,
+        "base_xy_displacement_m": 1.7428925530162085,
+        "mean_displacement_speed_m_s": 0.21932441605993044,
+        "mean_yaw_rate_rad_s": -0.0004661533200784915,
+        "min_base_z_m": 0.30519584019621837,
+        "max_base_z_m": 0.3215697437282652,
+        "min_base_upright_cos": 0.9987149238586426,
+        "final_base_xyz": [
+          1.790754923025146,
+          0.013412184469867498,
+          0.30644505251199006
+        ]
+      }
+    },
+    {
+      "run": "native_rotate_001",
+      "driver": {
+        "scope": "native-stack deployment README smoke; self-defined commands, not paper performance",
+        "case": "rotate",
+        "complete": true,
+        "requested_duration": 10.0,
+        "command": [
+          0,
+          0,
+          1
+        ],
+        "ready_seconds": 15.865518231876194,
+        "received_lidar_packets": 489,
+        "pose_metrics": {
+          "measurement": "base-link pose reconstructed from official LiDAR site extrinsics",
+          "samples": 161,
+          "measured_lidar_hz": 20.008446922510526,
+          "measurement_seconds": 7.99662265740335,
+          "xyz_first": [
+            0.0390273830870283,
+            -0.008401553908362985,
+            0.3164661830435216
+          ],
+          "xyz_last": [
+            0.03583217107853853,
+            0.01510756121436134,
+            0.3187497898156289
+          ],
+          "xy_displacement_m": 0.023725258136271198,
+          "yaw_change_rad": 6.037825686742648,
+          "mean_yaw_rate_rad_s": 0.7550469673785059,
+          "mean_xy_displacement_speed_m_s": 0.0029669098008902705,
+          "min_base_z": 0.30428253529407084,
+          "max_base_z": 0.32923901683092116,
+          "min_base_upright_cos": 0.9967819452285767
+        },
+        "ood_positive_log_lines": 0,
+        "safety_stop_detected": false
+      },
+      "controller_cpp_fixture_pass": true,
+      "ood_positive_log_lines": 0,
+      "safety_fault_logged": false,
+      "sensor_periodic_statistics": [
+        "[LidarDepth] 71 frames in 5.00084s (14.1976 fps), 50 published (9.99832 pub/s), last: 13777 points",
+        "[LidarDepth] 102 frames in 5.09999s (20 fps), 51 published (10 pub/s), last: 14253 points",
+        "[LidarDepth] 100 frames in 5.00003s (19.9999 fps), 50 published (9.99993 pub/s), last: 14253 points",
+        "[LidarDepth] 102 frames in 5.09999s (20.0001 fps), 51 published (10 pub/s), last: 13808 points",
+        "[LidarDepth] 100 frames in 5s (20 fps), 50 published (10 pub/s), last: 13808 points"
+      ],
+      "raw_files_sha256": {
+        "summary.json": "5fd7a01ebd2ab365b0ee92384a9e3394222463147c3d287e89dbef4244125d66",
+        "controller.log": "7306fb1efe8eb9e5637b2af4bdbe9525d669536bc482b61c0893712ad70ecfa5",
+        "simulator.log": "084855c0619105074e4d949b7a7f6ba6ee3ce2315357eaab91a63694c0f984a3",
+        "sensor.log": "fb80385547cdfd9c9a4798304f7db246c8995ad3f7a0d617f335f1b72e436179",
+        "lidar_pose.jsonl": "55c91e8c750aa086cd2e3e4cec8fa5f1876cf02dc23f43056ebc6f353bf5563e"
+      },
+      "recomputed": {
+        "elapsed_seconds": 7.99662265740335,
+        "raw_lidar_hz": 20.008446922510526,
+        "base_xy_displacement_m": 0.023725258136271198,
+        "mean_displacement_speed_m_s": 0.0029669098008902705,
+        "mean_yaw_rate_rad_s": 0.7550469673785059,
+        "min_base_z_m": 0.30428253529407084,
+        "max_base_z_m": 0.32923901683092116,
+        "min_base_upright_cos": 0.9967819452285767,
+        "final_base_xyz": [
+          0.03583217107853853,
+          0.01510756121436134,
+          0.3187497898156289
+        ]
+      }
+    },
+    {
+      "run": "native_boxes_001",
+      "driver": {
+        "scope": "native-stack deployment README smoke; self-defined commands, not paper performance",
+        "case": "boxes",
+        "complete": true,
+        "requested_duration": 22.0,
+        "command": [
+          0.75,
+          0,
+          0
+        ],
+        "terrain_switch": "official Ctrl+2 acknowledged",
+        "ready_seconds": 16.401454533450305,
+        "received_lidar_packets": 740,
+        "pose_metrics": {
+          "measurement": "base-link pose reconstructed from official LiDAR site extrinsics",
+          "samples": 399,
+          "measured_lidar_hz": 19.98843931420166,
+          "measurement_seconds": 19.9115095352754,
+          "xyz_first": [
+            0.04972545325802641,
+            -0.00884358994406648,
+            0.3149226055210457
+          ],
+          "xyz_last": [
+            6.2181041046008465,
+            0.25231676933169367,
+            0.07708397737890482
+          ],
+          "xy_displacement_m": 6.173904754658831,
+          "yaw_change_rad": -2.352334153042232,
+          "mean_yaw_rate_rad_s": -0.11813941825328797,
+          "mean_xy_displacement_speed_m_s": 0.3100671369853244,
+          "min_base_z": 0.07678972841054202,
+          "max_base_z": 1.0316203706450762,
+          "min_base_upright_cos": -0.6693447232246399,
+          "max_base_x": 6.407593446329236
+        },
+        "ood_positive_log_lines": 0,
+        "safety_stop_detected": false
+      },
+      "controller_cpp_fixture_pass": true,
+      "ood_positive_log_lines": 0,
+      "safety_fault_logged": false,
+      "sensor_periodic_statistics": [
+        "[LidarDepth] 74 frames in 5.00089s (14.7974 fps), 50 published (9.99823 pub/s), last: 14419 points",
+        "[LidarDepth] 99 frames in 5.00001s (19.8 fps), 50 published (9.99998 pub/s), last: 14253 points",
+        "[LidarDepth] 100 frames in 5.00002s (19.9999 fps), 50 published (9.99996 pub/s), last: 14253 points",
+        "[LidarDepth] 102 frames in 5.09998s (20.0001 fps), 51 published (10 pub/s), last: 13808 points",
+        "[LidarDepth] 100 frames in 5.00002s (19.9999 fps), 50 published (9.99997 pub/s), last: 13808 points",
+        "[LidarDepth] 102 frames in 5.09999s (20 fps), 51 published (10 pub/s), last: 14489 points",
+        "[LidarDepth] 100 frames in 5s (20 fps), 50 published (9.99999 pub/s), last: 14489 points"
+      ],
+      "raw_files_sha256": {
+        "summary.json": "5fabe0bb10d640eb82f32a42988a283524b584b471396f69ccc1ae7348ca033a",
+        "controller.log": "b8112f86dc7005348aaf34003b3c9bc84b86561a6f17773a9737bf3d8798fd8c",
+        "simulator.log": "d73386926738f64d28b4cc4d8e2cf79bb8bb8f45f4b8343b78b135c5066495c1",
+        "sensor.log": "17a2c4dc2f0295ffe3b170ffd97070348ec9250603b9a9643516d081c109b0ed",
+        "lidar_pose.jsonl": "929fabca3fa77ccbddf461c27cf97a9699754681c1a3e1532bd351d443c7178b"
+      },
+      "recomputed": {
+        "elapsed_seconds": 19.9115095352754,
+        "raw_lidar_hz": 19.98843931420166,
+        "base_xy_displacement_m": 6.173904754658831,
+        "mean_displacement_speed_m_s": 0.3100671369853244,
+        "mean_yaw_rate_rad_s": -0.11813941825328797,
+        "min_base_z_m": 0.07678972841054202,
+        "max_base_z_m": 1.0316203706450762,
+        "min_base_upright_cos": -0.6693447232246399,
+        "final_base_xyz": [
+          6.2181041046008465,
+          0.25231676933169367,
+          0.07708397737890482
+        ]
+      }
+    },
+    {
+      "run": "native_stairs_ascent_001",
+      "driver": {
+        "scope": "native-stack deployment README smoke; self-defined commands, not paper performance",
+        "case": "stairs",
+        "complete": true,
+        "requested_duration": 30.0,
+        "command": [
+          0.75,
+          0,
+          0
+        ],
+        "stop_at_ascent_goal": true,
+        "ready_seconds": 16.255270249210298,
+        "received_lidar_packets": 897,
+        "pose_metrics": {
+          "measurement": "base-link pose reconstructed from official LiDAR site extrinsics",
+          "samples": 560,
+          "measured_lidar_hz": 19.999753304722947,
+          "measurement_seconds": 27.950344760902226,
+          "xyz_first": [
+            0.04342040219996124,
+            -0.007402999157086015,
+            0.3154639871423133
+          ],
+          "xyz_last": [
+            5.657249753922224,
+            1.4718412620425225,
+            0.14473786438535896
+          ],
+          "xy_displacement_m": 5.8054494722243835,
+          "yaw_change_rad": -2.452137696228613,
+          "mean_yaw_rate_rad_s": -0.08773193022143813,
+          "mean_xy_displacement_speed_m_s": 0.20770582695442164,
+          "min_base_z": 0.14463679769076407,
+          "max_base_z": 1.8035889024734497,
+          "min_base_upright_cos": -0.9960801601409912,
+          "max_base_x": 5.662714443206787
+        },
+        "ood_positive_log_lines": 0,
+        "safety_stop_detected": false
+      },
+      "controller_cpp_fixture_pass": true,
+      "ood_positive_log_lines": 0,
+      "safety_fault_logged": false,
+      "sensor_periodic_statistics": [
+        "[LidarDepth] 73 frames in 5.00089s (14.5974 fps), 50 published (9.99822 pub/s), last: 14253 points",
+        "[LidarDepth] 100 frames in 5s (20 fps), 50 published (9.99999 pub/s), last: 14253 points",
+        "[LidarDepth] 99 frames in 5.00001s (19.8 fps), 50 published (9.99998 pub/s), last: 14442 points",
+        "[LidarDepth] 100 frames in 5s (20 fps), 50 published (10 pub/s), last: 14442 points",
+        "[LidarDepth] 100 frames in 5s (20 fps), 50 published (9.99999 pub/s), last: 14442 points",
+        "[LidarDepth] 100 frames in 5.00001s (20 fps), 50 published (9.99998 pub/s), last: 14442 points",
+        "[LidarDepth] 100 frames in 5.00001s (20 fps), 50 published (9.99998 pub/s), last: 14442 points",
+        "[LidarDepth] 102 frames in 5.09997s (20.0001 fps), 51 published (10 pub/s), last: 14419 points",
+        "[LidarDepth] 100 frames in 5.00001s (20 fps), 50 published (9.99998 pub/s), last: 14419 points"
+      ],
+      "raw_files_sha256": {
+        "summary.json": "2fb33e2e231236b96069b186a0ab5d09e43250e80e33dea054531b9c4ce305de",
+        "controller.log": "3561dbade5e55fdbacd755f2d0be0340e8578c6e9d5e92e261aaf107fd5bc6c2",
+        "simulator.log": "65670eb8a41a98e09ab40efb565fb504bc12812d2492cf972c16a915039e9462",
+        "sensor.log": "a80b35427aeb00bc528b303d56486123a40d128de385c56b5ddaa9d42b862d67",
+        "lidar_pose.jsonl": "0ad150c9b23264f4d7bdf5bfac886d82289b7ad09044e1fbe685c735703bb7ec"
+      },
+      "recomputed": {
+        "elapsed_seconds": 27.950344760902226,
+        "raw_lidar_hz": 19.999753304722947,
+        "base_xy_displacement_m": 5.8054494722243835,
+        "mean_displacement_speed_m_s": 0.20770582695442164,
+        "mean_yaw_rate_rad_s": -0.08773193022143813,
+        "min_base_z_m": 0.14463679769076407,
+        "max_base_z_m": 1.8035889024734497,
+        "min_base_upright_cos": -0.9960801601409912,
+        "final_base_xyz": [
+          5.657249753922224,
+          1.4718412620425225,
+          0.14473786438535896
+        ]
+      }
+    },
+    {
+      "run": "native_boxes_ascent_002",
+      "driver": {
+        "scope": "native-stack deployment README smoke; self-defined commands, not paper performance",
+        "case": "boxes",
+        "complete": true,
+        "requested_duration": 22.0,
+        "command": [
+          0.75,
+          0,
+          0
+        ],
+        "stop_at_ascent_goal": true,
+        "terrain_switch": "official Ctrl+2 acknowledged",
+        "ascent_goal": {
+          "definition": "self-defined demo stopping gate, NOT paper criterion",
+          "forward_displacement_min": 4.15,
+          "base_z_min": 0.9,
+          "upright_cos_min": 0.8,
+          "hold_seconds": 2,
+          "reached_seconds": 25.493092078715563
+        },
+        "ascent_goal_held": true,
+        "ready_seconds": 16.615755029954016,
+        "received_lidar_packets": 520,
+        "pose_metrics": {
+          "measurement": "base-link pose reconstructed from official LiDAR site extrinsics",
+          "samples": 178,
+          "measured_lidar_hz": 19.999273109471172,
+          "measurement_seconds": 8.850321660749614,
+          "xyz_first": [
+            0.045665850032120925,
+            -0.009927622039802372,
+            0.31692537545808597
+          ],
+          "xyz_last": [
+            4.359674273706973,
+            0.038489441661164164,
+            1.0102193513214588
+          ],
+          "xy_displacement_m": 4.314280112787649,
+          "yaw_change_rad": -0.03356077615809359,
+          "mean_yaw_rate_rad_s": -0.003792040272042612,
+          "mean_xy_displacement_speed_m_s": 0.48747156071412584,
+          "min_base_z": 0.29742160537466406,
+          "max_base_z": 1.0352741901129483,
+          "min_base_upright_cos": 0.7735553979873657,
+          "max_base_x": 4.359674273706973
+        },
+        "ood_positive_log_lines": 0,
+        "safety_stop_detected": false
+      },
+      "controller_cpp_fixture_pass": true,
+      "ood_positive_log_lines": 0,
+      "safety_fault_logged": false,
+      "sensor_periodic_statistics": [
+        "[LidarDepth] 71 frames in 5.00093s (14.1974 fps), 50 published (9.99814 pub/s), last: 13777 points",
+        "[LidarDepth] 101 frames in 5.09999s (19.804 fps), 51 published (10 pub/s), last: 14442 points",
+        "[LidarDepth] 100 frames in 5.00001s (20 fps), 50 published (9.99998 pub/s), last: 14442 points",
+        "[LidarDepth] 100 frames in 5s (20 fps), 50 published (9.99999 pub/s), last: 14442 points",
+        "[LidarDepth] 100 frames in 5s (20 fps), 50 published (9.99999 pub/s), last: 14442 points"
+      ],
+      "raw_files_sha256": {
+        "summary.json": "ce1acf32dd9288782e4d706f5bb146896ec4ff542db5ee6a948f0af4eca413f2",
+        "controller.log": "870ebae1ac5a7e065ff48a631d27755d4f4ae094d74ef4c42ba6663df1d8ce51",
+        "simulator.log": "78ea673dd6985bee128b676d850b2fed7b720e7dae57f61a38e7bf94b28584bc",
+        "sensor.log": "2cc1a542955192aea6650b5f9ae289240f5bc29ce453080a06445e24d5ffa2e8",
+        "lidar_pose.jsonl": "c1e5106b09a04f3cc57c1cf1ec2d0f251a186cb12ba5aecf77d6b565b89c1d5c"
+      },
+      "recomputed": {
+        "elapsed_seconds": 8.850321660749614,
+        "raw_lidar_hz": 19.999273109471172,
+        "base_xy_displacement_m": 4.314280112787649,
+        "mean_displacement_speed_m_s": 0.48747156071412584,
+        "mean_yaw_rate_rad_s": -0.003792040272042612,
+        "min_base_z_m": 0.29742160537466406,
+        "max_base_z_m": 1.0352741901129483,
+        "min_base_upright_cos": 0.7735553979873657,
+        "final_base_xyz": [
+          4.359674273706973,
+          0.038489441661164164,
+          1.0102193513214588
+        ]
+      }
+    }
+  ],
+  "initial_infrastructure_failures": [
+    {
+      "run": "native_boxes_ascent_001",
+      "error": "Terrain switch not acknowledged",
+      "ready_seconds": null,
+      "counted_as_locomotion_trial": false,
+      "classification": "pre-ready setup failure"
+    },
+    {
+      "run": "native_smoke_001",
+      "error": "display exited with 1",
+      "ready_seconds": null,
+      "counted_as_locomotion_trial": false,
+      "classification": "pre-ready setup failure"
+    },
+    {
+      "run": "native_smoke_002",
+      "error": "display exited with 1",
+      "ready_seconds": null,
+      "counted_as_locomotion_trial": false,
+      "classification": "pre-ready setup failure"
+    },
+    {
+      "run": "native_smoke_003",
+      "error": "display exited with 1",
+      "ready_seconds": null,
+      "counted_as_locomotion_trial": false,
+      "classification": "pre-ready setup failure"
+    }
+  ],
+  "completion_is_not_task_success": true
+}

@@ -1,0 +1,7 @@
+{
+  "scope": "ROS-only branch excluded; entire ZMQ projection/receive/publish block unchanged byte-for-byte",
+  "source_sha256": "a896f767674146c8c39cab7ea556e0f7788b4b0f3e088eac7cbf444e6bb781f3",
+  "adapted_sha256": "3a72a4b03e7c6298939e0fdf015b9bdf934a0c08817848186eaab6fbd6b49b71",
+  "protected_zmq_block_sha256": "9f1066ac801a27e64aa7e98598a3122b6a353d6738769f26efe5384e6dcd1a8c",
+  "equivalence_scope": "source-block identity; not yet a closed-loop timing validation"
+}

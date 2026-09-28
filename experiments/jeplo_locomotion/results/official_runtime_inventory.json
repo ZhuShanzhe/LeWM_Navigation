@@ -1,0 +1,26 @@
+{
+  "system": "Linux-5.15.0-119-generic-x86_64-with-glibc2.35",
+  "gpu": "NVIDIA GeForce RTX 5090, 595.58.03",
+  "libraries": {
+    "cudart": {
+      "resolved_path": "/usr/local/cuda-12.8/targets/x86_64-linux/lib/libcudart.so.12.8.90",
+      "sha256": "c3a75b33af334a3486d197dbd1584a2985183ba4688d237a2be5f2f679329920"
+    },
+    "cudnn": {
+      "resolved_path": "/usr/lib/x86_64-linux-gnu/libcudnn.so.9.8.0",
+      "sha256": "72f74476dcdc074b9d56f8c5cf576ceff6a595989832b9b0798478dc48a4ffcd"
+    },
+    "nvinfer": {
+      "resolved_path": "/root/autodl-tmp/jeplo_eval_20260928/official_alignment/runtime_env/lib/python3.11/site-packages/tensorrt_libs/libnvinfer.so.10",
+      "sha256": "366342e2c2da994d281237449a16c23a44cbfb5a4806d3de6a8c68d995a7c5de"
+    },
+    "ort": {
+      "resolved_path": "/root/autodl-tmp/jeplo_eval_20260928/official_alignment/ort_env/lib/python3.11/site-packages/onnxruntime/capi/libonnxruntime.so.1.22.0",
+      "sha256": "09fb71acf9debf4c5755f2c49522bfa80e580223be83d3f4e18744788d4be7db"
+    }
+  },
+  "cuda_runtime_version": 12080,
+  "cudnn_version": 90800,
+  "tensorrt_version": 100900,
+  "versions_match_readme": true
+}

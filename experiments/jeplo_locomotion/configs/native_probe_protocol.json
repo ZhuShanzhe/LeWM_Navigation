@@ -1,0 +1,23 @@
+{
+  "protocol": "native-readme-aligned-probes-v1",
+  "purpose": "Component and end-to-end deployment conformance probes, not paper Table II reproduction",
+  "upstream_profile": "official_readme_profile.json",
+  "case_configuration_record": true,
+  "preregistered_paper_benchmark": false,
+  "initial_state": "Official scene.xml and Go2 defaults, fresh simulator/controller process per run; original stand-up sequence",
+  "command_frame": "body frame vx, vy, wz",
+  "zero_command_after_ready_seconds": 2,
+  "cases": {
+    "stand": {"command": [0, 0, 0], "ready_duration_seconds": 10},
+    "forward": {"command": [0.25, 0, 0], "ready_duration_seconds": 10},
+    "rotate": {"command": [0, 0, 1], "ready_duration_seconds": 10},
+    "boxes_long_command": {"command": [0.75, 0, 0], "ready_duration_seconds": 22, "terrain_switch": "official Ctrl+2", "stop_at_top": false},
+    "boxes_ascent": {"command": [0.75, 0, 0], "ready_duration_seconds_limit": 22, "terrain_switch": "official Ctrl+2", "forward_displacement_gate_m": 4.15, "base_z_gate_m": 0.9, "upright_cos_gate": 0.8, "zero_command_hold_seconds": 2},
+    "stairs_ascent": {"command": [0.75, 0, 0], "ready_duration_seconds_limit": 30, "terrain": "official default stairs", "forward_displacement_gate_m": 8.05, "base_z_gate_m": 3.15, "upright_cos_gate": 0.8, "zero_command_hold_seconds": 2}
+  },
+  "mask": "Official random cage mask per publisher launch; realizations are not seed-paired between probes",
+  "ascent_gates_are_official": false,
+  "completion_is_task_success": false,
+  "ascent_goal_limitations": "Pose-based stopping/holding checks only, no released official success predicate or foot-contact criterion",
+  "claims_not_supported": ["paper success-rate reproduction", "robot deployment safety", "statistical comparison against historical 385 synchronous trials"]
+}

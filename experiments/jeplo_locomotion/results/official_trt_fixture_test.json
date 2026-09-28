@@ -1,0 +1,386 @@
+{
+  "scope": "official ONNX samples, ORT Python API with TensorRT provider; not the native controller or closed-loop",
+  "onnxruntime": "1.22.0",
+  "python": "3.11.16",
+  "models": {
+    "policy": {
+      "providers_executed": [
+        "TensorrtExecutionProvider"
+      ],
+      "providers_registered": [
+        "TensorrtExecutionProvider",
+        "CPUExecutionProvider"
+      ],
+      "errors": [
+        {
+          "sample": "sample_000000.npz",
+          "output": "actions",
+          "max_abs": 0.0023398399353027344,
+          "mean_abs": 0.00100056326482445,
+          "finite": true
+        },
+        {
+          "sample": "sample_000001.npz",
+          "output": "actions",
+          "max_abs": 0.005034685134887695,
+          "mean_abs": 0.001326160505414009,
+          "finite": true
+        },
+        {
+          "sample": "sample_000002.npz",
+          "output": "actions",
+          "max_abs": 0.0010725855827331543,
+          "mean_abs": 0.0005375916953198612,
+          "finite": true
+        },
+        {
+          "sample": "sample_000003.npz",
+          "output": "actions",
+          "max_abs": 0.0021123886108398438,
+          "mean_abs": 0.0007673923973925412,
+          "finite": true
+        },
+        {
+          "sample": "sample_000004.npz",
+          "output": "actions",
+          "max_abs": 0.0011681318283081055,
+          "mean_abs": 0.00044283890747465193,
+          "finite": true
+        },
+        {
+          "sample": "sample_000005.npz",
+          "output": "actions",
+          "max_abs": 0.0023225247859954834,
+          "mean_abs": 0.0008618670399300754,
+          "finite": true
+        },
+        {
+          "sample": "sample_000006.npz",
+          "output": "actions",
+          "max_abs": 0.0027816295623779297,
+          "mean_abs": 0.0009096525609493256,
+          "finite": true
+        },
+        {
+          "sample": "sample_000007.npz",
+          "output": "actions",
+          "max_abs": 0.0019383430480957031,
+          "mean_abs": 0.0010333359241485596,
+          "finite": true
+        },
+        {
+          "sample": "sample_000008.npz",
+          "output": "actions",
+          "max_abs": 0.00244140625,
+          "mean_abs": 0.0008449765737168491,
+          "finite": true
+        },
+        {
+          "sample": "sample_000009.npz",
+          "output": "actions",
+          "max_abs": 0.0035326778888702393,
+          "mean_abs": 0.0010470267152413726,
+          "finite": true
+        }
+      ],
+      "official_tolerance_pass": true,
+      "elapsed_seconds": 5.4317248202860355,
+      "sha256": "ffe8318312ac2e27a159115a70e3f12ddbb7444d7aa1325a22cce57223a05520"
+    },
+    "sensor_estimator": {
+      "providers_executed": [
+        "TensorrtExecutionProvider"
+      ],
+      "providers_registered": [
+        "TensorrtExecutionProvider",
+        "CPUExecutionProvider"
+      ],
+      "errors": [
+        {
+          "sample": "sample_000000.npz",
+          "output": "feature",
+          "max_abs": 0.0013366341590881348,
+          "mean_abs": 0.00013273213698994368,
+          "finite": true
+        },
+        {
+          "sample": "sample_000000.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0013366341590881348,
+          "mean_abs": 0.00013273213698994368,
+          "finite": true
+        },
+        {
+          "sample": "sample_000000.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0006387233734130859,
+          "mean_abs": 0.00027462898287922144,
+          "finite": true
+        },
+        {
+          "sample": "sample_000000.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0005286335945129395,
+          "mean_abs": 0.00020638236310333014,
+          "finite": true
+        },
+        {
+          "sample": "sample_000001.npz",
+          "output": "feature",
+          "max_abs": 0.0008614324033260345,
+          "mean_abs": 0.00015281916421372443,
+          "finite": true
+        },
+        {
+          "sample": "sample_000001.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0008614324033260345,
+          "mean_abs": 0.00015281916421372443,
+          "finite": true
+        },
+        {
+          "sample": "sample_000001.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0008254647254943848,
+          "mean_abs": 0.0002548564807511866,
+          "finite": true
+        },
+        {
+          "sample": "sample_000001.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0007828474044799805,
+          "mean_abs": 0.0002699171891435981,
+          "finite": true
+        },
+        {
+          "sample": "sample_000002.npz",
+          "output": "feature",
+          "max_abs": 0.001248478889465332,
+          "mean_abs": 0.00016344667528755963,
+          "finite": true
+        },
+        {
+          "sample": "sample_000002.npz",
+          "output": "hidden_out",
+          "max_abs": 0.001248478889465332,
+          "mean_abs": 0.00016344667528755963,
+          "finite": true
+        },
+        {
+          "sample": "sample_000002.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0008502006530761719,
+          "mean_abs": 0.000302378146443516,
+          "finite": true
+        },
+        {
+          "sample": "sample_000002.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0006618499755859375,
+          "mean_abs": 0.00024837226374074817,
+          "finite": true
+        },
+        {
+          "sample": "sample_000003.npz",
+          "output": "feature",
+          "max_abs": 0.0009652078151702881,
+          "mean_abs": 0.00012553780106827617,
+          "finite": true
+        },
+        {
+          "sample": "sample_000003.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0009652078151702881,
+          "mean_abs": 0.00012553780106827617,
+          "finite": true
+        },
+        {
+          "sample": "sample_000003.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0009632110595703125,
+          "mean_abs": 0.00026180510758422315,
+          "finite": true
+        },
+        {
+          "sample": "sample_000003.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0006971731781959534,
+          "mean_abs": 0.00023946142755448818,
+          "finite": true
+        },
+        {
+          "sample": "sample_000004.npz",
+          "output": "feature",
+          "max_abs": 0.0014681816101074219,
+          "mean_abs": 0.0001390466932207346,
+          "finite": true
+        },
+        {
+          "sample": "sample_000004.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0014681816101074219,
+          "mean_abs": 0.0001390466932207346,
+          "finite": true
+        },
+        {
+          "sample": "sample_000004.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0006700307130813599,
+          "mean_abs": 0.00024498847778886557,
+          "finite": true
+        },
+        {
+          "sample": "sample_000004.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0009011030197143555,
+          "mean_abs": 0.0002987980842590332,
+          "finite": true
+        },
+        {
+          "sample": "sample_000005.npz",
+          "output": "feature",
+          "max_abs": 0.0015000402927398682,
+          "mean_abs": 0.00014745812222827226,
+          "finite": true
+        },
+        {
+          "sample": "sample_000005.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0015000402927398682,
+          "mean_abs": 0.00014745812222827226,
+          "finite": true
+        },
+        {
+          "sample": "sample_000005.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0007903305813670158,
+          "mean_abs": 0.00025994604220613837,
+          "finite": true
+        },
+        {
+          "sample": "sample_000005.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.00033593177795410156,
+          "mean_abs": 0.0001105086412280798,
+          "finite": true
+        },
+        {
+          "sample": "sample_000006.npz",
+          "output": "feature",
+          "max_abs": 0.0011567473411560059,
+          "mean_abs": 0.00015414739027619362,
+          "finite": true
+        },
+        {
+          "sample": "sample_000006.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0011567473411560059,
+          "mean_abs": 0.00015414739027619362,
+          "finite": true
+        },
+        {
+          "sample": "sample_000006.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0007194057106971741,
+          "mean_abs": 0.0002840349334292114,
+          "finite": true
+        },
+        {
+          "sample": "sample_000006.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.001232147216796875,
+          "mean_abs": 0.0002736991737037897,
+          "finite": true
+        },
+        {
+          "sample": "sample_000007.npz",
+          "output": "feature",
+          "max_abs": 0.0021752119064331055,
+          "mean_abs": 0.00015126931248232722,
+          "finite": true
+        },
+        {
+          "sample": "sample_000007.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0021752119064331055,
+          "mean_abs": 0.00015126931248232722,
+          "finite": true
+        },
+        {
+          "sample": "sample_000007.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0008502304553985596,
+          "mean_abs": 0.0002961292630061507,
+          "finite": true
+        },
+        {
+          "sample": "sample_000007.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.0008338093757629395,
+          "mean_abs": 0.00026472524041309953,
+          "finite": true
+        },
+        {
+          "sample": "sample_000008.npz",
+          "output": "feature",
+          "max_abs": 0.001330345869064331,
+          "mean_abs": 0.00012939900625497103,
+          "finite": true
+        },
+        {
+          "sample": "sample_000008.npz",
+          "output": "hidden_out",
+          "max_abs": 0.001330345869064331,
+          "mean_abs": 0.00012939900625497103,
+          "finite": true
+        },
+        {
+          "sample": "sample_000008.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0009278059005737305,
+          "mean_abs": 0.00023318460443988442,
+          "finite": true
+        },
+        {
+          "sample": "sample_000008.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.000625312328338623,
+          "mean_abs": 0.00030087283812463284,
+          "finite": true
+        },
+        {
+          "sample": "sample_000009.npz",
+          "output": "feature",
+          "max_abs": 0.0007238984107971191,
+          "mean_abs": 0.00012013585364911705,
+          "finite": true
+        },
+        {
+          "sample": "sample_000009.npz",
+          "output": "hidden_out",
+          "max_abs": 0.0007238984107971191,
+          "mean_abs": 0.00012013585364911705,
+          "finite": true
+        },
+        {
+          "sample": "sample_000009.npz",
+          "output": "depth_latent",
+          "max_abs": 0.0007997751235961914,
+          "mean_abs": 0.00021530361846089363,
+          "finite": true
+        },
+        {
+          "sample": "sample_000009.npz",
+          "output": "prop_hist_latent",
+          "max_abs": 0.000688403844833374,
+          "mean_abs": 0.00030173169216141105,
+          "finite": true
+        }
+      ],
+      "official_tolerance_pass": true,
+      "elapsed_seconds": 5.4112905925139785,
+      "sha256": "efe563d65e9aaab6626c816ba420d7e193e202259af65f64f313b0d30a436ba4"
+    }
+  },
+  "pass": true
+}

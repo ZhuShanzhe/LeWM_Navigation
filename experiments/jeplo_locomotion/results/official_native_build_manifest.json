@@ -1,0 +1,19 @@
+{
+  "source_commit": "460e2272907af053d6e66b57fec71fdbe6ca1774",
+  "sdk_commit": "63096d0ac0c5d2dec9d6e0c22cd5233410ca2f36",
+  "mujoco": "3.3.7",
+  "artifacts": {
+    "controller_output/deploy": "c428443fecae6ac16b197d37ffbee1102eb2b43a85f0faae0f6c9c7d234f28ae",
+    "controller_output/config.json": "72ad0cff830b6de4748ea4d0411ee324bcaa705c4b6bb1fbba6e422e330d4252",
+    "source/deployment/unitree_mujoco/simulate/build/unitree_mujoco": "afb15f6193b69ed8a2fa8c86d6b8dcf24ba5aef9bdf9d0d9c356f09cdf7470d8",
+    "lidar_depth_pub_sim": "72de01fe7a72052fafa2497adc907619fa0f1a646b93299d1c21e7c8ca5d8377",
+    "source/deployment/go2_deploy/deploy/src/deploy.cpp": "73d5944783ae40c59441b0288d4f9ae4dffde91905777fdad5a04c0cb6c11cf0",
+    "source/deployment/unitree_mujoco/simulate/src/main.cc": "7a64db330e07f995b5e7fb959094dd4bc634c450ff491fe5172e6fd7c81e4a0a",
+    "source/deployment/unitree_mujoco/unitree_robots/go2/go2.xml": "b1e7f1d5d293f664092a6daa292e00548625720626e3e1b5c9f3a9e683ea8da4",
+    "source/deployment/unitree_mujoco/unitree_robots/go2/scene.xml": "3be178d6daceb0397f9d5ff76fe9c96bde23d8a7f4be9474f6fdae7b413b8565"
+  },
+  "source_controller_unchanged": true,
+  "packaging": "ORT 1.22.0 wheel shared library plus matching v1.22.0 headers; TensorRT 10.9 wheel libraries; local CMake import adapter",
+  "system_footprint": "Task-local dependencies; /usr/bin/xkbcomp newly symlinked to task-local binary for Xvfb. Existing apt/dpkg lock left untouched.",
+  "paper_version_identity_confirmed": false
+}

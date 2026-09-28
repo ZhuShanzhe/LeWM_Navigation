@@ -5,7 +5,7 @@
 使用官方冻结部署权重，不训练、不微调，不连接或控制机器人。环境为三维 MuJoCo + 官方 Go2 机器人资源；模型接收 LiDAR 距离图与本体状态，不接收示意视频中的 RGB 画面。评测程序是独立同步实现，不是官方 C++ / ROS / DDS 全链路，也不是论文原始 benchmark。
 
 - 官方仓库：<https://github.com/ASIG-X/JEPLO>
-- 固定提交：`460e2272907af053d6e66b57fecc71fdbe6ca1774`。
+- 固定提交：`460e2272907af053d6e66b57fec71fdbe6ca1774`。
 - 运行环境：Python 3.11.16、MuJoCo 3.3.7、ONNX Runtime CPU 1.30.0、NumPy 2.4.6。
 - 服务器工作目录：`/root/autodl-tmp/jeplo_eval_20260928`。
 - 权重位置：`JEPLO/deployment/go2_deploy/model/pretrained`。

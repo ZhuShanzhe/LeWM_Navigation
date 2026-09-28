@@ -1,0 +1,6 @@
+{
+  "source_sha256": "c2779113a1e5e5bda809764546f47bb97dc79368b56ebf9dba76ebe6b9190fde",
+  "modified_sha256": "7a64db330e07f995b5e7fb959094dd4bc634c450ff491fe5172e6fd7c81e4a0a",
+  "scope": "only optional RGB-depth callback/include excluded; physics thread, terrain and LiDAR source unchanged",
+  "not_confirmed_paper_mujoco_version": true
+}

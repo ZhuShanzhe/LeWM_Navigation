@@ -1,0 +1,13 @@
+{
+  "workspace": "/root/autodl-tmp/jeplo_eval_20260928/official_alignment",
+  "archive": {
+    "filename": "official_alignment_evidence_20260928.tar.gz",
+    "bytes": 534335,
+    "sha256": "cf37c1bb9460bf85ba3e9f99a452d7205590d830fc2026640553a592094e0c0b",
+    "contents": "6 completed native probes, 4 setup failures, controller/simulator/sensor logs, LiDAR pose traces, available runner and collector, source diffs, component gates",
+    "excludes": "models, dependencies, executable binaries, original upstream source checkout",
+    "limitation": "Development-stage probes do not have per-run runner snapshots; binary hashes and recorded commands remain available"
+  },
+  "in_repository": "Compact summaries and reconstructed base-link trajectories under results/official_native_*",
+  "paper_benchmark_reproduction": false
+}

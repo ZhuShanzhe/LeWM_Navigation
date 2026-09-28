@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "tests": [
+    {
+      "test": "occupied_loopback_command_port",
+      "rejected_before_launch": true
+    },
+    {
+      "test": "artifact_hash_drift",
+      "rejected_before_launch": true
+    }
+  ],
+  "scope": "negative launcher preflight, no simulator or controller launched"
+}

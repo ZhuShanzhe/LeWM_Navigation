@@ -1,0 +1,151 @@
+{
+  "profile": "jeplo-official-readme-sim-20260928",
+  "source_model_gate_pass": true,
+  "checks": [
+    {
+      "name": "upstream_commit",
+      "passed": true,
+      "detail": "460e2272907af053d6e66b57fec71fdbe6ca1774"
+    },
+    {
+      "name": "tracked_source_clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "checkpoint:policy.onnx",
+      "passed": true,
+      "detail": "ffe8318312ac2e27a159115a70e3f12ddbb7444d7aa1325a22cce57223a05520"
+    },
+    {
+      "name": "checkpoint:sensor_estimator.onnx",
+      "passed": true,
+      "detail": "efe563d65e9aaab6626c816ba420d7e193e202259af65f64f313b0d30a436ba4"
+    },
+    {
+      "name": "readme_command:simulator",
+      "passed": true,
+      "detail": "unitree_mujoco --lidar"
+    },
+    {
+      "name": "readme_command:depth",
+      "passed": true,
+      "detail": "lidar_depth_pub --sim --downsample-rate 4 --fov 25x60"
+    },
+    {
+      "name": "readme_command:controller",
+      "passed": true,
+      "detail": "deploy --net lo --model-dir pretrained --ood-count-threshold 15 --raw-actions"
+    },
+    {
+      "name": "simulation_only",
+      "passed": true,
+      "detail": "loopback/domain 1"
+    },
+    {
+      "name": "recommended_action_sensor_flags",
+      "passed": true,
+      "detail": "raw, OOD 15, stride 4, cage on"
+    },
+    {
+      "name": "complete_sensor_profile",
+      "passed": true,
+      "detail": {
+        "rows": 25,
+        "columns": 60,
+        "point_downsample": 4,
+        "stacked_scans": 5,
+        "lidar_hz": 20,
+        "depth_publish_hz": 10,
+        "cage_mask": true,
+        "cage_seed": "upstream random_device; record realized mask per run"
+      }
+    },
+    {
+      "name": "controller_frequencies",
+      "passed": true,
+      "detail": {
+        "policy_hz": 50,
+        "estimator_hz": 10,
+        "raw_actions": true,
+        "ood_consecutive": 15,
+        "dds_domain": 1,
+        "interface": "lo"
+      }
+    },
+    {
+      "name": "declared_runtime_profile",
+      "passed": true,
+      "detail": "declared requirements only, NOT installed-library verification"
+    },
+    {
+      "name": "no_paper_claim",
+      "passed": true,
+      "detail": "paper protocol unresolved"
+    },
+    {
+      "name": "resource:README.md",
+      "passed": true,
+      "detail": "4c2e935d5f34c618e0000ff9227d838ab1190fe1e994184ddfa580ce402d6f37"
+    },
+    {
+      "name": "resource:deployment/go2_deploy/deploy/config.json",
+      "passed": true,
+      "detail": "72ad0cff830b6de4748ea4d0411ee324bcaa705c4b6bb1fbba6e422e330d4252"
+    },
+    {
+      "name": "resource:deployment/go2_deploy/deploy/src/deploy.cpp",
+      "passed": true,
+      "detail": "73d5944783ae40c59441b0288d4f9ae4dffde91905777fdad5a04c0cb6c11cf0"
+    },
+    {
+      "name": "resource:deployment/lidar_depth_pub/lidar_depth_pub.cpp",
+      "passed": true,
+      "detail": "a896f767674146c8c39cab7ea556e0f7788b4b0f3e088eac7cbf444e6bb781f3"
+    },
+    {
+      "name": "resource:deployment/unitree_mujoco/simulate/src/mid360_lidar.h",
+      "passed": true,
+      "detail": "ccce7adcf08d3871bcb234b497833d77e8e79f5672d73b075f6224d610174695"
+    },
+    {
+      "name": "resource:deployment/unitree_mujoco/simulate/src/terrain_switcher.h",
+      "passed": true,
+      "detail": "083f1495452590d2d06b60ef179416457eb132cd7ff63fbaa5bd610451251f85"
+    },
+    {
+      "name": "resource:deployment/unitree_mujoco/simulate/config.yaml",
+      "passed": true,
+      "detail": "aa203df570d0dc64b530e11ebf6293a7737b005cb72d393a65f75ad9022bb1ba"
+    },
+    {
+      "name": "resource:deployment/unitree_mujoco/simulate/assets/mid360.npy",
+      "passed": true,
+      "detail": "9fa0165576f0060488254f04bd647a891004d4f4faa6e9b03b69d830c117c9a3"
+    },
+    {
+      "name": "resource:deployment/unitree_mujoco/unitree_robots/go2/scene.xml",
+      "passed": true,
+      "detail": "3be178d6daceb0397f9d5ff76fe9c96bde23d8a7f4be9474f6fdae7b413b8565"
+    }
+  ],
+  "resources_sha256": {
+    "README.md": "4c2e935d5f34c618e0000ff9227d838ab1190fe1e994184ddfa580ce402d6f37",
+    "deployment/go2_deploy/deploy/config.json": "72ad0cff830b6de4748ea4d0411ee324bcaa705c4b6bb1fbba6e422e330d4252",
+    "deployment/go2_deploy/deploy/src/deploy.cpp": "73d5944783ae40c59441b0288d4f9ae4dffde91905777fdad5a04c0cb6c11cf0",
+    "deployment/lidar_depth_pub/lidar_depth_pub.cpp": "a896f767674146c8c39cab7ea556e0f7788b4b0f3e088eac7cbf444e6bb781f3",
+    "deployment/unitree_mujoco/simulate/src/mid360_lidar.h": "ccce7adcf08d3871bcb234b497833d77e8e79f5672d73b075f6224d610174695",
+    "deployment/unitree_mujoco/simulate/src/terrain_switcher.h": "083f1495452590d2d06b60ef179416457eb132cd7ff63fbaa5bd610451251f85",
+    "deployment/unitree_mujoco/simulate/config.yaml": "aa203df570d0dc64b530e11ebf6293a7737b005cb72d393a65f75ad9022bb1ba",
+    "deployment/unitree_mujoco/simulate/assets/mid360.npy": "9fa0165576f0060488254f04bd647a891004d4f4faa6e9b03b69d830c117c9a3",
+    "deployment/unitree_mujoco/unitree_robots/go2/scene.xml": "3be178d6daceb0397f9d5ff76fe9c96bde23d8a7f4be9474f6fdae7b413b8565"
+  },
+  "models_sha256": {
+    "policy.onnx": "ffe8318312ac2e27a159115a70e3f12ddbb7444d7aa1325a22cce57223a05520",
+    "sensor_estimator.onnx": "efe563d65e9aaab6626c816ba420d7e193e202259af65f64f313b0d30a436ba4"
+  },
+  "runtime_gate_pass": null,
+  "closed_loop_gate_pass": null,
+  "paper_protocol_gate_pass": false,
+  "paper_performance_reproduced": false
+}

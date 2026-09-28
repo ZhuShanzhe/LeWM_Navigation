@@ -1,0 +1,48 @@
+Terrain switcher keys: Ctrl+1 stairs, Ctrl+2 boxes, Ctrl+3 gap, Ctrl+4 overhanging boxes, Ctrl+5 pyramid stairs, Ctrl+6 bumped stairs, Ctrl+7 five-step box stairs, Ctrl+8 discrete grid, Ctrl+B toggle pre-stair boxes, Ctrl+R reposition current terrain in front of robot.
+Terrain switcher: active terrain is stairs.
+SCENE 1 timestep=0.002 base=0,0,0.445
+GEOM stair1 body=stairs type=6 world_xyz=3.125,0,0.075 halfsize=0.125,0.8,0.075 friction=3
+GEOM stair2 body=stairs type=6 world_xyz=3.375,0,0.15 halfsize=0.125,0.8,0.15 friction=3
+GEOM stair3 body=stairs type=6 world_xyz=3.625,0,0.225 halfsize=0.125,0.8,0.225 friction=3
+GEOM stair4 body=stairs type=6 world_xyz=3.875,0,0.3 halfsize=0.125,0.8,0.3 friction=3
+GEOM stair5 body=stairs type=6 world_xyz=4.125,0,0.375 halfsize=0.125,0.8,0.375 friction=3
+GEOM stair6 body=stairs type=6 world_xyz=4.375,0,0.45 halfsize=0.125,0.8,0.45 friction=3
+GEOM stair7 body=stairs type=6 world_xyz=4.625,0,0.525 halfsize=0.125,0.8,0.525 friction=3
+GEOM stair8 body=stairs type=6 world_xyz=4.875,0,0.6 halfsize=0.125,0.8,0.6 friction=3
+GEOM stair9 body=stairs type=6 world_xyz=5.125,0,0.675 halfsize=0.125,0.8,0.675 friction=3
+GEOM stair10 body=stairs type=6 world_xyz=5.375,0,0.75 halfsize=0.125,0.8,0.75 friction=3
+GEOM stair11 body=stairs type=6 world_xyz=5.625,0,0.825 halfsize=0.125,0.8,0.825 friction=3
+GEOM stair12 body=stairs type=6 world_xyz=5.875,0,0.9 halfsize=0.125,0.8,0.9 friction=3
+GEOM stair13 body=stairs type=6 world_xyz=6.125,0,0.975 halfsize=0.125,0.8,0.975 friction=3
+GEOM stair14 body=stairs type=6 world_xyz=6.375,0,1.05 halfsize=0.125,0.8,1.05 friction=3
+GEOM stair15 body=stairs type=6 world_xyz=6.625,0,1.125 halfsize=0.125,0.8,1.125 friction=3
+GEOM stair16 body=stairs type=6 world_xyz=6.875,0,1.2 halfsize=0.125,0.8,1.2 friction=3
+GEOM stair17 body=stairs type=6 world_xyz=7.125,0,1.275 halfsize=0.125,0.8,1.275 friction=3
+GEOM stair18 body=stairs type=6 world_xyz=7.375,0,1.35 halfsize=0.125,0.8,1.35 friction=3
+GEOM stair19 body=stairs type=6 world_xyz=7.625,0,1.425 halfsize=0.125,0.8,1.425 friction=3
+GEOM stair20 body=stairs type=6 world_xyz=7.875,0,1.5 halfsize=0.125,0.8,1.5 friction=3
+GEOM landing body=stairs type=6 world_xyz=8.25,0,1.5 halfsize=0.3,0.8,1.5 friction=3
+GEOM down1 body=stairs type=6 world_xyz=8.625,0,1.5 halfsize=0.125,0.8,1.5 friction=3
+GEOM down2 body=stairs type=6 world_xyz=8.875,0,1.425 halfsize=0.125,0.8,1.425 friction=3
+GEOM down3 body=stairs type=6 world_xyz=9.125,0,1.35 halfsize=0.125,0.8,1.35 friction=3
+GEOM down4 body=stairs type=6 world_xyz=9.375,0,1.275 halfsize=0.125,0.8,1.275 friction=3
+GEOM down5 body=stairs type=6 world_xyz=9.625,0,1.2 halfsize=0.125,0.8,1.2 friction=3
+GEOM down6 body=stairs type=6 world_xyz=9.875,0,1.125 halfsize=0.125,0.8,1.125 friction=3
+GEOM down7 body=stairs type=6 world_xyz=10.125,0,1.05 halfsize=0.125,0.8,1.05 friction=3
+GEOM down8 body=stairs type=6 world_xyz=10.375,0,0.975 halfsize=0.125,0.8,0.975 friction=3
+GEOM down9 body=stairs type=6 world_xyz=10.625,0,0.9 halfsize=0.125,0.8,0.9 friction=3
+GEOM down10 body=stairs type=6 world_xyz=10.875,0,0.825 halfsize=0.125,0.8,0.825 friction=3
+GEOM down11 body=stairs type=6 world_xyz=11.125,0,0.75 halfsize=0.125,0.8,0.75 friction=3
+GEOM down12 body=stairs type=6 world_xyz=11.375,0,0.675 halfsize=0.125,0.8,0.675 friction=3
+GEOM down13 body=stairs type=6 world_xyz=11.625,0,0.6 halfsize=0.125,0.8,0.6 friction=3
+GEOM down14 body=stairs type=6 world_xyz=11.875,0,0.525 halfsize=0.125,0.8,0.525 friction=3
+GEOM down15 body=stairs type=6 world_xyz=12.125,0,0.45 halfsize=0.125,0.8,0.45 friction=3
+GEOM down16 body=stairs type=6 world_xyz=12.375,0,0.375 halfsize=0.125,0.8,0.375 friction=3
+GEOM down17 body=stairs type=6 world_xyz=12.625,0,0.3 halfsize=0.125,0.8,0.3 friction=3
+GEOM down18 body=stairs type=6 world_xyz=12.875,0,0.225 halfsize=0.125,0.8,0.225 friction=3
+GEOM down19 body=stairs type=6 world_xyz=13.125,0,0.15 halfsize=0.125,0.8,0.15 friction=3
+GEOM down20 body=stairs type=6 world_xyz=13.375,0,0.075 halfsize=0.125,0.8,0.075 friction=3
+Terrain switcher: active terrain is boxes.
+SCENE 2 timestep=0.002 base=0,0,0.445
+GEOM box1 body=boxes type=6 world_xyz=3,0,-0.1 halfsize=0.75,0.75,0.4 friction=1
+GEOM box2 body=boxes type=6 world_xyz=4.5,0,0.3 halfsize=0.75,0.75,0.4 friction=1

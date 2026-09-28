@@ -1,0 +1,35 @@
+{
+  "tests": 7,
+  "pass": true,
+  "cases": [
+    {
+      "case": "wrong_commit",
+      "rejected": true
+    },
+    {
+      "case": "wrong_checkpoint",
+      "rejected": true
+    },
+    {
+      "case": "wrong_point_stride",
+      "rejected": true
+    },
+    {
+      "case": "wrong_action_mode",
+      "rejected": true
+    },
+    {
+      "case": "real_robot_network",
+      "rejected": true
+    },
+    {
+      "case": "unjustified_paper_claim",
+      "rejected": true
+    },
+    {
+      "case": "wrong_command",
+      "rejected": true
+    }
+  ],
+  "scope": "source/model gate fail-closed checks; not runtime validation"
+}
