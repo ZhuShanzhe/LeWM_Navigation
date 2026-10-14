@@ -1,0 +1,16 @@
+{
+  "dataset": "gibson_place_nav_v1",
+  "episodes": 198282,
+  "scenes": 86,
+  "goal_images": 6949,
+  "split_task_counts": {
+    "test/place_image_nav": 7813,
+    "train/place_image_nav": 179797,
+    "val/place_image_nav": 10672
+  },
+  "issues": [],
+  "issue_count": 0,
+  "metadata_image_audit_passed": true,
+  "geometric_validation": "Each episode was generated from an actual finite Habitat path; this audit does not replay all paths.",
+  "not_model_performance": true
+}

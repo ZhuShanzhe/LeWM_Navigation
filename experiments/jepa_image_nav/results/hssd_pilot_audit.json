@@ -1,0 +1,33 @@
+{
+  "dataset": "hssd_pilot",
+  "episodes": 60,
+  "scenes": 1,
+  "goal_images": 11,
+  "split_task_counts": {
+    "debug_only/instance_image_nav": 40,
+    "debug_only/place_image_nav": 20
+  },
+  "stratification_counts": {
+    "debug_only/instance_image_nav/distance/long": 9,
+    "debug_only/instance_image_nav/detour/direct": 36,
+    "debug_only/instance_image_nav/start_goal_yaw/45-90": 13,
+    "debug_only/instance_image_nav/same_category_distractors/7": 40,
+    "debug_only/instance_image_nav/distance/short": 12,
+    "debug_only/instance_image_nav/start_goal_yaw/0-45": 9,
+    "debug_only/instance_image_nav/start_goal_yaw/90-180": 18,
+    "debug_only/instance_image_nav/distance/medium": 19,
+    "debug_only/instance_image_nav/detour/detour": 4,
+    "debug_only/place_image_nav/distance/medium": 12,
+    "debug_only/place_image_nav/detour/direct": 14,
+    "debug_only/place_image_nav/start_goal_yaw/45-90": 8,
+    "debug_only/place_image_nav/start_goal_yaw/0-45": 6,
+    "debug_only/place_image_nav/start_goal_yaw/90-180": 6,
+    "debug_only/place_image_nav/detour/detour": 6,
+    "debug_only/place_image_nav/distance/short": 8
+  },
+  "issues": [],
+  "issue_count": 0,
+  "metadata_image_audit_passed": true,
+  "geometric_validation": "Each episode was generated from an actual finite Habitat path; this audit does not replay all paths.",
+  "not_model_performance": true
+}

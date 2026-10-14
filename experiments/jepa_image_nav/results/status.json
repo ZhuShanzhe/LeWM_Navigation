@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-14",
+  "dataset_dependencies": ["Gibson Habitat", "HSSD"],
+  "hm3d_dependency": false,
+  "gibson_scene_download": {"bytes": 10833075327, "scenes": 492, "zip_crc_passed": true},
+  "gibson_place_nav": {"status": "generated_and_metadata_image_audited", "scenes": 86, "episodes": 198282, "train_episodes": 179797, "val_episodes": 10672, "local_test_episodes": 7813, "goal_images": 6949, "expert_perturbed_trajectories": 310, "expert_trajectory_goal_success": 310},
+  "hssd_pilot": {"status": "debug_only_passed", "scenes": 1, "place_episodes": 20, "instance_episodes": 40, "target_instances": 3},
+  "hssd_formal": {"status": "asset_download_running_then_generation_queued", "official_rigid_scene_configs": 168, "official_train_scenes": 125, "official_val_scenes": 43, "formal_episode_counts": null},
+  "research_report": {"pages": 16, "works": 22, "clickable_links": 40},
+  "model_evaluation": "not performed in this dataset-construction stage",
+  "server_root": "/root/autodl-tmp/jepa_vln_data_20261014"
+}

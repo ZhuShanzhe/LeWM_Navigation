@@ -1,0 +1,10 @@
+{
+  "processed_scenes": 86,
+  "episodes": 198282,
+  "split_counts": {
+    "train": 179797,
+    "val": 10672,
+    "test": 7813
+  },
+  "failed_scenes": 0
+}
