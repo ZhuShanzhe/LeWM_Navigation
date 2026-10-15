@@ -13,15 +13,23 @@
 | nav_complete_hssd.py | 资源完整后接续正式生成与验收，最多等待24小时。 |
 | nav_audit.py | 验证回合唯一性、场景隔离、元数据、目标图像和实例掩码。 |
 | nav_metrics.py | 成功、SPL、SoftSPL、碰撞率、错误实例停止率计算及基本单元检查。 |
+| nav_material_compat.py | 建立独立的单材质兼容副本，保留原始固定版本并记录二进制校验。 |
+| nav_finish_hssd.py | 按固定划分在独立子进程中恢复未完成场景，校验已完成场景统计未被覆盖。 |
+| nav_repair_goal.py | 在相同相机位姿输出无损PNG，仅替换20个目标文件引用，保留原始回合包。 |
+| nav_acceptance.py | 每回合重新计算路径，检查所有实例多视角图像、掩码和接近视点的实际可见性。 |
+| nav_aux_audit.py | 固定全部原始资产的本地SHA-256，检查所有专家轨迹帧和动作状态转移。 |
+| nav_freeze_release.py | 在全部验收通过后冻结协议和分割，生成只包含活动数据的分割感知SHA-256索引。 |
 
 ## 构建顺序
 
 先下载场景，完成压缩包大小／完整性检查并解压。环境准备完成后运行`nav_probe.py`，再运行`nav_build.py --pilot`和`nav_audit.py`检查调试数据。正式数据运行`nav_build.py`与`nav_build_gibson.py`，然后对每个输出目录执行`nav_audit.py DATASET_DIRECTORY`。
 
+HSSD正式场景需先执行`nav_material_compat.py`，再通过`nav_build.py --assets /root/autodl-tmp/jepa_vln_data_20261014/raw/hssd-hab-compat`指定兼容场景配置。`nav_acceptance.py`和`nav_aux_audit.py`分别输出几何／实例检查与资产／轨迹检查；两项都必须通过才能冻结数据版本。
+
 `--force`只用于明确重新生成该脚本的数据；正常运行按已完成场景统计恢复。下载、生成日志保存在服务器，不写入仓库。
 
 ## 验收范围
 
-生成器在真实Habitat导航网格上逐回合验证路径；保存后的验收检查元数据、照片与场景隔离，不重新回放全部路径，也不代替策略闭环评测。指标函数要求调用者提供实际STOP、执行路径、最终距离和目标可见性，不能用生成器的专家结果冒充模型性能。
+基础脚本`nav_audit.py`检查元数据、照片与场景隔离。`nav_acceptance.py`进一步在重新加载的场景中逐回合计算最短路径，并检查实例接近视点可见性；这仍不等于逐回合执行完整机器人动作，也不代替学习策略闭环评测。指标函数要求调用者提供实际STOP、执行路径、最终距离和目标可见性，不能用生成器的专家结果冒充模型性能。
 
 角度差分类表示起点与目标的朝向差，不是已经实测的图像重叠比例。物体类别优先采用作者资产表main_category，缺失时才使用严格名称规则，并记录来源；实例身份以场景与物体handle标识。旧资产配置的semantic_id不能直接套用新词表，运行时重新分配唯一实例ID用于掩码渲染。

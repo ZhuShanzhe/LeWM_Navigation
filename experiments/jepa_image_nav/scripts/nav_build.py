@@ -28,6 +28,9 @@ def photo(sim,p,yaw,target,out,sid):
         if mask.mean()<.025: return None
         Image.fromarray(mask.astype('uint8')*255).save(out.with_suffix('.mask.png'))
     Image.fromarray(obs['rgb'][:,:,:3]).save(out,quality=90)
+    # Quality is measured on the saved observation, not only the pre-JPEG RGB.
+    with Image.open(out) as encoded:
+        if np.asarray(encoded.convert('RGB')).std()<5:return None
     return {'position':list(map(float,p)),'yaw':float(yaw),'pitch':float(pitch),'height':1.25,'hfov':90,'resolution':[256,256]}
 def pathlength(sim,p,q):
     req=habitat_sim.ShortestPath();req.requested_start=np.array(p,dtype=np.float32);req.requested_end=np.array(q,dtype=np.float32)
@@ -163,8 +166,8 @@ def buildscene(scene,split,assets,out,pilot=False):
         dump(out/'scene_statistics'/f'{scene}.json',result);print(json.dumps(result),flush=True)
     finally:sim.close()
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--pilot',action='store_true');p.add_argument('--force',action='store_true');args=p.parse_args()
-    assets=ROOT/('raw/hssd-pilot' if args.pilot else 'raw/hssd-hab');out=ROOT/'datasets'/('hssd_pilot' if args.pilot else 'hssd_image_nav_v1')
+    p=argparse.ArgumentParser();p.add_argument('--pilot',action='store_true');p.add_argument('--force',action='store_true');p.add_argument('--assets',type=Path);args=p.parse_args()
+    assets=args.assets or ROOT/('raw/hssd-pilot' if args.pilot else 'raw/hssd-hab');out=ROOT/'datasets'/('hssd_pilot' if args.pilot else 'hssd_image_nav_v1')
     scenes=sorted(x.name.split('.scene_instance')[0] for x in (assets/'scenes').glob('*.json'))
     if args.pilot:splits={x:'debug_only' for x in scenes}
     else:

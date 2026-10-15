@@ -1,0 +1,26 @@
+{
+  "processed_scenes": 168,
+  "failed_scenes": 0,
+  "place_episodes": 237760,
+  "instance_episodes": 228176,
+  "target_instances": 3766,
+  "split_task_counts": {
+    "train": {
+      "scenes": 110,
+      "place": 205004,
+      "instance": 181357
+    },
+    "val": {
+      "scenes": 43,
+      "place": 24406,
+      "instance": 35620
+    },
+    "test": {
+      "scenes": 15,
+      "place": 8350,
+      "instance": 11199
+    }
+  },
+  "material_compatibility_manifest": "material_compatibility.json",
+  "pilot": false
+}

@@ -1,11 +1,13 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "dataset_dependencies": ["Gibson Habitat", "HSSD"],
   "hm3d_dependency": false,
   "gibson_scene_download": {"bytes": 10833075327, "scenes": 492, "zip_crc_passed": true},
   "gibson_place_nav": {"status": "generated_and_metadata_image_audited", "scenes": 86, "episodes": 198282, "train_episodes": 179797, "val_episodes": 10672, "local_test_episodes": 7813, "goal_images": 6949, "expert_perturbed_trajectories": 310, "expert_trajectory_goal_success": 310},
   "hssd_pilot": {"status": "debug_only_passed", "scenes": 1, "place_episodes": 20, "instance_episodes": 40, "target_instances": 3},
-  "hssd_formal": {"status": "asset_download_running_then_generation_queued", "official_rigid_scene_configs": 168, "official_train_scenes": 125, "official_val_scenes": 43, "formal_episode_counts": null},
+  "hssd_formal": {"status": "all_scenes_generated_full_acceptance_passed", "derived_revision": "20261015-compat1", "scenes": 168, "train_scenes": 110, "val_scenes": 43, "local_test_scenes": 15, "place_episodes": 237760, "instance_episodes": 228176, "target_instances": 3766, "train_place": 205004, "train_instance": 181357, "val_place": 24406, "val_instance": 35620, "test_place": 8350, "test_instance": 11199},
+  "full_acceptance": {"passed": true, "scenes": 254, "episodes_geometrically_rechecked": 664218, "shortest_path_queries": 3226414, "live_instance_approach_views_checked": 48937, "declared_instance_images_checked": 72122, "trajectory_count": 860, "trajectory_frames_checked": 43779},
+  "rendering_compatibility": {"modified_material_assets": 1, "affected_scene": "108736611_177263226", "original_assets_preserved": true, "pixel_equivalent_to_original": false},
   "research_report": {"pages": 16, "works": 22, "clickable_links": 40},
   "model_evaluation": "not performed in this dataset-construction stage",
   "server_root": "/root/autodl-tmp/jepa_vln_data_20261014"

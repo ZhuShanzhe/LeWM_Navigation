@@ -1,0 +1,14 @@
+{
+  "source_revision": "4369cb9876214c7fbebcf552eb532380e4d287e4",
+  "asset": "objects/x/xxxx21d2f3c8xedd4x4619x90b0x62bad36c41cb.glb",
+  "original_sha256": "e3af95747a8a5c5ed0a89db082c92a37381f71bfd5447dce40d56870785aed3e",
+  "derived_sha256": "e9b234cce4d2de4a6c97e2ce20ba9c0e32d196d23ff6d21310c73df155bd853a",
+  "change": "Set metallicRoughnessTexture KHR_texture_transform to the existing shared base-color/normal transform.",
+  "appearance_limit": "Metallic/roughness sampling coordinates change. This is an explicit compatibility revision, NOT pixel-equivalent to the original PBR material.",
+  "geometry_buffers_images_collision_unchanged": true,
+  "original_source_unchanged": true,
+  "overlay": "/root/autodl-tmp/jepa_vln_data_20261014/raw/hssd-hab-compat",
+  "referencing_scenes": [
+    "108736611_177263226"
+  ]
+}

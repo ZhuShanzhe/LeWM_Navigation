@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-15",
+  "derived_revision": "20261015-compat1",
+  "all_acceptance_checks_passed": true,
+  "full_acceptance_sha256": "87955e4e62f615e00bfc95fd86587c6843e8bdfb6e5243fb1a7323165395cfd3",
+  "source_and_trajectory_audit_sha256": "03d00b5f8c8fe8f6f2e211738adfef06f02df5b3eae7dce19ddfaa6c25cb59f3",
+  "original_source_checksum_manifest_sha256": "4f2fb25b92503533b17daf6d9d281336d8d18b92efca3e21d0898b8a62d0560f",
+  "datasets": {
+    "gibson_place_nav_v1": {
+      "active_files": 22976,
+      "active_file_index": "/root/autodl-tmp/jepa_vln_data_20261014/manifests/gibson_place_nav_v1_active_files.csv",
+      "active_file_index_sha256": "5785dc024e6868101c42fc83a2098f8a62254137585ff3dba63e74d62371edeb",
+      "split_manifest_sha256": "c275410ed2b849696a946aefd8d0f5562667811d05f57060b37f01763c67a0df",
+      "protocol_sha256": "bb2efe96a6d572fa45c24eb9bfaba00f4bd08f3a66dc6ebcd9d163434688f354"
+    },
+    "hssd_image_nav_v1": {
+      "active_files": 179770,
+      "active_file_index": "/root/autodl-tmp/jepa_vln_data_20261014/manifests/hssd_image_nav_v1_active_files.csv",
+      "active_file_index_sha256": "c032072d8c64fc4d21c09c903d779b8c8736db93852d5e898f9ff1d579300a7c",
+      "split_manifest_sha256": "0c165770828b19eee28702edb7d5530b898e7791ac01b2e07510378a6fec0481",
+      "protocol_sha256": "7b4a77bfa9fbcf38683209d05ae5646142a1b605f5c726072433b69b394a9260"
+    }
+  }
+}

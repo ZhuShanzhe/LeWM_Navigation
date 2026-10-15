@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "source_files_checked": 56606,
+  "source_bytes": 11009580745,
+  "source_missing_or_empty": [],
+  "source_sha256_scope": "Local freeze of all pinned-source files; not an independent upstream checksum comparison.",
+  "trajectories_checked": 860,
+  "frames_checked": 43779,
+  "datasets": [
+    {
+      "dataset": "gibson_place_nav_v1",
+      "expected_trajectories": 310,
+      "actual_trajectories": 310,
+      "accepted_successful": 310,
+      "excluded_unsuccessful": 0
+    },
+    {
+      "dataset": "hssd_image_nav_v1",
+      "expected_trajectories": 550,
+      "actual_trajectories": 550,
+      "accepted_successful": 550,
+      "excluded_unsuccessful": 0
+    }
+  ],
+  "issues": [],
+  "issue_count": 0
+}
