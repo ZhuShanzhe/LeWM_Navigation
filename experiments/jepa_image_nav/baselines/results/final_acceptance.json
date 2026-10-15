@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "captured_at": "2026-10-16T00:49:16.904498+08:00",
+  "checks": [
+    {
+      "run": "fgprompt_gibson_val_place",
+      "episodes": 280,
+      "scenes": 14,
+      "trace_steps_verified": 41148,
+      "SR": 0.8214285714285714,
+      "SPL": 0.5542856622489347,
+      "passed": true
+    },
+    {
+      "run": "fgprompt_hssd_test_place",
+      "episodes": 300,
+      "scenes": 15,
+      "trace_steps_verified": 41140,
+      "SR": 0.22,
+      "SPL": 0.14349012689471358,
+      "passed": true
+    },
+    {
+      "run": "fgprompt_hssd_test_instance",
+      "episodes": 300,
+      "scenes": 15,
+      "trace_steps_verified": 82829,
+      "SR": 0.03,
+      "SPL": 0.011656387872547838,
+      "passed": true
+    },
+    {
+      "run": "debit_native10_gibson_val_place",
+      "episodes": 280,
+      "scenes": 14,
+      "trace_steps_verified": 63439,
+      "SR": 0.6642857142857143,
+      "SPL": 0.46387616809690696,
+      "passed": true
+    },
+    {
+      "run": "debit_native10_hssd_test_place",
+      "episodes": 300,
+      "scenes": 15,
+      "trace_steps_verified": 134545,
+      "SR": 0.09666666666666666,
+      "SPL": 0.05851441203759065,
+      "passed": true
+    },
+    {
+      "run": "debit_native10_hssd_test_instance",
+      "episodes": 300,
+      "scenes": 15,
+      "trace_steps_verified": 148894,
+      "SR": 0.0033333333333333335,
+      "SPL": 0.0020618494279669533,
+      "passed": true
+    },
+    {
+      "run": "debit_gibson_val_place",
+      "episodes": 280,
+      "scenes": 14,
+      "trace_steps_verified": 114706,
+      "SR": 0.21428571428571427,
+      "SPL": 0.14542686978030817,
+      "passed": true
+    },
+    {
+      "run": "lg_frontier_hssd_test_instance",
+      "episodes": 300,
+      "scenes": 15,
+      "trace_steps_verified": 143002,
+      "SR": 0.006666666666666667,
+      "SPL": 0.004677799241086096,
+      "passed": true
+    }
+  ],
+  "RGB_primary_model_episode_executions": 1760,
+  "interface_diagnostic_executions": 280,
+  "RGBD_auxiliary_executions": 300,
+  "frozen_unique_task_episodes": 880,
+  "visibility_instances_verified": 319,
+  "isolated_latency_complete": true,
+  "goal_camera_extrinsics_sidecar_scenes": 168,
+  "goal_camera_extrinsics_sidecar_images": 79036,
+  "limitations": [
+    "Specialized IIN full system not reproduced; ImageNav transfer and custom RGBD matcher are not dedicated IIN state of the art.",
+    "Exclusive latency replay is not equal-time-budget navigation.",
+    "Raw dataset acceptance is separate from policy competence."
+  ]
+}

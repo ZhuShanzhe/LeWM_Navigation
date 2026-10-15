@@ -1,0 +1,94 @@
+{
+  "post_hoc_diagnostic": true,
+  "primary_panel_unchanged": true,
+  "scope": "Stored horizontal approaches only; unverified does not prove unreachable. Selected target asset overlap only, not all scene assets. No slice replaces primary score.",
+  "runs": [
+    {
+      "run": "fgprompt_hssd_test_instance",
+      "groups": {
+        "yaw_stored_approach_verified": {
+          "episodes": 265,
+          "successes": 9,
+          "SR": 0.033962264150943396,
+          "SPL": 0.013195910799110758
+        },
+        "asset_not_seen_in_selected_train_targets": {
+          "episodes": 183,
+          "successes": 4,
+          "SR": 0.02185792349726776,
+          "SPL": 0.006576326022587174
+        },
+        "asset_seen_in_selected_train_targets": {
+          "episodes": 117,
+          "successes": 5,
+          "SR": 0.042735042735042736,
+          "SPL": 0.019602125637870924
+        },
+        "yaw_stored_approach_unverified": {
+          "episodes": 35,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        }
+      }
+    },
+    {
+      "run": "debit_native10_hssd_test_instance",
+      "groups": {
+        "yaw_stored_approach_verified": {
+          "episodes": 265,
+          "successes": 1,
+          "SR": 0.0037735849056603774,
+          "SPL": 0.0023341691637361736
+        },
+        "asset_not_seen_in_selected_train_targets": {
+          "episodes": 183,
+          "successes": 1,
+          "SR": 0.00546448087431694,
+          "SPL": 0.003380081029454022
+        },
+        "asset_seen_in_selected_train_targets": {
+          "episodes": 117,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "yaw_stored_approach_unverified": {
+          "episodes": 35,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        }
+      }
+    },
+    {
+      "run": "lg_frontier_hssd_test_instance",
+      "groups": {
+        "yaw_stored_approach_verified": {
+          "episodes": 265,
+          "successes": 2,
+          "SR": 0.007547169811320755,
+          "SPL": 0.0052956217823616186
+        },
+        "asset_not_seen_in_selected_train_targets": {
+          "episodes": 183,
+          "successes": 1,
+          "SR": 0.00546448087431694,
+          "SPL": 0.003385961748224792
+        },
+        "asset_seen_in_selected_train_targets": {
+          "episodes": 117,
+          "successes": 1,
+          "SR": 0.008547008547008548,
+          "SPL": 0.006698365576074291
+        },
+        "yaw_stored_approach_unverified": {
+          "episodes": 35,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        }
+      }
+    }
+  ]
+}

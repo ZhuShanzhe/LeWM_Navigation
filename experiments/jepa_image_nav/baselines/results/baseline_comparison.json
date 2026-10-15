@@ -157,6 +157,218 @@
     "strict_pose_success_rate": 0.014285714285714285
   },
   {
+    "run": "debit_native10_hssd_test_instance",
+    "model": "debit",
+    "panel": "hssd_image_nav_v1_test_instance_20perscene.jsonl",
+    "panel_sha256": "cf5442b42e5045dc07dccb2cd1a400da052d107dcd63f1849a73733ce574deb1",
+    "complete_frozen_panel": true,
+    "episodes": 300,
+    "expected_episodes": 300,
+    "scenes": 15,
+    "turn_deg": 10.0,
+    "max_steps": 500,
+    "SR": 0.0033333333333333335,
+    "SPL": 0.0020618494279669533,
+    "SoftSPL": 0.09423685909013654,
+    "SR_scene_bootstrap_95": [
+      0.0,
+      0.010000000000000002
+    ],
+    "SPL_scene_bootstrap_95": [
+      0.0,
+      0.00618554828390086
+    ],
+    "inference_ms_mean_during_concurrent_runs": 19.188112585438645,
+    "collision_rate_mean_per_episode_forward_attempts": 0.3369693722905885,
+    "timeout_rate": 0.9866666666666667,
+    "stop_rate": 0.013333333333333334,
+    "reached_success_region_rate": 0.05,
+    "outcomes": {
+      "search_or_localization_timeout": 193,
+      "collision_dominated_timeout": 90,
+      "success": 1,
+      "reached_success_region_but_failed_to_stop": 14,
+      "premature_stop": 2
+    },
+    "not_policy_causal_diagnosis": true,
+    "rows_sha256": "36133b9742b0ccc1caa84aba5780df7592a422cb6cf853b299a76b72b85d0f9f",
+    "by_distance_bin": {
+      "extra": {
+        "episodes": 83,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.0
+      },
+      "long": {
+        "episodes": 91,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.054945054945054944
+      },
+      "medium": {
+        "episodes": 65,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.07692307692307693
+      },
+      "short": {
+        "episodes": 61,
+        "SR": 0.01639344262295082,
+        "SPL": 0.010140243088362066,
+        "reached_success_region_rate": 0.08196721311475409
+      }
+    },
+    "by_detour_bin": {
+      "detour": {
+        "episodes": 150,
+        "SR": 0.006666666666666667,
+        "SPL": 0.0041236988559339065,
+        "reached_success_region_rate": 0.02666666666666667
+      },
+      "direct": {
+        "episodes": 150,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.07333333333333333
+      }
+    },
+    "by_category": {
+      "bed": {
+        "episodes": 22,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.0
+      },
+      "chair": {
+        "episodes": 156,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.02564102564102564
+      },
+      "couch": {
+        "episodes": 17,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.11764705882352941
+      },
+      "plant": {
+        "episodes": 83,
+        "SR": 0.012048192771084338,
+        "SPL": 0.007452467811928747,
+        "reached_success_region_rate": 0.07228915662650602
+      },
+      "toilet": {
+        "episodes": 10,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.1
+      },
+      "tv": {
+        "episodes": 12,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.16666666666666666
+      }
+    },
+    "target_visible_ever_rate": 0.09666666666666666,
+    "wrong_instance_stop_rate_selected_instances_only": 0.0,
+    "other_instance_region_candidate_at_stop_rate_selected_instances_only": 0.0,
+    "wrong_instance_stop_semantics": "Unsuccessful stops only; another selected instance region may overlap a correct target region. The unfiltered candidate rate is separate; raw episode flags remain unchanged.",
+    "by_distractor_count": {
+      "0": {
+        "episodes": 19,
+        "SR": 0.0
+      },
+      "1-3": {
+        "episodes": 29,
+        "SR": 0.0
+      },
+      "4+": {
+        "episodes": 252,
+        "SR": 0.003968253968253968
+      }
+    }
+  },
+  {
+    "run": "debit_native10_hssd_test_place",
+    "model": "debit",
+    "panel": "hssd_image_nav_v1_test_place_20perscene.jsonl",
+    "panel_sha256": "2d42b526b3159274e2e6adbab3619bca6025061547dd69ddd7a96a0f6d437869",
+    "complete_frozen_panel": true,
+    "episodes": 300,
+    "expected_episodes": 300,
+    "scenes": 15,
+    "turn_deg": 10.0,
+    "max_steps": 500,
+    "SR": 0.09666666666666666,
+    "SPL": 0.05851441203759065,
+    "SoftSPL": 0.11656649699880868,
+    "SR_scene_bootstrap_95": [
+      0.060000000000000005,
+      0.13333333333333333
+    ],
+    "SPL_scene_bootstrap_95": [
+      0.03448788779921579,
+      0.08351452000912715
+    ],
+    "inference_ms_mean_during_concurrent_runs": 19.43508407657604,
+    "collision_rate_mean_per_episode_forward_attempts": 0.3346419455098857,
+    "timeout_rate": 0.8566666666666667,
+    "stop_rate": 0.14333333333333334,
+    "reached_success_region_rate": 0.16666666666666666,
+    "outcomes": {
+      "search_or_localization_timeout": 160,
+      "premature_stop": 12,
+      "collision_dominated_timeout": 78,
+      "success": 29,
+      "reached_success_region_but_failed_to_stop": 21
+    },
+    "not_policy_causal_diagnosis": true,
+    "rows_sha256": "34a55bc750e8d1cd7217126c843b7c1ab9142436244e46db0e28f2019eee550f",
+    "by_distance_bin": {
+      "extra": {
+        "episodes": 85,
+        "SR": 0.023529411764705882,
+        "SPL": 0.016399307963109396,
+        "reached_success_region_rate": 0.03529411764705882
+      },
+      "long": {
+        "episodes": 90,
+        "SR": 0.044444444444444446,
+        "SPL": 0.022834304495668246,
+        "reached_success_region_rate": 0.07777777777777778
+      },
+      "medium": {
+        "episodes": 73,
+        "SR": 0.1917808219178082,
+        "SPL": 0.13332469753399645,
+        "reached_success_region_rate": 0.3150684931506849
+      },
+      "short": {
+        "episodes": 52,
+        "SR": 0.17307692307692307,
+        "SPL": 0.08408830980425029,
+        "reached_success_region_rate": 0.3269230769230769
+      }
+    },
+    "by_detour_bin": {
+      "detour": {
+        "episodes": 148,
+        "SR": 0.07432432432432433,
+        "SPL": 0.049328754156042626,
+        "reached_success_region_rate": 0.11486486486486487
+      },
+      "direct": {
+        "episodes": 152,
+        "SR": 0.11842105263157894,
+        "SPL": 0.06745834208015056,
+        "reached_success_region_rate": 0.21710526315789475
+      }
+    },
+    "by_category": {},
+    "strict_pose_success_rate": 0.006666666666666667
+  },
+  {
     "run": "fgprompt_gibson_val_place",
     "model": "fgprompt",
     "panel": "gibson_place_nav_v1_val_place_20perscene.jsonl",
@@ -271,7 +483,7 @@
       "wrong_instance_stop": 13
     },
     "not_policy_causal_diagnosis": true,
-    "rows_sha256": "0178760637e8791c4fd3d3b53fc766dad044f80920546199a5a141690af7002e",
+    "rows_sha256": "2f9208fdc777f391133d0f7c59f00608ef6a56161bb1ff6cc30ab5d2136218b6",
     "by_distance_bin": {
       "extra": {
         "episodes": 83,
@@ -352,6 +564,8 @@
     },
     "target_visible_ever_rate": 0.22666666666666666,
     "wrong_instance_stop_rate_selected_instances_only": 0.043333333333333335,
+    "other_instance_region_candidate_at_stop_rate_selected_instances_only": 0.043333333333333335,
+    "wrong_instance_stop_semantics": "Unsuccessful stops only; another selected instance region may overlap a correct target region. The unfiltered candidate rate is separate; raw episode flags remain unchanged.",
     "by_distractor_count": {
       "0": {
         "episodes": 19,
@@ -451,116 +665,132 @@
     "model": "lg_frontier",
     "panel": "hssd_image_nav_v1_test_instance_20perscene.jsonl",
     "panel_sha256": "cf5442b42e5045dc07dccb2cd1a400da052d107dcd63f1849a73733ce574deb1",
-    "complete_frozen_panel": false,
-    "episodes": 40,
+    "complete_frozen_panel": true,
+    "episodes": 300,
     "expected_episodes": 300,
-    "scenes": 2,
+    "scenes": 15,
     "turn_deg": 30,
     "max_steps": 500,
-    "SR": 0.0,
-    "SPL": 0.0,
-    "SoftSPL": 0.13927981564184325,
+    "SR": 0.006666666666666667,
+    "SPL": 0.004677799241086096,
+    "SoftSPL": 0.14895414126627243,
     "SR_scene_bootstrap_95": [
       0.0,
-      0.0
+      0.016666666666666666
     ],
     "SPL_scene_bootstrap_95": [
       0.0,
-      0.0
+      0.011421035148589316
     ],
-    "inference_ms_mean_during_concurrent_runs": 21.46749105620406,
-    "collision_rate_mean_per_episode_forward_attempts": 0.24730416014188825,
-    "timeout_rate": 0.975,
-    "stop_rate": 0.025,
-    "reached_success_region_rate": 0.3,
+    "inference_ms_mean_during_concurrent_runs": 22.280907877706817,
+    "collision_rate_mean_per_episode_forward_attempts": 0.31381912215983854,
+    "timeout_rate": 0.94,
+    "stop_rate": 0.06,
+    "reached_success_region_rate": 0.28,
     "outcomes": {
-      "search_or_localization_timeout": 23,
-      "reached_success_region_but_failed_to_stop": 12,
-      "collision_dominated_timeout": 4,
-      "premature_stop": 1
+      "search_or_localization_timeout": 144,
+      "reached_success_region_but_failed_to_stop": 82,
+      "collision_dominated_timeout": 59,
+      "premature_stop": 10,
+      "success": 2,
+      "wrong_instance_stop": 3
     },
     "not_policy_causal_diagnosis": true,
-    "rows_sha256": "2a709d23dbfda09e95a7e0c6b27e69e57cc27c425cf42b329caa2a8b033409a7",
+    "rows_sha256": "f9cb195389b7726761f2adf2eda1912079d67a2f2803b7ad655d9d8082436829",
     "by_distance_bin": {
       "extra": {
-        "episodes": 12,
-        "SR": 0.0,
-        "SPL": 0.0,
-        "reached_success_region_rate": 0.16666666666666666
+        "episodes": 83,
+        "SR": 0.012048192771084338,
+        "SPL": 0.009442274366273398,
+        "reached_success_region_rate": 0.12048192771084337
       },
       "long": {
-        "episodes": 12,
-        "SR": 0.0,
-        "SPL": 0.0,
-        "reached_success_region_rate": 0.4166666666666667
+        "episodes": 91,
+        "SR": 0.01098901098901099,
+        "SPL": 0.006809131867309197,
+        "reached_success_region_rate": 0.3076923076923077
       },
       "medium": {
-        "episodes": 9,
+        "episodes": 65,
         "SR": 0.0,
         "SPL": 0.0,
-        "reached_success_region_rate": 0.3333333333333333
+        "reached_success_region_rate": 0.4153846153846154
       },
       "short": {
-        "episodes": 7,
+        "episodes": 61,
         "SR": 0.0,
         "SPL": 0.0,
-        "reached_success_region_rate": 0.2857142857142857
+        "reached_success_region_rate": 0.3114754098360656
       }
     },
     "by_detour_bin": {
       "detour": {
-        "episodes": 20,
-        "SR": 0.0,
-        "SPL": 0.0,
-        "reached_success_region_rate": 0.15
+        "episodes": 150,
+        "SR": 0.013333333333333334,
+        "SPL": 0.009355598482172192,
+        "reached_success_region_rate": 0.26666666666666666
       },
       "direct": {
-        "episodes": 20,
+        "episodes": 150,
         "SR": 0.0,
         "SPL": 0.0,
-        "reached_success_region_rate": 0.45
+        "reached_success_region_rate": 0.29333333333333333
       }
     },
     "by_category": {
-      "chair": {
-        "episodes": 13,
+      "bed": {
+        "episodes": 22,
         "SR": 0.0,
         "SPL": 0.0,
-        "reached_success_region_rate": 0.46153846153846156
+        "reached_success_region_rate": 0.3181818181818182
+      },
+      "chair": {
+        "episodes": 156,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.28846153846153844
       },
       "couch": {
-        "episodes": 4,
+        "episodes": 17,
         "SR": 0.0,
         "SPL": 0.0,
-        "reached_success_region_rate": 0.5
+        "reached_success_region_rate": 0.6470588235294118
       },
       "plant": {
-        "episodes": 21,
+        "episodes": 83,
+        "SR": 0.024096385542168676,
+        "SPL": 0.016907708100311194,
+        "reached_success_region_rate": 0.20481927710843373
+      },
+      "toilet": {
+        "episodes": 10,
         "SR": 0.0,
         "SPL": 0.0,
-        "reached_success_region_rate": 0.19047619047619047
+        "reached_success_region_rate": 0.2
       },
       "tv": {
-        "episodes": 2,
+        "episodes": 12,
         "SR": 0.0,
         "SPL": 0.0,
-        "reached_success_region_rate": 0.0
+        "reached_success_region_rate": 0.16666666666666666
       }
     },
-    "target_visible_ever_rate": 0.4,
-    "wrong_instance_stop_rate_selected_instances_only": 0.0,
+    "target_visible_ever_rate": 0.35,
+    "wrong_instance_stop_rate_selected_instances_only": 0.01,
+    "other_instance_region_candidate_at_stop_rate_selected_instances_only": 0.013333333333333334,
+    "wrong_instance_stop_semantics": "Unsuccessful stops only; another selected instance region may overlap a correct target region. The unfiltered candidate rate is separate; raw episode flags remain unchanged.",
     "by_distractor_count": {
       "0": {
-        "episodes": 0,
-        "SR": null
+        "episodes": 19,
+        "SR": 0.0
       },
       "1-3": {
-        "episodes": 2,
+        "episodes": 29,
         "SR": 0.0
       },
       "4+": {
-        "episodes": 38,
-        "SR": 0.0
+        "episodes": 252,
+        "SR": 0.007936507936507936
       }
     }
   }

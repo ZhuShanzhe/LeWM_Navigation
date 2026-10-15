@@ -23,6 +23,11 @@ def aggregate(folder):
         rows.extend(json.loads(l) for l in (folder/scene/'episodes.jsonl').read_text().splitlines())
     for row in rows:
         instance=row['task']=='instance_image_nav'
+        if instance:
+            # Two object approach regions can overlap. A correct target success
+            # is not an erroneous stop even if another instance is also nearby.
+            row['other_instance_region_candidate_at_stop']=bool(row.get('wrong_instance_stop'))
+            row['wrong_instance_stop']=bool(row.get('wrong_instance_stop') and not row['success'])
         final_near=row['final_distance_m']<(.5 if instance else 1.) and (row.get('target_visible_at_stop') or not instance)
         row['reached_success_region']=bool(row['reached_success_region'] or final_near)
         if final_near and not row['success'] and not row.get('wrong_instance_stop'):
@@ -48,6 +53,8 @@ def aggregate(folder):
     if rows[0]['task']=='instance_image_nav':
         summary['target_visible_ever_rate']=mean(rows,'target_visible_ever')
         summary['wrong_instance_stop_rate_selected_instances_only']=mean(rows,'wrong_instance_stop')
+        summary['other_instance_region_candidate_at_stop_rate_selected_instances_only']=mean(rows,'other_instance_region_candidate_at_stop')
+        summary['wrong_instance_stop_semantics']='Unsuccessful stops only; another selected instance region may overlap a correct target region. The unfiltered candidate rate is separate; raw episode flags remain unchanged.'
         summary['by_distractor_count']={name:{'episodes':len(a:=[r for r in rows if test(r['same_category_distractors'])]),'SR':mean(a,'success')}
               for name,test in [('0',lambda n:n==0),('1-3',lambda n:1<=n<=3),('4+',lambda n:n>=4)]}
     else:summary['strict_pose_success_rate']=mean(rows,'strict_pose_success')

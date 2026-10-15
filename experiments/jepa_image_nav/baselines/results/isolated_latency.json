@@ -1,0 +1,195 @@
+{
+  "status": "complete",
+  "exclusive_gpu": true,
+  "driver": "595.71.05",
+  "samples": 18,
+  "warmup_per_model": 30,
+  "repeats_per_sample": 10,
+  "runs": [
+    {
+      "model": "fgprompt",
+      "policy": {
+        "ready": true,
+        "model": "FGPrompt-early-r9",
+        "strict_state_dict": true,
+        "checkpoint_sha256": "71483e244b63fc12f21f95ee1ebee7682e4d799cfe7331299368beca05c038e2",
+        "torch": "2.8.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5090",
+        "network_source": "XinyuSun/FGPrompt",
+        "adapter": "unchanged original class/function bodies; registry and sensor metadata shims; separate simulator",
+        "parameters": 1579301
+      },
+      "network_forward": {
+        "n": 180,
+        "mean_ms": 1.6527557021213903,
+        "median_ms": 1.623061252757907,
+        "p95_ms": 1.6571723157539964
+      },
+      "rpc_wall": {
+        "n": 180,
+        "mean_ms": 2.013536007143557,
+        "median_ms": 1.9823540933430195,
+        "p95_ms": 2.0267017651349306
+      },
+      "by_track_network": {
+        "gibson_place_nav_v1/place_image_nav": {
+          "n": 60,
+          "mean_ms": 1.6305786247054737,
+          "median_ms": 1.625024015083909,
+          "p95_ms": 1.6590858809649944
+        },
+        "hssd_image_nav_v1/place_image_nav": {
+          "n": 60,
+          "mean_ms": 1.620701017479102,
+          "median_ms": 1.6205718275159597,
+          "p95_ms": 1.6490950714796782
+        },
+        "hssd_image_nav_v1/instance_image_nav": {
+          "n": 60,
+          "mean_ms": 1.7069874641795952,
+          "median_ms": 1.6231152694672346,
+          "p95_ms": 1.668859622441232
+        }
+      }
+    },
+    {
+      "model": "debit",
+      "policy": {
+        "ready": true,
+        "model": "DEBiT-S",
+        "strict_state_dict": true,
+        "checkpoint_sha256": "90a15bcfc9da706ae8451ef1d7b4c20c779ab57d80ac46e2a165f8be96ed4283",
+        "torch": "2.8.0+cu128",
+        "gpu": "NVIDIA GeForce RTX 5090",
+        "network_source": "naver/debit",
+        "adapter": "unchanged original class/function bodies; registry and sensor metadata shims; separate simulator",
+        "parameters": 34400901
+      },
+      "network_forward": {
+        "n": 180,
+        "mean_ms": 6.361933815706935,
+        "median_ms": 6.321518216282129,
+        "p95_ms": 6.3576893182471395
+      },
+      "rpc_wall": {
+        "n": 180,
+        "mean_ms": 6.852030873091684,
+        "median_ms": 6.813946412876248,
+        "p95_ms": 6.861237692646682
+      },
+      "by_track_network": {
+        "gibson_place_nav_v1/place_image_nav": {
+          "n": 60,
+          "mean_ms": 6.382290692999959,
+          "median_ms": 6.314641330391169,
+          "p95_ms": 6.360491178929806
+        },
+        "hssd_image_nav_v1/place_image_nav": {
+          "n": 60,
+          "mean_ms": 6.324777961708605,
+          "median_ms": 6.3205675687640905,
+          "p95_ms": 6.355896266177297
+        },
+        "hssd_image_nav_v1/instance_image_nav": {
+          "n": 60,
+          "mean_ms": 6.378732792412241,
+          "median_ms": 6.329763680696487,
+          "p95_ms": 6.38057270552963
+        }
+      }
+    }
+  ],
+  "scope": "Static frozen-panel start RGB replay; not a closed-loop real-time control or equal-time navigation experiment. Network timer excludes image preprocessing; RPC includes array loading, preprocessing and transport. Scene rendering, disk snapshot creation and goal reset excluded.",
+  "inputs": [
+    {
+      "episode_id": "gibson-place-Cantwell-35-0",
+      "rgb_sha256": "0aecd63143c8e118adbf36e781ad2c00b6bbb0c75c6787a5933770294ff2dd42",
+      "goal_sha256": "95dd20f9d823788ecb17dd7e135a5092e76b778378965d62f4439a4f0ee7a115"
+    },
+    {
+      "episode_id": "gibson-place-Denmark-20-14",
+      "rgb_sha256": "62c6c90308578bbd3a5c5f315a7c6689be53ff16b4293d8d48116e678ec1f963",
+      "goal_sha256": "a0c5a7668c617d5b146bf0a5d44d14c7d086210e3f740698082048a3ec42f5ed"
+    },
+    {
+      "episode_id": "gibson-place-Eastville-15-2",
+      "rgb_sha256": "5cb64f0f1a621ca0c55682972be4f12af3aa6bad74c7166e87edb1e07cb938bd",
+      "goal_sha256": "5333cd09887e56b04aa720ff7cee28b0cc94f95881a76833b2c1cf1ceb97885d"
+    },
+    {
+      "episode_id": "gibson-place-Edgemere-15-3",
+      "rgb_sha256": "ffb05c65d29be1133161b8318077dddff9f2f79c4d80f8f0125d20af66cfcd61",
+      "goal_sha256": "edb2f4537f93d304d60a0fa2e3cf9fc7af7ff33047d1bc5c4f4ce35194e4bc10"
+    },
+    {
+      "episode_id": "gibson-place-Elmira-21-5",
+      "rgb_sha256": "9d07da4e5f2a7ff4b3ee62268cfb3a9a2d47871a76a2d6d19dba913def2da6c4",
+      "goal_sha256": "938a3407ce5a2f687344a8e49ebd6aecd686aa4679d44c3063580033663ca722"
+    },
+    {
+      "episode_id": "gibson-place-Eudora-8-15",
+      "rgb_sha256": "a435bdfa59da92af6e4bf261677e93290c80c5beb05eab301c6fe61c61ee9c0e",
+      "goal_sha256": "c1af6ab7aaa29d62703efe30201c9ebb337307a6aba098aa983ede6613420331"
+    },
+    {
+      "episode_id": "hssd-place-102344022-1-1",
+      "rgb_sha256": "aed72d31ffe150600687447e4ca99c1790afe64a46a7f591ffeaf5cbf6d1b030",
+      "goal_sha256": "148747bb17e07926e50383e1af0744f7a4897a9be6426f8c0802f51ff624659b"
+    },
+    {
+      "episode_id": "hssd-place-102816729-25-7",
+      "rgb_sha256": "8ab89ce1fdfc81e9b77eff551a0284196096956f0b18271f19d716c9311d72a4",
+      "goal_sha256": "614736b88f88d4d933a96b2c2f3cc3fbc6e21c760ae45ddecf8a08db32254056"
+    },
+    {
+      "episode_id": "hssd-place-102817053-13-0",
+      "rgb_sha256": "0c43911f9a694eb8af4f4704539bb4b8542d86246ff4bb33ba652165ac5180d6",
+      "goal_sha256": "a737cc068423586f3ad39a1977799099f0d8d123d966aa106b65979ecf621405"
+    },
+    {
+      "episode_id": "hssd-place-103997613_171030702-24-16",
+      "rgb_sha256": "b9f6d978eac2b981c5912383c35dea5414f727a92f0e8bd39755f2f39d047ba4",
+      "goal_sha256": "ab29faac1fe43617747fb8c49327ae80719d11568506461d5d45b2a041557d59"
+    },
+    {
+      "episode_id": "hssd-place-103997970_171031287-0-9",
+      "rgb_sha256": "5005a54018ad5a8386c02aebcfee2c4bd2eb299c40d73c93ff0f31a76a5145ef",
+      "goal_sha256": "cc651038a736656c07cc9c68db77413b3959d8df75a2481c624bb50f501b6cbb"
+    },
+    {
+      "episode_id": "hssd-place-103997994_171031320-24-19",
+      "rgb_sha256": "ace613183d407dd2ce779199da516923830899bdcf071f61e13d39d9cf50a1e0",
+      "goal_sha256": "b2f12a5f2b7d685f673c1c311121da0a0e2a31da83dd5c3abc67045d07db78da"
+    },
+    {
+      "episode_id": "hssd-instance-102344022-108-0-14",
+      "rgb_sha256": "2bb706b5d0c1dbd227e9c29a780738340a3fdee28a07bc1449d586a94f2bd619",
+      "goal_sha256": "93ae111493bac7f3bbc2513fe17badf5fa849bb1b2f1d4554ec2bba7599cdbe4"
+    },
+    {
+      "episode_id": "hssd-instance-102816729-72-2-0",
+      "rgb_sha256": "800fdfc8f159def8149f9826ab80b01cf969e73cf8041ef51215efc94a55cac0",
+      "goal_sha256": "160ad28ce72f9f2d5f9d442a1768418506ea8283a2855f66269bcc4c51e19323"
+    },
+    {
+      "episode_id": "hssd-instance-102817053-217-0-14",
+      "rgb_sha256": "d59197b498bf23872202bc7b48704ab32c176e60464741b8f8d8ca1498499946",
+      "goal_sha256": "38d4f547348bc1d8566a85d7fdba75e6532ca3e9852c0e93d9f05e1646642bb0"
+    },
+    {
+      "episode_id": "hssd-instance-103997613_171030702-115-2-0",
+      "rgb_sha256": "3dd7d5ed13e82ac05f1cd0360f9641d0f9f219fc2b5f0e4d0d10eb2e0b1d9762",
+      "goal_sha256": "5856ae6e368f6f590e5c12aa88d2202bce7d66d493e06dec343a3ff292785050"
+    },
+    {
+      "episode_id": "hssd-instance-103997970_171031287-4-1-7",
+      "rgb_sha256": "da712a8404258a5d0dd54955200f86a1133e68a5a9eef06b975ac50f7124d569",
+      "goal_sha256": "27c36cd284d762fea10010869c4a89e2f785eb129596da586c115d7303ed1432"
+    },
+    {
+      "episode_id": "hssd-instance-103997994_171031320-48-1-14",
+      "rgb_sha256": "78f9eb669fa3aa56be1f9b3be9df0e5f87df9e5223a5e2133f65929231705318",
+      "goal_sha256": "8f8feb988f1d850061306f101b2b32651213cf004098f6af64d936e4f2f6af0d"
+    }
+  ]
+}

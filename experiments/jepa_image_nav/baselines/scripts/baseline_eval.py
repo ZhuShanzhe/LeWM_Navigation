@@ -25,6 +25,15 @@ def metrics(stopped,d,d0,length,collisions,moves,visible=None):
             'collision_rate':collisions/max(moves,1),'final_distance_m':d,'executed_length_m':length}
 
 def evaluate_scene(args):
+    # A per-scene OS lock permits safe cooperative workers and cache rechecks.
+    # Scoring and policy computation are unchanged.
+    import fcntl
+    folder=BASE/'results'/args.run/args.scene;folder.mkdir(parents=True,exist_ok=True)
+    with (folder/'.evaluation.lock').open('a') as lock:
+        fcntl.flock(lock,fcntl.LOCK_EX)
+        return _evaluate_scene(args)
+
+def _evaluate_scene(args):
     from nav_build import opensim,setpose,pathlength
     from habitat_sim.utils.common import quat_to_coeffs
     from PIL import Image

@@ -1,8 +1,8 @@
 {
-  "captured_at": "2026-10-15T17:51:34.826162+08:00",
-  "cuInit_code": 999,
-  "gpu_recovery_action": "Reboot",
-  "gpu_runtime_usable": false,
+  "captured_at": "2026-10-16T00:49:17.506908+08:00",
+  "cuInit_code": 0,
+  "gpu_recovery_action": "None",
+  "gpu_runtime_usable": true,
   "existing_completed_runs": [
     {
       "run": "debit_gibson_val_place",
@@ -13,6 +13,16 @@
       "run": "debit_native10_gibson_val_place",
       "scenes": 14,
       "episodes": 280
+    },
+    {
+      "run": "debit_native10_hssd_test_instance",
+      "scenes": 15,
+      "episodes": 300
+    },
+    {
+      "run": "debit_native10_hssd_test_place",
+      "scenes": 15,
+      "episodes": 300
     },
     {
       "run": "fgprompt_gibson_val_place",
@@ -36,8 +46,8 @@
     },
     {
       "run": "lg_frontier_hssd_test_instance",
-      "scenes": 2,
-      "episodes": 40
+      "scenes": 15,
+      "episodes": 300
     },
     {
       "run": "lg_smoke_val",
@@ -45,14 +55,12 @@
       "episodes": 1
     }
   ],
-  "pending_primary": [
-    "DEBiT-S 10deg HSSD place 300 episodes",
-    "DEBiT-S 10deg HSSD instance transfer 300 episodes"
-  ],
-  "pending_diagnostics": [
-    "remaining RGB-D matcher/frontier panel",
-    "yaw-only approach visibility audit",
-    "isolated latency measurement"
+  "driver_version": "595.71.05",
+  "pending_primary": [],
+  "pending_diagnostics": [],
+  "scientific_extensions_not_tested": [
+    "complete specialized IIN method",
+    "equal-time-budget navigation"
   ],
   "failure_handling": "CUDA/EGL/initialization failures are execution errors, never navigation failures; incomplete runs excluded from primary comparisons."
 }

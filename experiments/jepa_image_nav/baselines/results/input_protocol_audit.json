@@ -1,0 +1,26 @@
+{
+  "status": "source_review_only_not_a_navigation_result",
+  "review_date": "2026-10-16",
+  "strict_image_goal_protocol": "Goal RGB is provided; target category, target identity, target pose and target masks are not policy inputs. RGB-D and odometry are a separate input track.",
+  "IEVE": {
+    "environment_source": "https://github.com/XiaohanLei/IEVE/blob/main/envs/habitat/imagegoal_env.py",
+    "agent_source": "https://github.com/XiaohanLei/IEVE/blob/main/agents/instance_exp.py",
+    "observed_reset_path": "update_after_reset initializes gt_goal_idx from episode object_category. reset calls get_goal_id on the target image and replaces gt_goal_idx only when a detection returns a category. The metadata category can therefore remain when that detection returns None.",
+    "port_requirement": "Resolve this fallback explicitly before a pure-image comparison. Do not inject metadata category silently; a category-assisted variant must be a separate input track. This observation is about the reviewed public implementation, not proof about every configuration or the published paper's scores.",
+    "other_requirements": [
+      "Original controller uses velocity commands, not this benchmark's four discrete actions; preserve or disclose the controller and physical time budget.",
+      "Full perception, mapping, DISK/LightGlue and switch policy are required before calling a result an IEVE reproduction."
+    ],
+    "closed_loop_tested_in_this_project": false
+  },
+  "UniGoal": {
+    "source": "https://github.com/bagh2178/UniGoal",
+    "port_requirements": [
+      "Integrate the complete goal/scene graph, segmentation, correspondence and planning chain.",
+      "Use a documented local VLM or a separately authorized service; no external paid API was called.",
+      "Keep target labels and poses in the evaluator, not the policy interface."
+    ],
+    "closed_loop_tested_in_this_project": false
+  },
+  "interpretation": "The completed RGB ImageNav transfer runs and custom LightGlue-frontier runs are valid scoped baselines, not measurements of complete IEVE or UniGoal systems."
+}

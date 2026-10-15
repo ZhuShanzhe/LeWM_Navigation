@@ -1,0 +1,3883 @@
+{
+  "target_instances": 319,
+  "without_a_verified_yaw_only_approach_position": 33,
+  "frozen_panel_episodes": 300,
+  "panel_episodes_without_verified_yaw_only_approach": 35,
+  "failures": [
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:3c163391afeb4130eadacb6ef9b6e5930329a32b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 9,
+      "best_target_fraction": 0.0146484375,
+      "approach_pitch_range_deg": [
+        -26.27412275856445,
+        -24.967889418927147
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:83af0c28b32652ec626f73be05cb03447fb74f46_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 9,
+      "best_target_fraction": 0.01641845703125,
+      "approach_pitch_range_deg": [
+        -17.971625272006,
+        -16.67761779550982
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:83af0c28b32652ec626f73be05cb03447fb74f46_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 8,
+      "best_target_fraction": 0.0196533203125,
+      "approach_pitch_range_deg": [
+        -17.728794612374333,
+        -14.23337058358301
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:11fd63d5a503c501cec76681060ad45549dd07d5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 12,
+      "best_target_fraction": 0.023651123046875,
+      "approach_pitch_range_deg": [
+        -51.47292010810134,
+        -46.55557499763873
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:a9bbdf30c010dc048bb6752a2ee0ecfb8ec81fbf_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.0148773193359375,
+      "approach_pitch_range_deg": [
+        -26.900749698323335,
+        -24.747045861126935
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:a9bbdf30c010dc048bb6752a2ee0ecfb8ec81fbf_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 6,
+      "best_target_fraction": 0.0,
+      "approach_pitch_range_deg": [
+        -52.33309042702066,
+        -52.16021112508987
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:e30598bb70b1aa6472016340ba788b07b6aced9d_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.0093536376953125,
+      "approach_pitch_range_deg": [
+        -50.49578799489401,
+        -40.378826184609416
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:39ed21c87f36954eab1d5487000631bc7ef18a06_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.01666259765625,
+      "approach_pitch_range_deg": [
+        -49.12946689873393,
+        -47.450970777729964
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:39ed21c87f36954eab1d5487000631bc7ef18a06_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.013458251953125,
+      "approach_pitch_range_deg": [
+        -50.936266497558314,
+        -49.12946689873393
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:5747cd91706723281b0a7d34f8b97a48d4fee680_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.004791259765625,
+      "approach_pitch_range_deg": [
+        -45.07358473756365,
+        -44.27162843721333
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:625f9cad5f07701e057a15bcbd7b1f2e5f293fce_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 12,
+      "best_target_fraction": 0.006072998046875,
+      "approach_pitch_range_deg": [
+        -56.849814127554055,
+        -42.97200110867067
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:8f9440cad20bac4f3a17cef6a3b34879c75c26d5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 13,
+      "best_target_fraction": 0.020233154296875,
+      "approach_pitch_range_deg": [
+        -40.652659339063575,
+        -36.08001771721793
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:c3bfe9d9969b21fac01b8bb7b9399a0047feef73_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 10,
+      "best_target_fraction": 0.01910400390625,
+      "approach_pitch_range_deg": [
+        -62.06886976270124,
+        -49.85854488032907
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:3a30a28972253be16cf15f50c3e59440a2aba520_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.0213775634765625,
+      "approach_pitch_range_deg": [
+        -40.20475188251795,
+        -37.34173537684482
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:8f9440cad20bac4f3a17cef6a3b34879c75c26d5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.01531982421875,
+      "approach_pitch_range_deg": [
+        -39.287995249222,
+        -37.75834107966886
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:9983a471c895f122479d80104b5c73f6f7c8f7e5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.0187530517578125,
+      "approach_pitch_range_deg": [
+        -20.821055696864228,
+        -20.161194725858067
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:af08885f6ce657eff10dd899244cd628a73da63e_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.01983642578125,
+      "approach_pitch_range_deg": [
+        -49.09200510695539,
+        -42.320695028982236
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:ded915cd6ff75d772c84abbc4ca2bf141d0caa90_part_3_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.024993896484375,
+      "approach_pitch_range_deg": [
+        -22.238460893240042,
+        -17.79867099967538
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:194162dfc40d2bdb63a4450220c6f440b30c2a1b_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 12,
+      "best_target_fraction": 0.02410888671875,
+      "approach_pitch_range_deg": [
+        -45.387378836971195,
+        -37.683396760382756
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:14bdc1398760aef6d8757e2dd6a1c674d7851e66_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.01287841796875,
+      "approach_pitch_range_deg": [
+        -31.85129817340431,
+        -26.75904848111319
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:41211ff4c9664a5f94a7728259a6ae23eb9c86f6_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.00909423828125,
+      "approach_pitch_range_deg": [
+        -36.294792767225225,
+        -34.56498516802561
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:xxxxc24b125dxd5dex4ffbxa5a7xf41b4aa6707f_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 11,
+      "best_target_fraction": 0.023162841796875,
+      "approach_pitch_range_deg": [
+        -50.648783531748784,
+        -27.174590743291347
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:0f47657dc364ff0fef5a4f55e7bfd26f84b3848a_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 12,
+      "best_target_fraction": 0.024932861328125,
+      "approach_pitch_range_deg": [
+        -43.40681692834278,
+        -37.86036315449854
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:14bdc1398760aef6d8757e2dd6a1c674d7851e66_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.01361083984375,
+      "approach_pitch_range_deg": [
+        -38.2815521578055,
+        -38.28154883619445
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:4959b90747527188aa0c4ac7916b6ebf24ebfd3b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 10,
+      "best_target_fraction": 0.0060882568359375,
+      "approach_pitch_range_deg": [
+        -53.13506324672668,
+        -48.9652564900436
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:a0b9f0012b24d213c66acbdc7d0998e37f2bfcd5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 11,
+      "best_target_fraction": 0.0248565673828125,
+      "approach_pitch_range_deg": [
+        -49.917758459256035,
+        -42.302819496662906
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:a0b9f0012b24d213c66acbdc7d0998e37f2bfcd5_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.0191192626953125,
+      "approach_pitch_range_deg": [
+        -49.91775367849183,
+        -47.3234896520594
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:a8fef22c3965266d8e0ee7f2dbe3f22a14e8c180_part_2_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 16,
+      "best_target_fraction": 0.0230712890625,
+      "approach_pitch_range_deg": [
+        -61.336343831064895,
+        -34.68531322073101
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:0e3f31820718c4195b9884dbdf9015035f66dae0_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 8,
+      "best_target_fraction": 0.016265869140625,
+      "approach_pitch_range_deg": [
+        -48.7407192548548,
+        -44.84797581422003
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:1c094fa03158472435f319ff499aef6f7b9ff883_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 8,
+      "best_target_fraction": 0.02239990234375,
+      "approach_pitch_range_deg": [
+        -51.2861798210734,
+        -44.867002855266385
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:333fbf609c0f0877768188c43a0a812cc46e26ae_:0005",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.006256103515625,
+      "approach_pitch_range_deg": [
+        -39.92838145220721,
+        -39.6828163157426
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:8e74580748306fe474b7582243c094b886ad9ea8_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 8,
+      "best_target_fraction": 0.0175628662109375,
+      "approach_pitch_range_deg": [
+        -46.549771087748745,
+        -44.46035682750511
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:b81dcd700c8c00192b1907ed3bacd8d0ece4788f_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.0145416259765625,
+      "approach_pitch_range_deg": [
+        -14.671624936842163,
+        -14.671620753004616
+      ]
+    }
+  ],
+  "per_instance": [
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:0979dd8ecbfdd44753a0f20367c784ddf538aa27_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0427093505859375,
+      "approach_pitch_range_deg": [
+        -53.4634226511218,
+        -36.15955187359403
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:0979dd8ecbfdd44753a0f20367c784ddf538aa27_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.0255584716796875,
+      "approach_pitch_range_deg": [
+        -50.03705591847994,
+        -40.7401209269164
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:1d438cf2a0be5706ffdbd1489fbfb27f712589a0_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.3112030029296875,
+      "approach_pitch_range_deg": [
+        4.3114988121480895,
+        15.523705978887204
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:26a38271fb04e01cc4ae5f6cabad71f37a69231b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0387115478515625,
+      "approach_pitch_range_deg": [
+        -39.4782285212887,
+        -36.101453310043645
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:26a38271fb04e01cc4ae5f6cabad71f37a69231b_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0381622314453125,
+      "approach_pitch_range_deg": [
+        -40.56637589688412,
+        -38.553179905472845
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:283eae1c113de1b9b3afbd91132de63f7142d1b3_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1511993408203125,
+      "approach_pitch_range_deg": [
+        -45.559702515903176,
+        -31.07912973370809
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:3c163391afeb4130eadacb6ef9b6e5930329a32b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 9,
+      "best_target_fraction": 0.0146484375,
+      "approach_pitch_range_deg": [
+        -26.27412275856445,
+        -24.967889418927147
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:3fce46b44d59007f02e60c8adf5fc333b0c58528_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.11138916015625,
+      "approach_pitch_range_deg": [
+        -63.777112550340576,
+        -23.236080196032066
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:4f9ba3082cb415c2286dcc670101b5e6e50ad0d8_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.10302734375,
+      "approach_pitch_range_deg": [
+        -51.18732092026137,
+        -28.027061170277804
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:4f9ba3082cb415c2286dcc670101b5e6e50ad0d8_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0767669677734375,
+      "approach_pitch_range_deg": [
+        -44.452104377331565,
+        -29.35575915394688
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:4f9ba3082cb415c2286dcc670101b5e6e50ad0d8_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1457366943359375,
+      "approach_pitch_range_deg": [
+        -49.341273863581094,
+        -31.016450160047334
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:4f9ba3082cb415c2286dcc670101b5e6e50ad0d8_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1396026611328125,
+      "approach_pitch_range_deg": [
+        -46.94752936178051,
+        -31.029814338690073
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:52c16ad537bb150c79e4a42b24cd17b26c65e922_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.054779052734375,
+      "approach_pitch_range_deg": [
+        -47.04029889438525,
+        -35.60756049009089
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:6d93ab3b84b4a2b238113f424c27ac2951819a0f_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1188507080078125,
+      "approach_pitch_range_deg": [
+        -64.59007314650009,
+        -16.750278680104582
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:6dac60e35797491cce17b7c74decb712f9ea17a9_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.095947265625,
+      "approach_pitch_range_deg": [
+        -44.50227016035814,
+        -21.66550146633929
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:7c8c31b60d695dee8aa102f34cba9b2070167a48_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0298919677734375,
+      "approach_pitch_range_deg": [
+        -4.968107754656228,
+        -4.280525541672897
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:7c8c31b60d695dee8aa102f34cba9b2070167a48_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0433502197265625,
+      "approach_pitch_range_deg": [
+        -15.66971654414783,
+        -13.566298718803456
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:83af0c28b32652ec626f73be05cb03447fb74f46_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 15,
+      "best_target_fraction": 0.025665283203125,
+      "approach_pitch_range_deg": [
+        -37.80642438270617,
+        -34.16424553837524
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:83af0c28b32652ec626f73be05cb03447fb74f46_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 9,
+      "best_target_fraction": 0.01641845703125,
+      "approach_pitch_range_deg": [
+        -17.971625272006,
+        -16.67761779550982
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:83af0c28b32652ec626f73be05cb03447fb74f46_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 8,
+      "best_target_fraction": 0.0196533203125,
+      "approach_pitch_range_deg": [
+        -17.728794612374333,
+        -14.23337058358301
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:95d1e189e93694bb8eee73a64b0d84a8be5a5057_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0898895263671875,
+      "approach_pitch_range_deg": [
+        -15.88704973100218,
+        -9.880115969382162
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:95d1e189e93694bb8eee73a64b0d84a8be5a5057_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0597686767578125,
+      "approach_pitch_range_deg": [
+        -15.083096763964711,
+        -11.301372757547911
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:95d1e189e93694bb8eee73a64b0d84a8be5a5057_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.1199798583984375,
+      "approach_pitch_range_deg": [
+        -16.03855687761399,
+        -14.561855021425519
+      ]
+    },
+    {
+      "scene": "102344022",
+      "instance_id": "102344022:95d1e189e93694bb8eee73a64b0d84a8be5a5057_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.090972900390625,
+      "approach_pitch_range_deg": [
+        -15.083146847402363,
+        -11.599861944692071
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:0f5363ae44d82b892c62c6564be2792537509b13_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 6,
+      "best_target_fraction": 0.04864501953125,
+      "approach_pitch_range_deg": [
+        -47.26538781523686,
+        -35.92354386639781
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:0f74f9a6781d2bd17622b0a8ffd796fee0d9ec21_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0792388916015625,
+      "approach_pitch_range_deg": [
+        -67.84046745330012,
+        -17.126567169639145
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:1708a446943ad7ae5829179c4b5859217a5a6391_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0461578369140625,
+      "approach_pitch_range_deg": [
+        -46.804413542273295,
+        -29.543039954075375
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:20081d0ebd22d10d4fd49262449643d5582b3dae_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.065277099609375,
+      "approach_pitch_range_deg": [
+        -65.23536726685943,
+        -18.58344148965285
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:34170a3abede075d1e15942197394d95ee063bf7_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.03826904296875,
+      "approach_pitch_range_deg": [
+        -15.330703022729937,
+        -14.685674846984742
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:3d2bc8edcee009c8bec66078cf9af53bfb1abbc7_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0468902587890625,
+      "approach_pitch_range_deg": [
+        -1.070611020440938,
+        -0.8206961101945789
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:400ae3a2d7a2d45552ef36785c351f13f9bbcba3_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0409088134765625,
+      "approach_pitch_range_deg": [
+        -36.224425557658726,
+        -36.186883599614376
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:475870f8089a1c7bf8186679ed82537d9fbcc587_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.205169677734375,
+      "approach_pitch_range_deg": [
+        -18.810136299368704,
+        -8.795697334683402
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:4e476e157b3837870de19ceccd0179841269143b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.2019500732421875,
+      "approach_pitch_range_deg": [
+        -42.42576542623385,
+        -7.084665943962619
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:52d479dbd7e4a71446b03995036d15bd25c2c00a_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1275177001953125,
+      "approach_pitch_range_deg": [
+        -44.535351177969126,
+        -30.93672655735244
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:5602ce3737d5bf9349ffb59da2e7fc83e31d8b5f_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1425933837890625,
+      "approach_pitch_range_deg": [
+        -32.28902145430371,
+        -17.8614323868014
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:5b4d596c7da061500c2e61d7e66231f0e656f6b6_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.02606201171875,
+      "approach_pitch_range_deg": [
+        -54.38678961789353,
+        -34.18022951848346
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:5b4d596c7da061500c2e61d7e66231f0e656f6b6_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0749359130859375,
+      "approach_pitch_range_deg": [
+        -47.54041318488939,
+        -34.841063608927804
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:6d869e0a35b047ed162f2e318e74bd407a488ca7_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.04791259765625,
+      "approach_pitch_range_deg": [
+        -49.30520634372372,
+        -36.008256299745554
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:70eeff31df71066f026769ac7f3d89e6dc13d737_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1261444091796875,
+      "approach_pitch_range_deg": [
+        -46.37404603770174,
+        -31.877922359024193
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:70eeff31df71066f026769ac7f3d89e6dc13d737_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.06353759765625,
+      "approach_pitch_range_deg": [
+        -60.197559839510845,
+        -34.05848530049437
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:76eb8317661751dd4897b39db29df5db517e2d5c_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.11810302734375,
+      "approach_pitch_range_deg": [
+        -33.17705154911751,
+        -21.015434180081847
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:7d88351bf4ad11d076d74f295b370407a25ef554_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1777191162109375,
+      "approach_pitch_range_deg": [
+        -43.43898935586103,
+        -22.158193286033043
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:81ef70dbef87705b4e0e5051197da71c5e1bd4b4_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.182708740234375,
+      "approach_pitch_range_deg": [
+        -20.371203057590403,
+        -17.56544992277399
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:83e37eb291c9ee6a180364c88f4c75f1842f0073_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.2097015380859375,
+      "approach_pitch_range_deg": [
+        -40.9523404321592,
+        -24.59146794732271
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:83e37eb291c9ee6a180364c88f4c75f1842f0073_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0322265625,
+      "approach_pitch_range_deg": [
+        -36.21342647550503,
+        -24.59146441772496
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:899e88f11da4a0aff204df49c9968920a60380b1_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1540069580078125,
+      "approach_pitch_range_deg": [
+        -30.78156528150403,
+        -17.355667513169323
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:899e88f11da4a0aff204df49c9968920a60380b1_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.16510009765625,
+      "approach_pitch_range_deg": [
+        -32.065104544035144,
+        -17.355671402175744
+      ]
+    },
+    {
+      "scene": "102816729",
+      "instance_id": "102816729:8a53e7870b8d8db886ef029d90384653c165b517_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0672607421875,
+      "approach_pitch_range_deg": [
+        -46.61651125716316,
+        -33.476680604286784
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:0c4ab4d4ccdc801b4093f10a9aa9c0bfd08ab584_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0421142578125,
+      "approach_pitch_range_deg": [
+        -50.21223107867546,
+        -37.50944243682326
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:0c4ab4d4ccdc801b4093f10a9aa9c0bfd08ab584_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0411376953125,
+      "approach_pitch_range_deg": [
+        -50.78906592246761,
+        -40.4910566209965
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:0d6acbc9f35c8834a605e284167f44c84582a975_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.3336639404296875,
+      "approach_pitch_range_deg": [
+        11.74774801348452,
+        18.482492742321163
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:11fd63d5a503c501cec76681060ad45549dd07d5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 12,
+      "best_target_fraction": 0.023651123046875,
+      "approach_pitch_range_deg": [
+        -51.47292010810134,
+        -46.55557499763873
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:2c6bdf4742ec3a3b909a7e3c701cfdf0042eb4d4_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 13,
+      "best_target_fraction": 0.02947998046875,
+      "approach_pitch_range_deg": [
+        -60.19014528121977,
+        -43.34075582475641
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:3182aa9ae613fbdc71b2b983183151b96929377b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0549468994140625,
+      "approach_pitch_range_deg": [
+        -50.52390583937038,
+        -35.78598992936543
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:53317cc22d22eeb608e3cad7d45aa9c9153ed17b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.037139892578125,
+      "approach_pitch_range_deg": [
+        -5.407015453253262,
+        -4.5979348835934335
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:610b7e66197c5b75f12419bb78f3843497652844_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.0324249267578125,
+      "approach_pitch_range_deg": [
+        -43.53579616547985,
+        -38.30057561711339
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:610b7e66197c5b75f12419bb78f3843497652844_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0273284912109375,
+      "approach_pitch_range_deg": [
+        -46.123809801886495,
+        -38.05234908377939
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:6e091b64e3db98057bec72d11b39f76f7c823487_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0516357421875,
+      "approach_pitch_range_deg": [
+        -56.884122192470294,
+        -22.684938595099403
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:700e8bb0f2f6f76ba26a2909fe520a31e8d94dd9_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.065765380859375,
+      "approach_pitch_range_deg": [
+        -53.94623716881264,
+        -32.98734982838129
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:843c70ec93a45b19af1fa6981ea23a6f1a66cad6_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 9,
+      "best_target_fraction": 0.043060302734375,
+      "approach_pitch_range_deg": [
+        -66.19471401787311,
+        -34.990912629920516
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:843c70ec93a45b19af1fa6981ea23a6f1a66cad6_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0511627197265625,
+      "approach_pitch_range_deg": [
+        -67.00229190369176,
+        -36.07968849877024
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:843c70ec93a45b19af1fa6981ea23a6f1a66cad6_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 7,
+      "best_target_fraction": 0.0693206787109375,
+      "approach_pitch_range_deg": [
+        -61.051764659688835,
+        -34.24193776243323
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:843c70ec93a45b19af1fa6981ea23a6f1a66cad6_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.025146484375,
+      "approach_pitch_range_deg": [
+        -63.404350048009235,
+        -36.008893946259676
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:8b077d33cef990dc960c432a63273f7bed76d6ac_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0396575927734375,
+      "approach_pitch_range_deg": [
+        -42.61111937421812,
+        -29.896354728195618
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:98084b64acc48f75a49974245f0158bcd1e338fd_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.11871337890625,
+      "approach_pitch_range_deg": [
+        -45.11832511446202,
+        -28.20465205872529
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:a9bbdf30c010dc048bb6752a2ee0ecfb8ec81fbf_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.0148773193359375,
+      "approach_pitch_range_deg": [
+        -26.900749698323335,
+        -24.747045861126935
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:a9bbdf30c010dc048bb6752a2ee0ecfb8ec81fbf_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 6,
+      "best_target_fraction": 0.0,
+      "approach_pitch_range_deg": [
+        -52.33309042702066,
+        -52.16021112508987
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:e30598bb70b1aa6472016340ba788b07b6aced9d_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.0093536376953125,
+      "approach_pitch_range_deg": [
+        -50.49578799489401,
+        -40.378826184609416
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:ed2577473eb3a3f196124bab22cd0b12e665447f_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.2941436767578125,
+      "approach_pitch_range_deg": [
+        -61.45061951217144,
+        -15.465199449386423
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:efae3a49f3ac0374763ed6407520bdeb699df4b8_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.148681640625,
+      "approach_pitch_range_deg": [
+        -63.92390542915866,
+        -22.44594749084684
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:f0ba4441429787fe8c15827ad4db233c4c743b3e_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0734405517578125,
+      "approach_pitch_range_deg": [
+        -51.71817588187333,
+        -14.670877994830958
+      ]
+    },
+    {
+      "scene": "102817053",
+      "instance_id": "102817053:f0ba4441429787fe8c15827ad4db233c4c743b3e_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.0738525390625,
+      "approach_pitch_range_deg": [
+        -32.67478447248492,
+        -17.10691524340007
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:066e34ad65a2401baeaebdd8500bd954e255d02f_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.75946044921875,
+      "approach_pitch_range_deg": [
+        -29.713337092670688,
+        -16.724878671496057
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:0d29db65c42d5ca9021037c0b73914e9d63e0096_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.0281982421875,
+      "approach_pitch_range_deg": [
+        -54.72286868481642,
+        -36.96061445182058
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:0dfcf1e690e0a6705a5ae5fd0cb0dc01f3a600db_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0507965087890625,
+      "approach_pitch_range_deg": [
+        -58.27266143492383,
+        -29.17777353351925
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:1bb872312075cd9058956444f877ccc25ba88011_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.10137939453125,
+      "approach_pitch_range_deg": [
+        -65.56291027544846,
+        -26.141171995929273
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:1c094fa03158472435f319ff499aef6f7b9ff883_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0255584716796875,
+      "approach_pitch_range_deg": [
+        -46.503487405337054,
+        -32.37443950636935
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:1f148fddeb1bb6e9634f8d8be3c979e0d5405a65_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.03082275390625,
+      "approach_pitch_range_deg": [
+        -47.22277492172178,
+        -32.844367968649834
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:20e9177223672e9bf6bd79a4db6022cb27c03e58_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 9,
+      "best_target_fraction": 0.0428466796875,
+      "approach_pitch_range_deg": [
+        -48.65051359376887,
+        -34.11293858939215
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:27ea235b966f93840284a7110b559a7f61bca2a1_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.0406494140625,
+      "approach_pitch_range_deg": [
+        -46.91722882844536,
+        -33.866353310859104
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:27ea235b966f93840284a7110b559a7f61bca2a1_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.0478973388671875,
+      "approach_pitch_range_deg": [
+        -47.857749353438074,
+        -38.423532023308
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:27ea235b966f93840284a7110b559a7f61bca2a1_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.036224365234375,
+      "approach_pitch_range_deg": [
+        -40.499528305882535,
+        -38.00340058398569
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:316d7bc87db3c6ee1fdc26601bcda7d18c5110fb_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0424957275390625,
+      "approach_pitch_range_deg": [
+        -50.334461276222264,
+        -38.60404739273817
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:316d7bc87db3c6ee1fdc26601bcda7d18c5110fb_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0429229736328125,
+      "approach_pitch_range_deg": [
+        -51.547432282726255,
+        -42.970594325939196
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:31f80ef0ceba074486af4881ed8efa403340229f_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.089111328125,
+      "approach_pitch_range_deg": [
+        -68.11064637147223,
+        -21.665289099050053
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:34170a3abede075d1e15942197394d95ee063bf7_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0465087890625,
+      "approach_pitch_range_deg": [
+        -23.886405282570745,
+        -13.700550839038904
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:35d2f13ff8857c21c1ddf87fa522c508a61d9643_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1447296142578125,
+      "approach_pitch_range_deg": [
+        -44.310448331961844,
+        -31.388801229654767
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:39ed21c87f36954eab1d5487000631bc7ef18a06_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.01666259765625,
+      "approach_pitch_range_deg": [
+        -49.12946689873393,
+        -47.450970777729964
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:39ed21c87f36954eab1d5487000631bc7ef18a06_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.013458251953125,
+      "approach_pitch_range_deg": [
+        -50.936266497558314,
+        -49.12946689873393
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:400ae3a2d7a2d45552ef36785c351f13f9bbcba3_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.04071044921875,
+      "approach_pitch_range_deg": [
+        -42.973738367958894,
+        -31.369789148739244
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:4704c95c885e221b1ccba58b435d9a84c53441ee_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.02508544921875,
+      "approach_pitch_range_deg": [
+        -45.125354318823575,
+        -38.14621656826698
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:4704c95c885e221b1ccba58b435d9a84c53441ee_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0409393310546875,
+      "approach_pitch_range_deg": [
+        -40.8000913874146,
+        -39.32068973467763
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:475870f8089a1c7bf8186679ed82537d9fbcc587_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.133209228515625,
+      "approach_pitch_range_deg": [
+        -22.169171097289826,
+        -13.284187407860488
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:50ff6446cdafa03172df41c1244dfac0f8e6bcc8_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.04840087890625,
+      "approach_pitch_range_deg": [
+        -48.351573656575766,
+        -37.874291167164785
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:5747cd91706723281b0a7d34f8b97a48d4fee680_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.004791259765625,
+      "approach_pitch_range_deg": [
+        -45.07358473756365,
+        -44.27162843721333
+      ]
+    },
+    {
+      "scene": "103997613_171030702",
+      "instance_id": "103997613_171030702:76eb8317661751dd4897b39db29df5db517e2d5c_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0402374267578125,
+      "approach_pitch_range_deg": [
+        -51.84248069465646,
+        -38.37915127798686
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:0bc0075df6300263a1be7a5363688dd42e091ee2_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0364837646484375,
+      "approach_pitch_range_deg": [
+        -48.535724249025606,
+        -33.56478281766348
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:0bc0075df6300263a1be7a5363688dd42e091ee2_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.0296478271484375,
+      "approach_pitch_range_deg": [
+        -47.85220529276779,
+        -34.92529265123684
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:0bc0075df6300263a1be7a5363688dd42e091ee2_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0260772705078125,
+      "approach_pitch_range_deg": [
+        -46.970545821466644,
+        -37.38640109783713
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:0bc0075df6300263a1be7a5363688dd42e091ee2_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.035552978515625,
+      "approach_pitch_range_deg": [
+        -47.48236716474105,
+        -34.22687653013716
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:28e92edd4e2a4fa365535b6ac7fede438cc4de1d_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.032806396484375,
+      "approach_pitch_range_deg": [
+        -54.950522142642285,
+        -38.34765274852307
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:46c98ef1342702022042ee1dc44bdde19624e265_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1041107177734375,
+      "approach_pitch_range_deg": [
+        -27.13904052939494,
+        -19.904905191305183
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:475870f8089a1c7bf8186679ed82537d9fbcc587_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.242523193359375,
+      "approach_pitch_range_deg": [
+        -25.165370352902528,
+        -15.033085134886012
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:4d9190b21102af091661cb3272d0c76fd068daa8_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1772918701171875,
+      "approach_pitch_range_deg": [
+        -46.159564315348646,
+        -25.197437074400877
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:782a3b7e0f47cb04ae0a59258942fbb7598123fd_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0273284912109375,
+      "approach_pitch_range_deg": [
+        -59.645659626757755,
+        -34.692309688569026
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:782a3b7e0f47cb04ae0a59258942fbb7598123fd_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.0297088623046875,
+      "approach_pitch_range_deg": [
+        -59.645659626757755,
+        -34.692307690813415
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:7ebbcee61f6f7b26bf9b346ac960fd0248fc2bdd_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.088043212890625,
+      "approach_pitch_range_deg": [
+        -48.06130802957337,
+        -31.3202532814592
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:7ff8c2d48e8d49e2f1504bc83d16ef933cd7163b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0371246337890625,
+      "approach_pitch_range_deg": [
+        -53.9465207273386,
+        -37.73131375223053
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:81ef70dbef87705b4e0e5051197da71c5e1bd4b4_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.237579345703125,
+      "approach_pitch_range_deg": [
+        -35.0232604164008,
+        3.8668208597126754
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:a6c886810720eeb275e057630275b5f5693440b0_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0280303955078125,
+      "approach_pitch_range_deg": [
+        -64.45441589646954,
+        -18.321055490798102
+      ]
+    },
+    {
+      "scene": "103997970_171031287",
+      "instance_id": "103997970_171031287:bd8a1dc70062c8e7c8a33cb92ee86fbe6b015547_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0594329833984375,
+      "approach_pitch_range_deg": [
+        -28.4366151921884,
+        -15.438192174231633
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:16100ba2844b8f89c2ba6e30677d13ffe45d82a7_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 7,
+      "best_target_fraction": 0.1285552978515625,
+      "approach_pitch_range_deg": [
+        -46.76239839797513,
+        -31.32375963129416
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:16100ba2844b8f89c2ba6e30677d13ffe45d82a7_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0554046630859375,
+      "approach_pitch_range_deg": [
+        -67.29569531386386,
+        -31.32375963129416
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:16dbc96620905f36f8e0822f2683ce7d0884db26_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.042572021484375,
+      "approach_pitch_range_deg": [
+        -43.623315585169884,
+        -39.47708430911341
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:422ce39dbe981637e8fd9d5a75179289a991a6fe_part_1_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0507354736328125,
+      "approach_pitch_range_deg": [
+        -42.72855895316783,
+        -34.52209241604351
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:422ce39dbe981637e8fd9d5a75179289a991a6fe_part_1_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0324859619140625,
+      "approach_pitch_range_deg": [
+        -42.72859240466265,
+        -35.58245683575542
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:422ce39dbe981637e8fd9d5a75179289a991a6fe_part_1_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0508270263671875,
+      "approach_pitch_range_deg": [
+        -48.794480416730885,
+        -35.17837565044023
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:422ce39dbe981637e8fd9d5a75179289a991a6fe_part_1_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0486297607421875,
+      "approach_pitch_range_deg": [
+        -48.24337453502659,
+        -36.259729020866565
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:422ce39dbe981637e8fd9d5a75179289a991a6fe_part_1_:0004",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.0525054931640625,
+      "approach_pitch_range_deg": [
+        -44.29454838240456,
+        -35.5248245695909
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:422ce39dbe981637e8fd9d5a75179289a991a6fe_part_1_:0005",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0484466552734375,
+      "approach_pitch_range_deg": [
+        -42.72855895316783,
+        -34.67522500317017
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:45debead25395eec804bc6bc3f8709fa7e7b6f01_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1622161865234375,
+      "approach_pitch_range_deg": [
+        -43.08175614457857,
+        -29.766824201381585
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:625f9cad5f07701e057a15bcbd7b1f2e5f293fce_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 12,
+      "best_target_fraction": 0.006072998046875,
+      "approach_pitch_range_deg": [
+        -56.849814127554055,
+        -42.97200110867067
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:6cf8d5e45fba1df742e037fd4cf7b46ee921c643_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.087493896484375,
+      "approach_pitch_range_deg": [
+        -48.00923531585733,
+        -30.518716434376103
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:84bfd7cb88bf36634f9e44941d0bbd48e610fe51_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.027313232421875,
+      "approach_pitch_range_deg": [
+        -53.47308344303486,
+        -42.782282957159545
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:8f9440cad20bac4f3a17cef6a3b34879c75c26d5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 13,
+      "best_target_fraction": 0.020233154296875,
+      "approach_pitch_range_deg": [
+        -40.652659339063575,
+        -36.08001771721793
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:92277a413e484a80225352147b3147fed6428b16_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0695037841796875,
+      "approach_pitch_range_deg": [
+        -52.431790568488765,
+        -33.36126807640525
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:92277a413e484a80225352147b3147fed6428b16_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.069366455078125,
+      "approach_pitch_range_deg": [
+        -51.904553183436356,
+        -31.84190322381658
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:9e8008623ecf449f18fe8addf6cf7dc285c861a1_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.210052490234375,
+      "approach_pitch_range_deg": [
+        -69.44465995557826,
+        -28.668613835581287
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:c12f57b775a79bd595c6b6b60060f4dbb3c718b5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.123565673828125,
+      "approach_pitch_range_deg": [
+        -49.52103849042282,
+        -30.97864319329448
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:c3bfe9d9969b21fac01b8bb7b9399a0047feef73_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 10,
+      "best_target_fraction": 0.01910400390625,
+      "approach_pitch_range_deg": [
+        -62.06886976270124,
+        -49.85854488032907
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:d570962fbecf8ce6a51e46fb7eea6e4418fd911e_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0333404541015625,
+      "approach_pitch_range_deg": [
+        -50.44248896382817,
+        -34.4921595364155
+      ]
+    },
+    {
+      "scene": "103997994_171031320",
+      "instance_id": "103997994_171031320:fec5ab3dd9ef0cc40101a0976ffdd9c326610f46_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 7,
+      "best_target_fraction": 0.0314788818359375,
+      "approach_pitch_range_deg": [
+        -50.416870217522266,
+        -40.03167812883774
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:0665c20a203a9982c8c528b453961a91745d229d_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1800079345703125,
+      "approach_pitch_range_deg": [
+        -48.61403781148269,
+        -33.48423330106304
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:0d129d28eedc44412baecf233dfa67e62a255201_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.03173828125,
+      "approach_pitch_range_deg": [
+        -58.920965630142874,
+        -35.83906783782656
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:14da8ccd3f70bf394ae0937f47a77c898bfa6ad4_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.03692626953125,
+      "approach_pitch_range_deg": [
+        -56.25323590875684,
+        -49.12907135333816
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:32f0dd69c5c68ae650f50fd468be1ba105c7ec6e_part_2_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.04986572265625,
+      "approach_pitch_range_deg": [
+        -43.47904860116185,
+        -37.5876592883652
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:32f0dd69c5c68ae650f50fd468be1ba105c7ec6e_part_2_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.04986572265625,
+      "approach_pitch_range_deg": [
+        -43.47903322377199,
+        -37.588658469635185
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:32f0dd69c5c68ae650f50fd468be1ba105c7ec6e_part_2_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.032470703125,
+      "approach_pitch_range_deg": [
+        -43.47903350283229,
+        -36.95347943753395
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:32f0dd69c5c68ae650f50fd468be1ba105c7ec6e_part_2_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0272674560546875,
+      "approach_pitch_range_deg": [
+        -43.479026310185915,
+        -37.74008587304344
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:32f0dd69c5c68ae650f50fd468be1ba105c7ec6e_part_2_:0004",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0317840576171875,
+      "approach_pitch_range_deg": [
+        -43.47903781219577,
+        -37.618460117278374
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:32f0dd69c5c68ae650f50fd468be1ba105c7ec6e_part_2_:0005",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0317840576171875,
+      "approach_pitch_range_deg": [
+        -43.479039517337334,
+        -37.61846548463779
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:42b33e2349f4129d28a48bfb4bdadb813c7fd96c_part_1_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0597686767578125,
+      "approach_pitch_range_deg": [
+        -47.34817960432474,
+        -33.10715236835875
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:4d6310a9ffa5b50e7dc45940cf724ba1fa3ffddd_part_1_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.271514892578125,
+      "approach_pitch_range_deg": [
+        -19.40471864083135,
+        -16.278457656334403
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:4fa98f238cf9f4821a9f5702f293801df84994d2_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0805206298828125,
+      "approach_pitch_range_deg": [
+        -65.53832980174789,
+        -18.02492082305057
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:8597e0af462124aef9ec06dde13f45bb2b223a74_part_3_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.056976318359375,
+      "approach_pitch_range_deg": [
+        -42.041284303745215,
+        -37.304980818122175
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:9f3a1c20d3efa14cca4563bd9b5c53d8e96d4b28_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.2972412109375,
+      "approach_pitch_range_deg": [
+        -40.130394371956356,
+        -20.018819576465273
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:b3aae4e5b95084cae7923d8bad48947e91e5cf72_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 7,
+      "best_target_fraction": 0.026123046875,
+      "approach_pitch_range_deg": [
+        -44.761925802998505,
+        -42.6102296398312
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:c5fcff661840480b412a5c4a8fdfb0d58d262ad5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.02593994140625,
+      "approach_pitch_range_deg": [
+        -44.761922388021645,
+        -36.40270433555793
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:cdc5ea4b23fbf633b1b59b72870d7db8695938ec_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.183929443359375,
+      "approach_pitch_range_deg": [
+        -55.61977314817185,
+        -26.11389518076233
+      ]
+    },
+    {
+      "scene": "104862513_172226580",
+      "instance_id": "104862513_172226580:fb43121461f64e0e21ca253a07bf0a766fb5d158_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.051361083984375,
+      "approach_pitch_range_deg": [
+        -50.224843333559846,
+        -36.441221743002714
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:03b813e8a1f0de5e3c9d595a8ac8aa7112a07a24_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.191864013671875,
+      "approach_pitch_range_deg": [
+        -57.57187863863477,
+        -24.470255919904684
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:055db798b8756570cc0eec7f8e7d3632cb6173ab_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.376983642578125,
+      "approach_pitch_range_deg": [
+        -7.499925726105873,
+        -4.703812891588149
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:055db798b8756570cc0eec7f8e7d3632cb6173ab_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.3747100830078125,
+      "approach_pitch_range_deg": [
+        -29.75239159973814,
+        -4.439754347028769
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:055db798b8756570cc0eec7f8e7d3632cb6173ab_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.3781890869140625,
+      "approach_pitch_range_deg": [
+        -28.994083184609945,
+        -4.638902661339672
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:055db798b8756570cc0eec7f8e7d3632cb6173ab_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.373382568359375,
+      "approach_pitch_range_deg": [
+        -30.21147218064636,
+        -4.645566446810448
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:083090369fb48b0329122df572d2676e7c4bd77d_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.04864501953125,
+      "approach_pitch_range_deg": [
+        -64.20693677326315,
+        -22.54272223105432
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:083090369fb48b0329122df572d2676e7c4bd77d_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1482696533203125,
+      "approach_pitch_range_deg": [
+        -63.60813417142419,
+        -22.542731941600557
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:083090369fb48b0329122df572d2676e7c4bd77d_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0454559326171875,
+      "approach_pitch_range_deg": [
+        -63.756371114875385,
+        -22.542733956964284
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:160a64a79b995dddbcb9c453b51c8e85b27b4fec_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.03082275390625,
+      "approach_pitch_range_deg": [
+        -49.78781686184855,
+        -45.60119873401213
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:160a64a79b995dddbcb9c453b51c8e85b27b4fec_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.03082275390625,
+      "approach_pitch_range_deg": [
+        -50.06605855332231,
+        -42.87571934185083
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:160a64a79b995dddbcb9c453b51c8e85b27b4fec_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.03082275390625,
+      "approach_pitch_range_deg": [
+        -51.43289632449121,
+        -42.80067630805059
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:160a64a79b995dddbcb9c453b51c8e85b27b4fec_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.025848388671875,
+      "approach_pitch_range_deg": [
+        -50.79134038363893,
+        -42.53928269029421
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:160a64a79b995dddbcb9c453b51c8e85b27b4fec_:0004",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 6,
+      "best_target_fraction": 0.0264739990234375,
+      "approach_pitch_range_deg": [
+        -46.64960433161202,
+        -42.224531171101475
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:160a64a79b995dddbcb9c453b51c8e85b27b4fec_:0011",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.0298919677734375,
+      "approach_pitch_range_deg": [
+        -49.58235741902072,
+        -45.60119873401213
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:160a64a79b995dddbcb9c453b51c8e85b27b4fec_:0016",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.0298919677734375,
+      "approach_pitch_range_deg": [
+        -49.601071705353334,
+        -40.71447106347244
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:160a64a79b995dddbcb9c453b51c8e85b27b4fec_:0021",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.0298919677734375,
+      "approach_pitch_range_deg": [
+        -51.42219752045769,
+        -42.813224526381774
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:160a64a79b995dddbcb9c453b51c8e85b27b4fec_:0026",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.0298919677734375,
+      "approach_pitch_range_deg": [
+        -50.37321902992051,
+        -42.99980451172722
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:160a64a79b995dddbcb9c453b51c8e85b27b4fec_:0031",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.0298919677734375,
+      "approach_pitch_range_deg": [
+        -46.71275971900757,
+        -42.089736555953365
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:19ab91116ae6cded08529445a0ff2f6e5fd025b1_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.3060760498046875,
+      "approach_pitch_range_deg": [
+        -61.046448314958106,
+        -17.316541474373093
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:19ab91116ae6cded08529445a0ff2f6e5fd025b1_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.415985107421875,
+      "approach_pitch_range_deg": [
+        -58.85544127937525,
+        -17.278546097456264
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:2ffe8322ed6d595635e2b267d2fbeae698032e67_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0266876220703125,
+      "approach_pitch_range_deg": [
+        -42.64271159756527,
+        -42.387063846859576
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:2ffe8322ed6d595635e2b267d2fbeae698032e67_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.041351318359375,
+      "approach_pitch_range_deg": [
+        -45.188627152695446,
+        -37.679961950445595
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:2ffe8322ed6d595635e2b267d2fbeae698032e67_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.040374755859375,
+      "approach_pitch_range_deg": [
+        -42.33114797008,
+        -38.25510853883233
+      ]
+    },
+    {
+      "scene": "105515175_173104107",
+      "instance_id": "105515175_173104107:2ffe8322ed6d595635e2b267d2fbeae698032e67_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.041107177734375,
+      "approach_pitch_range_deg": [
+        -44.28920425904087,
+        -38.75183937659717
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:01af821742a85925760456d37968cbb767b80113_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0670013427734375,
+      "approach_pitch_range_deg": [
+        -47.37325175153264,
+        -28.035941808241883
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:01af821742a85925760456d37968cbb767b80113_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0708160400390625,
+      "approach_pitch_range_deg": [
+        -49.179327748623784,
+        -29.682298332774746
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:0bc4da677e044472f7a703d2ddac90e8cf0ef470_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.2183380126953125,
+      "approach_pitch_range_deg": [
+        -55.49043213043259,
+        -19.211601337588842
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:1d438cf2a0be5706ffdbd1489fbfb27f712589a0_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0606689453125,
+      "approach_pitch_range_deg": [
+        3.0324148746437505,
+        3.6714739524277396
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:3a30a28972253be16cf15f50c3e59440a2aba520_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.0213775634765625,
+      "approach_pitch_range_deg": [
+        -40.20475188251795,
+        -37.34173537684482
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:3c2d7e1f16920bc1ba22f34ef1409f392c66bbbb_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0381011962890625,
+      "approach_pitch_range_deg": [
+        -64.97906464341219,
+        -17.325703228579282
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:4cfa177fc0cc335354b3200f7ae8d954bfbbf77e_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0744171142578125,
+      "approach_pitch_range_deg": [
+        -62.426417044319734,
+        -19.791487433180883
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:621a31ce06642e8fbb67c8376547a9aabae4cbb1_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.053558349609375,
+      "approach_pitch_range_deg": [
+        -54.96153983061554,
+        -30.73895306495662
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:6e091b64e3db98057bec72d11b39f76f7c823487_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0580596923828125,
+      "approach_pitch_range_deg": [
+        -31.07606996457105,
+        -29.482314785442636
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:88b560a947f6bfdf005e377019c4c4933d6a6daf_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0478973388671875,
+      "approach_pitch_range_deg": [
+        -53.578158176616654,
+        -32.26533851700983
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:88b560a947f6bfdf005e377019c4c4933d6a6daf_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.04144287109375,
+      "approach_pitch_range_deg": [
+        -51.0485065489485,
+        -31.476229940866645
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:8ef6e7dc033fd6815358b7471b5954da31fdc65e_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.06268310546875,
+      "approach_pitch_range_deg": [
+        -49.709801969265094,
+        -31.04725189465376
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:8f9440cad20bac4f3a17cef6a3b34879c75c26d5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.01531982421875,
+      "approach_pitch_range_deg": [
+        -39.287995249222,
+        -37.75834107966886
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:9668a59d28c02a6787beeefb7770f0414a1a83de_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 11,
+      "best_target_fraction": 0.02783203125,
+      "approach_pitch_range_deg": [
+        -59.17247991677538,
+        -34.43624970822376
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:9983a471c895f122479d80104b5c73f6f7c8f7e5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.0187530517578125,
+      "approach_pitch_range_deg": [
+        -20.821055696864228,
+        -20.161194725858067
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:af08885f6ce657eff10dd899244cd628a73da63e_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.01983642578125,
+      "approach_pitch_range_deg": [
+        -49.09200510695539,
+        -42.320695028982236
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:ba28803b05660ca87ad0650276988f02dce1081e_part_4_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0574493408203125,
+      "approach_pitch_range_deg": [
+        -45.971716811260436,
+        -30.050730639971334
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:ba28803b05660ca87ad0650276988f02dce1081e_part_4_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0522308349609375,
+      "approach_pitch_range_deg": [
+        -45.07139235750682,
+        -32.860137149374985
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:ba28803b05660ca87ad0650276988f02dce1081e_part_4_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.063873291015625,
+      "approach_pitch_range_deg": [
+        -45.10875873540032,
+        -31.447207972891377
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:ba28803b05660ca87ad0650276988f02dce1081e_part_4_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0471649169921875,
+      "approach_pitch_range_deg": [
+        -45.753059602672785,
+        -37.77914537003102
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:ded915cd6ff75d772c84abbc4ca2bf141d0caa90_part_3_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.024993896484375,
+      "approach_pitch_range_deg": [
+        -22.238460893240042,
+        -17.79867099967538
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:xxxxc5f5a4e6x249ex450dxb3b0x2e48a8bf816b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.028350830078125,
+      "approach_pitch_range_deg": [
+        -53.71767922998304,
+        -40.119406771825496
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:xxxxc5f5a4e6x249ex450dxb3b0x2e48a8bf816b_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.034271240234375,
+      "approach_pitch_range_deg": [
+        -51.21213071088511,
+        -35.362843551751574
+      ]
+    },
+    {
+      "scene": "105515307_173104317",
+      "instance_id": "105515307_173104317:xxxxc5f5a4e6x249ex450dxb3b0x2e48a8bf816b_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.025665283203125,
+      "approach_pitch_range_deg": [
+        -49.362257104707254,
+        -38.32595549539925
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:00f41a55911cb9b2599dc27a470d1ae5e4eb60f4_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1849212646484375,
+      "approach_pitch_range_deg": [
+        -40.273780022770985,
+        -24.253847871348018
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:0d6acbc9f35c8834a605e284167f44c84582a975_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.4692840576171875,
+      "approach_pitch_range_deg": [
+        12.28090350594165,
+        19.29963499961069
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:0edf3065ba2b0299d7eafd6fcf2e659176e54160_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.5926971435546875,
+      "approach_pitch_range_deg": [
+        -4.039935110877734,
+        -2.8839401854133873
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:0edf3065ba2b0299d7eafd6fcf2e659176e54160_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.623931884765625,
+      "approach_pitch_range_deg": [
+        1.9942833528921144,
+        4.389922166573283
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:194162dfc40d2bdb63a4450220c6f440b30c2a1b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.0258331298828125,
+      "approach_pitch_range_deg": [
+        -45.3873839591452,
+        -38.57678234454797
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:194162dfc40d2bdb63a4450220c6f440b30c2a1b_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0254974365234375,
+      "approach_pitch_range_deg": [
+        -53.49396034358005,
+        -41.62662197964728
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:194162dfc40d2bdb63a4450220c6f440b30c2a1b_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 6,
+      "best_target_fraction": 0.0300750732421875,
+      "approach_pitch_range_deg": [
+        -45.92338167834301,
+        -37.904029463820166
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:194162dfc40d2bdb63a4450220c6f440b30c2a1b_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 12,
+      "best_target_fraction": 0.02410888671875,
+      "approach_pitch_range_deg": [
+        -45.387378836971195,
+        -37.683396760382756
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:194162dfc40d2bdb63a4450220c6f440b30c2a1b_:0004",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.028594970703125,
+      "approach_pitch_range_deg": [
+        -46.201849174418086,
+        -37.17091979120741
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:194162dfc40d2bdb63a4450220c6f440b30c2a1b_:0005",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0287017822265625,
+      "approach_pitch_range_deg": [
+        -46.08927372948092,
+        -39.04918939183139
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:1d438cf2a0be5706ffdbd1489fbfb27f712589a0_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.3606109619140625,
+      "approach_pitch_range_deg": [
+        18.837826555691056,
+        27.34332685110832
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:34466b8622f352c9ab079d3718b0ec604438e205_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.037078857421875,
+      "approach_pitch_range_deg": [
+        -45.31235212026689,
+        -37.682009810855234
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:34466b8622f352c9ab079d3718b0ec604438e205_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 6,
+      "best_target_fraction": 0.0323028564453125,
+      "approach_pitch_range_deg": [
+        -50.653265767899036,
+        -37.682009810855234
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:34466b8622f352c9ab079d3718b0ec604438e205_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.032012939453125,
+      "approach_pitch_range_deg": [
+        -48.11390006473538,
+        -37.682009810855234
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:4372912e2c3f57c94c2d89dc26cd2591ec84929e_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.3697967529296875,
+      "approach_pitch_range_deg": [
+        -16.568706856733396,
+        -7.1595230880584655
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:573e1d964446fd062966ba09f0728ee0b9421b0e_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.028045654296875,
+      "approach_pitch_range_deg": [
+        -49.93232068975746,
+        -37.45817806649142
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:576f0a57271ccc62554b2603a48047854254119d_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.526123046875,
+      "approach_pitch_range_deg": [
+        -25.735070843667987,
+        -23.08635803401336
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:5e5a5f3bac797d41019e16c379cede504780abd7_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0562896728515625,
+      "approach_pitch_range_deg": [
+        -44.81173622240641,
+        -39.33065588396776
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:69803a92f62572f4bc4de8fc64fd84c6a6e63229_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.031005859375,
+      "approach_pitch_range_deg": [
+        -43.662074819147236,
+        -34.51388192063843
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:70c7ba63276ac6400527817e31fdd0141c4dae4b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.2037811279296875,
+      "approach_pitch_range_deg": [
+        -30.457161383292657,
+        -15.556519096198931
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:7df5f5cc83bc833895b678ffb217cec95551207c_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1847686767578125,
+      "approach_pitch_range_deg": [
+        -33.81298488761242,
+        -27.459696317770515
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:837a65ab0adb41dd5302c21ed249afd2d8454f26_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.3348846435546875,
+      "approach_pitch_range_deg": [
+        -58.83715203931966,
+        -21.23234659523233
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:882f85fe37a1c152e105e886418eb42166a311c3_part_2_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.0265655517578125,
+      "approach_pitch_range_deg": [
+        -60.865708625505995,
+        -40.41044282312581
+      ]
+    },
+    {
+      "scene": "105515490_173104566",
+      "instance_id": "105515490_173104566:882f85fe37a1c152e105e886418eb42166a311c3_part_2_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 7,
+      "best_target_fraction": 0.0278778076171875,
+      "approach_pitch_range_deg": [
+        -60.474098058393814,
+        -40.08134063573687
+      ]
+    },
+    {
+      "scene": "107734119_175999938",
+      "instance_id": "107734119_175999938:41987c22ea643f72186aec7991096ffd2a591091_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1490631103515625,
+      "approach_pitch_range_deg": [
+        -65.9795927373084,
+        -16.884566416899236
+      ]
+    },
+    {
+      "scene": "107734119_175999938",
+      "instance_id": "107734119_175999938:78ad33399ead05be41d62756977ade1610e39874_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0353240966796875,
+      "approach_pitch_range_deg": [
+        -53.06181540773543,
+        -42.743836196991616
+      ]
+    },
+    {
+      "scene": "107734119_175999938",
+      "instance_id": "107734119_175999938:bf70431f51b8e06f2d7ef70916682dcd943553b8_part_2_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.033538818359375,
+      "approach_pitch_range_deg": [
+        -41.08426711495818,
+        -32.95857174213412
+      ]
+    },
+    {
+      "scene": "107734119_175999938",
+      "instance_id": "107734119_175999938:bf70431f51b8e06f2d7ef70916682dcd943553b8_part_2_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 7,
+      "best_target_fraction": 0.0435943603515625,
+      "approach_pitch_range_deg": [
+        -40.91444904846373,
+        -30.825228147430543
+      ]
+    },
+    {
+      "scene": "107734119_175999938",
+      "instance_id": "107734119_175999938:de04619c0521fca50c810b76358f6429d632d279_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0382537841796875,
+      "approach_pitch_range_deg": [
+        -43.88045071787316,
+        -38.36631225728883
+      ]
+    },
+    {
+      "scene": "107734119_175999938",
+      "instance_id": "107734119_175999938:de04619c0521fca50c810b76358f6429d632d279_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.026092529296875,
+      "approach_pitch_range_deg": [
+        -54.43885212818658,
+        -36.05710666295058
+      ]
+    },
+    {
+      "scene": "107734119_175999938",
+      "instance_id": "107734119_175999938:de12508d7a41d6d19cfbea65cdc044c6a1f4d7b6_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.044219970703125,
+      "approach_pitch_range_deg": [
+        -49.568474915369364,
+        -38.79756367249045
+      ]
+    },
+    {
+      "scene": "107734119_175999938",
+      "instance_id": "107734119_175999938:e55837deeee56fc0f7ba46ce32e7076dfc415db4_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0803680419921875,
+      "approach_pitch_range_deg": [
+        -51.24335246558909,
+        -30.306576665658692
+      ]
+    },
+    {
+      "scene": "107734119_175999938",
+      "instance_id": "107734119_175999938:e55837deeee56fc0f7ba46ce32e7076dfc415db4_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.046295166015625,
+      "approach_pitch_range_deg": [
+        -46.93744767401587,
+        -29.460052785313984
+      ]
+    },
+    {
+      "scene": "107734119_175999938",
+      "instance_id": "107734119_175999938:e990bfbf3284d95bd7c018c01cca1c2b27488e4f_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.2615966796875,
+      "approach_pitch_range_deg": [
+        -65.98407588105255,
+        -22.13923414062141
+      ]
+    },
+    {
+      "scene": "107734119_175999938",
+      "instance_id": "107734119_175999938:e990bfbf3284d95bd7c018c01cca1c2b27488e4f_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.263092041015625,
+      "approach_pitch_range_deg": [
+        -68.68218466692163,
+        -22.024775226397423
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:14bdc1398760aef6d8757e2dd6a1c674d7851e66_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.01287841796875,
+      "approach_pitch_range_deg": [
+        -31.85129817340431,
+        -26.75904848111319
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:26a38271fb04e01cc4ae5f6cabad71f37a69231b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.0258941650390625,
+      "approach_pitch_range_deg": [
+        -49.72729111557636,
+        -34.42256122400786
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:3d5dbeba4ba6e74747ee29b8f57d31b1f55b49f1_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.280242919921875,
+      "approach_pitch_range_deg": [
+        -40.92918211004699,
+        -21.145718654005556
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:41211ff4c9664a5f94a7728259a6ae23eb9c86f6_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.00909423828125,
+      "approach_pitch_range_deg": [
+        -36.294792767225225,
+        -34.56498516802561
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:4bcc9e3194f68ae0d62478af12966e2bdbf5aa1e_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.137115478515625,
+      "approach_pitch_range_deg": [
+        -68.39357014899494,
+        -26.96440239383624
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:7ff8c2d48e8d49e2f1504bc83d16ef933cd7163b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.043609619140625,
+      "approach_pitch_range_deg": [
+        -49.49113315882887,
+        -38.21849862918956
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:817661670eecf26fc9a1b273782f7d003c4d046d_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0422515869140625,
+      "approach_pitch_range_deg": [
+        -42.71947130208163,
+        -39.551971146701256
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:817661670eecf26fc9a1b273782f7d003c4d046d_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0467681884765625,
+      "approach_pitch_range_deg": [
+        -50.494032825286375,
+        -39.065683810360824
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:b53be132d39838c42455ace3136bc1d07114a2ed_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0272064208984375,
+      "approach_pitch_range_deg": [
+        -24.3131267691282,
+        -24.20918693540141
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:c37e1c6105bc43c44c14b8fb371b0d3c843ec313_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 7,
+      "best_target_fraction": 0.0281524658203125,
+      "approach_pitch_range_deg": [
+        -25.50942629484683,
+        -18.9277526618264
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:e4c49b444dda05bdac79ad01ec10f82b735b62a1_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0694427490234375,
+      "approach_pitch_range_deg": [
+        -41.320075441454186,
+        -24.72961227054812
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:f6dff1b372baf384b3356f72a2299ea32a2af3fa_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.3377532958984375,
+      "approach_pitch_range_deg": [
+        11.239023797848297,
+        15.711606032334066
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:xxxx31c3e2eaxb753x40dfx9630xab5afbebd8ba_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.026885986328125,
+      "approach_pitch_range_deg": [
+        -53.70949172981983,
+        -28.40904382248789
+      ]
+    },
+    {
+      "scene": "108294465_176709960",
+      "instance_id": "108294465_176709960:xxxxc24b125dxd5dex4ffbxa5a7xf41b4aa6707f_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 11,
+      "best_target_fraction": 0.023162841796875,
+      "approach_pitch_range_deg": [
+        -50.648783531748784,
+        -27.174590743291347
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:0196e8210ba3ddbb8e0d61a6ff836da41e5b3f66_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.088287353515625,
+      "approach_pitch_range_deg": [
+        -17.84508487681095,
+        -10.939858428464705
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:0196e8210ba3ddbb8e0d61a6ff836da41e5b3f66_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.2791748046875,
+      "approach_pitch_range_deg": [
+        -18.235612718302754,
+        -10.02329178859849
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:04aa46b383620e09b40c1bbd68f36cd4d96bf416_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.068206787109375,
+      "approach_pitch_range_deg": [
+        -55.62223543297535,
+        -40.72158984471474
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:0d3e9c7193817df7a779fb18577d7960bc0dcf04_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0913543701171875,
+      "approach_pitch_range_deg": [
+        -24.226427972177955,
+        -15.707715224051634
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:0f47657dc364ff0fef5a4f55e7bfd26f84b3848a_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 12,
+      "best_target_fraction": 0.024932861328125,
+      "approach_pitch_range_deg": [
+        -43.40681692834278,
+        -37.86036315449854
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:14bdc1398760aef6d8757e2dd6a1c674d7851e66_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.01361083984375,
+      "approach_pitch_range_deg": [
+        -38.2815521578055,
+        -38.28154883619445
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:1998a26f8bf84bbf660d14cdc32774e66ce6d33d_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 6,
+      "best_target_fraction": 0.130950927734375,
+      "approach_pitch_range_deg": [
+        -45.766018804810614,
+        -29.700613859519986
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:24d7f92d8b71909ebdeb42de11011a56a654886c_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.045745849609375,
+      "approach_pitch_range_deg": [
+        -67.45121792868223,
+        -21.423736724137523
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:2cc9ea6e954407376fc7138ca8ffed08923715d0_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0838165283203125,
+      "approach_pitch_range_deg": [
+        -52.32816515448778,
+        -33.71340637842197
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:2cc9ea6e954407376fc7138ca8ffed08923715d0_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.062347412109375,
+      "approach_pitch_range_deg": [
+        -53.77526034127415,
+        -33.468326938145545
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:34170a3abede075d1e15942197394d95ee063bf7_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0652618408203125,
+      "approach_pitch_range_deg": [
+        -21.142439758051946,
+        -18.43777514302901
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:4372912e2c3f57c94c2d89dc26cd2591ec84929e_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.12567138671875,
+      "approach_pitch_range_deg": [
+        -17.75211613407529,
+        -7.597993566034688
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:4372912e2c3f57c94c2d89dc26cd2591ec84929e_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1452484130859375,
+      "approach_pitch_range_deg": [
+        -17.75213149960103,
+        -7.597998412376961
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:4372912e2c3f57c94c2d89dc26cd2591ec84929e_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.471221923828125,
+      "approach_pitch_range_deg": [
+        -18.468500030221815,
+        -7.598013697374196
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:4372912e2c3f57c94c2d89dc26cd2591ec84929e_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.089691162109375,
+      "approach_pitch_range_deg": [
+        -17.75212752176057,
+        -7.598008105058291
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:4372912e2c3f57c94c2d89dc26cd2591ec84929e_:0004",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.313018798828125,
+      "approach_pitch_range_deg": [
+        -17.752092333738666,
+        -7.597991328109705
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:4959b90747527188aa0c4ac7916b6ebf24ebfd3b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 10,
+      "best_target_fraction": 0.0060882568359375,
+      "approach_pitch_range_deg": [
+        -53.13506324672668,
+        -48.9652564900436
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:4cad1ecbfd0fe3aa7063a8dff8fa661c5b421713_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.0304718017578125,
+      "approach_pitch_range_deg": [
+        -58.313281324923814,
+        -40.09196974636121
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:4cad1ecbfd0fe3aa7063a8dff8fa661c5b421713_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.0308685302734375,
+      "approach_pitch_range_deg": [
+        -61.272067695168275,
+        -39.888915409825856
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:4cad1ecbfd0fe3aa7063a8dff8fa661c5b421713_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.0308685302734375,
+      "approach_pitch_range_deg": [
+        -59.09586714869692,
+        -41.18203385488828
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:6502402525039b58cbeccba1add4fc43d9102010_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1146697998046875,
+      "approach_pitch_range_deg": [
+        -41.53554431988378,
+        -29.640846025587887
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:659bb5a8076d459f55660180ce4d9f40ac8c1782_part_1_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.032257080078125,
+      "approach_pitch_range_deg": [
+        -45.13072609074707,
+        -40.367330727066324
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:659bb5a8076d459f55660180ce4d9f40ac8c1782_part_1_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0315399169921875,
+      "approach_pitch_range_deg": [
+        -45.13071926840145,
+        -39.47298220686377
+      ]
+    },
+    {
+      "scene": "108294537_176710050",
+      "instance_id": "108294537_176710050:659bb5a8076d459f55660180ce4d9f40ac8c1782_part_1_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 6,
+      "best_target_fraction": 0.0314483642578125,
+      "approach_pitch_range_deg": [
+        -48.96229544095644,
+        -39.08202016420801
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:00e3402610a1f547e1cf80d348629cd7bb6fe1e8_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.215118408203125,
+      "approach_pitch_range_deg": [
+        -35.555868793997114,
+        -15.219407190770122
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:00e3402610a1f547e1cf80d348629cd7bb6fe1e8_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.208648681640625,
+      "approach_pitch_range_deg": [
+        -28.30067906435875,
+        -14.737638510997048
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:2535b2b825108a5605ab9f1479b016773315c839_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.2813262939453125,
+      "approach_pitch_range_deg": [
+        -48.66046185035682,
+        -22.32660116521137
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:448d008ec31f9a6e35f96e2a165a4864fbaea2d4_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1226806640625,
+      "approach_pitch_range_deg": [
+        -47.77163727939327,
+        -43.25659623782778
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:448d008ec31f9a6e35f96e2a165a4864fbaea2d4_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.13763427734375,
+      "approach_pitch_range_deg": [
+        -45.29405135933938,
+        -31.907942224136125
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:475870f8089a1c7bf8186679ed82537d9fbcc587_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0662384033203125,
+      "approach_pitch_range_deg": [
+        -30.671156108059883,
+        -13.073912686239497
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:48d7aaa22b61b9f787fb01f6cc4eaf71cdf6acd2_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0847625732421875,
+      "approach_pitch_range_deg": [
+        -49.13108689658632,
+        -28.831123469150818
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:48d7aaa22b61b9f787fb01f6cc4eaf71cdf6acd2_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0847625732421875,
+      "approach_pitch_range_deg": [
+        -45.415305192108356,
+        -28.952481795086676
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:75f89b9815a051533beb38d8f2ee8f2f2a09396d_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.038726806640625,
+      "approach_pitch_range_deg": [
+        -62.26737168939926,
+        -21.883853901749646
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:8b6b15d5222cc51a287af92bf82e6b6e42ca235e_part_2_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.04632568359375,
+      "approach_pitch_range_deg": [
+        -61.66666780757931,
+        -36.26147800931108
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:8b6b15d5222cc51a287af92bf82e6b6e42ca235e_part_2_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.0254058837890625,
+      "approach_pitch_range_deg": [
+        -61.66666780757931,
+        -35.047607602127854
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:8b6b15d5222cc51a287af92bf82e6b6e42ca235e_part_2_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0549468994140625,
+      "approach_pitch_range_deg": [
+        -66.16890862472141,
+        -36.347187491825686
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:8b6b15d5222cc51a287af92bf82e6b6e42ca235e_part_2_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.05267333984375,
+      "approach_pitch_range_deg": [
+        -62.31256225913413,
+        -35.32923150672034
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:8b6b15d5222cc51a287af92bf82e6b6e42ca235e_part_2_:0004",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.0459136962890625,
+      "approach_pitch_range_deg": [
+        -62.31256225913413,
+        -33.84631544292902
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:8b6b15d5222cc51a287af92bf82e6b6e42ca235e_part_2_:0005",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 10,
+      "best_target_fraction": 0.047210693359375,
+      "approach_pitch_range_deg": [
+        -62.31256225913413,
+        -35.08325608989012
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:8b6b15d5222cc51a287af92bf82e6b6e42ca235e_part_2_:0006",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0558624267578125,
+      "approach_pitch_range_deg": [
+        -66.16892097037096,
+        -37.92231255850194
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:8b6b15d5222cc51a287af92bf82e6b6e42ca235e_part_2_:0007",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 6,
+      "best_target_fraction": 0.0483551025390625,
+      "approach_pitch_range_deg": [
+        -61.66666780757931,
+        -36.46335004226393
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:9cd466c13a6655013c4302ba1882fe48e37bb4e6_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.11175537109375,
+      "approach_pitch_range_deg": [
+        -46.65266844964194,
+        -43.234357953633555
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:9cd466c13a6655013c4302ba1882fe48e37bb4e6_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.05218505859375,
+      "approach_pitch_range_deg": [
+        -43.2343682878808,
+        -31.350967501068098
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:a0b9f0012b24d213c66acbdc7d0998e37f2bfcd5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 11,
+      "best_target_fraction": 0.0248565673828125,
+      "approach_pitch_range_deg": [
+        -49.917758459256035,
+        -42.302819496662906
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:a0b9f0012b24d213c66acbdc7d0998e37f2bfcd5_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.0191192626953125,
+      "approach_pitch_range_deg": [
+        -49.91775367849183,
+        -47.3234896520594
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:a8fef22c3965266d8e0ee7f2dbe3f22a14e8c180_part_2_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 9,
+      "best_target_fraction": 0.0367431640625,
+      "approach_pitch_range_deg": [
+        -61.876500686519,
+        -40.78769505419812
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:a8fef22c3965266d8e0ee7f2dbe3f22a14e8c180_part_2_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 16,
+      "best_target_fraction": 0.0230712890625,
+      "approach_pitch_range_deg": [
+        -61.336343831064895,
+        -34.68531322073101
+      ]
+    },
+    {
+      "scene": "108294624_176710203",
+      "instance_id": "108294624_176710203:a8fef22c3965266d8e0ee7f2dbe3f22a14e8c180_part_2_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.0452880859375,
+      "approach_pitch_range_deg": [
+        -61.80699599187566,
+        -40.94040235026436
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:09b1df19e95ab47e50c8aac06137ef2f51144d34_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.0298004150390625,
+      "approach_pitch_range_deg": [
+        -33.4844103223394,
+        -24.90454353137945
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:0c4ab4d4ccdc801b4093f10a9aa9c0bfd08ab584_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.042205810546875,
+      "approach_pitch_range_deg": [
+        -48.108721288211925,
+        -43.724678019192524
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:0c62443b455166e6f30ed633695dd5d1059773a5_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1693878173828125,
+      "approach_pitch_range_deg": [
+        -68.86957142383632,
+        -30.07521640321816
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:0e3f31820718c4195b9884dbdf9015035f66dae0_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 8,
+      "best_target_fraction": 0.016265869140625,
+      "approach_pitch_range_deg": [
+        -48.7407192548548,
+        -44.84797581422003
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:1c094fa03158472435f319ff499aef6f7b9ff883_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0255584716796875,
+      "approach_pitch_range_deg": [
+        -47.19796047843724,
+        -35.74759721968156
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:1c094fa03158472435f319ff499aef6f7b9ff883_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.0254364013671875,
+      "approach_pitch_range_deg": [
+        -52.05835874952234,
+        -38.65759233660123
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:1c094fa03158472435f319ff499aef6f7b9ff883_:0002",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 8,
+      "best_target_fraction": 0.02239990234375,
+      "approach_pitch_range_deg": [
+        -51.2861798210734,
+        -44.867002855266385
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:1d438cf2a0be5706ffdbd1489fbfb27f712589a0_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.2655792236328125,
+      "approach_pitch_range_deg": [
+        8.912368297297393,
+        10.711004809379423
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:1d438cf2a0be5706ffdbd1489fbfb27f712589a0_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.4842987060546875,
+      "approach_pitch_range_deg": [
+        10.35055423035578,
+        20.646142169792846
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:1f148fddeb1bb6e9634f8d8be3c979e0d5405a65_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0455780029296875,
+      "approach_pitch_range_deg": [
+        -48.45690924191595,
+        -33.75860295017947
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:26a38271fb04e01cc4ae5f6cabad71f37a69231b_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.0261993408203125,
+      "approach_pitch_range_deg": [
+        -44.60316268408632,
+        -40.470197657498055
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:2d51f8c9975de366be6aeac96627e96253979c3d_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.15606689453125,
+      "approach_pitch_range_deg": [
+        -33.987593138282364,
+        -22.411886894923267
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:2d51f8c9975de366be6aeac96627e96253979c3d_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1739501953125,
+      "approach_pitch_range_deg": [
+        -33.987593138282364,
+        -22.411886894923267
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:333fbf609c0f0877768188c43a0a812cc46e26ae_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 3,
+      "best_target_fraction": 0.0253753662109375,
+      "approach_pitch_range_deg": [
+        -45.25854169384118,
+        -43.895863275961304
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:333fbf609c0f0877768188c43a0a812cc46e26ae_:0001",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 4,
+      "best_target_fraction": 0.02520751953125,
+      "approach_pitch_range_deg": [
+        -45.258543401319095,
+        -43.863290433034216
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:333fbf609c0f0877768188c43a0a812cc46e26ae_:0003",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 8,
+      "best_target_fraction": 0.02679443359375,
+      "approach_pitch_range_deg": [
+        -49.90202325083222,
+        -37.13679120183172
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:333fbf609c0f0877768188c43a0a812cc46e26ae_:0004",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.02520751953125,
+      "approach_pitch_range_deg": [
+        -45.2585451087971,
+        -38.34963913912929
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:333fbf609c0f0877768188c43a0a812cc46e26ae_:0005",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 2,
+      "best_target_fraction": 0.006256103515625,
+      "approach_pitch_range_deg": [
+        -39.92838145220721,
+        -39.6828163157426
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:3a2d247b2af45cc0b55deda01ea7c103e6d75936_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1969757080078125,
+      "approach_pitch_range_deg": [
+        -49.45194210328071,
+        -30.93915194325547
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:68208c933cf7e6e6ba18a4319d00624b068bbcb7_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1202850341796875,
+      "approach_pitch_range_deg": [
+        -43.93882370686365,
+        -21.047570772039123
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:8e74580748306fe474b7582243c094b886ad9ea8_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 8,
+      "best_target_fraction": 0.0175628662109375,
+      "approach_pitch_range_deg": [
+        -46.549771087748745,
+        -44.46035682750511
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:987116b32ad17cbc956aeac134e3da29ca0f6fac_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.0291748046875,
+      "approach_pitch_range_deg": [
+        -36.81327168634101,
+        -32.86220839468903
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:a52b590f3d162eb7d6d332255d7515238d42e307_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": true,
+      "views_checked_before_first_success": 1,
+      "best_target_fraction": 0.1101531982421875,
+      "approach_pitch_range_deg": [
+        -37.002453030484006,
+        -30.861236524229216
+      ]
+    },
+    {
+      "scene": "108736635_177263256",
+      "instance_id": "108736635_177263256:b81dcd700c8c00192b1907ed3bacd8d0ece4788f_:0000",
+      "yaw_only_visible_at_a_stored_approach_position": false,
+      "views_checked_before_first_success": 5,
+      "best_target_fraction": 0.0145416259765625,
+      "approach_pitch_range_deg": [
+        -14.671624936842163,
+        -14.671620753004616
+      ]
+    }
+  ],
+  "scope": "At exact stored approach positions facing the object with pitch=0; not proof no other navigable position works; no changes to primary episode panel or scoring."
+}

@@ -18,7 +18,13 @@
 - `baseline_pair_audit.py`：相同检查点的转向接口配对测试和依赖版本记录。
 - `baseline_diagnostics.py`：资产重叠和真值控制器诊断。
 - `baseline_horizontal_audit.py`：水平相机在已存接近位置的可见性核查，不删除主面板失败样本。
+- `baseline_camera_audit.py`：从原生成变换恢复HSSD目标图像的实际光心及旋转，保存几何监督侧文件，并与实时传感器状态核对；不重渲染图像或改变成功区域。
 - `baseline_capture_status.py`：CUDA与驱动状态记录，不重置GPU。
+- `baseline_resume_parallel.py`：按场景协同续跑，避开旧进程正在执行的场景；场景级文件锁保护结果与断点。
+- `baseline_latency.py`：固定面板起点图像准备与独占GPU推理微基准；不输出导航成功率。
+- `baseline_final_acceptance.py`：核对固定面板、完整轨迹、成功条件、SPL和权重，并生成相机约束及资产切片。
+- `baseline_finish_pending.py`：等待完整场景证据后依次执行独占延迟、聚合、验收和运行状态记录。
+- `build_baseline_completed_report.py`：从已验收聚合结果生成宋体PDF，图表和数值直接读取结果文件。
 
 ## 服务器运行
 
@@ -47,6 +53,16 @@ source /etc/network_turbo
   --run lg_frontier_hssd_test_instance --workers 1 --max-steps 500
 
 "$BENCH_ROOT/policy_env/bin/python" "$BENCH_ROOT/tools/baseline_aggregate.py"
+
+# 水平相机可见性，仅诊断，不改面板或评分。
+"$DATA_ROOT/env/bin/python" "$BENCH_ROOT/tools/baseline_horizontal_audit.py"
+"$DATA_ROOT/env/bin/python" "$BENCH_ROOT/tools/baseline_camera_audit.py"
+
+# 独占推理延迟：prepare需要仿真环境，measure必须无其他GPU计算作业。
+"$DATA_ROOT/env/bin/python" "$BENCH_ROOT/tools/baseline_latency.py" --prepare
+"$BENCH_ROOT/policy_env/bin/python" "$BENCH_ROOT/tools/baseline_latency.py" --measure
+"$BENCH_ROOT/policy_env/bin/python" "$BENCH_ROOT/tools/baseline_final_acceptance.py"
+/root/miniconda3/bin/python "$BENCH_ROOT/tools/baseline_capture_status.py"
 ```
 
 仓库的`scripts`对应服务器的`tools`目录；首次部署需按该目录名放置脚本。根目录的准备和下载脚本应放在服务器根目录，使辅助下载脚本可导入`baseline_fetch_fast`。配置和代码中的固定服务器路径与数据版本必须一并保存。
@@ -57,4 +73,6 @@ FGPrompt接收256像素RGB后按官方编码器流程缩放到128；DEBiT单目�
 
 模型不从头训练。传感器和静态家具导航网格使用现有派生数据配置，保留HSSD材质兼容层。没有把旧版本依赖安装到数据生成环境，也没有修改原始场景资产。
 
-若`cuInit`非零，或驱动要求`GPU Recovery Action: Reboot`，先恢复平台GPU；不要把启动失败当作导航失败。当前剩余项目需要GPU恢复后执行，详见结果目录。
+若`cuInit`非零，或驱动要求`GPU Recovery Action: Reboot`，先恢复平台GPU；不要把启动失败当作导航失败。固定面板和检查点在健康服务器上续跑，详见结果目录。
+
+PDF生成脚本放在仓库`scripts`目录或本地`work`目录时，会定位其上级项目目录；需要`reportlab`、结果JSON和宋体。服务器不发布字体文件、渲染图片或延迟输入快照。
