@@ -1,0 +1,13 @@
+# Python 3.12.3. Install PyTorch wheels from the official CUDA 12.8 index.
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+numpy==2.3.2
+gym==0.26.2
+timm==0.6.13
+einops==0.8.2
+omegaconf==2.4.0
+yacs==0.1.8
+kornia==0.8.3
+opencv-python-headless==5.0.0.93
+scikit-image==0.26.0
+scipy==1.18.1

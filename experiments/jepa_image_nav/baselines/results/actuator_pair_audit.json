@@ -1,0 +1,14 @@
+{
+  "paired_episodes": 280,
+  "scenes": 14,
+  "common_decision_budget": 500,
+  "debit_turn30_SR": 0.21428571428571427,
+  "debit_turn10_SR": 0.6642857142857143,
+  "SR_delta_turn10_minus_turn30": 0.45,
+  "delta_scene_bootstrap_95": [
+    0.37857142857142856,
+    0.5214285714285714
+  ],
+  "different_physical_rotation_per_decision": true,
+  "interpretation": "Actuator adaptation effect for this checkpoint, not an algorithm improvement or a paper reproduction."
+}

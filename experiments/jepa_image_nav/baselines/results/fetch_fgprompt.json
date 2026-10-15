@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "result": {
+    "file": "fgprompt-early-fusion-r9.verified.pth",
+    "bytes": 6376165,
+    "sha256": "71483e244b63fc12f21f95ee1ebee7682e4d799cfe7331299368beca05c038e2",
+    "publisher_digest": null
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "model": "FGPrompt-early-r9",
+  "strict_state_dict": true,
+  "checkpoint_sha256": "71483e244b63fc12f21f95ee1ebee7682e4d799cfe7331299368beca05c038e2",
+  "torch": "2.8.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "network_source": "XinyuSun/FGPrompt",
+  "adapter": "unchanged original class/function bodies; registry and sensor metadata shims; separate simulator",
+  "parameters": 1579301
+}

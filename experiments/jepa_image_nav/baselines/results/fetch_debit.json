@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "result": {
+    "file": "debit_small.verified.pth",
+    "bytes": 137885038,
+    "sha256": "90a15bcfc9da706ae8451ef1d7b4c20c779ab57d80ac46e2a165f8be96ed4283",
+    "publisher_digest": null
+  }
+}

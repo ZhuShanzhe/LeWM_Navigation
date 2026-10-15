@@ -1,0 +1,567 @@
+[
+  {
+    "run": "debit_gibson_val_place",
+    "model": "debit",
+    "panel": "gibson_place_nav_v1_val_place_20perscene.jsonl",
+    "panel_sha256": "4f41d05a8df416bedbf78c5b317a719b23bd7710405c694e2c9d6039b21a054a",
+    "complete_frozen_panel": true,
+    "episodes": 280,
+    "expected_episodes": 280,
+    "scenes": 14,
+    "turn_deg": 30,
+    "max_steps": 500,
+    "SR": 0.21428571428571427,
+    "SPL": 0.14542686978030817,
+    "SoftSPL": 0.15188424009373805,
+    "SR_scene_bootstrap_95": [
+      0.1392857142857143,
+      0.2892857142857143
+    ],
+    "SPL_scene_bootstrap_95": [
+      0.09644112050410442,
+      0.1928144543566146
+    ],
+    "inference_ms_mean_during_concurrent_runs": 12.577117955616709,
+    "collision_rate_mean_per_episode_forward_attempts": 0.11785935331670175,
+    "timeout_rate": 0.7785714285714286,
+    "stop_rate": 0.22142857142857142,
+    "reached_success_region_rate": 0.2357142857142857,
+    "outcomes": {
+      "search_or_localization_timeout": 198,
+      "collision_dominated_timeout": 16,
+      "success": 60,
+      "reached_success_region_but_failed_to_stop": 6
+    },
+    "not_policy_causal_diagnosis": true,
+    "rows_sha256": "4655ff35ff9318322cbbe040a5d888e812f1b7736f25edd0c6aa8cff90862b12",
+    "by_distance_bin": {
+      "extra": {
+        "episodes": 32,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.0
+      },
+      "long": {
+        "episodes": 96,
+        "SR": 0.08333333333333333,
+        "SPL": 0.06629079069275426,
+        "reached_success_region_rate": 0.08333333333333333
+      },
+      "medium": {
+        "episodes": 79,
+        "SR": 0.31645569620253167,
+        "SPL": 0.2111180043387775,
+        "reached_success_region_rate": 0.34177215189873417
+      },
+      "short": {
+        "episodes": 73,
+        "SR": 0.3698630136986301,
+        "SPL": 0.2421545930029926,
+        "reached_success_region_rate": 0.4246575342465753
+      }
+    },
+    "by_detour_bin": {
+      "detour": {
+        "episodes": 142,
+        "SR": 0.14084507042253522,
+        "SPL": 0.09083857959578555,
+        "reached_success_region_rate": 0.15492957746478872
+      },
+      "direct": {
+        "episodes": 138,
+        "SR": 0.2898550724637681,
+        "SPL": 0.2015974292455416,
+        "reached_success_region_rate": 0.3188405797101449
+      }
+    },
+    "by_category": {},
+    "strict_pose_success_rate": 0.0035714285714285713
+  },
+  {
+    "run": "debit_native10_gibson_val_place",
+    "model": "debit",
+    "panel": "gibson_place_nav_v1_val_place_20perscene.jsonl",
+    "panel_sha256": "4f41d05a8df416bedbf78c5b317a719b23bd7710405c694e2c9d6039b21a054a",
+    "complete_frozen_panel": true,
+    "episodes": 280,
+    "expected_episodes": 280,
+    "scenes": 14,
+    "turn_deg": 10.0,
+    "max_steps": 500,
+    "SR": 0.6642857142857143,
+    "SPL": 0.46387616809690696,
+    "SoftSPL": 0.4573589901023948,
+    "SR_scene_bootstrap_95": [
+      0.5607142857142857,
+      0.7607142857142858
+    ],
+    "SPL_scene_bootstrap_95": [
+      0.36990350436820696,
+      0.5531094877324753
+    ],
+    "inference_ms_mean_during_concurrent_runs": 13.079278930253881,
+    "collision_rate_mean_per_episode_forward_attempts": 0.15772370114205556,
+    "timeout_rate": 0.32857142857142857,
+    "stop_rate": 0.6714285714285714,
+    "reached_success_region_rate": 0.6821428571428572,
+    "outcomes": {
+      "search_or_localization_timeout": 70,
+      "success": 186,
+      "collision_dominated_timeout": 17,
+      "reached_success_region_but_failed_to_stop": 5,
+      "premature_stop": 2
+    },
+    "not_policy_causal_diagnosis": true,
+    "rows_sha256": "c4dc4bcd231ec4b428aa37d4d6b906449b33c2417247e9799de4332dad1990ff",
+    "by_distance_bin": {
+      "extra": {
+        "episodes": 32,
+        "SR": 0.09375,
+        "SPL": 0.07035770856968473,
+        "reached_success_region_rate": 0.09375
+      },
+      "long": {
+        "episodes": 96,
+        "SR": 0.6145833333333334,
+        "SPL": 0.4635137143398779,
+        "reached_success_region_rate": 0.6354166666666666
+      },
+      "medium": {
+        "episodes": 79,
+        "SR": 0.7848101265822784,
+        "SPL": 0.5584087942754159,
+        "reached_success_region_rate": 0.7848101265822784
+      },
+      "short": {
+        "episodes": 73,
+        "SR": 0.8493150684931506,
+        "SPL": 0.5345516310755875,
+        "reached_success_region_rate": 0.8904109589041096
+      }
+    },
+    "by_detour_bin": {
+      "detour": {
+        "episodes": 142,
+        "SR": 0.5352112676056338,
+        "SPL": 0.3233170645933997,
+        "reached_success_region_rate": 0.5563380281690141
+      },
+      "direct": {
+        "episodes": 138,
+        "SR": 0.7971014492753623,
+        "SPL": 0.6085094485135591,
+        "reached_success_region_rate": 0.8115942028985508
+      }
+    },
+    "by_category": {},
+    "strict_pose_success_rate": 0.014285714285714285
+  },
+  {
+    "run": "fgprompt_gibson_val_place",
+    "model": "fgprompt",
+    "panel": "gibson_place_nav_v1_val_place_20perscene.jsonl",
+    "panel_sha256": "4f41d05a8df416bedbf78c5b317a719b23bd7710405c694e2c9d6039b21a054a",
+    "complete_frozen_panel": true,
+    "episodes": 280,
+    "expected_episodes": 280,
+    "scenes": 14,
+    "turn_deg": 30,
+    "max_steps": 500,
+    "SR": 0.8214285714285714,
+    "SPL": 0.5542856622489347,
+    "SoftSPL": 0.5399832568660867,
+    "SR_scene_bootstrap_95": [
+      0.75,
+      0.8893749999999988
+    ],
+    "SPL_scene_bootstrap_95": [
+      0.47960403159500636,
+      0.6287710189753818
+    ],
+    "inference_ms_mean_during_concurrent_runs": 3.658122248118879,
+    "collision_rate_mean_per_episode_forward_attempts": 0.2438758789445159,
+    "timeout_rate": 0.13214285714285715,
+    "stop_rate": 0.8678571428571429,
+    "reached_success_region_rate": 0.8392857142857143,
+    "outcomes": {
+      "success": 230,
+      "collision_dominated_timeout": 12,
+      "reached_success_region_but_failed_to_stop": 5,
+      "premature_stop": 11,
+      "search_or_localization_timeout": 22
+    },
+    "not_policy_causal_diagnosis": true,
+    "rows_sha256": "c6ca7e9a21d4521272903e5ec50dbf4c3c1dc19567e125fbaad2290fb46accc0",
+    "by_distance_bin": {
+      "extra": {
+        "episodes": 32,
+        "SR": 0.4375,
+        "SPL": 0.22712288913960094,
+        "reached_success_region_rate": 0.4375
+      },
+      "long": {
+        "episodes": 96,
+        "SR": 0.7708333333333334,
+        "SPL": 0.5583338453838099,
+        "reached_success_region_rate": 0.7916666666666666
+      },
+      "medium": {
+        "episodes": 79,
+        "SR": 0.9493670886075949,
+        "SPL": 0.6521879881524164,
+        "reached_success_region_rate": 0.9620253164556962
+      },
+      "short": {
+        "episodes": 73,
+        "SR": 0.9178082191780822,
+        "SPL": 0.5864267500869563,
+        "reached_success_region_rate": 0.9452054794520548
+      }
+    },
+    "by_detour_bin": {
+      "detour": {
+        "episodes": 142,
+        "SR": 0.7394366197183099,
+        "SPL": 0.4547482288723,
+        "reached_success_region_rate": 0.7605633802816901
+      },
+      "direct": {
+        "episodes": 138,
+        "SR": 0.9057971014492754,
+        "SPL": 0.6567082386219936,
+        "reached_success_region_rate": 0.9202898550724637
+      }
+    },
+    "by_category": {},
+    "strict_pose_success_rate": 0.5035714285714286
+  },
+  {
+    "run": "fgprompt_hssd_test_instance",
+    "model": "fgprompt",
+    "panel": "hssd_image_nav_v1_test_instance_20perscene.jsonl",
+    "panel_sha256": "cf5442b42e5045dc07dccb2cd1a400da052d107dcd63f1849a73733ce574deb1",
+    "complete_frozen_panel": true,
+    "episodes": 300,
+    "expected_episodes": 300,
+    "scenes": 15,
+    "turn_deg": 30,
+    "max_steps": 500,
+    "SR": 0.03,
+    "SPL": 0.011656387872547838,
+    "SoftSPL": 0.08206442414607049,
+    "SR_scene_bootstrap_95": [
+      0.013333333333333334,
+      0.053333333333333344
+    ],
+    "SPL_scene_bootstrap_95": [
+      0.0046387180392347275,
+      0.02036300671295432
+    ],
+    "inference_ms_mean_during_concurrent_runs": 4.604259403179953,
+    "collision_rate_mean_per_episode_forward_attempts": 0.49228284967152697,
+    "timeout_rate": 0.31333333333333335,
+    "stop_rate": 0.6866666666666666,
+    "reached_success_region_rate": 0.15666666666666668,
+    "outcomes": {
+      "premature_stop": 169,
+      "collision_dominated_timeout": 52,
+      "success": 9,
+      "reached_success_region_but_failed_to_stop": 37,
+      "search_or_localization_timeout": 20,
+      "wrong_instance_stop": 13
+    },
+    "not_policy_causal_diagnosis": true,
+    "rows_sha256": "0178760637e8791c4fd3d3b53fc766dad044f80920546199a5a141690af7002e",
+    "by_distance_bin": {
+      "extra": {
+        "episodes": 83,
+        "SR": 0.012048192771084338,
+        "SPL": 0.0030396796560676178,
+        "reached_success_region_rate": 0.04819277108433735
+      },
+      "long": {
+        "episodes": 91,
+        "SR": 0.02197802197802198,
+        "SPL": 0.00712066862610725,
+        "reached_success_region_rate": 0.08791208791208792
+      },
+      "medium": {
+        "episodes": 65,
+        "SR": 0.046153846153846156,
+        "SPL": 0.018497657403840028,
+        "reached_success_region_rate": 0.24615384615384617
+      },
+      "short": {
+        "episodes": 61,
+        "SR": 0.04918032786885246,
+        "SPL": 0.022857284821071754,
+        "reached_success_region_rate": 0.3114754098360656
+      }
+    },
+    "by_detour_bin": {
+      "detour": {
+        "episodes": 150,
+        "SR": 0.02666666666666667,
+        "SPL": 0.008430598406417744,
+        "reached_success_region_rate": 0.13333333333333333
+      },
+      "direct": {
+        "episodes": 150,
+        "SR": 0.03333333333333333,
+        "SPL": 0.014882177338677926,
+        "reached_success_region_rate": 0.18
+      }
+    },
+    "by_category": {
+      "bed": {
+        "episodes": 22,
+        "SR": 0.09090909090909091,
+        "SPL": 0.025757145582901996,
+        "reached_success_region_rate": 0.18181818181818182
+      },
+      "chair": {
+        "episodes": 156,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.1282051282051282
+      },
+      "couch": {
+        "episodes": 17,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.23529411764705882
+      },
+      "plant": {
+        "episodes": 83,
+        "SR": 0.060240963855421686,
+        "SPL": 0.021838126999220466,
+        "reached_success_region_rate": 0.18072289156626506
+      },
+      "toilet": {
+        "episodes": 10,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.1
+      },
+      "tv": {
+        "episodes": 12,
+        "SR": 0.16666666666666666,
+        "SPL": 0.0931412181671007,
+        "reached_success_region_rate": 0.25
+      }
+    },
+    "target_visible_ever_rate": 0.22666666666666666,
+    "wrong_instance_stop_rate_selected_instances_only": 0.043333333333333335,
+    "by_distractor_count": {
+      "0": {
+        "episodes": 19,
+        "SR": 0.05263157894736842
+      },
+      "1-3": {
+        "episodes": 29,
+        "SR": 0.06896551724137931
+      },
+      "4+": {
+        "episodes": 252,
+        "SR": 0.023809523809523808
+      }
+    }
+  },
+  {
+    "run": "fgprompt_hssd_test_place",
+    "model": "fgprompt",
+    "panel": "hssd_image_nav_v1_test_place_20perscene.jsonl",
+    "panel_sha256": "2d42b526b3159274e2e6adbab3619bca6025061547dd69ddd7a96a0f6d437869",
+    "complete_frozen_panel": true,
+    "episodes": 300,
+    "expected_episodes": 300,
+    "scenes": 15,
+    "turn_deg": 30,
+    "max_steps": 500,
+    "SR": 0.22,
+    "SPL": 0.14349012689471358,
+    "SoftSPL": 0.20449606078570062,
+    "SR_scene_bootstrap_95": [
+      0.14999999999999997,
+      0.2833333333333334
+    ],
+    "SPL_scene_bootstrap_95": [
+      0.09372141213107327,
+      0.19053814106944555
+    ],
+    "inference_ms_mean_during_concurrent_runs": 4.676694477797504,
+    "collision_rate_mean_per_episode_forward_attempts": 0.37438053428897045,
+    "timeout_rate": 0.09333333333333334,
+    "stop_rate": 0.9066666666666666,
+    "reached_success_region_rate": 0.2633333333333333,
+    "outcomes": {
+      "premature_stop": 194,
+      "collision_dominated_timeout": 24,
+      "success": 66,
+      "reached_success_region_but_failed_to_stop": 13,
+      "search_or_localization_timeout": 3
+    },
+    "not_policy_causal_diagnosis": true,
+    "rows_sha256": "77e279b9de4d3e37e61a187eea506318618d7be91a13107171e6a6c1609a129a",
+    "by_distance_bin": {
+      "extra": {
+        "episodes": 85,
+        "SR": 0.023529411764705882,
+        "SPL": 0.012988336215105907,
+        "reached_success_region_rate": 0.03529411764705882
+      },
+      "long": {
+        "episodes": 90,
+        "SR": 0.15555555555555556,
+        "SPL": 0.09189890233221433,
+        "reached_success_region_rate": 0.17777777777777778
+      },
+      "medium": {
+        "episodes": 73,
+        "SR": 0.3972602739726027,
+        "SPL": 0.2665154037208408,
+        "reached_success_region_rate": 0.4383561643835616
+      },
+      "short": {
+        "episodes": 52,
+        "SR": 0.40384615384615385,
+        "SPL": 0.27339430401171927,
+        "reached_success_region_rate": 0.5384615384615384
+      }
+    },
+    "by_detour_bin": {
+      "detour": {
+        "episodes": 148,
+        "SR": 0.16891891891891891,
+        "SPL": 0.10205421468213652,
+        "reached_success_region_rate": 0.21621621621621623
+      },
+      "direct": {
+        "episodes": 152,
+        "SR": 0.26973684210526316,
+        "SPL": 0.1838356203648544,
+        "reached_success_region_rate": 0.3092105263157895
+      }
+    },
+    "by_category": {},
+    "strict_pose_success_rate": 0.06333333333333334
+  },
+  {
+    "run": "lg_frontier_hssd_test_instance",
+    "model": "lg_frontier",
+    "panel": "hssd_image_nav_v1_test_instance_20perscene.jsonl",
+    "panel_sha256": "cf5442b42e5045dc07dccb2cd1a400da052d107dcd63f1849a73733ce574deb1",
+    "complete_frozen_panel": false,
+    "episodes": 40,
+    "expected_episodes": 300,
+    "scenes": 2,
+    "turn_deg": 30,
+    "max_steps": 500,
+    "SR": 0.0,
+    "SPL": 0.0,
+    "SoftSPL": 0.13927981564184325,
+    "SR_scene_bootstrap_95": [
+      0.0,
+      0.0
+    ],
+    "SPL_scene_bootstrap_95": [
+      0.0,
+      0.0
+    ],
+    "inference_ms_mean_during_concurrent_runs": 21.46749105620406,
+    "collision_rate_mean_per_episode_forward_attempts": 0.24730416014188825,
+    "timeout_rate": 0.975,
+    "stop_rate": 0.025,
+    "reached_success_region_rate": 0.3,
+    "outcomes": {
+      "search_or_localization_timeout": 23,
+      "reached_success_region_but_failed_to_stop": 12,
+      "collision_dominated_timeout": 4,
+      "premature_stop": 1
+    },
+    "not_policy_causal_diagnosis": true,
+    "rows_sha256": "2a709d23dbfda09e95a7e0c6b27e69e57cc27c425cf42b329caa2a8b033409a7",
+    "by_distance_bin": {
+      "extra": {
+        "episodes": 12,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.16666666666666666
+      },
+      "long": {
+        "episodes": 12,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.4166666666666667
+      },
+      "medium": {
+        "episodes": 9,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.3333333333333333
+      },
+      "short": {
+        "episodes": 7,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.2857142857142857
+      }
+    },
+    "by_detour_bin": {
+      "detour": {
+        "episodes": 20,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.15
+      },
+      "direct": {
+        "episodes": 20,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.45
+      }
+    },
+    "by_category": {
+      "chair": {
+        "episodes": 13,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.46153846153846156
+      },
+      "couch": {
+        "episodes": 4,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.5
+      },
+      "plant": {
+        "episodes": 21,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.19047619047619047
+      },
+      "tv": {
+        "episodes": 2,
+        "SR": 0.0,
+        "SPL": 0.0,
+        "reached_success_region_rate": 0.0
+      }
+    },
+    "target_visible_ever_rate": 0.4,
+    "wrong_instance_stop_rate_selected_instances_only": 0.0,
+    "by_distractor_count": {
+      "0": {
+        "episodes": 0,
+        "SR": null
+      },
+      "1-3": {
+        "episodes": 2,
+        "SR": 0.0
+      },
+      "4+": {
+        "episodes": 38,
+        "SR": 0.0
+      }
+    }
+  }
+]

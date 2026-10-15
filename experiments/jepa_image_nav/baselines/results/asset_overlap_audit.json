@@ -1,0 +1,17 @@
+{
+  "scope": "selected target objects only, not all scene furniture",
+  "split_unique_assets": {
+    "val": 497,
+    "test": 183,
+    "train": 1064
+  },
+  "split_target_instances": {
+    "val": 982,
+    "test": 319,
+    "train": 2465
+  },
+  "test_target_instances_with_asset_in_train": 120,
+  "test_target_instances": 319,
+  "test_target_instances_with_same_asset_other_selected_instance_in_scene": 173,
+  "meaning": "Scene-disjoint is not asset-disjoint. Same asset reuse is a diagnostic, not proof identical goal photographs or unsolvable identity."
+}

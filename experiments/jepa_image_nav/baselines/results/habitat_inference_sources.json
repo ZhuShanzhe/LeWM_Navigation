@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/facebookresearch/habitat-lab/v0.2.3/habitat-baselines/habitat_baselines/rl/ddppo/policy/resnet.py",
+    "sha256": "22ed5401b4654521c49bbde3bc7654122bbc33fb84b75978ae0624a9f16ed3c5",
+    "file": "/root/autodl-tmp/jepa_vln_baselines_20261015/repos/hab_resnet.py"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/facebookresearch/habitat-lab/v0.2.3/habitat-baselines/habitat_baselines/rl/ddppo/policy/resnet_policy.py",
+    "sha256": "d13d0123db220d8b550300766aa7c13ac202bd8eeca518274bc063b6b4aa80fd",
+    "file": "/root/autodl-tmp/jepa_vln_baselines_20261015/repos/hab_resnet_policy.py"
+  }
+]

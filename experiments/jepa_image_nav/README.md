@@ -14,6 +14,7 @@
 - [scripts](scripts/README.md)：下载、场景加载检查、两类任务生成、数据验收与指标实现。
 - [reports](reports/README.md)：22 项图像理解、目标定位、路线生成与世界模型工作的调研报告。
 - [results](results/README.md)：已验收数据的实际规模与状态，不包含模型性能结论。
+- [baselines](baselines/README.md)：预训练导航基线筛选、RTX 5090接口适配、两类任务的闭环评测与不足分析；完整结果和待补项目分别标注。
 
 ## 数据来源与划分
 

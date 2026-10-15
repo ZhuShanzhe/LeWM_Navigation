@@ -1,0 +1,65 @@
+{
+  "episodes": 60,
+  "successes": 56,
+  "by_task": {
+    "place_image_nav": {
+      "n": 30,
+      "successes": 29
+    },
+    "instance_image_nav": {
+      "n": 30,
+      "successes": 27
+    }
+  },
+  "failures": [
+    {
+      "episode_id": "hssd-place-105515175_173104107-16-4",
+      "task": "place_image_nav",
+      "scene": "105515175_173104107",
+      "steps": 42,
+      "stopped": false,
+      "distance_m": 12.514557838439941,
+      "yaw_only_target_visible": null,
+      "success": false,
+      "follower_error": "",
+      "privileged_control_not_model": true
+    },
+    {
+      "episode_id": "hssd-instance-103997613_171030702-79-0-13",
+      "task": "instance_image_nav",
+      "scene": "103997613_171030702",
+      "steps": 52,
+      "stopped": true,
+      "distance_m": 0.09113238006830215,
+      "yaw_only_target_visible": false,
+      "success": false,
+      "follower_error": null,
+      "privileged_control_not_model": true
+    },
+    {
+      "episode_id": "hssd-instance-107734119_175999938-123-0-10",
+      "task": "instance_image_nav",
+      "scene": "107734119_175999938",
+      "steps": 62,
+      "stopped": true,
+      "distance_m": 0.18468940258026123,
+      "yaw_only_target_visible": false,
+      "success": false,
+      "follower_error": null,
+      "privileged_control_not_model": true
+    },
+    {
+      "episode_id": "hssd-instance-108736635_177263256-51-2-3",
+      "task": "instance_image_nav",
+      "scene": "108736635_177263256",
+      "steps": 81,
+      "stopped": true,
+      "distance_m": 0.04896695539355278,
+      "yaw_only_target_visible": false,
+      "success": false,
+      "follower_error": null,
+      "privileged_control_not_model": true
+    }
+  ],
+  "scope": "2 fixed episodes per task per test scene; truth navigation grid and goal used; not learned navigation performance"
+}
