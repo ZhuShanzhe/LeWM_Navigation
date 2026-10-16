@@ -80,6 +80,16 @@ for name,relative in [('unigoal_sensor','unigoal_sim_gate_v2/simulator_gate.json
     ('unigoal_cuda','unigoal_full_chain_smoke1_v4/cuda_operator_gate.json'),
     ('eb_sensor','eb_navigation_qwen25vl7b/simulator_gate.json')]:
     gates[name]=json.loads((ROOT/'results'/relative).read_text())
+native=Path('/root/autodl-tmp/jeplo_eval_20260928/official_alignment')
+profile=json.loads((native/'official_readme_profile.json').read_text())
+build=json.loads((native/'native_build_manifest.json').read_text())
+plan=json.loads((ROOT/'results/jeplo_native_motion_validated/plan.json').read_text())
+gates['jeplo_native_profile']={'source_commit':plan['source_commit'],'models_sha256':profile['models_sha256'],
+    'build_artifacts_sha256':build['artifacts'],'profile':plan['profile'],'upstream_cage_randomness_retained':True,
+    'comparison_scope':plan['criteria']}
+gates['unigoal_runtime_settings']={'model':'llama3.2-vision:11b','context_length_tokens':4096,
+    'parallel_requests':1,'temperature':'Native model default, not overridden',
+    'scope':'Explicit inference context budget; full navigation remains unaccepted until all gates pass'}
 write(OUT/'results/resource_audit.json',{'sources':sources,'assets':assets,'gates':gates,'source_patches':patch_records})
 eb=[]
 for subset in ['base','common_sense','complex_instruction','visual_appearance','long_horizon']:

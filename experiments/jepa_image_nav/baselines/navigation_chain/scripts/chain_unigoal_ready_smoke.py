@@ -12,7 +12,8 @@ with socket.socket() as check:
         raise RuntimeError('Project runtime port 11435 already occupied; verify ownership before reuse')
 log=(ROOT/'logs/ollama_compatible_server.log').open('a')
 process=subprocess.Popen([str(binary),'serve'],stdout=log,stderr=log,start_new_session=True,
-    env=dict(os.environ,OLLAMA_HOST='127.0.0.1:11435',OLLAMA_MODELS=str(ROOT/'models/ollama'),OLLAMA_NUM_PARALLEL='1'))
+    env=dict(os.environ,OLLAMA_HOST='127.0.0.1:11435',OLLAMA_MODELS=str(ROOT/'models/ollama'),
+        OLLAMA_NUM_PARALLEL='1',OLLAMA_CONTEXT_LENGTH='4096'))
 import requests
 session=requests.Session();session.trust_env=False
 for _ in range(60):
@@ -23,7 +24,8 @@ for _ in range(60):
     except requests.RequestException:pass
     time.sleep(1)
 else:raise TimeoutError('Compatible local runtime did not become ready')
-(ROOT/'results/ollama_compatible_server.json').write_text(json.dumps({'pid':process.pid,'address':'127.0.0.1:11435'},indent=2))
+(ROOT/'results/ollama_compatible_server.json').write_text(json.dumps({'pid':process.pid,
+    'address':'127.0.0.1:11435','context_length':4096,'parallel_requests':1},indent=2))
 env=dict(os.environ,NO_PROXY='localhost,127.0.0.1',no_proxy='localhost,127.0.0.1',
     LD_PRELOAD='/usr/lib/x86_64-linux-gnu/libstdc++.so.6')
 python=str(ROOT/'policy_env/bin/python')

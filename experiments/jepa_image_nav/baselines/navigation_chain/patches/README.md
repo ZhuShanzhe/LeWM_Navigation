@@ -11,4 +11,4 @@
 
 UniGoal的相机内参宽高和图分支深度量纲在评测适配器中显式校正，BEV仍接收原生归一化深度。此条件标为校准后的公开框架，不宣称精确复现论文数字。完整推理预检仍需通过后才能形成导航性能结论。
 
-UniGoal使用的Llama 3.2 Vision在Ollama新版本中发生架构加载不兼容，隔离运行时使用维护者建议的0.24.0，不更换模型。参见[上游兼容说明](https://github.com/ollama/ollama/issues/16490)。
+UniGoal使用的Llama 3.2 Vision在Ollama新版本中发生架构加载不兼容，隔离运行时使用维护者建议的0.24.0，不更换模型。上下文固定为4,096 token、单请求并行，避免自动32K上下文导致大量CPU卸载；这属于显式的推理预算设置。参见[上游兼容说明](https://github.com/ollama/ollama/issues/16490)。
