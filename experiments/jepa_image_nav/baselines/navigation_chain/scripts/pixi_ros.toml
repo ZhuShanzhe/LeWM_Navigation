@@ -1,0 +1,19 @@
+[workspace]
+name = "jev-native-ros"
+version = "0.1.0"
+channels = ["https://prefix.dev/robostack-noetic", "https://prefix.dev/conda-forge"]
+platforms = ["linux-64"]
+
+[dependencies]
+ros-noetic-ros-base = "*"
+ros-noetic-cv-bridge = "*"
+ros-noetic-pcl-ros = "*"
+ros-noetic-cmake-modules = "*"
+catkin_tools = "*"
+cmake = "*"
+make = "*"
+cxx-compiler = "*"
+ompl = "*"
+armadillo = "*"
+libcurl = "*"
+empy = "<4"

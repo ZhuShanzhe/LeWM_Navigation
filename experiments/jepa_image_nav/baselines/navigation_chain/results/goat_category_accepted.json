@@ -1,0 +1,152 @@
+{
+  "acceptance": "passed",
+  "model": "GOAT SenseAct-NN Monolithic official category policy",
+  "scope": "HSSD derived cross-domain category goals, native camera/common geometry, cold-start single subtask",
+  "episodes": 300,
+  "scenes": 15,
+  "trace_steps_checked": 55038,
+  "successes": 1,
+  "SR": 0.0033333333333333335,
+  "macro_category_SR": 0.0020576131687242796,
+  "primary_success": "subtask STOP6 plus >=2.5% visible pixels for ANY requested-category instance with horizontal AABB gap<=1m",
+  "SPL_reporting": "No sparse-view SPL is assigned to the primary AABB/visibility goal set",
+  "verified_view_secondary_SR": 0.016666666666666666,
+  "verified_view_secondary_SPL": 0.006076822971803056,
+  "goal_visible_ever": 101,
+  "near_correct_class_ever": 16,
+  "outcomes": {
+    "premature_subtask_stop": 248,
+    "success": 1,
+    "timeout": 51
+  },
+  "by_category": {
+    "plant": {
+      "episodes": 81,
+      "successes": 1,
+      "SR": 0.012345679012345678
+    },
+    "chair": {
+      "episodes": 158,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "tv": {
+      "episodes": 12,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "couch": {
+      "episodes": 17,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "bed": {
+      "episodes": 22,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "toilet": {
+      "episodes": 10,
+      "successes": 0,
+      "SR": 0.0
+    }
+  },
+  "by_scene": {
+    "102344022": {
+      "episodes": 20,
+      "successes": 1,
+      "SR": 0.05
+    },
+    "102816729": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "102817053": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "103997613_171030702": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "103997970_171031287": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "103997994_171031320": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "104862513_172226580": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "105515175_173104107": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "105515307_173104317": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "105515490_173104566": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "107734119_175999938": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "108294465_176709960": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "108294537_176710050": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "108294624_176710203": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    },
+    "108736635_177263256": {
+      "episodes": 20,
+      "successes": 0,
+      "SR": 0.0
+    }
+  },
+  "dataset_sha256": "b941c073a4665ab1c60f76f28f1a1b72fa80338734b7dc6eddff4fcb100ae0f9",
+  "dataset_category_reassignments": [
+    {
+      "episode_id": "hssd-object-103997994_171031320-86-2-7",
+      "scene": "103997994_171031320",
+      "from_category": "plant",
+      "to_category": "chair",
+      "paired_start": false
+    },
+    {
+      "episode_id": "hssd-object-103997994_171031320-86-0-1",
+      "scene": "103997994_171031320",
+      "from_category": "plant",
+      "to_category": "chair",
+      "paired_start": false
+    }
+  ],
+  "unusual_forward_3d_translations": 62,
+  "path_precision": "Stored native float32 per-step norms recompute exactly; independent float64 accumulated path agrees within 1e-5 m",
+  "movement_check_scope": "Trace continuity, fixed-position turns/STOP, and path recomputation; no new independent full visual replay claimed",
+  "not_official_paper_scores": true
+}

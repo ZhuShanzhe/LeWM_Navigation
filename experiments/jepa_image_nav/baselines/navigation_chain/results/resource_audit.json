@@ -1,0 +1,552 @@
+{
+  "sources": [
+    {
+      "name": "goat-bench",
+      "commit": "74c41d19d4a4c3608d1575b512087b5a529aee0e"
+    },
+    {
+      "name": "EmbodiedBench",
+      "commit": "9be4e980e9cd6bcb38373cd4aab7c32724bdd401"
+    },
+    {
+      "name": "UniGoal",
+      "commit": "e2c6d456d53150db507a008250f50c34798daad5"
+    },
+    {
+      "name": "jev-objnav",
+      "commit": "c20033af496be162bf02bb436ce44b718dfb3430"
+    },
+    {
+      "name": "GroundingDINO",
+      "commit": "856dde20aee659246248e20734ef9ba5214f5e44"
+    },
+    {
+      "name": "MobileSAM",
+      "commit": "f706ad9c4eb7f219c00d9050e46328518ffb65d2"
+    },
+    {
+      "name": "yolov7",
+      "commit": "a207844b1ce82d204ab36d87d496728d3d2348e7"
+    },
+    {
+      "name": "CLIP",
+      "commit": "d05afc436d78f1c48dc0dbf8e5980a9d471f35f6"
+    },
+    {
+      "name": "vlfm",
+      "commit": "584ed56008754fde7997d904983607def8328322"
+    },
+    {
+      "name": "GC-VLN",
+      "commit": "1beddca8d90d79855c110c5a433f7b8856ca263a"
+    }
+  ],
+  "assets": [
+    {
+      "filename": "goat_checkpoints__sense_act_nn_monolithic__ckpt_best.pth",
+      "url": "https://huggingface.co/datasets/axel81/goat-bench/resolve/6df4daf962da14d5a57315e9c80f2969f814e6d9/checkpoints/sense_act_nn_monolithic/ckpt_best.pth",
+      "bytes": 77777474,
+      "sha256": "55e89c3d083198d4add4e9e70164b54ff892900963a2925471362e2d4761b3eb"
+    },
+    {
+      "filename": "clip_RN50_openai.safetensors",
+      "url": "https://huggingface.co/timm/resnet50_clip.openai/resolve/ec3d92cf63a5f9d591f0d611b736895966c73076/open_clip_model.safetensors",
+      "bytes": 408291932,
+      "sha256": "da0baa37fb2211eee5729ab69ed587eb10d48f5b7076ceeed01552fc3d4cb4ee"
+    },
+    {
+      "filename": "sam_vit_h_4b8939.pth",
+      "url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth",
+      "bytes": 2564550879,
+      "sha256": "a7bf3b02f3ebf1267aba913ff637d9a2d5c33d3173bb679e46d9f338c26f262e"
+    },
+    {
+      "filename": "groundingdino_swint_ogc.pth",
+      "url": "https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth",
+      "bytes": 693997677,
+      "sha256": "3b3ca2563c77c69f651d7bd133e97139c186df06231157a64c507099c52bc799"
+    },
+    {
+      "filename": "yolov7-e6e.pt",
+      "url": "https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt",
+      "bytes": 304425133,
+      "sha256": "b370120a414bf32b5d65fc808e5a32c8d9b3c63902d1bc41894fc9d86eccf9cb"
+    }
+  ],
+  "gates": {
+    "goat_sensor_gate": {
+      "passed": true,
+      "random_cases": 1000,
+      "native_source": "facebookresearch/habitat-lab v0.2.3 habitat/tasks/nav/nav.py",
+      "native_source_sha256": "210550ff1340b826bb8806ce1ebf3c7f0426e531ae12feea5e78be69b9281927",
+      "maximum_gps_error_m": 1.0589258963022985e-06,
+      "maximum_compass_error_rad": 1.1914538555757304e-07,
+      "comparison": "Original publisher sensor method bodies versus evaluation RPC sensors"
+    },
+    "qwen_integrity_gate": {
+      "repository": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "revision": "cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "all_files_passed": true,
+      "safetensor_shards_publisher_verified": true,
+      "files": [
+        {
+          "file": "chat_template.json",
+          "sha256": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96",
+          "bytes": 1050,
+          "publisher_sha256": null,
+          "passed": true
+        },
+        {
+          "file": "config.json",
+          "sha256": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43",
+          "bytes": 1374,
+          "publisher_sha256": null,
+          "passed": true
+        },
+        {
+          "file": "generation_config.json",
+          "sha256": "0a3aea82869fe29f20dc95ccf3e2bcff380eca1f5ad6447a4a4b37110b08e43e",
+          "bytes": 216,
+          "publisher_sha256": null,
+          "passed": true
+        },
+        {
+          "file": "merges.txt",
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "bytes": 1671839,
+          "publisher_sha256": null,
+          "passed": true
+        },
+        {
+          "file": "model-00001-of-00005.safetensors",
+          "sha256": "e97b877e47fde53a6c6e77aafb36e58e91ee9d95c4a3eeac6f1b5c0e6a1c986e",
+          "bytes": 3900233256,
+          "publisher_sha256": "e97b877e47fde53a6c6e77aafb36e58e91ee9d95c4a3eeac6f1b5c0e6a1c986e",
+          "passed": true
+        },
+        {
+          "file": "model-00002-of-00005.safetensors",
+          "sha256": "a9a300a43b4724eee2abe7c18ceb26768d0ab011eb0cad19d9bfd2476a24d024",
+          "bytes": 3864726320,
+          "publisher_sha256": "a9a300a43b4724eee2abe7c18ceb26768d0ab011eb0cad19d9bfd2476a24d024",
+          "passed": true
+        },
+        {
+          "file": "model-00003-of-00005.safetensors",
+          "sha256": "111223d173e00bbee81cba1216fad28668df3476706b7fd26f4d5b50f8b3a507",
+          "bytes": 3864726424,
+          "publisher_sha256": "111223d173e00bbee81cba1216fad28668df3476706b7fd26f4d5b50f8b3a507",
+          "passed": true
+        },
+        {
+          "file": "model-00004-of-00005.safetensors",
+          "sha256": "ef47f634fa57d46ee134edcc09f34085a47da1e16c12a2abe0d67118be6d72ed",
+          "bytes": 3864733680,
+          "publisher_sha256": "ef47f634fa57d46ee134edcc09f34085a47da1e16c12a2abe0d67118be6d72ed",
+          "passed": true
+        },
+        {
+          "file": "model-00005-of-00005.safetensors",
+          "sha256": "0c859795ad3a627a9b95bcb762e059d5b768a4a36fdd4affeff269d93fdecc67",
+          "bytes": 1089994880,
+          "publisher_sha256": "0c859795ad3a627a9b95bcb762e059d5b768a4a36fdd4affeff269d93fdecc67",
+          "passed": true
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "sha256": "73b333b0b16e5286ddba615d2caebcd495cf7e616f52eb217a81781393d79de9",
+          "bytes": 57619,
+          "publisher_sha256": null,
+          "passed": true
+        },
+        {
+          "file": "preprocessor_config.json",
+          "sha256": "f2058c716eef96ccaed1cc1e2d0c08306b62586d535b28d9d08e691b2fab7ca0",
+          "bytes": 350,
+          "publisher_sha256": null,
+          "passed": true
+        },
+        {
+          "file": "tokenizer.json",
+          "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "bytes": 7031645,
+          "publisher_sha256": null,
+          "passed": true
+        },
+        {
+          "file": "tokenizer_config.json",
+          "sha256": "4abd3520120e266da84c0864fee064d1fb10806f02225911a47253dd38dc5f56",
+          "bytes": 5702,
+          "publisher_sha256": null,
+          "passed": true
+        },
+        {
+          "file": "vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "bytes": 2776833,
+          "publisher_sha256": null,
+          "passed": true
+        }
+      ]
+    },
+    "ai2thor_runtime": {
+      "ready": true,
+      "native_build": "f0825767cd50d69f666c7f282e54abfe58f1e917",
+      "platform": "CloudRendering",
+      "source_url": "https://ai2-thor-public.s3.amazonaws.com/builds/thor-CloudRendering-f0825767cd50d69f666c7f282e54abfe58f1e917.zip",
+      "bytes": 835983275,
+      "sha256": "1fd5f998644a6dd522a4cf6604c05360a75a5c27f450a7486c20e52dc2b67bb9",
+      "publisher_digest_verified": true,
+      "install_path": "/root/autodl-tmp/jepa_instance_bench_20261016/runtime/ai2thor/releases/thor-CloudRendering-f0825767cd50d69f666c7f282e54abfe58f1e917",
+      "transport": "HTTPS to the same official AWS bucket, 16 bounded range workers"
+    },
+    "bert_assets": {
+      "repository": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "files": [
+        {
+          "file": "config.json",
+          "bytes": 570,
+          "sha256": "7160e1553ad2ca51d8c1cb066be533db31826e12d173824c1bb0cb1a4f187d20",
+          "publisher_lfs_verified": false
+        },
+        {
+          "file": "vocab.txt",
+          "bytes": 231508,
+          "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+          "publisher_lfs_verified": false
+        },
+        {
+          "file": "tokenizer.json",
+          "bytes": 466062,
+          "sha256": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98",
+          "publisher_lfs_verified": false
+        },
+        {
+          "file": "tokenizer_config.json",
+          "bytes": 48,
+          "sha256": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+          "publisher_lfs_verified": false
+        },
+        {
+          "file": "model.safetensors",
+          "bytes": 440449768,
+          "sha256": "68d45e234eb4a928074dfd868cead0219ab85354cc53d20e772753c6bb9169d3",
+          "publisher_lfs_verified": true
+        }
+      ]
+    },
+    "unigoal_module_import": {
+      "torch": "2.8.0+cu128",
+      "cuda_available": true,
+      "groundingdino_native_cuda_extension": true,
+      "policy_utilities_original_sha256": "e0bcfe725ab5b8b824498a9d98bd3e6d6cabc931de07e9e5d6b6af222c8f9b0b",
+      "omitted_import": "Unused Magnum Quaternion import; list2qua is not substituted",
+      "full_modules": [
+        "Graph",
+        "UniGoal_Agent",
+        "BEV_Map"
+      ]
+    },
+    "unigoal_matcher_assets": {
+      "source": "https://github.com/cvg/LightGlue/releases/download/v0.1_arxiv/disk_lightglue.pth",
+      "release_id": 109836773,
+      "bytes": 47631405,
+      "sha256": "b5b21d47ea24f2c5e501aec9c91b9716e4c8c3429a4dc1e615c133c4c9378335",
+      "publisher_digest_available": false,
+      "weights_only_load": true
+    },
+    "jev_native_build_gate": {
+      "passed": true,
+      "fixtures": [
+        "region_graph2d_fixture",
+        "region_graph_dirty_fixture"
+      ],
+      "binaries": {
+        "exploration_manager/exploration_node": {
+          "sha256": "1e1ad5e8e4561bc40984681065fcaed3da3a9c8ae1bebbb1fbd5b5ee2df6b2c4",
+          "dynamic_dependencies_resolved": true
+        },
+        "trajectory_manager/traj_server": {
+          "sha256": "73018c9153a22c5ed14f5bc3e078c6035821346db67d7b75b43eeee959150770",
+          "dynamic_dependencies_resolved": true
+        },
+        "lkh_mtsp_solver/tsp_node": {
+          "sha256": "a4383d1a3599b763038aed5875aaea1f20365dc891441aa4894bb5cc0c3f3af9",
+          "dynamic_dependencies_resolved": true
+        }
+      },
+      "source_commit": "c20033af496be162bf02bb436ce44b718dfb3430",
+      "scope": "Native ROS message/graph fixtures and binary linkage only; NOT a closed-loop navigation performance gate",
+      "ros_environment": "Isolated RoboStack Noetic; Python 3.12 / GCC 15",
+      "host_ros_service_changed": false
+    },
+    "jev_blip_assets": [
+      {
+        "file": "eva_vit_g.pth",
+        "url": "https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/eva_vit_g.pth?generation=1673857001813431",
+        "generation": "1673857001813431",
+        "bytes": 2025249237,
+        "sha256": "99d2bb36c6b52c94fe6e2e12373afb27de57ae81378c3d8c53bf0e83b0f4275f",
+        "publisher_crc32c": "7WazzQ==",
+        "publisher_crc32c_verified": true
+      },
+      {
+        "file": "blip2_pretrained.pth",
+        "url": "https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth?generation=1674119250503891",
+        "generation": "1674119250503891",
+        "bytes": 746998955,
+        "sha256": "f31f96e4a97ce9ac7a140ea1961b8a871822ae1cd0a23f0f1122fbefd70db9f0",
+        "publisher_crc32c": "07g8Hw==",
+        "publisher_crc32c_verified": true
+      }
+    ],
+    "jev_yolo_safe_conversion": {
+      "publisher_checkpoint_sha256": "b370120a414bf32b5d65fc808e5a32c8d9b3c63902d1bc41894fc9d86eccf9cb",
+      "safe_weights_sha256": "1db78d3babc822cb52b886989082abd61a84307c08f9efb8311bc28dd1321c82",
+      "source": "model",
+      "architecture": "cfg/deploy/yolov7-e6e.yaml",
+      "strict_state_dict_load": true,
+      "state_keys": 1450,
+      "pickle_class_code_executed": false,
+      "names": [
+        "person",
+        "bicycle",
+        "car",
+        "motorcycle",
+        "airplane",
+        "bus",
+        "train",
+        "truck",
+        "boat",
+        "traffic light",
+        "fire hydrant",
+        "stop sign",
+        "parking meter",
+        "bench",
+        "bird",
+        "cat",
+        "dog",
+        "horse",
+        "sheep",
+        "cow",
+        "elephant",
+        "bear",
+        "zebra",
+        "giraffe",
+        "backpack",
+        "umbrella",
+        "handbag",
+        "tie",
+        "suitcase",
+        "frisbee",
+        "skis",
+        "snowboard",
+        "sports ball",
+        "kite",
+        "baseball bat",
+        "baseball glove",
+        "skateboard",
+        "surfboard",
+        "tennis racket",
+        "bottle",
+        "wine glass",
+        "cup",
+        "fork",
+        "knife",
+        "spoon",
+        "bowl",
+        "banana",
+        "apple",
+        "sandwich",
+        "orange",
+        "broccoli",
+        "carrot",
+        "hot dog",
+        "pizza",
+        "donut",
+        "cake",
+        "chair",
+        "couch",
+        "potted plant",
+        "bed",
+        "dining table",
+        "toilet",
+        "tv",
+        "laptop",
+        "mouse",
+        "remote",
+        "keyboard",
+        "cell phone",
+        "microwave",
+        "oven",
+        "toaster",
+        "sink",
+        "refrigerator",
+        "book",
+        "clock",
+        "vase",
+        "scissors",
+        "teddy bear",
+        "hair drier",
+        "toothbrush"
+      ],
+      "stride": [
+        8.0,
+        16.0,
+        32.0,
+        64.0
+      ]
+    },
+    "ollama_compatible_runtime": {
+      "version": "v0.24.0",
+      "sha256": "15c5f8d66ba06e0d3b4719df8868612dbd66e14e82760929bb3552e1657cdcdb",
+      "publisher_digest_verified": true,
+      "source_url": "https://github.com/ollama/ollama/releases/download/v0.24.0/ollama-linux-amd64.tar.zst",
+      "install_path": "/root/autodl-tmp/jepa_instance_bench_20261016/runtime/ollama_0_24_0",
+      "compatibility_reference": "https://github.com/ollama/ollama/issues/16490",
+      "host_service_changed": false,
+      "model_changed": false
+    },
+    "qwen_assets": {
+      "repository": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "revision": "cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "files": [
+        {
+          "file": "chat_template.json",
+          "bytes": 1050,
+          "sha256": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96"
+        },
+        {
+          "file": "config.json",
+          "bytes": 1374,
+          "sha256": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43"
+        },
+        {
+          "file": "generation_config.json",
+          "bytes": 216,
+          "sha256": "0a3aea82869fe29f20dc95ccf3e2bcff380eca1f5ad6447a4a4b37110b08e43e"
+        },
+        {
+          "file": "merges.txt",
+          "bytes": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+        },
+        {
+          "file": "model-00001-of-00005.safetensors",
+          "bytes": 3900233256,
+          "sha256": "e97b877e47fde53a6c6e77aafb36e58e91ee9d95c4a3eeac6f1b5c0e6a1c986e"
+        },
+        {
+          "file": "model-00002-of-00005.safetensors",
+          "bytes": 3864726320,
+          "sha256": "a9a300a43b4724eee2abe7c18ceb26768d0ab011eb0cad19d9bfd2476a24d024"
+        },
+        {
+          "file": "model-00003-of-00005.safetensors",
+          "bytes": 3864726424,
+          "sha256": "111223d173e00bbee81cba1216fad28668df3476706b7fd26f4d5b50f8b3a507"
+        },
+        {
+          "file": "model-00004-of-00005.safetensors",
+          "bytes": 3864733680,
+          "sha256": "ef47f634fa57d46ee134edcc09f34085a47da1e16c12a2abe0d67118be6d72ed"
+        },
+        {
+          "file": "model-00005-of-00005.safetensors",
+          "bytes": 1089994880,
+          "sha256": "0c859795ad3a627a9b95bcb762e059d5b768a4a36fdd4affeff269d93fdecc67"
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "bytes": 57619,
+          "sha256": "73b333b0b16e5286ddba615d2caebcd495cf7e616f52eb217a81781393d79de9"
+        },
+        {
+          "file": "preprocessor_config.json",
+          "bytes": 350,
+          "sha256": "f2058c716eef96ccaed1cc1e2d0c08306b62586d535b28d9d08e691b2fab7ca0"
+        },
+        {
+          "file": "tokenizer.json",
+          "bytes": 7031645,
+          "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "bytes": 5702,
+          "sha256": "4abd3520120e266da84c0864fee064d1fb10806f02225911a47253dd38dc5f56"
+        },
+        {
+          "file": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      ]
+    },
+    "unigoal_sensor": {
+      "passed": true,
+      "rgb_shape": [
+        640,
+        480,
+        3
+      ],
+      "depth_shape": [
+        640,
+        480,
+        1
+      ],
+      "depth_range": [
+        0.009067146107554436,
+        0.1312476247549057
+      ],
+      "zero_relative_pose": true,
+      "turn_angle_degrees": 15,
+      "depth_max_m": 30,
+      "goal_label_or_semantic_image_transmitted": false,
+      "geometry": "Frozen common HSSD body/navmesh; native UniGoal camera and 15-degree actions"
+    },
+    "unigoal_cuda": {
+      "passed": true,
+      "native_cuda_kernel_vs_publisher_pytorch_reference_max_error": 5.960464477539063e-08,
+      "compatibility_patch": "Two AT_DISPATCH type arguments: value.type() to value.scalar_type()",
+      "device": "NVIDIA GeForce RTX 5090"
+    },
+    "eb_sensor": {
+      "passed": true,
+      "native_teleport": true,
+      "rgb_shape": [
+        500,
+        500,
+        3
+      ],
+      "right_turn_degrees": 90.0,
+      "max_steps": 20,
+      "native_success_threshold_m": 1,
+      "scene": "FloorPlan11",
+      "subset": "base"
+    }
+  },
+  "source_patches": [
+    {
+      "file": "unigoal_slam_classes.patch",
+      "original_sha256": "19a03b0c4d432ce9804801a5bcaf7358eaed8b29856269b6a393eb63b918ce82",
+      "adapted_sha256": "dd5a61110441e1126f25abfe8f1b67c9d8a955499265659bcb3e66ae22e23374"
+    },
+    {
+      "file": "unigoal_llm.patch",
+      "original_sha256": "ed37d15d4c67580d510e4732a08a2035e61791f713cb0dad2ccdd48a4511f677",
+      "adapted_sha256": "a322f85bd783cadc47437e46882b9375f9523747e88a57e4a5db2e40e284089c"
+    },
+    {
+      "file": "groundingdino_torch_dispatch.patch",
+      "original_sha256": "2b43ff4ac64393a6c36edd5a0976b67b9caf94622c162f21c8c6e44663ab98f5",
+      "adapted_sha256": "d6cd9ee6c13361293f17455a544d69a07c50ef39a091075bf823ec3e7107e03c"
+    },
+    {
+      "file": "jev_geo_utils.patch",
+      "original_sha256": "c8dc24311239b0d1a608f40b45fe757259bcc8772f3667e9d72e51230370b61a",
+      "adapted_sha256": "ccb615acad4c9ac4fba10777be1e32cbb954ca49d172dee3318a4b9f70f0d87d"
+    }
+  ]
+}

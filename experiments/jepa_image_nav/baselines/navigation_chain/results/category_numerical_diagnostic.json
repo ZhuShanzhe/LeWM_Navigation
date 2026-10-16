@@ -1,0 +1,51 @@
+{
+  "records": 300,
+  "max_abs": {
+    "path_error64": 9.068268784773181e-07,
+    "path_error32": 0.0,
+    "spl_error64": 1.0924555926550283e-08,
+    "spl_error32": 0.0
+  },
+  "largest_spl_errors": [
+    {
+      "episode": "hssd-object-102817053-232-0-7",
+      "path_error64": 1.5013670573438276e-07,
+      "path_error32": 0.0,
+      "spl_error64": -1.0924555926550283e-08,
+      "spl_error32": 0.0,
+      "length": 6.749997988343239
+    },
+    {
+      "episode": "hssd-object-103997970_171031287-46-2-11",
+      "path_error64": 1.1539436783891688e-07,
+      "path_error32": 0.0,
+      "spl_error64": -1.0396171090665263e-08,
+      "spl_error32": 0.0,
+      "length": 4.999999150633812
+    },
+    {
+      "episode": "hssd-object-102817053-129-1-8",
+      "path_error64": 4.104332127496946e-07,
+      "path_error32": 0.0,
+      "spl_error64": -8.064217960068731e-09,
+      "spl_error32": 0.0,
+      "length": 11.224108695983887
+    },
+    {
+      "episode": "hssd-object-103997970_171031287-4-1-7",
+      "path_error64": 3.6373905665243456e-08,
+      "path_error32": 0.0,
+      "spl_error64": -4.031544875715554e-09,
+      "spl_error32": 0.0,
+      "length": 4.749998986721039
+    },
+    {
+      "episode": "hssd-object-103997970_171031287-48-2-0",
+      "path_error64": 2.062943664782324e-07,
+      "path_error32": 0.0,
+      "spl_error64": -2.0541308931587565e-09,
+      "spl_error32": 0.0,
+      "length": 13.499997407197952
+    }
+  ]
+}

@@ -7,6 +7,7 @@
 - [scripts](scripts/README.md)：官方资源获取、RTX 5090推理适配、固定回合抽样、闭环评测和结果核对。
 - [results](results/README.md)：完整主结果、分组表现、接口对照、资源版本和运行状态。
 - [reports](reports/README.md)：模型筛选、评测设置与不足分析。
+- [navigation_chain](navigation_chain/README.md)：实例、类别、语言目标与低层运动的分任务对照、验收结果和模型接口。
 
 服务器目录为`/root/autodl-tmp/jepa_vln_baselines_20261015`。场景与任务来自已经验收的`/root/autodl-tmp/jepa_vln_data_20261014`，不改变场景划分、目标照片或成功阈值。
 
@@ -18,7 +19,7 @@
 | [DEBiT](https://github.com/naver/debit) | 地点与实例目标对应关系；双目Transformer结合单目空间特征与循环记忆。 | 官方DEBiT-S ImageNav权重；Gibson地点、HSSD地点和实例迁移三个面板完成，采用原生10°转向；不是论文实例专用检查点。 |
 | [Mod-IIN](https://jacobkrantz.github.io/modular_iin) | 同一物体实例；探索、局部匹配、目标定位与执行分开。 | 适合作为模块化路线参照；本目录的LightGlue-frontier是适配实现，不是其官方复现。 |
 | [IEVE](https://github.com/XiaohanLei/IEVE) | 同一物体实例；主动接近候选物体并再次确认。 | 官方代码和预训练模型入口公开；需要迁移其速度控制、分割和目标分类接口，尚未完成服务器闭环接入。 |
-| [UniGoal](https://github.com/bagh2178/UniGoal) | 物体实例与多模态目标；在线场景图与目标图匹配。 | 官方实例图像任务代码公开，可用本地VLM；本轮未接入完整感知与推理链。 |
+| [UniGoal](https://github.com/bagh2178/UniGoal) | 物体实例与多模态目标；在线场景图与目标图匹配。 | 完整原生模块与仿真接口正在预检，尚无通过验收的闭环成绩；详见navigation_chain。 |
 | [PIG-Nav](https://github.com/zpschang/PIG-Nav) | 地点目标的预训练局部路线生成。 | 公开代码与Hugging Face模型；适合作为后续waypoint策略对照，需校准尺度和离散执行接口。 |
 | [ViNT / NoMaD](https://github.com/robodhruv/visualnav-transformer) | 局部视觉运动与探索，输出路点。 | 有官方模型；需区分有预采集拓扑路线与未知地图搜索，不能把路线跟随成绩直接当未知场景到达率。 |
 | [NavDP](https://github.com/InternRobotics/NavDP) | RGB-D图像目标路线与避障。 | 官方代码公开，当前检查点入口要求填写申请表；本轮未申请或运行。X-NavDP公开支持PointNav，不能直接替代图像目标基线。 |
@@ -26,9 +27,9 @@
 
 ## Jev 与 JEPLO 的位置
 
-[Jev-ObjNav](https://github.com/owlet914/jev-objnav)以目标名称驱动开放词汇ObjectNav，结合RGB-D、位姿、在线地图和Jev高层决策。现有接口并不要求找到图中的唯一实例；Jev通过外部服务接入，仓库不等于完整决策模型权重。其区域图、候选验证和探索记忆适合作为架构参照，直接把图片转成类别会丢失实例身份。本轮不调用付费接口，不把作者18个场景的演示统计当作本项目成绩。
+[Jev-ObjNav](https://github.com/owlet914/jev-objnav)以目标名称驱动开放词汇ObjectNav，结合RGB-D、位姿、在线地图和Jev高层决策。现有接口并不要求找到图中的唯一实例；Jev通过外部服务接入，仓库不等于完整决策模型权重。其区域图、候选验证和探索记忆适合作为架构参照，直接把图片转成类别会丢失实例身份。官方API已通过最小连通测试，原生ROS规划模块已编译，完整闭环仍未完成；作者18个场景的演示统计不作为本项目成绩。
 
-[JEPLO](https://github.com/ASIG-X/JEPLO)解决LiDAR与本体感知条件下的四足运动执行，不负责图像目标搜索或识别。[JEPLO-Dataset](https://huggingface.co/datasets/ASIG-Lab/JEPLO-Dataset)包含8段真机记录，提供LiDAR、IMU、关节状态和轨迹真值，适合后续里程计与运动鲁棒性分析，不提供本项目需要的图像目标仿真任务。它保留为低层部署参照，不进入ImageGoal成功率比较。
+[JEPLO](https://github.com/ASIG-X/JEPLO)解决LiDAR与本体感知条件下的四足运动执行，不负责图像目标搜索或识别。[JEPLO-Dataset](https://huggingface.co/datasets/ASIG-Lab/JEPLO-Dataset)包含8段真机记录，提供LiDAR、IMU、关节状态和轨迹真值，适合后续里程计与运动鲁棒性分析，不提供本项目需要的图像目标仿真任务。原生仿真部署的15次运动测试及验收见navigation_chain，不进入ImageGoal成功率比较。
 
 ## 完整主结果
 

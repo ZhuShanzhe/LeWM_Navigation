@@ -1,0 +1,52 @@
+{
+  "captured_utc": "2026-10-16T08:58:21.037314+00:00",
+  "all_requested_benchmarks_complete": false,
+  "goat_accepted_instance_executions": 600,
+  "goat_accepted_category_executions": 300,
+  "jeplo_accepted_runs": 15,
+  "eb_navigation": {
+    "required": 300,
+    "record_status_counts": {
+      "complete": 43
+    },
+    "full_acceptance_exists": false
+  },
+  "unigoal_smokes": [
+    {
+      "run": "unigoal_full_chain_smoke1",
+      "recorded_episodes": 0,
+      "runtime_failure": null
+    },
+    {
+      "run": "unigoal_full_chain_smoke1_v2",
+      "recorded_episodes": 0,
+      "runtime_failure": {
+        "status": "runtime_failure",
+        "error": "TypeError",
+        "detail": "list() takes no keyword arguments",
+        "performance_score_valid": false
+      }
+    },
+    {
+      "run": "unigoal_full_chain_smoke1_v3",
+      "recorded_episodes": 0,
+      "runtime_failure": null
+    },
+    {
+      "run": "unigoal_full_chain_smoke1_v4",
+      "recorded_episodes": 0,
+      "runtime_failure": {
+        "status": "runtime_failure",
+        "error": "InternalServerError",
+        "detail": "Error code: 500 - {'error': {'message': \"llama-server process has terminated: exit status 1: error loading model: unknown model architecture: 'mllama'\\nerror loading model: unknown model architecture: 'mllama'\", 'type': 'api_error', 'param': None, 'code': None}}",
+        "performance_score_valid": false
+      }
+    }
+  ],
+  "jev_closed_loop_accepted": false,
+  "pending": [
+    "EB-Navigation full 300 acceptance",
+    "UniGoal native full-chain smoke and instance benchmark",
+    "Jev native vision services plus official API and ROS/Habitat closed loop"
+  ]
+}

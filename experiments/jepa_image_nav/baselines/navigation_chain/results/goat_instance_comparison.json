@@ -1,0 +1,184 @@
+{
+  "status": "passed",
+  "all_expected_runs": true,
+  "results": [
+    {
+      "run": "goat_shared_hssd300",
+      "model": "GOAT SenseAct-NN Monolithic official pretrained policy",
+      "scope": "HSSD cross-domain, cold-start single image subtask; not official lifelong GOAT-Bench scores",
+      "episodes": 300,
+      "scenes": 15,
+      "checked_trace_steps": 24372,
+      "completed": 300,
+      "invalid_under_profile": 0,
+      "successes": 0,
+      "SR": 0.0,
+      "SPL": 0.0,
+      "SR_scene_cluster_bootstrap95": null,
+      "SPL_scene_cluster_bootstrap95": null,
+      "uncertainty_note": "All-zero scene resampling is degenerate, so no misleading [0,0] generalization interval is assigned",
+      "goal_visible_ever": 11,
+      "reached_success_region": 1,
+      "outcomes": {
+        "premature_subtask_stop": 281,
+        "collision_dominated_timeout": 9,
+        "search_or_localization_timeout": 9,
+        "reached_but_failed_to_stop": 1
+      },
+      "by_category": {
+        "plant": {
+          "episodes": 83,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "chair": {
+          "episodes": 156,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "tv": {
+          "episodes": 12,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "couch": {
+          "episodes": 17,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "bed": {
+          "episodes": 22,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "toilet": {
+          "episodes": 10,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        }
+      },
+      "by_distance": {
+        "extra": {
+          "episodes": 83,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "long": {
+          "episodes": 91,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "medium": {
+          "episodes": 65,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "short": {
+          "episodes": 61,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        }
+      },
+      "acceptance": "passed"
+    },
+    {
+      "run": "goat_native_camera_common_geometry300",
+      "model": "GOAT SenseAct-NN Monolithic official pretrained policy",
+      "scope": "HSSD cross-domain, cold-start single image subtask; not official lifelong GOAT-Bench scores",
+      "episodes": 300,
+      "scenes": 15,
+      "checked_trace_steps": 14129,
+      "completed": 300,
+      "invalid_under_profile": 0,
+      "successes": 0,
+      "SR": 0.0,
+      "SPL": 0.0,
+      "SR_scene_cluster_bootstrap95": null,
+      "SPL_scene_cluster_bootstrap95": null,
+      "uncertainty_note": "All-zero scene resampling is degenerate, so no misleading [0,0] generalization interval is assigned",
+      "goal_visible_ever": 16,
+      "reached_success_region": 1,
+      "outcomes": {
+        "premature_subtask_stop": 294,
+        "search_or_localization_timeout": 4,
+        "reached_but_failed_to_stop": 1,
+        "collision_dominated_timeout": 1
+      },
+      "by_category": {
+        "plant": {
+          "episodes": 83,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "chair": {
+          "episodes": 156,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "tv": {
+          "episodes": 12,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "couch": {
+          "episodes": 17,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "bed": {
+          "episodes": 22,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "toilet": {
+          "episodes": 10,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        }
+      },
+      "by_distance": {
+        "extra": {
+          "episodes": 83,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "long": {
+          "episodes": 91,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "medium": {
+          "episodes": 65,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        },
+        "short": {
+          "episodes": 61,
+          "successes": 0,
+          "SR": 0.0,
+          "SPL": 0.0
+        }
+      },
+      "acceptance": "passed"
+    }
+  ]
+}

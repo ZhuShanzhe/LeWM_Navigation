@@ -1,0 +1,22 @@
+diff --git a/src/graph/utils/slam_classes.py b/src/graph/utils/slam_classes.py
+index 8150cf6..9853500 100644
+--- a/src/graph/utils/slam_classes.py
++++ b/src/graph/utils/slam_classes.py
+@@ -111,6 +111,10 @@ class DetectionList(list):
+             
+     
+ class MapObjectList(DetectionList):
++    def __init__(self, iterable=(), device=None):
++        super().__init__(iterable)
++        self.device = device
++
+     def compute_similarities(self, new_clip_ft):
+         '''
+         The input feature should be of shape (D, ), a one-row vector
+@@ -164,4 +168,4 @@ class MapObjectList(DetectionList):
+             del new_obj['bbox_np']
+             del new_obj['pcd_color_np']
+             
+-            self.append(new_obj)
+\ No newline at end of file
++            self.append(new_obj)

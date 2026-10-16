@@ -1,0 +1,171 @@
+{
+  "scenes": 15,
+  "episodes": 300,
+  "construction": "v2: seed candidate views from frozen instance labels plus 24 bearings x 5 radii, 2.5% pixel gate; no model-dependent filtering",
+  "task": "category targets, not instance targets",
+  "source_panel_sha256": "cf5442b42e5045dc07dccb2cd1a400da052d107dcd63f1849a73733ce574deb1",
+  "source_scene_revision": "4369cb9876214c7fbebcf552eb532380e4d287e4",
+  "statistics": [
+    {
+      "scene": "102344022",
+      "episodes": 20,
+      "all_category_instances": 47,
+      "verified_instances": 42,
+      "unverified_instances": 5,
+      "viewpoints": 1876,
+      "paired_starts": 15
+    },
+    {
+      "scene": "102816729",
+      "episodes": 20,
+      "all_category_instances": 63,
+      "verified_instances": 60,
+      "unverified_instances": 3,
+      "viewpoints": 2654,
+      "paired_starts": 7
+    },
+    {
+      "scene": "102817053",
+      "episodes": 20,
+      "all_category_instances": 30,
+      "verified_instances": 23,
+      "unverified_instances": 7,
+      "viewpoints": 1069,
+      "paired_starts": 11
+    },
+    {
+      "scene": "103997613_171030702",
+      "episodes": 20,
+      "all_category_instances": 47,
+      "verified_instances": 37,
+      "unverified_instances": 10,
+      "viewpoints": 1416,
+      "paired_starts": 10
+    },
+    {
+      "scene": "103997970_171031287",
+      "episodes": 20,
+      "all_category_instances": 16,
+      "verified_instances": 15,
+      "unverified_instances": 1,
+      "viewpoints": 944,
+      "paired_starts": 11
+    },
+    {
+      "scene": "103997994_171031320",
+      "episodes": 20,
+      "all_category_instances": 21,
+      "verified_instances": 20,
+      "unverified_instances": 1,
+      "viewpoints": 1122,
+      "paired_starts": 11
+    },
+    {
+      "scene": "104862513_172226580",
+      "episodes": 20,
+      "all_category_instances": 18,
+      "verified_instances": 18,
+      "unverified_instances": 0,
+      "viewpoints": 748,
+      "paired_starts": 12
+    },
+    {
+      "scene": "105515175_173104107",
+      "episodes": 20,
+      "all_category_instances": 290,
+      "verified_instances": 135,
+      "unverified_instances": 155,
+      "viewpoints": 7124,
+      "paired_starts": 18
+    },
+    {
+      "scene": "105515307_173104317",
+      "episodes": 20,
+      "all_category_instances": 34,
+      "verified_instances": 27,
+      "unverified_instances": 7,
+      "viewpoints": 1198,
+      "paired_starts": 12
+    },
+    {
+      "scene": "105515490_173104566",
+      "episodes": 20,
+      "all_category_instances": 34,
+      "verified_instances": 32,
+      "unverified_instances": 2,
+      "viewpoints": 1148,
+      "paired_starts": 14
+    },
+    {
+      "scene": "107734119_175999938",
+      "episodes": 20,
+      "all_category_instances": 14,
+      "verified_instances": 14,
+      "unverified_instances": 0,
+      "viewpoints": 702,
+      "paired_starts": 12
+    },
+    {
+      "scene": "108294465_176709960",
+      "episodes": 20,
+      "all_category_instances": 34,
+      "verified_instances": 15,
+      "unverified_instances": 19,
+      "viewpoints": 465,
+      "paired_starts": 14
+    },
+    {
+      "scene": "108294537_176710050",
+      "episodes": 20,
+      "all_category_instances": 91,
+      "verified_instances": 67,
+      "unverified_instances": 24,
+      "viewpoints": 3447,
+      "paired_starts": 15
+    },
+    {
+      "scene": "108294624_176710203",
+      "episodes": 20,
+      "all_category_instances": 36,
+      "verified_instances": 35,
+      "unverified_instances": 1,
+      "viewpoints": 1852,
+      "paired_starts": 7
+    },
+    {
+      "scene": "108736635_177263256",
+      "episodes": 20,
+      "all_category_instances": 51,
+      "verified_instances": 39,
+      "unverified_instances": 12,
+      "viewpoints": 1381,
+      "paired_starts": 12
+    }
+  ],
+  "version": "hssd_objectnav_v3",
+  "source_version": "hssd_objectnav_v2",
+  "category_reassignments": [
+    {
+      "episode_id": "hssd-object-103997994_171031320-86-2-7",
+      "scene": "103997994_171031320",
+      "from_category": "plant",
+      "to_category": "chair",
+      "paired_start": false
+    },
+    {
+      "episode_id": "hssd-object-103997994_171031320-86-0-1",
+      "scene": "103997994_171031320",
+      "from_category": "plant",
+      "to_category": "chair",
+      "paired_start": false
+    }
+  ],
+  "test_panel_sha256": "b941c073a4665ab1c60f76f28f1a1b72fa80338734b7dc6eddff4fcb100ae0f9",
+  "completion_gate": {
+    "complete": true,
+    "episodes": 300,
+    "scenes": 15,
+    "no_unverified_category_episode": true
+  },
+  "goal_inventory_scope": "All 826 recognized instances retained; finite view sampling verifies a subset, not proof remaining instances unreachable"
+}

@@ -1,0 +1,15 @@
+{
+  "acceptance": "rejected",
+  "performance_score_valid": false,
+  "episode_records": 300,
+  "episodes_with_trace": 291,
+  "record_status_counts": {
+    "complete": 291,
+    "invalid_under_profile_navmesh": 9
+  },
+  "non_translation_actions_with_position_change": 188,
+  "maximum_unintended_displacement_m": 1.270393608664489,
+  "reason": "Frozen common-geometry starts were reused with a changed native body/navmesh; turn/STOP position invariance failed",
+  "permitted_use": "Engineering diagnosis only; not an official or cross-domain performance score",
+  "controlled_alternative": "goat_native_camera_common_geometry300"
+}
