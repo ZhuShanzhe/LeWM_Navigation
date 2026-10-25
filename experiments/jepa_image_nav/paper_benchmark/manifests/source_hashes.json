@@ -1,0 +1,190 @@
+{
+  "original_frozen_runtime_manifest_sha256": "db0e35eea0035b8ae7927e656c208745d422e8b0210b1bac34a4790f9d4c199d",
+  "copied_files": {
+    "chain_unigoal_acceptance.py": {
+      "sha256": "806fe1810a506a45291978af44d2a491f932b8d577d110f9f0c363619d6da0b2",
+      "origin": "jepa_instance_bench_20261016"
+    },
+    "chain_unigoal_batch.py": {
+      "sha256": "a0e7110817a197c14567558da1ebea69dc6ff071ae3f1a9ed3e8127ffc88dd3d",
+      "origin": "jepa_instance_bench_20261016"
+    },
+    "chain_unigoal_flow.py": {
+      "sha256": "0658c6404e39fd65312d4a7fa76120efa9f6d0cc93c2550e5de082cc6e9ba2d9",
+      "origin": "jepa_instance_bench_20261016"
+    },
+    "chain_unigoal_flow_gate.py": {
+      "sha256": "abe23a1c588530e9af4756ffe50bf5acb73281b01c3ccc8fdd2e291610f963f5",
+      "origin": "jepa_instance_bench_20261016"
+    },
+    "chain_unigoal_import.py": {
+      "sha256": "49b852f22109274e5d1ab365b37006d5432527398209ce182a0b3e1125536736",
+      "origin": "jepa_instance_bench_20261016"
+    },
+    "chain_unigoal_ready_smoke.py": {
+      "sha256": "295d24c6909489f5ee25a85b2c9ef3460c1ac326b56c76ca64a97c143028b7c8",
+      "origin": "jepa_instance_bench_20261016"
+    },
+    "chain_unigoal_recover_terminal.py": {
+      "sha256": "71e083ff8ef538860903e87d08c14b7ce466b829ac86137608056ddc45c63977",
+      "origin": "jepa_instance_bench_20261016"
+    },
+    "chain_unigoal_run.py": {
+      "sha256": "8367653959bcbd82903e0c19579a1aac5fa67debe2b114832ff2c20307869a12",
+      "origin": "jepa_instance_bench_20261016"
+    },
+    "chain_unigoal_runtime_gate.py": {
+      "sha256": "a02853e7502aa9e18b61d334062e428ce32412851a72d24d96d1d319cde56853",
+      "origin": "jepa_instance_bench_20261016"
+    },
+    "chain_unigoal_sim.py": {
+      "sha256": "7ae73fb2ea11dc24fea1217d57b5bc23b8622f14a4d263e437d2f11e32ec75e1",
+      "origin": "jepa_instance_bench_20261016"
+    },
+    "instance_policy_goat.py": {
+      "sha256": "9dda34caa79caf1fc89f7492fcb4252063566b5b65415cc9573dc93f929cf28a",
+      "origin": "jepa_instance_bench_20261016"
+    },
+    "baseline_policy.py": {
+      "sha256": "b06a5d54e728e679c6845e1ad1567f515096c87fe392d6e0199d3373d4469452",
+      "origin": "jepa_vln_baselines_20261015"
+    },
+    "paper_accept.py": {
+      "sha256": "42185d038e01ab58432dc49bcf09dd73c0dd3e5f87ebe4c1730e398dca515aed",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_common.py": {
+      "sha256": "fbf90a80a84cb028a30f95c49463588407f04f3395d654ec6167e2b806ecf069",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_eval.py": {
+      "sha256": "2020284af62e5432b1a4dafc1b57e6909be44b0f67fa848fe6486d14aa3fad25",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_replay.py": {
+      "sha256": "099e6c12f5142ff79baf53d9e746e4cc1216ad9ede4c962db8fecfb815ca3eac",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_runtime.py": {
+      "sha256": "35252924b7dd05943ecd2e1ee45eaedf20d3e64d416c4c1571375449fb7577a0",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_scope.py": {
+      "sha256": "a7c7060763876a6e31906e5b2a4145d2f08bd2fe1a8016109d75804131949504",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_sim.py": {
+      "sha256": "a6dcacc33bad1e5f036965ca43bff0d38d7847e2d17790a7e48f64851e1e10ae",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_unigoal.py": {
+      "sha256": "4f6ea78abb16b3e98b0fbd666b1a918ab6a5a69ef13c89762dca32fd3564bb05",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_unigoal_call_diagnostics.py": {
+      "sha256": "c6c2a811ee80b0825a16fc28d53303f1750ee6b0527945030be9771ff61480b7",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_unigoal_client_pool.py": {
+      "sha256": "530b657edb8ba452d7da2d9693b9478ea05dc6bf7d91a3fc2a4345ebb7fe97a6",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_unigoal_mmap.py": {
+      "sha256": "8d7963ee58fa55f48a27a718ae63421a8a3eb3639a671d0e97a29939a53f125f",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_unigoal_model_gate.py": {
+      "sha256": "fc19acb98fca2f0308e750ca4b9dd29b5fa4b1dfac97c99a988877c73595f1e4",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_freeze.py": {
+      "sha256": "b0f906c06aa875ade4c015a5b48af44cc69a6ecb5b167d0dbd0edb2e837aa81f",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_compact_freeze.py": {
+      "sha256": "27e1c662d2849607a885ecd549c8719c3be98573e1cfc85cdaa2ffb008cb7823",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_archive.py": {
+      "sha256": "0dae7a127f746203e0eac1f54ceaadb2ce501352d3b8835151d36723306389e5",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_cpu_gate.py": {
+      "sha256": "2d2a30de59263ac4ac8cab9bff48b55f3184d088c8a54e484701d00d607642a2",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_geometry_gate.py": {
+      "sha256": "07b9c021999627e51826323608ae428c2848d3c0c711c75d2f51bf3f97e91b3f",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_fetch_official.py": {
+      "sha256": "565ba148a15430c981675af79de811464debc589c79027c9159325bbf9795790",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_author_config.py": {
+      "sha256": "3094d8357b379c61be3c55168d6f0df4755a92e99c2d2d933ae9ee95a27cc94f",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_official_gibson.py": {
+      "sha256": "c6c95788e5851533d2c8a1e53a9d2506ec22c2bf7be4c39257da72acaec4b490",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_official_accept.py": {
+      "sha256": "cb711d1e13c1ffab8832bcd44d29f36698d212bc92d30285f9d0d2275f54881e",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_official_motion_gate.py": {
+      "sha256": "6bda52188028c6a173091d5e00af0088ceccd233e0917264f7426bc7fee75ba0",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_collision_gate.py": {
+      "sha256": "9c8d33538a0fe37c00d12cb8917710e06009811513e712867629611489ea8d8b",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_repair_integrity.py": {
+      "sha256": "3f8398dcdae83ebe67b186c79f79abc5ebd225d84c661a38d4a99a6db0d6569d",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_compact_acceptance.py": {
+      "sha256": "d606f27dcc4392bdf6849b724d81e3e80485724efdc8744801cb57b4672dffde",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_exception_audit.py": {
+      "sha256": "ca8be81119eb42d27b05ea0a9a9d2bf772325fbd176f742163f14e66dc2e29ed",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_exception_replay.py": {
+      "sha256": "41ca9ee83d360bc7d9fc8b88262767877147a0352a6eb17f357e7430f8068530",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_exception_stats.py": {
+      "sha256": "3ba124b12d04ec68994aebf8be17ea90e05ddea6b6616e62d642e6e2ec527a49",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_exception_acceptance.py": {
+      "sha256": "f74240c43980072f9d93e38245f70906e3214b61d236c4488fa96e780c960567",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "test_paper_exception_audit.py": {
+      "sha256": "67f7242285d18743f9ceacedf069e196591e0b4c6ba0beca7947c845f1d9d850",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_unigoal_resume_technical.py": {
+      "sha256": "a197fce1dba708ca8a40a43ac80d081d839db514324f9800b18628bfe1ce0c3c",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_unigoal_client_gate.py": {
+      "sha256": "4cdbfac5955b27a3f97a5fe992a5a2aab3a7d55398e6a2bc1d42d7d4222df66f",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_unigoal_load_gate.py": {
+      "sha256": "6a4657e82a05790430ea512181dda3e4e981e5115a95f3da78c5b04be8edd156",
+      "origin": "jepa_vln_paper_bench_20261017"
+    },
+    "paper_publish_final.py": {
+      "sha256": "6685db1aa701c48705147eb9e1ac6ef33bc861767cf172e84d2538d388dd0124",
+      "origin": "jepa_vln_paper_bench_20261017"
+    }
+  },
+  "relocation": "Files retain original server root constants; no inference source rewritten"
+}

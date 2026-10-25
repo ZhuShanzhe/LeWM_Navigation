@@ -1,0 +1,26 @@
+{
+  "acceptance": "passed",
+  "configuration_sha256": "4ae34e2d80e0ad351a917c52c70340e3498c726df9d1be1a31a8593ba07aa9bb",
+  "episode_weighted_SPL": 0.5944479889463378,
+  "episode_weighted_SR": 0.8330952866761885,
+  "episodes": 4901,
+  "native_motion_replay_certificate_sha256": "1d9941e94e142e018dc81b10a0fbfd76019e125752be23d764d975bbc7d9492f",
+  "native_turn_projection_events_individually_replayed": 3,
+  "original_episode_identity_coverage_verified": true,
+  "original_trace_bytes_and_native_metrics_preserved": true,
+  "policy_sha256": "6953185c0e4aaefba8c88da08ef3c05f2d5f75a238ad96e20a3635f2cb5b7902",
+  "scene_cluster_bootstrap95_SPL": [
+    0.5356839473672058,
+    0.6878665915449789
+  ],
+  "scene_cluster_bootstrap95_SR": [
+    0.7703571428571429,
+    0.9219071349470019
+  ],
+  "scene_weighted_SPL": 0.6116297540769295,
+  "scene_weighted_SR": 0.849407134947002,
+  "scenes": 14,
+  "scope": "Official original Gibson ImageGoal validation data and native task metrics; explicitly adapted Habitat0.3.1 runtime, not hidden leaderboard or bitwise author runtime",
+  "successes": 4083,
+  "trace_steps_checked": 672329
+}

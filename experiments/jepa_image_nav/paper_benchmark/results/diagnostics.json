@@ -1,0 +1,276 @@
+{
+  "fgprompt": {
+    "valid_episodes": 430,
+    "termination_partition": {
+      "voluntary_stop_outside_distance_threshold": 309,
+      "budget_exhausted_without_success": 91,
+      "success": 30
+    },
+    "actions": 90135,
+    "forward_actions": 60883,
+    "collided_forward_actions": 42098,
+    "collided_forward_fraction": 0.6914573854770626,
+    "episode_wall_seconds": {
+      "mean": 4.574328723777259,
+      "median": 2.7184611160773784
+    },
+    "timing_scope": "Measured adapter episode wall time, includes local model calls but excludes process setup; not isolated GPU policy latency",
+    "slices": [
+      {
+        "dimension": "detour_bin",
+        "bin": "detour",
+        "valid": 238,
+        "successes": 10,
+        "SR": 0.04201680672268908,
+        "SPL": 0.019676999589849704
+      },
+      {
+        "dimension": "detour_bin",
+        "bin": "direct",
+        "valid": 192,
+        "successes": 20,
+        "SR": 0.10416666666666667,
+        "SPL": 0.05669325151725004
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "extra",
+        "valid": 129,
+        "successes": 1,
+        "SR": 0.007751937984496124,
+        "SPL": 0.0025940896241132957
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "long",
+        "valid": 129,
+        "successes": 6,
+        "SR": 0.046511627906976744,
+        "SPL": 0.020996599471692277
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "medium",
+        "valid": 95,
+        "successes": 5,
+        "SR": 0.05263157894736842,
+        "SPL": 0.03008794933530495
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "short",
+        "valid": 77,
+        "successes": 18,
+        "SR": 0.23376623376623376,
+        "SPL": 0.12554124822705648
+      }
+    ],
+    "diagnosis_scope": "Terminal symptoms and collision incidence, not a causal attribution to the encoder or wrong-instance identification"
+  },
+  "debit": {
+    "valid_episodes": 430,
+    "termination_partition": {
+      "budget_exhausted_without_success": 425,
+      "voluntary_stop_outside_distance_threshold": 4,
+      "success": 1
+    },
+    "actions": 213286,
+    "forward_actions": 15629,
+    "collided_forward_actions": 13851,
+    "collided_forward_fraction": 0.8862371232964361,
+    "episode_wall_seconds": {
+      "mean": 19.560414733861162,
+      "median": 19.925183310406283
+    },
+    "timing_scope": "Measured adapter episode wall time, includes local model calls but excludes process setup; not isolated GPU policy latency",
+    "slices": [
+      {
+        "dimension": "detour_bin",
+        "bin": "detour",
+        "valid": 238,
+        "successes": 0,
+        "SR": 0.0,
+        "SPL": 0.0
+      },
+      {
+        "dimension": "detour_bin",
+        "bin": "direct",
+        "valid": 192,
+        "successes": 1,
+        "SR": 0.005208333333333333,
+        "SPL": 0.004726178375660409
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "extra",
+        "valid": 129,
+        "successes": 0,
+        "SR": 0.0,
+        "SPL": 0.0
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "long",
+        "valid": 129,
+        "successes": 0,
+        "SR": 0.0,
+        "SPL": 0.0
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "medium",
+        "valid": 95,
+        "successes": 0,
+        "SR": 0.0,
+        "SPL": 0.0
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "short",
+        "valid": 77,
+        "successes": 1,
+        "SR": 0.012987012987012988,
+        "SPL": 0.011784756469179203
+      }
+    ],
+    "diagnosis_scope": "Terminal symptoms and collision incidence, not a causal attribution to the encoder or wrong-instance identification"
+  },
+  "goat": {
+    "valid_episodes": 430,
+    "termination_partition": {
+      "budget_exhausted_without_success": 18,
+      "voluntary_stop_outside_distance_threshold": 409,
+      "voluntary_stop_near_approach_but_insufficient_same_instance_pixels": 1,
+      "success": 2
+    },
+    "actions": 30525,
+    "forward_actions": 3733,
+    "collided_forward_actions": 885,
+    "collided_forward_fraction": 0.23707473881596572,
+    "episode_wall_seconds": {
+      "mean": 2.2323669686198753,
+      "median": 0.3967754722107202
+    },
+    "timing_scope": "Measured adapter episode wall time, includes local model calls but excludes process setup; not isolated GPU policy latency",
+    "slices": [
+      {
+        "dimension": "detour_bin",
+        "bin": "detour",
+        "valid": 251,
+        "successes": 2,
+        "SR": 0.00796812749003984,
+        "SPL": 0.005828831402504631
+      },
+      {
+        "dimension": "detour_bin",
+        "bin": "direct",
+        "valid": 179,
+        "successes": 0,
+        "SR": 0.0,
+        "SPL": 0.0
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "extra",
+        "valid": 125,
+        "successes": 0,
+        "SR": 0.0,
+        "SPL": 0.0
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "long",
+        "valid": 128,
+        "successes": 0,
+        "SR": 0.0,
+        "SPL": 0.0
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "medium",
+        "valid": 94,
+        "successes": 0,
+        "SR": 0.0,
+        "SPL": 0.0
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "short",
+        "valid": 83,
+        "successes": 2,
+        "SR": 0.024096385542168676,
+        "SPL": 0.017626947976248943
+      }
+    ],
+    "diagnosis_scope": "Terminal symptoms and collision incidence, not a causal attribution to the encoder or wrong-instance identification"
+  },
+  "unigoal": {
+    "valid_episodes": 429,
+    "termination_partition": {
+      "budget_exhausted_without_success": 396,
+      "voluntary_stop_outside_distance_threshold": 25,
+      "success": 7,
+      "voluntary_stop_near_approach_but_insufficient_same_instance_pixels": 1
+    },
+    "actions": 202254,
+    "forward_actions": 143171,
+    "collided_forward_actions": 90506,
+    "collided_forward_fraction": 0.6321531595085597,
+    "episode_wall_seconds": {
+      "mean": 930.6931775693461,
+      "median": 763.05057488475
+    },
+    "timing_scope": "Measured adapter episode wall time, includes local model calls but excludes process setup; not isolated GPU policy latency",
+    "slices": [
+      {
+        "dimension": "detour_bin",
+        "bin": "detour",
+        "valid": 251,
+        "successes": 7,
+        "SR": 0.027888446215139442,
+        "SPL": 0.010666952926301631
+      },
+      {
+        "dimension": "detour_bin",
+        "bin": "direct",
+        "valid": 178,
+        "successes": 0,
+        "SR": 0.0,
+        "SPL": 0.0
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "extra",
+        "valid": 124,
+        "successes": 2,
+        "SR": 0.016129032258064516,
+        "SPL": 0.007903835787484057
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "long",
+        "valid": 128,
+        "successes": 2,
+        "SR": 0.015625,
+        "SPL": 0.009380223837385805
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "medium",
+        "valid": 94,
+        "successes": 2,
+        "SR": 0.02127659574468085,
+        "SPL": 0.004695741032578323
+      },
+      {
+        "dimension": "distance_bin",
+        "bin": "short",
+        "valid": 83,
+        "successes": 1,
+        "SR": 0.012048192771084338,
+        "SPL": 0.0006657980554932641
+      }
+    ],
+    "diagnosis_scope": "Terminal symptoms and collision incidence, not a causal attribution to the encoder or wrong-instance identification"
+  }
+}

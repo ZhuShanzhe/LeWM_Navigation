@@ -1,0 +1,11 @@
+[
+  {
+    "episode_id": "hssd-instance-102343992-122-1-10",
+    "model": "unigoal",
+    "status": "native_implementation_exception_uncompleted_unscored",
+    "source_certificate_sha256": "5cbd72bd73f9fddca28d23494bb82770b1104d6c62683592c37846f485217bec",
+    "diagnosis": "Native fixed-map Graph.get_goal to FMM.set_goal IndexError; no policy boundary clipping",
+    "score": null,
+    "counted_as_navigation_failure": false
+  }
+]

@@ -1,0 +1,134 @@
+{
+  "source_certificate_sha256": "9a9df489b26630a5046045a375bd389694c0e28582ec0a7a702edbd0df2e3ef0",
+  "source_certificate_redacted": true,
+  "all_assigned_cases_accounted": true,
+  "assigned": 1720,
+  "valid_completed": 1719,
+  "native_implementation_exceptions_uncompleted": 1,
+  "pending": 0,
+  "original_strict_1720_valid_gate_passed": false,
+  "exception_aware_assessment_passed": true,
+  "checks": [
+    {
+      "name": "Compact freeze",
+      "passed": true,
+      "sha256": "dc8c95fdd05eaeb43484e610e9548e515d9ab7d12df757c472781f4f0cb3e38e"
+    },
+    {
+      "name": "Compact CPU checks",
+      "passed": true,
+      "sha256": "d302a27bd41e09c7f76a023d5d01c9125273fb9dc40b93267a40b1068c19f516"
+    },
+    {
+      "name": "Selected geometry",
+      "passed": true,
+      "sha256": "f5f594c596e8439f35ec5de2908d2c8d9399caea4c377de0854183fbb712fe5e"
+    },
+    {
+      "name": "Native input interface smokes",
+      "passed": true,
+      "sha256": "3e64736b29a1c644e5dc69bdabe63ec2c32f5dad8995fe6d7d364494fd798e59"
+    },
+    {
+      "name": "Native collision interface regression",
+      "passed": true,
+      "sha256": "9ec1c4771839f3dc181f5fa1b60f1d5aa788b7905dffd6387b4ebb53fbc84450"
+    },
+    {
+      "name": "Repair source and protected-result integrity",
+      "passed": true,
+      "sha256": "692cb86d1b682f91db2487cab1e0f1512cc1251722b07d6574a7ce255b316f22"
+    },
+    {
+      "name": "UniGoal base-config guard compatibility",
+      "passed": true,
+      "sha256": "f458e1289d9390211ab954ab0c4e5d46c1e8feda11b9421758bd5f73ee550d4c"
+    },
+    {
+      "name": "Original native turn projection replay",
+      "passed": true,
+      "sha256": "1d9941e94e142e018dc81b10a0fbfd76019e125752be23d764d975bbc7d9492f"
+    },
+    {
+      "name": "UniGoal actual loader equivalence",
+      "passed": true,
+      "sha256": "a75a200a45085c2335dfffcad8d33159ad0203a349ad5767bb496d6be327d4da"
+    },
+    {
+      "name": "UniGoal non-mutating call diagnostics",
+      "passed": true,
+      "sha256": "2e84d38e88ef481297eb1222230a79b00012b5654d4a596aad6ce7d9b982d018"
+    },
+    {
+      "name": "Frozen execution sources",
+      "passed": true,
+      "sha256": "db0e35eea0035b8ae7927e656c208745d422e8b0210b1bac34a4790f9d4c199d"
+    },
+    {
+      "name": "fgprompt_place_compact430",
+      "passed": true,
+      "sha256": "a65ef168cd1147683f4327f4b238a974ce524220b76dff9658621ee45ac22bd6"
+    },
+    {
+      "name": "debit_place_compact430",
+      "passed": true,
+      "sha256": "d6d8b5f1a0fb1de89c4aabcb720a0d08da2ebf3bce41e5e44676fd90e19df1c8"
+    },
+    {
+      "name": "goat_instance_compact430",
+      "passed": true,
+      "sha256": "ab6d6057506b8e701e215f690d2a648daffc5c0d2e1352f924da438c506b8e3c"
+    },
+    {
+      "name": "Original Gibson official image-goal anchor",
+      "passed": true,
+      "sha256": "ac375bcb8ea5ce3211ce19c7a0cdf49fe62cc85db26f4cca05bd435704b916f6"
+    },
+    {
+      "name": "Safe legacy scope boundary",
+      "passed": true,
+      "sha256": "a0e633dea7c33977a0208b2d15354674107d88041c645289dbdb506abbe69277"
+    },
+    {
+      "files": 169,
+      "name": "Original completed results byte-preserved",
+      "passed": true
+    },
+    {
+      "name": "All original UniGoal IDs accounted; exceptions unscored",
+      "passed": true
+    },
+    {
+      "name": "Independent final exception accounting",
+      "passed": true,
+      "sha256": "fca898e772675664524d6630fae60d48ceea37874ed58516cf4d775642e0f7a7"
+    },
+    {
+      "name": "Original replay physics/score kernel retained",
+      "passed": true,
+      "sha256": "982efca4df90ec5d0cecf0aeda6ce7b8bf0a459682346d5e0d75dec838e88ea6"
+    },
+    {
+      "name": "Valid-subset full physical replay",
+      "passed": true,
+      "sha256": "800750a620735976e8c432dfaf4817e3a0f89f5d49b0393fdf48dfb12a04172b"
+    },
+    {
+      "name": "Missing-value and paired bootstrap regression",
+      "passed": true,
+      "sha256": "329475ec4bb2152b81755c756513e2b880e1c870e1428afd1e1ee9d920133cb6"
+    },
+    {
+      "name": "Coverage-explicit common-valid paired statistics",
+      "passed": true,
+      "sha256": "3b291b7e2da49a9062ee2845ad71546dd1ea5d2d8c0e333b6219c76789699ef1"
+    },
+    {
+      "name": "Statistics source evidence preserved",
+      "passed": true,
+      "sha256": "762f0b641a377113861165e02357497c54e6c0a3671659450e60887f2d4bb8e2"
+    }
+  ],
+  "official_gibson_episodes": 4901,
+  "no_exception_imputed_as_model_failure": true
+}

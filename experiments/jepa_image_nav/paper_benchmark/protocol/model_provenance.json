@@ -1,0 +1,183 @@
+{
+  "models": {
+    "fgprompt": {
+      "model": "fgprompt",
+      "task": "place",
+      "episodes": 430,
+      "modalities": [
+        "RGB",
+        "goal_RGB",
+        "previous_action"
+      ],
+      "policy": {
+        "adapter": "unchanged original class/function bodies; registry and sensor metadata shims; separate simulator",
+        "checkpoint_sha256": "71483e244b63fc12f21f95ee1ebee7682e4d799cfe7331299368beca05c038e2",
+        "gpu": "NVIDIA GeForce RTX 5090",
+        "model": "FGPrompt-early-r9",
+        "network_source": "XinyuSun/FGPrompt",
+        "parameters": 1579301,
+        "ready": true,
+        "strict_state_dict": true,
+        "torch": "2.8.0+cu128"
+      },
+      "panel_sha256": "1f5846be301b4546394de1ee88bd4348efc29eb20852a5cacae718d89fe8f86f",
+      "contract_sha256": "ec742be768b53da20c098700f4fcbf744d864b4c8be2c5604bd16a46fc890ddb",
+      "native_source_sha256": "b06a5d54e728e679c6845e1ad1567f515096c87fe392d6e0199d3373d4469452",
+      "source_configuration_sha256": "0fdcc1312aa016544defb85094aa8e2a530f925c9a2492794ae5509eb5b08979"
+    },
+    "debit": {
+      "model": "debit",
+      "task": "place",
+      "episodes": 430,
+      "modalities": [
+        "RGB",
+        "goal_RGB",
+        "previous_action"
+      ],
+      "policy": {
+        "adapter": "unchanged original class/function bodies; registry and sensor metadata shims; separate simulator",
+        "checkpoint_sha256": "90a15bcfc9da706ae8451ef1d7b4c20c779ab57d80ac46e2a165f8be96ed4283",
+        "gpu": "NVIDIA GeForce RTX 5090",
+        "model": "DEBiT-S",
+        "network_source": "naver/debit",
+        "parameters": 34400901,
+        "ready": true,
+        "strict_state_dict": true,
+        "torch": "2.8.0+cu128"
+      },
+      "panel_sha256": "1f5846be301b4546394de1ee88bd4348efc29eb20852a5cacae718d89fe8f86f",
+      "contract_sha256": "ec742be768b53da20c098700f4fcbf744d864b4c8be2c5604bd16a46fc890ddb",
+      "native_source_sha256": "b06a5d54e728e679c6845e1ad1567f515096c87fe392d6e0199d3373d4469452",
+      "source_configuration_sha256": "7db4ff51b739321e7de0039885e2e8e57bc0e816e3e21466967e7d071b04a9a7"
+    },
+    "goat": {
+      "model": "goat",
+      "task": "instance",
+      "episodes": 430,
+      "modalities": [
+        "RGB",
+        "goal_RGB_or_category",
+        "ideal_relative_GPS",
+        "compass",
+        "previous_action"
+      ],
+      "policy": {
+        "actions": [
+          "stop",
+          "forward",
+          "left",
+          "right",
+          "look_up",
+          "look_down",
+          "subtask_stop"
+        ],
+        "checkpoint_keys": 349,
+        "checkpoint_sha256": "55e89c3d083198d4add4e9e70164b54ff892900963a2925471362e2d4761b3eb",
+        "clip_sha256": "da0baa37fb2211eee5729ab69ed587eb10d48f5b7076ceeed01552fc3d4cb4ee",
+        "deployment": "unchanged publisher policy and encoder bodies; registration shims; independent Habitat-Sim evaluator",
+        "goal_encoder_normalization": "raw unnormalized features, publisher caches audited",
+        "model": "GOAT-SenseAct-NN-monolithic",
+        "observation_keys": [
+          "compass",
+          "goat_subtask_goal",
+          "gps",
+          "rgb"
+        ],
+        "ready": true,
+        "source_commit": "74c41d19d4a4c3608d1575b512087b5a529aee0e",
+        "strict_all_state_keys": true
+      },
+      "panel_sha256": "f4c9accd2888e1024523833d9f25f8f044c1791afe8f7a9ba06130a04375053a",
+      "contract_sha256": "ec742be768b53da20c098700f4fcbf744d864b4c8be2c5604bd16a46fc890ddb",
+      "native_source_sha256": "9dda34caa79caf1fc89f7492fcb4252063566b5b65415cc9573dc93f929cf28a",
+      "source_configuration_sha256": "290a0e510ac3b7eee9742f3c7e6afe07464b46dc96b5a6eb06f784dafa1cb55f"
+    },
+    "unigoal": {
+      "configuration": {
+        "seed": 1,
+        "env_frame_width": 640,
+        "env_frame_height": 480,
+        "frame_width": 160,
+        "frame_height": 120,
+        "max_episode_length": 500,
+        "camera_height": 0.88,
+        "hfov": 79,
+        "turn_angle": 30,
+        "min_depth": 0.0,
+        "max_depth": 30.0,
+        "map_size_cm": 3600,
+        "map_resolution": 5,
+        "map_size": 720,
+        "global_width": 720,
+        "global_height": 720,
+        "local_width": 240,
+        "local_height": 240,
+        "llm_model": "llama3.2-vision:11b",
+        "vlm_model": "llama3.2-vision:11b",
+        "goal_type": "ins-image",
+        "category_assisted": false,
+        "calibration_changes": [
+          "Graph width/height intrinsics follow actual native 480x640 pixels",
+          "Only graph point-cloud branch converts normalized depth to meters; BEV retains native normalized input"
+        ],
+        "goal_category_fallback": "Unknown -1 if native goal detector fails; no oracle fallback",
+        "terminal_execution": "Stop immediately after final scored episode; no unused goal reinitialization",
+        "schema_handling": "Native graph decomposition retry handles invalid JSON shapes, unchanged10attempt bound/prompt/fallback",
+        "scope": "Released full UniGoal framework with calibrated interfaces and common HSSD geometry; not official HM3D/paper scores"
+      },
+      "identical_configuration_across_429_valid_cases": true,
+      "configurations_inventory_sha256": "aae826eec5955d12274c2237fd114c073fe8e7ef34cf1379a2d6afd66fdfbe0e",
+      "local_runtime": {
+        "model": "llama3.2-vision:11b",
+        "model_digest": "f402ffbf9323892701e6cb49ff3c60a69630e48e2b87b8bcb687002b4df77715",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "mllama",
+          "families": [
+            "mllama"
+          ],
+          "parameter_size": "10.7B",
+          "quantization_level": "Q4_K_M"
+        },
+        "context_length": 4096,
+        "ollama_version": {
+          "version": "0.24.0"
+        },
+        "temperature": "Native server/model default; not explicitly overridden",
+        "scope": "Published identity gate and frozen serving configuration; not claimed full-precision author reproduction"
+      },
+      "depth_note": "Physical depth clipped to 0..5m, transport divided by30 and native BEV restored with*30; max_depth30 is normalization, not sensor30m",
+      "map_exception_preserved": true
+    }
+  },
+  "source_versions": {
+    "FGPrompt": {
+      "repository": "XinyuSun/FGPrompt",
+      "commit": "4430fab50e74c817ab5c7bb28650e569566a234e"
+    },
+    "DEBiT": {
+      "repository": "naver/debit",
+      "git_tree": "eecc8f9ba2d24c2e8a1ea9d1ef29bff629e4424f",
+      "source_blob_inventory_verified": true,
+      "commit_not_inferred_from_tree": true
+    },
+    "GOAT": {
+      "repository": "Ram81/goat-bench",
+      "commit": "74c41d19d4a4c3608d1575b512087b5a529aee0e"
+    },
+    "UniGoal": {
+      "repository": "bagh2178/UniGoal",
+      "commit": "e2c6d456d53150db507a008250f50c34798daad5"
+    }
+  },
+  "decoding": {
+    "fgprompt": "argmax; torch/numpy initialization seed20261015",
+    "debit": "argmax; torch/numpy initialization seed20261015",
+    "goat": "argmax; torch initialization seed20261016",
+    "unigoal": "torch/numpy reset1 per episode; local server native sampling defaults, not deterministic training-seed replication"
+  },
+  "pretrained_scene_exposure": "Not fully certified across all upstream training sources; evaluation scene split does not prove absence from pretraining",
+  "no_training_performed": true,
+  "weights_not_distributed": true
+}

@@ -48,3 +48,5 @@ Habitat-Sim 0.3.3 headless；相机256×256、水平视场90度、高度1.25米�
 - [ImageGoal 原始回合与场景划分](https://github.com/facebookresearch/image-goal-nav-dataset)
 - [HSSD 场景](https://huggingface.co/datasets/hssd/hssd-hab)
 - [HSSD 论文与方法](https://github.com/3dlg-hcvc/hssd)
+
+- [paper_benchmark](paper_benchmark/README.md)：43个HSSD验证场景的四组受控测试和Gibson原始4901回合验证。

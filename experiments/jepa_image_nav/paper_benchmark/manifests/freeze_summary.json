@@ -1,0 +1,1360 @@
+{
+  "original_manifest_sha256": "dc8c95fdd05eaeb43484e610e9548e515d9ab7d12df757c472781f4f0cb3e38e",
+  "parent_manifest_sha256": "0dfb9604b9f66638dd65aad5f074bcc52bf5941ae10c9e1e36c4c4fc89530f0c",
+  "official_scene_split_sha256": "24568612f36ca3d6cd29b4adf2fa8b54e0f87f2175de6f52d964a22a332b6c2a",
+  "source_revision": "4369cb9876214c7fbebcf552eb532380e4d287e4",
+  "selection_seed": "paper-val43-v1-20261017",
+  "selection_rule": "First10 in each scene of original deterministic stratified selection order; no model scores",
+  "selection_inputs": "Only frozen source labels, geometry strata and episode identifiers; no model outputs",
+  "scene_ids": [
+    "102343992",
+    "102344094",
+    "102344529",
+    "102815835",
+    "102816036",
+    "102816114",
+    "102816600",
+    "102816756",
+    "102817140",
+    "103997586_171030666",
+    "103997586_171030669",
+    "103997895_171031182",
+    "104348010_171512832",
+    "104348028_171512877",
+    "104348328_171513363",
+    "104348361_171513414",
+    "104862384_172226319",
+    "104862417_172226382",
+    "104862501_172226556",
+    "105515184_173104128",
+    "105515211_173104185",
+    "105515379_173104395",
+    "106366104_174226329",
+    "106366104_174226332",
+    "106366386_174226770",
+    "106366410_174226806",
+    "106878858_174886965",
+    "106878867_174886977",
+    "106878915_174887025",
+    "106878960_174887073",
+    "106879005_174887124",
+    "106879080_174887211",
+    "107733960_175999701",
+    "107734056_175999839",
+    "107734158_175999998",
+    "107734176_176000019",
+    "107734254_176000121",
+    "107734287_176000160",
+    "107734338_176000244",
+    "108736689_177263340",
+    "108736779_177263484",
+    "108736800_177263517",
+    "108736884_177263634"
+  ],
+  "per_scene_per_task": 10,
+  "evaluation_only": true,
+  "panels": {
+    "instance_image_nav": {
+      "episodes": 430,
+      "scenes": {
+        "102343992": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "102344094": {
+          "detour": {
+            "detour": 7,
+            "direct": 3
+          },
+          "distance": {
+            "extra": 1,
+            "long": 3,
+            "medium": 3,
+            "short": 3
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 9
+        },
+        "102344529": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "102815835": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "102816036": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "102816114": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "102816600": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 9
+        },
+        "102816756": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "102817140": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "103997586_171030666": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "103997586_171030669": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "103997895_171031182": {
+          "detour": {
+            "detour": 7,
+            "direct": 3
+          },
+          "distance": {
+            "extra": 2,
+            "long": 3,
+            "medium": 2,
+            "short": 3
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 9
+        },
+        "104348010_171512832": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 4,
+            "long": 3,
+            "medium": 2,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "104348028_171512877": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 9
+        },
+        "104348328_171513363": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 9
+        },
+        "104348361_171513414": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "104862384_172226319": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "104862417_172226382": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "104862501_172226556": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "105515184_173104128": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "105515211_173104185": {
+          "detour": {
+            "detour": 7,
+            "direct": 3
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": 6
+        },
+        "105515379_173104395": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "106366104_174226329": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 9
+        },
+        "106366104_174226332": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "106366386_174226770": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "106366410_174226806": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "106878858_174886965": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "106878867_174886977": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "106878915_174887025": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "106878960_174887073": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "106879005_174887124": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": 9
+        },
+        "106879080_174887211": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "107733960_175999701": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 9
+        },
+        "107734056_175999839": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "107734158_175999998": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "107734176_176000019": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "107734254_176000121": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "107734287_176000160": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "107734338_176000244": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "108736689_177263340": {
+          "detour": {
+            "detour": 4,
+            "direct": 6
+          },
+          "distance": {
+            "long": 2,
+            "medium": 4,
+            "short": 4
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": 7
+        },
+        "108736779_177263484": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "108736800_177263517": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 4,
+            "long": 3,
+            "medium": 2,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        },
+        "108736884_177263634": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": 10
+        }
+      },
+      "sha256": "f4c9accd2888e1024523833d9f25f8f044c1791afe8f7a9ba06130a04375053a"
+    },
+    "place_image_nav": {
+      "episodes": 430,
+      "scenes": {
+        "102343992": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "102344094": {
+          "detour": {
+            "detour": 7,
+            "direct": 3
+          },
+          "distance": {
+            "extra": 1,
+            "long": 3,
+            "medium": 3,
+            "short": 3
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "102344529": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "102815835": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "102816036": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "102816114": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 5,
+            "long": 3,
+            "medium": 1,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "102816600": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "102816756": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 4,
+            "long": 3,
+            "medium": 2,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "102817140": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "103997586_171030666": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "103997586_171030669": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "103997895_171031182": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "104348010_171512832": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "104348028_171512877": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "104348328_171513363": {
+          "detour": {
+            "detour": 7,
+            "direct": 3
+          },
+          "distance": {
+            "extra": 2,
+            "long": 3,
+            "medium": 2,
+            "short": 3
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": null
+        },
+        "104348361_171513414": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "104862384_172226319": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "104862417_172226382": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "104862501_172226556": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "105515184_173104128": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "105515211_173104185": {
+          "detour": {
+            "detour": 7,
+            "direct": 3
+          },
+          "distance": {
+            "extra": 1,
+            "long": 3,
+            "medium": 3,
+            "short": 3
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "105515379_173104395": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "106366104_174226329": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 5,
+            "long": 3,
+            "medium": 1,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "106366104_174226332": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "106366386_174226770": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "106366410_174226806": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "106878858_174886965": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 4,
+            "long": 3,
+            "medium": 2,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "106878867_174886977": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 4,
+            "long": 3,
+            "medium": 1,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": null
+        },
+        "106878915_174887025": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": null
+        },
+        "106878960_174887073": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": null
+        },
+        "106879005_174887124": {
+          "detour": {
+            "detour": 4,
+            "direct": 6
+          },
+          "distance": {
+            "extra": 2,
+            "long": 4,
+            "medium": 3,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "106879080_174887211": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": null
+        },
+        "107733960_175999701": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "107734056_175999839": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": null
+        },
+        "107734158_175999998": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 5,
+            "long": 3,
+            "medium": 1,
+            "short": 1
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": null
+        },
+        "107734176_176000019": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": null
+        },
+        "107734254_176000121": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "107734287_176000160": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": null
+        },
+        "107734338_176000244": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "108736689_177263340": {
+          "detour": {
+            "detour": 4,
+            "direct": 6
+          },
+          "distance": {
+            "long": 2,
+            "medium": 4,
+            "short": 4
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        },
+        "108736779_177263484": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": null
+        },
+        "108736800_177263517": {
+          "detour": {
+            "detour": 6,
+            "direct": 4
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 9,
+          "unique_target_instances": null
+        },
+        "108736884_177263634": {
+          "detour": {
+            "detour": 5,
+            "direct": 5
+          },
+          "distance": {
+            "extra": 3,
+            "long": 3,
+            "medium": 2,
+            "short": 2
+          },
+          "episodes": 10,
+          "unique_goal_images": 10,
+          "unique_target_instances": null
+        }
+      },
+      "sha256": "1f5846be301b4546394de1ee88bd4348efc29eb20852a5cacae718d89fe8f86f"
+    }
+  },
+  "raw_source_file_count": 2393,
+  "raw_sources_and_goal_images_not_distributed": true
+}

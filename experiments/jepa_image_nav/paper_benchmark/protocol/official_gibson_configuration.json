@@ -1,0 +1,41 @@
+{
+  "source_configuration_sha256": "4ae34e2d80e0ad351a917c52c70340e3498c726df9d1be1a31a8593ba07aa9bb",
+  "author_runtime": "Habitat-sim0.2.2 and pinned author Habitat-Lab commit1f7cfbd; installed0.3.1 is a runtime adaptation",
+  "habitat_sim": "0.3.1",
+  "habitat_lab": "0.3.1",
+  "python_hash_seed": 0,
+  "author_config_files_sha256": {
+    "exp_config/base_task_config/imagenav_gibson.yaml": "d62dc46a8e255b154634107594405c66732a5c19576ee6b34c994ff5c6154b95",
+    "src/config/eval.yaml": "198cf176f716eb43dce64e96fa553be4dd0d47720c9dbfd96d49e66d31ebe419",
+    "src/config/policy.yaml": "8131694b2cf423c1a61fac8c8ec5412e584723a354db4ccae738cf55d2d4c03b",
+    "src/config/sensors.yaml": "13fb24475964b343fea75ceef81e8c49f8ea816726767ef8188de3c3fe0a8389"
+  },
+  "goal_sensor": "Native ImageGoalSensor uniform abs(hash(episode_id)) seeded rotation; no goal IDs cast",
+  "success_measure": "Native Habitat Success with explicit STOP and distance<1m",
+  "SPL_measure": "Native Habitat SPL",
+  "official_hidden_leaderboard_score": false,
+  "resolution": [
+    128,
+    128
+  ],
+  "hfov": 90,
+  "camera_height_m": 1.25,
+  "agent_radius_m": 0.1,
+  "agent_height_m": 1.5,
+  "allow_sliding": true,
+  "forward_m": 0.25,
+  "turn_degrees": 30,
+  "max_actions": 500,
+  "dataset": "Original validation episodes explicitly injected into native PointNavDatasetV1; not base-config train path",
+  "policy": {
+    "adapter": "unchanged original class/function bodies; registry and sensor metadata shims; separate simulator",
+    "checkpoint_sha256": "71483e244b63fc12f21f95ee1ebee7682e4d799cfe7331299368beca05c038e2",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "model": "FGPrompt-early-r9",
+    "network_source": "XinyuSun/FGPrompt",
+    "parameters": 1579301,
+    "ready": true,
+    "strict_state_dict": true,
+    "torch": "2.8.0+cu128"
+  }
+}

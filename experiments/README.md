@@ -10,3 +10,5 @@
 - [exploratory/](exploratory/README.md)
 - [strict_navigation/](strict_navigation/README.md)
 - [jeplo_locomotion/](jeplo_locomotion/README.md)：JEPLO 部署前运动评测、385 次独立仿真记录、接口协议与官方报告对照；不是真机验证或官方性能复现。
+
+- [jepa_image_nav](jepa_image_nav/README.md)：图像地点与实例导航数据、基线及冻结评测。

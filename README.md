@@ -35,3 +35,5 @@ python scripts/recompute_final_table.py
 ```
 
 只用 Python 标准库即可复算最终成功率，不需要 GPU。闭环重跑还需外部数据、权重和原环境，不能把数字复算等同于从零复现。
+
+- [图像目标导航冻结评测](experiments/jepa_image_nav/paper_benchmark/README.md)：HSSD43公平对照、原始Gibson标准验证、置信区间与失败表现。

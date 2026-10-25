@@ -1,0 +1,6026 @@
+{
+  "place": [
+    {
+      "episode_id": "hssd-place-102343992-0-13",
+      "scene_id": "102343992",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102343992-25-17",
+      "scene_id": "102343992",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102343992-13-3",
+      "scene_id": "102343992",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-102343992-16-1",
+      "scene_id": "102343992",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102343992-29-9",
+      "scene_id": "102343992",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102343992-7-2",
+      "scene_id": "102343992",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102343992-4-8",
+      "scene_id": "102343992",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102343992-6-15",
+      "scene_id": "102343992",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102343992-12-11",
+      "scene_id": "102343992",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102343992-17-13",
+      "scene_id": "102343992",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102344094-3-10",
+      "scene_id": "102344094",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102344094-9-2",
+      "scene_id": "102344094",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102344094-19-16",
+      "scene_id": "102344094",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-102344094-12-6",
+      "scene_id": "102344094",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102344094-27-18",
+      "scene_id": "102344094",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102344094-1-19",
+      "scene_id": "102344094",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102344094-29-18",
+      "scene_id": "102344094",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102344094-4-11",
+      "scene_id": "102344094",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102344094-10-10",
+      "scene_id": "102344094",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102344094-14-8",
+      "scene_id": "102344094",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102344529-3-15",
+      "scene_id": "102344529",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102344529-29-8",
+      "scene_id": "102344529",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102344529-8-15",
+      "scene_id": "102344529",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-102344529-23-11",
+      "scene_id": "102344529",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102344529-9-11",
+      "scene_id": "102344529",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102344529-7-2",
+      "scene_id": "102344529",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102344529-10-18",
+      "scene_id": "102344529",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102344529-28-0",
+      "scene_id": "102344529",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102344529-22-10",
+      "scene_id": "102344529",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102344529-12-7",
+      "scene_id": "102344529",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102815835-16-3",
+      "scene_id": "102815835",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102815835-15-11",
+      "scene_id": "102815835",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102815835-2-8",
+      "scene_id": "102815835",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102815835-14-4",
+      "scene_id": "102815835",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-102815835-5-10",
+      "scene_id": "102815835",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102815835-13-10",
+      "scene_id": "102815835",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102815835-12-19",
+      "scene_id": "102815835",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102815835-24-17",
+      "scene_id": "102815835",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102815835-25-7",
+      "scene_id": "102815835",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102815835-11-15",
+      "scene_id": "102815835",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816036-16-5",
+      "scene_id": "102816036",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816036-25-5",
+      "scene_id": "102816036",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816036-10-14",
+      "scene_id": "102816036",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816036-0-12",
+      "scene_id": "102816036",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-102816036-24-18",
+      "scene_id": "102816036",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816036-11-17",
+      "scene_id": "102816036",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816036-20-11",
+      "scene_id": "102816036",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816036-26-3",
+      "scene_id": "102816036",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816036-21-0",
+      "scene_id": "102816036",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816036-28-4",
+      "scene_id": "102816036",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816114-27-11",
+      "scene_id": "102816114",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816114-15-1",
+      "scene_id": "102816114",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-102816114-24-11",
+      "scene_id": "102816114",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816114-12-15",
+      "scene_id": "102816114",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816114-21-18",
+      "scene_id": "102816114",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816114-17-8",
+      "scene_id": "102816114",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816114-18-19",
+      "scene_id": "102816114",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816114-29-12",
+      "scene_id": "102816114",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816114-1-5",
+      "scene_id": "102816114",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-102816114-19-16",
+      "scene_id": "102816114",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816600-10-14",
+      "scene_id": "102816600",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816600-15-3",
+      "scene_id": "102816600",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816600-8-16",
+      "scene_id": "102816600",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-102816600-2-3",
+      "scene_id": "102816600",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816600-7-5",
+      "scene_id": "102816600",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816600-5-1",
+      "scene_id": "102816600",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816600-14-8",
+      "scene_id": "102816600",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816600-18-17",
+      "scene_id": "102816600",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816600-21-10",
+      "scene_id": "102816600",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816600-9-0",
+      "scene_id": "102816600",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816756-24-3",
+      "scene_id": "102816756",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816756-23-8",
+      "scene_id": "102816756",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-102816756-1-15",
+      "scene_id": "102816756",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816756-7-15",
+      "scene_id": "102816756",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816756-4-18",
+      "scene_id": "102816756",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816756-20-8",
+      "scene_id": "102816756",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816756-29-1",
+      "scene_id": "102816756",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102816756-16-8",
+      "scene_id": "102816756",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816756-12-17",
+      "scene_id": "102816756",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102816756-2-2",
+      "scene_id": "102816756",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-102817140-3-17",
+      "scene_id": "102817140",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102817140-13-2",
+      "scene_id": "102817140",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102817140-11-17",
+      "scene_id": "102817140",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-102817140-25-17",
+      "scene_id": "102817140",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102817140-0-15",
+      "scene_id": "102817140",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102817140-7-10",
+      "scene_id": "102817140",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102817140-18-17",
+      "scene_id": "102817140",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102817140-5-8",
+      "scene_id": "102817140",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-102817140-14-5",
+      "scene_id": "102817140",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-102817140-16-15",
+      "scene_id": "102817140",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030666-28-16",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030666-8-18",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030666-17-18",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030666-2-3",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030666-6-18",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030666-19-18",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030666-0-5",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030666-29-18",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030666-20-9",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030666-15-4",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030669-11-4",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030669-3-14",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030669-18-9",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030669-5-0",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030669-10-10",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030669-12-18",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030669-6-0",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030669-24-10",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030669-2-7",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-103997586_171030669-19-9",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997895_171031182-28-10",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997895_171031182-13-0",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-103997895_171031182-26-12",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997895_171031182-22-5",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-103997895_171031182-7-5",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997895_171031182-4-17",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-103997895_171031182-2-11",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997895_171031182-25-1",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-103997895_171031182-21-1",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-103997895_171031182-8-3",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348010_171512832-16-8",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348010_171512832-4-6",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104348010_171512832-11-18",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-104348010_171512832-10-11",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348010_171512832-28-15",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104348010_171512832-7-7",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348010_171512832-23-11",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348010_171512832-19-15",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104348010_171512832-6-11",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348010_171512832-15-7",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348028_171512877-20-3",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348028_171512877-18-4",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104348028_171512877-29-2",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348028_171512877-17-15",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-104348028_171512877-15-14",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348028_171512877-21-13",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348028_171512877-2-3",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348028_171512877-16-0",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104348028_171512877-25-18",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348028_171512877-19-4",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348328_171513363-2-2",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348328_171513363-16-18",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348328_171513363-10-13",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-104348328_171513363-26-6",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348328_171513363-17-12",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104348328_171513363-11-7",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348328_171513363-26-15",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348328_171513363-1-9",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104348328_171513363-22-11",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348328_171513363-14-13",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104348361_171513414-29-10",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348361_171513414-8-4",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104348361_171513414-6-2",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348361_171513414-10-9",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-104348361_171513414-23-9",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348361_171513414-22-0",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348361_171513414-21-13",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348361_171513414-25-16",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104348361_171513414-24-0",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104348361_171513414-11-8",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862384_172226319-26-15",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862384_172226319-14-1",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104862384_172226319-25-13",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-104862384_172226319-16-5",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862384_172226319-10-1",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104862384_172226319-22-6",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862384_172226319-27-12",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862384_172226319-2-3",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104862384_172226319-12-14",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862384_172226319-6-11",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862417_172226382-27-1",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862417_172226382-26-1",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104862417_172226382-0-12",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-104862417_172226382-10-14",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862417_172226382-16-11",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862417_172226382-21-19",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862417_172226382-8-6",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104862417_172226382-12-2",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862417_172226382-20-16",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104862417_172226382-9-18",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862501_172226556-14-13",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862501_172226556-18-9",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104862501_172226556-3-15",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-104862501_172226556-16-1",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862501_172226556-25-1",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104862501_172226556-6-3",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862501_172226556-19-5",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862501_172226556-26-16",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-104862501_172226556-12-12",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-104862501_172226556-9-10",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515184_173104128-10-5",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515184_173104128-27-16",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-105515184_173104128-2-16",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515184_173104128-26-19",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-105515184_173104128-4-4",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515184_173104128-9-17",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-105515184_173104128-25-15",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515184_173104128-17-17",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515184_173104128-0-17",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-105515184_173104128-16-6",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515211_173104185-21-17",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515211_173104185-13-0",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515211_173104185-8-15",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-105515211_173104185-5-9",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515211_173104185-9-8",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-105515211_173104185-1-1",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515211_173104185-17-1",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-105515211_173104185-16-8",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515211_173104185-3-10",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-105515211_173104185-7-0",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515379_173104395-24-15",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515379_173104395-16-0",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-105515379_173104395-0-9",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515379_173104395-2-5",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-105515379_173104395-29-0",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515379_173104395-23-6",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-105515379_173104395-4-14",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515379_173104395-6-6",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-105515379_173104395-21-2",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-105515379_173104395-28-5",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226329-15-15",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226329-25-11",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226329-18-9",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226329-19-4",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226329-11-9",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226329-20-11",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226329-10-7",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226329-6-9",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226329-2-13",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226329-24-15",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226332-28-8",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226332-1-18",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226332-7-13",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226332-5-18",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226332-23-11",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226332-18-3",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226332-2-0",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226332-15-16",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226332-16-7",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366104_174226332-20-1",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366386_174226770-7-17",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366386_174226770-6-9",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366386_174226770-13-17",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106366386_174226770-27-10",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366386_174226770-2-5",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366386_174226770-12-9",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366386_174226770-5-6",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366386_174226770-15-13",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366386_174226770-25-8",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366386_174226770-11-17",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366410_174226806-6-10",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366410_174226806-2-9",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366410_174226806-0-14",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106366410_174226806-29-4",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366410_174226806-15-8",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366410_174226806-12-18",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366410_174226806-13-12",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366410_174226806-20-11",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106366410_174226806-28-8",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106366410_174226806-11-4",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878858_174886965-24-0",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878858_174886965-11-6",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106878858_174886965-20-15",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106878858_174886965-4-13",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878858_174886965-3-16",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878858_174886965-29-1",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878858_174886965-17-0",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106878858_174886965-6-13",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878858_174886965-8-8",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878858_174886965-19-5",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106878867_174886977-6-5",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106878867_174886977-11-2",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106878867_174886977-18-16",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878867_174886977-3-11",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878867_174886977-1-3",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878867_174886977-28-12",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106878867_174886977-4-10",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878867_174886977-18-4",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106878867_174886977-26-2",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878867_174886977-7-3",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106878915_174887025-29-3",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878915_174887025-29-13",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106878915_174887025-27-12",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878915_174887025-17-13",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106878915_174887025-1-19",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878915_174887025-14-4",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106878915_174887025-13-19",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878915_174887025-19-1",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878915_174887025-23-10",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106878915_174887025-22-1",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878960_174887073-1-14",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878960_174887073-28-18",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106878960_174887073-1-16",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878960_174887073-0-16",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106878960_174887073-7-9",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878960_174887073-10-9",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106878960_174887073-27-4",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878960_174887073-3-3",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106878960_174887073-29-3",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106878960_174887073-17-15",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106879005_174887124-29-6",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106879005_174887124-19-14",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106879005_174887124-26-7",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106879005_174887124-12-13",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106879005_174887124-22-0",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106879005_174887124-10-9",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106879005_174887124-20-3",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106879005_174887124-24-5",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106879005_174887124-0-18",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106879005_174887124-1-15",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106879080_174887211-25-8",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106879080_174887211-26-7",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106879080_174887211-9-6",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106879080_174887211-2-13",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-106879080_174887211-8-8",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106879080_174887211-8-10",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106879080_174887211-20-4",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106879080_174887211-23-0",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-106879080_174887211-14-4",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-106879080_174887211-22-14",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107733960_175999701-6-0",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107733960_175999701-4-6",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107733960_175999701-26-15",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107733960_175999701-8-9",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-107733960_175999701-23-18",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107733960_175999701-9-16",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107733960_175999701-20-7",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107733960_175999701-28-0",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107733960_175999701-22-8",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107733960_175999701-3-18",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734056_175999839-24-18",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734056_175999839-20-1",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734056_175999839-12-12",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734056_175999839-25-18",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-107734056_175999839-26-19",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734056_175999839-24-6",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734056_175999839-11-4",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734056_175999839-9-12",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734056_175999839-2-10",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734056_175999839-15-11",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734158_175999998-5-12",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734158_175999998-9-9",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-107734158_175999998-28-7",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734158_175999998-19-7",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734158_175999998-16-11",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734158_175999998-11-9",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734158_175999998-4-14",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734158_175999998-21-9",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734158_175999998-9-15",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-107734158_175999998-6-17",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734176_176000019-16-0",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734176_176000019-1-19",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734176_176000019-8-6",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734176_176000019-2-10",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-107734176_176000019-23-7",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734176_176000019-23-10",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734176_176000019-25-16",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734176_176000019-9-3",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734176_176000019-7-7",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734176_176000019-19-14",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734254_176000121-29-7",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734254_176000121-15-19",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734254_176000121-13-11",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734254_176000121-16-6",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-107734254_176000121-14-1",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734254_176000121-25-14",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734254_176000121-7-18",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734254_176000121-26-18",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734254_176000121-4-2",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734254_176000121-8-12",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734287_176000160-19-2",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734287_176000160-21-11",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734287_176000160-19-13",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734287_176000160-27-10",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-107734287_176000160-16-4",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734287_176000160-14-2",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734287_176000160-24-7",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734287_176000160-26-11",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734287_176000160-13-6",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734287_176000160-18-4",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734338_176000244-10-12",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734338_176000244-12-0",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734338_176000244-29-1",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734338_176000244-27-12",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-107734338_176000244-7-6",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734338_176000244-9-2",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734338_176000244-20-5",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734338_176000244-15-6",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-107734338_176000244-17-16",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-107734338_176000244-2-14",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736689_177263340-0-17",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736689_177263340-8-15",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736689_177263340-13-16",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736689_177263340-21-2",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736689_177263340-9-17",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736689_177263340-15-14",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736689_177263340-5-13",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736689_177263340-27-17",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736689_177263340-17-6",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-108736689_177263340-14-12",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736779_177263484-11-11",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736779_177263484-29-3",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736779_177263484-21-12",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-108736779_177263484-25-16",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736779_177263484-21-13",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736779_177263484-28-7",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736779_177263484-22-1",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736779_177263484-3-15",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736779_177263484-12-14",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736779_177263484-5-1",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736800_177263517-6-18",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736800_177263517-29-2",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736800_177263517-18-10",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736800_177263517-22-10",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-108736800_177263517-15-4",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736800_177263517-18-14",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736800_177263517-27-13",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736800_177263517-17-17",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736800_177263517-13-18",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736800_177263517-3-16",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736884_177263634-18-8",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736884_177263634-13-2",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736884_177263634-4-13",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736884_177263634-19-13",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-place-108736884_177263634-20-14",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736884_177263634-29-15",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736884_177263634-9-9",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736884_177263634-23-18",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-place-108736884_177263634-3-13",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-place-108736884_177263634-25-19",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    }
+  ],
+  "instance": [
+    {
+      "episode_id": "hssd-instance-102343992-47-1-11",
+      "scene_id": "102343992",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102343992-139-1-8",
+      "scene_id": "102343992",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102343992-42-2-7",
+      "scene_id": "102343992",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102343992-72-1-2",
+      "scene_id": "102343992",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-102343992-116-0-7",
+      "scene_id": "102343992",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102343992-15-0-14",
+      "scene_id": "102343992",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102343992-46-2-11",
+      "scene_id": "102343992",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102343992-122-1-10",
+      "scene_id": "102343992",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102343992-43-0-2",
+      "scene_id": "102343992",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102343992-75-0-14",
+      "scene_id": "102343992",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102344094-106-0-4",
+      "scene_id": "102344094",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102344094-83-0-1",
+      "scene_id": "102344094",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102344094-8-0-2",
+      "scene_id": "102344094",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-102344094-50-0-4",
+      "scene_id": "102344094",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102344094-71-0-14",
+      "scene_id": "102344094",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102344094-106-2-1",
+      "scene_id": "102344094",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102344094-36-2-3",
+      "scene_id": "102344094",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102344094-38-1-7",
+      "scene_id": "102344094",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102344094-84-2-11",
+      "scene_id": "102344094",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102344094-25-1-11",
+      "scene_id": "102344094",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102344529-71-1-6",
+      "scene_id": "102344529",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102344529-72-2-8",
+      "scene_id": "102344529",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102344529-47-0-8",
+      "scene_id": "102344529",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102344529-19-1-14",
+      "scene_id": "102344529",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-102344529-109-1-9",
+      "scene_id": "102344529",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102344529-114-1-2",
+      "scene_id": "102344529",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102344529-30-2-10",
+      "scene_id": "102344529",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102344529-22-0-3",
+      "scene_id": "102344529",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102344529-66-1-9",
+      "scene_id": "102344529",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102344529-51-2-0",
+      "scene_id": "102344529",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102815835-116-0-0",
+      "scene_id": "102815835",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102815835-186-2-7",
+      "scene_id": "102815835",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102815835-118-1-8",
+      "scene_id": "102815835",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102815835-87-1-5",
+      "scene_id": "102815835",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-102815835-183-2-11",
+      "scene_id": "102815835",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102815835-174-2-7",
+      "scene_id": "102815835",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102815835-240-0-9",
+      "scene_id": "102815835",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102815835-187-2-11",
+      "scene_id": "102815835",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102815835-117-0-2",
+      "scene_id": "102815835",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102815835-90-0-13",
+      "scene_id": "102815835",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816036-14-2-8",
+      "scene_id": "102816036",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816036-367-2-9",
+      "scene_id": "102816036",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102816036-7-1-7",
+      "scene_id": "102816036",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816036-415-2-3",
+      "scene_id": "102816036",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-102816036-53-2-13",
+      "scene_id": "102816036",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816036-6-0-4",
+      "scene_id": "102816036",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102816036-416-2-5",
+      "scene_id": "102816036",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816036-54-2-5",
+      "scene_id": "102816036",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816036-414-0-5",
+      "scene_id": "102816036",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102816036-52-1-5",
+      "scene_id": "102816036",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816114-11-0-7",
+      "scene_id": "102816114",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816114-372-1-2",
+      "scene_id": "102816114",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102816114-417-2-11",
+      "scene_id": "102816114",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816114-68-0-4",
+      "scene_id": "102816114",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-102816114-379-2-5",
+      "scene_id": "102816114",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816114-25-1-4",
+      "scene_id": "102816114",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102816114-85-2-8",
+      "scene_id": "102816114",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816114-59-2-5",
+      "scene_id": "102816114",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816114-9-2-4",
+      "scene_id": "102816114",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102816114-24-0-4",
+      "scene_id": "102816114",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816600-48-2-8",
+      "scene_id": "102816600",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816600-183-1-12",
+      "scene_id": "102816600",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102816600-144-1-7",
+      "scene_id": "102816600",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816600-143-0-4",
+      "scene_id": "102816600",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-102816600-155-1-10",
+      "scene_id": "102816600",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816600-128-1-4",
+      "scene_id": "102816600",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102816600-40-2-0",
+      "scene_id": "102816600",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816600-183-2-13",
+      "scene_id": "102816600",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816600-88-0-2",
+      "scene_id": "102816600",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102816600-154-2-7",
+      "scene_id": "102816600",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816756-130-0-12",
+      "scene_id": "102816756",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816756-129-2-6",
+      "scene_id": "102816756",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102816756-107-2-14",
+      "scene_id": "102816756",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816756-31-2-14",
+      "scene_id": "102816756",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-102816756-28-1-1",
+      "scene_id": "102816756",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816756-143-0-7",
+      "scene_id": "102816756",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102816756-144-1-5",
+      "scene_id": "102816756",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816756-35-2-14",
+      "scene_id": "102816756",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102816756-39-0-4",
+      "scene_id": "102816756",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102816756-29-0-7",
+      "scene_id": "102816756",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102817140-252-0-2",
+      "scene_id": "102817140",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102817140-177-0-1",
+      "scene_id": "102817140",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102817140-120-2-11",
+      "scene_id": "102817140",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-102817140-121-0-12",
+      "scene_id": "102817140",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102817140-220-1-1",
+      "scene_id": "102817140",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102817140-167-2-9",
+      "scene_id": "102817140",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102817140-243-0-0",
+      "scene_id": "102817140",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102817140-187-1-8",
+      "scene_id": "102817140",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-102817140-200-0-1",
+      "scene_id": "102817140",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-102817140-127-2-13",
+      "scene_id": "102817140",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030666-19-1-12",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030666-15-0-9",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030666-113-1-7",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030666-16-1-5",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030666-10-2-12",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030666-109-0-10",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030666-112-1-10",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030666-21-1-13",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030666-7-2-3",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030666-17-0-9",
+      "scene_id": "103997586_171030666",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030669-206-1-4",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030669-226-0-10",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030669-143-0-7",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030669-196-1-2",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030669-170-0-0",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030669-14-2-11",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030669-156-1-10",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030669-165-1-0",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030669-185-2-0",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-103997586_171030669-173-0-9",
+      "scene_id": "103997586_171030669",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997895_171031182-100-2-0",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997895_171031182-131-0-10",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997895_171031182-77-2-7",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-103997895_171031182-181-2-8",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997895_171031182-199-0-4",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-103997895_171031182-19-1-9",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997895_171031182-132-0-2",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997895_171031182-128-0-3",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-103997895_171031182-6-1-1",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-103997895_171031182-131-1-1",
+      "scene_id": "103997895_171031182",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104348010_171512832-252-2-12",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348010_171512832-251-2-2",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104348010_171512832-210-0-1",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-104348010_171512832-211-1-13",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348010_171512832-212-1-0",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348010_171512832-159-0-8",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348010_171512832-283-0-12",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104348010_171512832-130-2-0",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348010_171512832-234-1-14",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348010_171512832-214-2-9",
+      "scene_id": "104348010_171512832",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-104348028_171512877-113-2-14",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348028_171512877-98-2-6",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104348028_171512877-161-1-14",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-104348028_171512877-25-0-6",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348028_171512877-113-1-9",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104348028_171512877-159-2-10",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348028_171512877-173-0-1",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348028_171512877-45-0-6",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104348028_171512877-116-1-4",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348028_171512877-85-1-10",
+      "scene_id": "104348028_171512877",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348328_171513363-182-1-3",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348328_171513363-9-2-1",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104348328_171513363-97-1-9",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348328_171513363-115-0-3",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-104348328_171513363-112-1-0",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348328_171513363-149-2-14",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104348328_171513363-116-2-11",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348328_171513363-9-1-10",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348328_171513363-187-0-13",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104348328_171513363-184-1-13",
+      "scene_id": "104348328_171513363",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348361_171513414-45-1-9",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348361_171513414-104-0-10",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104348361_171513414-89-0-6",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348361_171513414-97-2-0",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-104348361_171513414-99-2-1",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348361_171513414-27-0-8",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104348361_171513414-7-1-13",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348361_171513414-98-1-11",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104348361_171513414-66-0-2",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104348361_171513414-26-2-5",
+      "scene_id": "104348361_171513414",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862384_172226319-134-0-11",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862384_172226319-271-2-4",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104862384_172226319-44-1-0",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862384_172226319-253-2-4",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-104862384_172226319-68-1-14",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862384_172226319-278-1-4",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104862384_172226319-108-2-6",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862384_172226319-259-1-12",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862384_172226319-249-1-9",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104862384_172226319-146-1-9",
+      "scene_id": "104862384_172226319",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862417_172226382-53-1-12",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862417_172226382-49-2-4",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104862417_172226382-35-1-11",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862417_172226382-52-2-1",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-104862417_172226382-50-1-8",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862417_172226382-30-1-1",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104862417_172226382-84-0-8",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862417_172226382-33-1-3",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862417_172226382-121-0-0",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104862417_172226382-36-2-1",
+      "scene_id": "104862417_172226382",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862501_172226556-303-2-7",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862501_172226556-370-1-5",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104862501_172226556-358-2-13",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862501_172226556-249-0-10",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-104862501_172226556-372-1-11",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862501_172226556-371-0-14",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862501_172226556-368-1-8",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862501_172226556-253-1-3",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-104862501_172226556-351-2-13",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-104862501_172226556-350-0-1",
+      "scene_id": "104862501_172226556",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515184_173104128-162-2-8",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515184_173104128-213-2-12",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-105515184_173104128-160-2-12",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515184_173104128-110-1-0",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-105515184_173104128-108-2-5",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515184_173104128-163-0-11",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-105515184_173104128-2-1-1",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515184_173104128-150-0-11",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515184_173104128-229-2-8",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-105515184_173104128-148-0-13",
+      "scene_id": "105515184_173104128",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515211_173104185-26-2-6",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515211_173104185-25-2-10",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-105515211_173104185-20-1-6",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515211_173104185-31-2-1",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515211_173104185-44-1-10",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-105515211_173104185-34-2-1",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515211_173104185-26-0-4",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-105515211_173104185-44-0-14",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515211_173104185-25-1-3",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-105515211_173104185-31-2-8",
+      "scene_id": "105515211_173104185",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-105515379_173104395-81-2-12",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515379_173104395-64-2-10",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-105515379_173104395-38-1-9",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515379_173104395-110-0-1",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-105515379_173104395-58-0-14",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515379_173104395-133-1-14",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-105515379_173104395-109-2-5",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515379_173104395-94-1-6",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-105515379_173104395-14-2-5",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-105515379_173104395-95-2-5",
+      "scene_id": "105515379_173104395",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226329-79-2-10",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226329-12-2-14",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226329-117-2-0",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226329-7-0-3",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226329-116-1-2",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226329-19-0-2",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226329-41-0-13",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226329-11-0-3",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226329-14-1-2",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226329-12-0-4",
+      "scene_id": "106366104_174226329",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226332-42-2-8",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226332-68-0-6",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226332-39-1-11",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226332-15-0-11",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226332-17-0-0",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226332-21-1-3",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226332-140-1-5",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226332-41-1-4",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226332-132-0-14",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366104_174226332-464-0-13",
+      "scene_id": "106366104_174226332",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366386_174226770-112-0-7",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366386_174226770-97-0-8",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366386_174226770-20-1-2",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366386_174226770-21-0-3",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-106366386_174226770-11-1-10",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366386_174226770-113-2-3",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366386_174226770-17-2-10",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366386_174226770-114-0-2",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366386_174226770-19-1-9",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366386_174226770-15-0-10",
+      "scene_id": "106366386_174226770",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366410_174226806-171-0-13",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366410_174226806-76-0-10",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366410_174226806-82-2-9",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-106366410_174226806-8-2-1",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366410_174226806-6-1-12",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366410_174226806-63-1-2",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366410_174226806-173-1-7",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366410_174226806-177-2-6",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106366410_174226806-174-1-2",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106366410_174226806-9-2-12",
+      "scene_id": "106366410_174226806",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878858_174886965-235-2-11",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878858_174886965-265-0-14",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106878858_174886965-218-2-12",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-106878858_174886965-219-1-4",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878858_174886965-145-0-8",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106878858_174886965-41-2-8",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878858_174886965-64-1-0",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878858_174886965-236-0-11",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106878858_174886965-22-2-2",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878858_174886965-330-1-2",
+      "scene_id": "106878858_174886965",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878867_174886977-282-1-4",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878867_174886977-266-0-0",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106878867_174886977-221-2-10",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878867_174886977-222-1-5",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-106878867_174886977-183-1-10",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878867_174886977-110-1-11",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106878867_174886977-326-0-13",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878867_174886977-328-0-13",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878867_174886977-223-2-0",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106878867_174886977-13-2-5",
+      "scene_id": "106878867_174886977",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878915_174887025-217-1-7",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878915_174887025-24-0-14",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106878915_174887025-8-0-11",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878915_174887025-208-2-6",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-106878915_174887025-178-2-4",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878915_174887025-184-1-9",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106878915_174887025-174-0-12",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878915_174887025-27-1-10",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878915_174887025-55-1-3",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106878915_174887025-172-0-1",
+      "scene_id": "106878915_174887025",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878960_174887073-3-1-0",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878960_174887073-197-2-2",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106878960_174887073-36-2-4",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878960_174887073-169-1-2",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-106878960_174887073-84-0-0",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878960_174887073-111-1-12",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106878960_174887073-82-2-12",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878960_174887073-187-1-0",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106878960_174887073-178-2-3",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106878960_174887073-28-0-6",
+      "scene_id": "106878960_174887073",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106879005_174887124-79-2-2",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106879005_174887124-29-0-7",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106879005_174887124-18-2-8",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106879005_174887124-20-0-10",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-106879005_174887124-8-0-13",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106879005_174887124-19-0-11",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106879005_174887124-79-2-8",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106879005_174887124-24-1-8",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106879005_174887124-91-2-12",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106879005_174887124-69-2-1",
+      "scene_id": "106879005_174887124",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106879080_174887211-130-0-3",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106879080_174887211-76-2-11",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106879080_174887211-75-1-7",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-106879080_174887211-151-0-3",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106879080_174887211-85-2-10",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106879080_174887211-25-0-7",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106879080_174887211-172-1-4",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106879080_174887211-156-0-9",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-106879080_174887211-177-2-10",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-106879080_174887211-157-2-2",
+      "scene_id": "106879080_174887211",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107733960_175999701-50-2-12",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107733960_175999701-47-0-6",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107733960_175999701-50-0-10",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107733960_175999701-2-2-0",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-107733960_175999701-68-0-12",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107733960_175999701-36-2-1",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107733960_175999701-4-2-0",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107733960_175999701-124-0-5",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107733960_175999701-123-2-14",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107733960_175999701-49-2-3",
+      "scene_id": "107733960_175999701",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734056_175999839-98-2-13",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734056_175999839-16-1-5",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734056_175999839-168-0-4",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734056_175999839-176-2-6",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-107734056_175999839-67-0-5",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734056_175999839-68-2-10",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734056_175999839-164-1-14",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734056_175999839-51-2-7",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734056_175999839-140-0-4",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734056_175999839-175-0-5",
+      "scene_id": "107734056_175999839",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734158_175999998-52-2-1",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734158_175999998-41-1-14",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734158_175999998-37-0-11",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734158_175999998-43-2-7",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-107734158_175999998-38-1-11",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734158_175999998-51-1-8",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734158_175999998-48-2-1",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734158_175999998-39-2-8",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734158_175999998-179-1-3",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734158_175999998-47-1-8",
+      "scene_id": "107734158_175999998",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734176_176000019-168-2-0",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734176_176000019-201-2-2",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734176_176000019-72-2-4",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734176_176000019-192-0-7",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-107734176_176000019-12-1-7",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734176_176000019-95-1-9",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734176_176000019-191-2-11",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734176_176000019-58-0-4",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734176_176000019-175-1-5",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734176_176000019-92-1-11",
+      "scene_id": "107734176_176000019",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734254_176000121-9-2-12",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734254_176000121-27-0-8",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734254_176000121-125-0-4",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734254_176000121-45-1-11",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-107734254_176000121-122-2-5",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734254_176000121-11-1-10",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734254_176000121-124-0-5",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734254_176000121-10-1-1",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734254_176000121-6-2-13",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734254_176000121-19-0-7",
+      "scene_id": "107734254_176000121",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734287_176000160-131-2-9",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734287_176000160-121-2-1",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734287_176000160-111-2-3",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734287_176000160-175-2-13",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-107734287_176000160-108-2-11",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734287_176000160-30-2-3",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734287_176000160-60-0-10",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734287_176000160-117-2-8",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734287_176000160-82-2-8",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734287_176000160-9-2-0",
+      "scene_id": "107734287_176000160",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734338_176000244-79-2-2",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734338_176000244-179-2-12",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734338_176000244-39-0-11",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734338_176000244-36-2-4",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-107734338_176000244-174-0-1",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734338_176000244-10-1-6",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734338_176000244-100-2-0",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734338_176000244-123-1-4",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-107734338_176000244-113-2-12",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-107734338_176000244-82-0-2",
+      "scene_id": "107734338_176000244",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736689_177263340-75-1-1",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736689_177263340-92-0-4",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736689_177263340-157-0-4",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736689_177263340-161-1-7",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736689_177263340-75-1-0",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736689_177263340-156-0-7",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736689_177263340-146-2-7",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736689_177263340-75-2-6",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736689_177263340-169-2-0",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-108736689_177263340-156-2-11",
+      "scene_id": "108736689_177263340",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736779_177263484-85-1-3",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736779_177263484-47-1-14",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736779_177263484-80-2-10",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736779_177263484-83-2-11",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-108736779_177263484-8-1-3",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736779_177263484-88-2-1",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736779_177263484-84-1-8",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736779_177263484-92-2-4",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736779_177263484-76-1-10",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736779_177263484-5-0-1",
+      "scene_id": "108736779_177263484",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736800_177263517-42-2-4",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736800_177263517-14-1-10",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-108736800_177263517-43-1-6",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736800_177263517-109-0-0",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736800_177263517-108-0-8",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736800_177263517-114-1-4",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736800_177263517-85-0-9",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736800_177263517-25-0-9",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736800_177263517-113-0-4",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "medium",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736800_177263517-77-1-8",
+      "scene_id": "108736800_177263517",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-108736884_177263634-18-2-6",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736884_177263634-26-2-12",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736884_177263634-102-0-2",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "short",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736884_177263634-15-0-11",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "45-90"
+    },
+    {
+      "episode_id": "hssd-instance-108736884_177263634-101-1-10",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "long",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736884_177263634-117-2-8",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "medium",
+      "detour_bin": "detour",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736884_177263634-94-1-3",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "extra",
+      "detour_bin": "detour",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736884_177263634-21-1-9",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "extra",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    },
+    {
+      "episode_id": "hssd-instance-108736884_177263634-19-0-6",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "short",
+      "detour_bin": "direct",
+      "view_gap_bin": "0-45"
+    },
+    {
+      "episode_id": "hssd-instance-108736884_177263634-109-0-4",
+      "scene_id": "108736884_177263634",
+      "distance_bin": "long",
+      "detour_bin": "direct",
+      "view_gap_bin": "90-180"
+    }
+  ]
+}
